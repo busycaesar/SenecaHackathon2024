@@ -1,0 +1,32 @@
+[
+  {
+    "_id": 0,
+    "title": "Learders",
+    "description": "Chief of Staff is responsible for volunteer/intern experience, equity, inclusiveness."
+  },
+  {
+    "_id": 1,
+    "title": "IT Team",
+    "description": "The IT department is responsible for the company's technology infrastructure. They are in charge of ensuring that all technical aspects of the company are running smoothly and efficiently. They also provide support to employees who have technical problems."
+  },
+  {
+    "_id": 2,
+    "title": "Partner Experience Team",
+    "description": "Missing Description"
+  },
+  {
+    "_id": 3,
+    "title": "Student Experience Team",
+    "description": "The Student Success Department is responsible to work closely and directly with students to serve students and collect students’ input towards the organization so as to provide the best services and events to students."
+  },
+  {
+    "_id": 4,
+    "title": "Operations Team",
+    "description": "The Operation team is responsible for planning, organizing, and supervising operations, manufacturing and production processes, and service delivery to produce the desired outcome of a high-quality product or service that satisfies customer demands.The Operation team is responsible for planning, organizing, and supervising operations, manufacturing and production processes, and service delivery to produce the desired outcome of a high-quality product or service that satisfies customer demands"
+  },
+  {
+    "_id": 5,
+    "title": "Marketing Team",
+    "description": "Marketing Department is the face of Seneca Hackathon. It is the Marketing Department's job to reach out to prospects, customers, investors and/or the community, while creating an overarching image that represents your company in a positive light."
+  }
+]

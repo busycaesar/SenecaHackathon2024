@@ -1,0 +1,92 @@
+[
+  {
+    "_id": 0,
+    "title": "This is the title",
+    "author": "AuthorFName AuthorLName",
+    "photo": "../../svgs/sample.jpg",
+    "body": "This is the body of the news. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quam velit aliquid inventore maxime ducimus. Eaque libero aperiam, eveniet recusandae assumenda voluptas iure impedit ex, quos rem ad veritatis eligendi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate porro recusandae incidunt consequuntur ex voluptatum sint, ea, numquam, illo dolorum similique quia aliquam sit nobis accusamus rerum hic pariatur nemo! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis temporibus illum repellat, tempora beatae perspiciatis autem libero delectus magni ipsum assumenda laboriosam vel, suscipit dolores voluptatibus asperiores consequatur provident dolorem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse nemo repellat numquam debitis quibusdam cupiditate fugit, accusantium dolorum dolores consequatur nisi quo doloremque magni saepe ex eligendi reiciendis ea sint. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora vero amet obcaecati officiis! Sunt eius excepturi, inventore illo, vero sint reprehenderit in dolore distinctio dolores accusamus consequuntur quam cum architecto? Lorem ipsum dolor sit amet consectetur, adipisicing elit. A autem explicabo debitis vitae rerum necessitatibus unde? Odit id dignissimos, magnam ex pariatur accusantium autem iste architecto eum, illum, eveniet saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid omnis suscipit mollitia, iusto nostrum provident. Reprehenderit tempora nihil necessitatibus in distinctio. Omnis totam officiis iure harum! Quaerat adipisci laudantium magni? Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit obcaecati non molestiae dolore rerum veniam? Illum a mollitia laborum doloribus iure omnis sunt vel qui facilis dignissimos eius, consectetur exercitationem? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos fuga natus unde id. Nihil beatae quam molestias amet! Suscipit omnis eligendi laboriosam, officiis ad tempora sunt id nam quos pariatur!",
+    "category": 1,
+    "creationDate": "2023-12-17T08:30:00.000Z"
+  },
+  {
+    "_id": 1,
+    "title": "Exciting Discovery in Astrophysics",
+    "author": "Astronomer123",
+    "photo": "../../svgs/discovery.jpg",
+    "body": "Scientists have made an exciting discovery in the field of astrophysics. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quam velit aliquid inventore maxime ducimus. Eaque libero aperiam, eveniet recusandae assumenda voluptas iure impedit ex, quos rem ad veritatis eligendi.",
+    "category": 1,
+    "creationDate": "2023-12-17T10:45:00.000Z"
+  },
+  {
+    "_id": 2,
+    "title": "New Breakthrough in Medical Research",
+    "author": "MedResearcher",
+    "photo": "../../svgs/medical.jpg",
+    "body": "A recent breakthrough in medical research promises new treatments for various diseases. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quam velit aliquid inventore maxime ducimus. Eaque libero aperiam, eveniet recusandae assumenda voluptas iure impedit ex, quos rem ad veritatis eligendi.",
+    "category": 1,
+    "creationDate": "2023-12-17T13:15:00.000Z"
+  },
+  {
+    "_id": 3,
+    "title": "Tech Giants Announce Collaboration",
+    "author": "TechInsider",
+    "photo": "../../svgs/tech_collab.jpg",
+    "body": "Major tech companies have joined forces for a groundbreaking collaboration. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quam velit aliquid inventore maxime ducimus. Eaque libero aperiam, eveniet recusandae assumenda voluptas iure impedit ex, quos rem ad veritatis eligendi.",
+    "category": 1,
+    "creationDate": "2023-12-17T15:30:00.000Z"
+  },
+  {
+    "_id": 4,
+    "title": "Climate Change Summit Recap",
+    "author": "EnviroAdvocate",
+    "photo": "../../svgs/climate_change.jpg",
+    "body": "Global leaders gather to discuss urgent measures for combating climate change. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quam velit aliquid inventore maxime ducimus. Eaque libero aperiam, eveniet recusandae assumenda voluptas iure impedit ex, quos rem ad veritatis eligendi.",
+    "category": 1,
+    "creationDate": "2023-12-17T17:45:00.000Z"
+  },
+  {
+    "_id": 5,
+    "title": "SpaceX Launches New Satellite",
+    "author": "SpaceEnthusiast",
+    "photo": "../../svgs/spacex_launch.jpg",
+    "body": "SpaceX successfully launches a new satellite into orbit, advancing space exploration. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quam velit aliquid inventore maxime ducimus. Eaque libero aperiam, eveniet recusandae assumenda voluptas iure impedit ex, quos rem ad veritatis eligendi.",
+    "category": 1,
+    "creationDate": "2023-12-17T19:00:00.000Z"
+  },
+  {
+    "_id": 6,
+    "title": "New Art Installation Unveiled",
+    "author": "ArtCurator",
+    "photo": "../../svgs/art_installation.jpg",
+    "body": "A captivating art installation is unveiled, capturing the essence of creativity. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quam velit aliquid inventore maxime ducimus. Eaque libero aperiam, eveniet recusandae assumenda voluptas iure impedit ex, quos rem ad veritatis eligendi.",
+    "category": 2,
+    "creationDate": "2023-12-14T09:15:00.000Z"
+  },
+  {
+    "_id": 7,
+    "title": "New Study on Human Psychology",
+    "author": "PsychInsights",
+    "photo": "../../svgs/psychology_study.jpg",
+    "body": "Researchers reveal fascinating insights into human psychology in a recent study. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quam velit aliquid inventore maxime ducimus. Eaque libero aperiam, eveniet recusandae assumenda voluptas iure impedit ex, quos rem ad veritatis eligendi.",
+    "category": 2,
+    "creationDate": "2023-12-14T11:30:00.000Z"
+  },
+  {
+    "_id": 8,
+    "title": "World Leaders Address Global Challenges",
+    "author": "GlobalLeader",
+    "photo": "../../svgs/world_leaders.jpg",
+    "body": "World leaders come together to address pressing global challenges and discuss collaborative solutions. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quam velit aliquid inventore maxime ducimus. Eaque libero aperiam, eveniet recusandae assumenda voluptas iure impedit ex, quos rem ad veritatis eligendi.",
+    "category": 2,
+    "creationDate": "2023-12-14T13:45:00.000Z"
+  },
+  {
+    "_id": 9,
+    "title": "New Innovations in Renewable Energy",
+    "author": "GreenTechInnovator",
+    "photo": "../../svgs/renewable_energy.jpg",
+    "body": "Innovations in renewable energy promise a greener future for the planet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quam velit aliquid inventore maxime ducimus. Eaque libero aperiam, eveniet recusandae assumenda voluptas iure impedit ex, quos rem ad veritatis eligendi.",
+    "category": 2,
+    "creationDate": "2023-12-14T16:00:00.000Z"
+  }
+]

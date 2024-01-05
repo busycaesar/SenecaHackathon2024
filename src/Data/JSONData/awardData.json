@@ -1,0 +1,34 @@
+[
+  {
+    "_id": 0,
+    "level": 3,
+    "awardName": "Runner Up",
+    "price": 2000,
+    "description": "Hackathon Runner Up",
+    "themeColor": "#470B08"
+  },
+  {
+    "_id": 1,
+    "level": 1,
+    "awardName": "Grand Price",
+    "price": 5000,
+    "description": "Hackathon Winner",
+    "themeColor": "red"
+  },
+  {
+    "_id": 2,
+    "level": 2,
+    "awardName": "First Nations Challenge Set Winner",
+    "price": 2500,
+    "description": "Best project in the First Nations Housing Category",
+    "themeColor": "#8F1B16"
+  },
+  {
+    "_id": 3,
+    "level": 4,
+    "awardName": "Challenge Set Winners",
+    "price": 500,
+    "description": "Winners in each challenge set categories",
+    "themeColor": "#270403"
+  }
+]

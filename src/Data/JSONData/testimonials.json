@@ -1,0 +1,26 @@
+[
+  {
+    "_id": 0,
+    "name": "John Doe",
+    "review": "This is the review from John Doe. It was a great experience participating at Seneca Hackathon!",
+    "headshot": "../svgs/sampleAvatar.png"
+  },
+  {
+    "_id": 1,
+    "name": "Jane Smith",
+    "review": "Jane Smith's feedback is positive. She enjoyed the Seneca Hackathon and learned a lot!",
+    "headshot": "../../svgs/sampleAvatar.png"
+  },
+  {
+    "_id": 2,
+    "name": "Alex Johnson",
+    "review": "Alex Johnson had an amazing time at Seneca Hackathon. The projects were outstanding!",
+    "headshot": "../../svgs/sampleAvatar.png"
+  },
+  {
+    "_id": 3,
+    "name": "Emily Davis",
+    "review": "Emily Davis appreciates the organizers and participants. A well-organized event!",
+    "headshot": "../../svgs/sampleAvatar.png"
+  }
+]

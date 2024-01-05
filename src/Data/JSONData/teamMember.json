@@ -1,0 +1,98 @@
+[
+  {
+    "_id": 0,
+    "firstName": "Alice",
+    "lastName": "Johnson",
+    "designation": "Software Developer",
+    "department": 3,
+    "linkedinLink": "https://www.linkedin.com/in/alicejohnson"
+  },
+  {
+    "_id": 1,
+    "firstName": "Bob",
+    "lastName": "Smith",
+    "designation": "UX Designer",
+    "department": 1,
+    "linkedinLink": "https://www.linkedin.com/in/bobsmith"
+  },
+  {
+    "_id": 2,
+    "firstName": "Charlie",
+    "lastName": "Williams",
+    "designation": "Data Analyst",
+    "department": 4,
+    "linkedinLink": "https://www.linkedin.com/in/charliewilliams"
+  },
+  {
+    "_id": 3,
+    "firstName": "David",
+    "lastName": "Brown",
+    "designation": "Project Manager",
+    "department": 2,
+    "linkedinLink": "https://www.linkedin.com/in/davidbrown"
+  },
+  {
+    "_id": 4,
+    "firstName": "Eva",
+    "lastName": "Jones",
+    "designation": "System Administrator",
+    "department": 5,
+    "linkedinLink": "https://www.linkedin.com/in/evajones"
+  },
+  {
+    "_id": 5,
+    "firstName": "Frank",
+    "lastName": "Miller",
+    "designation": "Marketing Specialist",
+    "department": 0,
+    "linkedinLink": "https://www.linkedin.com/in/frankmiller"
+  },
+  {
+    "_id": 6,
+    "firstName": "Grace",
+    "lastName": "Taylor",
+    "designation": "Financial Analyst",
+    "department": 3,
+    "linkedinLink": "https://www.linkedin.com/in/gracetaylor"
+  },
+  {
+    "_id": 7,
+    "firstName": "Henry",
+    "lastName": "Walker",
+    "designation": "HR Manager",
+    "department": 1,
+    "linkedinLink": "https://www.linkedin.com/in/henrywalker"
+  },
+  {
+    "_id": 8,
+    "firstName": "Ivy",
+    "lastName": "Harris",
+    "designation": "Network Engineer",
+    "department": 4,
+    "linkedinLink": "https://www.linkedin.com/in/ivyharris"
+  },
+  {
+    "_id": 9,
+    "firstName": "Jack",
+    "lastName": "Allen",
+    "designation": "Sales Representative",
+    "department": 2,
+    "linkedinLink": "https://www.linkedin.com/in/jackallen"
+  },
+  {
+    "_id": 10,
+    "firstName": "Dev",
+    "lastName": "Shah",
+    "designation": "Senior Website Developer",
+    "department": 1,
+    "linkedinLink": "https://www.linkedin.com/in/busycaesar"
+  },
+  {
+    "_id": 11,
+    "firstName": "John",
+    "lastName": "Doe",
+    "designation": "Next.js Developer",
+    "department": 1,
+    "linkedinLink": "https://www.linkedin.com/in/busycaesar"
+  }
+]

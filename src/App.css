@@ -1,0 +1,23 @@
+.page-content {
+  margin: 2em 5em;
+  padding-bottom: 3em;
+}
+
+.red-background {
+  padding: 0.5em 1em;
+  width: fit-content;
+}
+
+.curved-border {
+  border-radius: 10px;
+}
+
+.rounded-border {
+  border-radius: 50%;
+}
+
+@media (max-width: 700px) {
+  .page-content {
+    margin: 2em;
+  }
+}

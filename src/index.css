@@ -1,0 +1,54 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+  background-color: whitesmoke !important;
+}
+
+h2 {
+  font-size: xx-large;
+  margin-bottom: 1.5em !important;
+}
+
+h2,
+h3 {
+  margin: 0;
+  margin-bottom: 0.25em;
+}
+
+hr {
+  margin: 2em 0;
+}
+
+.page-title {
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+p,
+.button {
+  font-size: large;
+}
+
+a {
+  color: inherit !important;
+}
+
+.right-side {
+  display: flex !important;
+  justify-content: right;
+}
+
+.button button {
+  background-color: red;
+  border: 0;
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 10px;
+}

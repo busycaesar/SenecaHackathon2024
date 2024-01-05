@@ -1,0 +1,32 @@
+[
+  {
+    "_id": 0,
+    "title": "Experiential Learning",
+    "description": "Expand your creative tools through unique experiential learning."
+  },
+  {
+    "_id": 1,
+    "title": "Mentorship and Technical Support",
+    "description": "Receive mentorship that will bring your ideas to life."
+  },
+  {
+    "_id": 2,
+    "title": "Collaboration",
+    "description": "Collaborate with minds from diverse backgrounds."
+  },
+  {
+    "_id": 3,
+    "title": "Showcase",
+    "description": "Showcase your solutions in a fun and lively environment."
+  },
+  {
+    "_id": 4,
+    "title": "Winning Opportunities",
+    "description": "Win grand prizes and gain recognition."
+  },
+  {
+    "_id": 5,
+    "title": "Student-Led",
+    "description": "By students, for students."
+  }
+]

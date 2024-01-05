@@ -1,0 +1,72 @@
+.department {
+  text-align: center;
+  margin: 5em 0;
+}
+
+.department h2 {
+  color: red;
+  margin-bottom: 0.5em;
+}
+
+.profile {
+  margin: 1em;
+}
+
+#member-profile {
+  width: 50%;
+  border-radius: 50%;
+  margin-bottom: 1.5em;
+}
+
+.profile img {
+  width: 30%;
+  margin: 0.5em;
+}
+
+@media (min-width: 1100px) and (max-width: 1500px) {
+  .profile img { 
+    width: 40%;
+  }
+} 
+
+@media (min-width: 992px) and (max-width: 1100px) {
+  .profile img {
+    width: 50%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 1500px) {
+  .profile img {
+    width: 40%;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 575px) {
+  .profile img {
+    width: 20%;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 500px) {
+  .profile img {
+    width: 25%;
+  }
+}
+
+@media (min-width: 250px) and (max-width: 349px) {
+  .profile img {
+    width: 40%;
+  }
+}
+
+@media (max-width: 249px) {
+  .profile img {
+    width: 50%;
+  }
+}
+
+@media (min-width: 415px) and (max-width: 575px) {
+  #member-profile {
+    width: 25%;
+  }
+}
