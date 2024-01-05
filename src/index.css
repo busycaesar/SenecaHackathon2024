@@ -52,3 +52,17 @@ a {
   padding: 0.5em 1em;
   border-radius: 10px;
 }
+
+.card {
+  margin-top: 2.8em;
+  background-color: rgb(211, 7, 7);
+  text-align: center;
+  color: white;
+  margin: 3em;
+  padding: 2em 12em 0.5em 12em;
+}
+
+.card h5 {
+  font-weight: bold;
+  margin-bottom: 1em;
+}
