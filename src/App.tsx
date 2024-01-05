@@ -1,7 +1,7 @@
 import "./App.css";
 import NavBar from "./Components/NavBar/navBar";
 import Footer from "./Components/Footer/footer";
-import Home from "./Pages/aboutUs";
+import Home from "./Pages/home";
 import ChallengeSets from "./Pages/challengeSets";
 import OurTeam from "./Pages/ourTeam";
 import Faq from "./Pages/faq";
