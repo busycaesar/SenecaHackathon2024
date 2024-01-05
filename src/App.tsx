@@ -9,10 +9,11 @@ import NewsPage from "./Pages/newsPage";
 import Gallery from "./Pages/gallery";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import IndividualNews from "./Pages/individualNews";
+import AboutUs from "./Pages/aboutUs";
 
 function App() {
   return (
-    <div className="App"> 
+    <div className="App">
       <Router>
         <NavBar
           navItems={[
@@ -27,6 +28,7 @@ function App() {
         <div className="page-content">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/about" element={<AboutUs />} />
             <Route path="/challenge-sets" element={<ChallengeSets />} />
             <Route path="/our-team" element={<OurTeam />} />
             <Route path="/news" element={<NewsPage />} />

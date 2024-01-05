@@ -1,5 +1,3 @@
-import "./about.css";
-
 export default function AboutUs() {
   return (
     <>
@@ -8,7 +6,6 @@ export default function AboutUs() {
           <strong>About the Hackathon</strong>
         </h1>
         <h3>March 16,2024</h3>
-
         <div className="card">
           <h5>What is a Hackathon?</h5>
           <p>

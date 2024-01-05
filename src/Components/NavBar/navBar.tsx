@@ -32,7 +32,6 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({ navItems }) => {
   };
 
   const convertToUrlFormat = (text: string): string => {
-    if (text === navItems[0]) return "/";
     return text.toLowerCase().replace(/\s+/g, "-");
   };
 
