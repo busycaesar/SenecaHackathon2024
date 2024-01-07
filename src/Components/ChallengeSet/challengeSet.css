@@ -1,0 +1,7 @@
+.challenge-set {
+  border-left: 10px solid red !important;
+  border-radius: 10px !important;
+  padding: 0.5em 1.5em !important;
+  box-shadow: 1px 0 10px 0 gray;
+  margin: 3em 0;
+}
