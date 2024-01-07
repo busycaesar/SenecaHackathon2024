@@ -1,0 +1,14 @@
+.award {
+  text-align: center;
+  padding: 1em;
+  background-color: red;
+  color: white;
+  border-radius: 25% 0;
+  box-shadow: 3px 3px gray;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5em 0;
+}

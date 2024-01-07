@@ -1,11 +1,11 @@
-import HeaderBanner from "../Components/About/Banner/headerBanner";
-import WhoAreWe from "../Components/About/whoAreWe";
-import Testimonial from "../Components/About/Testimonial/testimonials";
-import SocialMediaSection from "../Components/About/socialMediaSection";
-import ChallengeSetsSection from "../Components/About/ChallengeSets/challengeSetsSection";
-import WorkingSection from "../Components/About/Working/workingSection";
-import Awards from "../Components/About/Awards/awards";
-import ImportantDates from "../Components/About/Dates/importantDates";
+import HeaderBanner from "../Components/Home/Banner/headerBanner";
+import WhoAreWe from "../Components/Home/whoAreWe";
+import Testimonial from "../Components/Home/Testimonial/testimonials";
+import SocialMediaSection from "../Components/Home/socialMediaSection";
+import ChallengeSetsSection from "../Components/Home/ChallengeSets/challengeSetsSection";
+import WorkingSection from "../Components/Home/Working/workingSection";
+import Awards from "../Components/Home/Awards/awards";
+import ImportantDates from "../Components/Home/Dates/importantDates";
 import {
   WorkingData,
   ImportantDateData,
