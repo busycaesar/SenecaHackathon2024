@@ -36,21 +36,24 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({ navItems }) => {
   };
 
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
+    <Box
+      onClick={handleDrawerToggle}
+      sx={{ textAlign: "center", marginTop: "1.5em" }}
+    >
       <Link to="/" className="nav-link">
         <img
           src={HackathonLogo}
           alt="Seneca Hackathon 2024's logo"
-          width={100}
-          height={100}
+          width={175}
+          height={40}
         />
-        <div className="hosted-by">hosted by</div>
+        {/* <div className="hosted-by">hosted by</div>
         <img
           src="https://www.senecacollege.ca/content/dam/projects/seneca/seneca-logo.svg"
           alt="Seneca College's logo"
           width={80}
           height={30}
-        />
+        /> */}
       </Link>
       <Divider />
       <List>
@@ -101,24 +104,9 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({ navItems }) => {
                     <img
                       src={HackathonLogo}
                       alt="Seneca Hackathon 2024's logo"
-                      width={85}
-                      height={85}
+                      width={350}
+                      height={70}
                     />
-                  </Col>
-                  <Col sm="auto" className="d-flex align-items-center">
-                    <Container>
-                      <Row>
-                        <div className="hosted-by">hosted by</div>
-                      </Row>
-                      <Row>
-                        <img
-                          src="https://www.senecacollege.ca/content/dam/projects/seneca/seneca-logo.svg"
-                          alt="Seneca College's logo"
-                          width={80}
-                          height={30}
-                        />
-                      </Row>
-                    </Container>
                   </Col>
                   <Col style={{ display: "flex" }}>
                     {navItems.map((item) => (
