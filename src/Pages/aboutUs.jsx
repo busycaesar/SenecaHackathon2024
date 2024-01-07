@@ -18,6 +18,26 @@ export default function AboutUs() {
             the world a better place.
           </p>
         </div>
+        
+            
+<section class="relative pb-20  flex-center max-w-l bg-gray-50 border-r">
+ 
+  
+    <h2 class="mt-8 mb-8 lg:mb-12 text-center font-bold text-4xl lg:text-6xl font-semibold">Information about the Hackathon</h2>
+ 
+</section>
+
+
+
+        
+        <div className="card">
+        <h5>Problem Statement</h5>
+        <p>
+            The Seneca Sustainability Hackathon was a creative and collaborative event
+            that brought together individuals with a passion for sustainability to 
+            generate innovative solutions to environmental challenges.
+          </p>
+        </div>
       </div>
     </>
   );
