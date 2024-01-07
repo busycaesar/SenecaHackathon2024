@@ -4,9 +4,13 @@ import ChallengeSet from "../Components/ChallengeSet/challengeSet";
 export default function ChallengeSets() {
   return (
     <>
-      <h1>
-        <strong>Challenge Sets</strong>
+      <h1 className="page-title">
+        <strong>Know Your Challenge Sets</strong>
       </h1>
+      <p style={{ textAlign: "center" }}>
+        Challenge sets for the ThinkingNorth SmartCities Hackathon 2023 powered
+        by Seneca Polytechnic
+      </p>
       <ChallengeSet
         title="Lorem ipsum dolor sit amet consectetur"
         subtitle="Lorem ipsum dolor sit amet consectetur"

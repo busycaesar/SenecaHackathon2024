@@ -3,11 +3,9 @@ import React from "react";
 export default function Gallery() {
   return (
     <>
-      <h1>
-        <strong>
-        Gallery
-        </strong>
-        </h1>
+      <h1 className="page-title">
+        <strong>Gallery</strong>
+      </h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
         reiciendis, adipisci esse perspiciatis aspernatur totam quae? Velit aut

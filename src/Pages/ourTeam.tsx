@@ -5,7 +5,7 @@ import { findMemberByDepartmentId } from "../Data/Query/teamQuery";
 export default function OurTeam() {
   return (
     <>
-      <h1>
+      <h1 className="page-title">
         <strong>Meet Our Team</strong>
       </h1>
       {DepartmentData.map((department) => (
