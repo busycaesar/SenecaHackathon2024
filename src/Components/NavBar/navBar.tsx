@@ -47,13 +47,6 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({ navItems }) => {
           width={175}
           height={40}
         />
-        {/* <div className="hosted-by">hosted by</div>
-        <img
-          src="https://www.senecacollege.ca/content/dam/projects/seneca/seneca-logo.svg"
-          alt="Seneca College's logo"
-          width={80}
-          height={30}
-        /> */}
       </Link>
       <Divider />
       <List>
@@ -100,11 +93,11 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({ navItems }) => {
             <Container>
               <Link to="/" className="nav-link">
                 <Row>
-                  <Col sm="auto">
+                  <Col sm="auto" style={{ margin: "0.5em" }}>
                     <img
                       src={HackathonLogo}
                       alt="Seneca Hackathon 2024's logo"
-                      width={350}
+                      width={360}
                       height={70}
                     />
                   </Col>
