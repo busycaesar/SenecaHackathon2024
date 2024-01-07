@@ -97,7 +97,7 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({ navItems }) => {
                     <img
                       src={HackathonLogo}
                       alt="Seneca Hackathon 2024's logo"
-                      width={360}
+                      width={375}
                       height={70}
                     />
                   </Col>
