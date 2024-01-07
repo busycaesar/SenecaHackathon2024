@@ -1,7 +1,20 @@
 .challenge-set {
   border-left: 10px solid red !important;
   border-radius: 10px !important;
-  padding: 0.5em 1.5em !important;
-  box-shadow: 1px 0 10px 0 gray;
+  padding: 1.5em 2.5em !important;
+  box-shadow: 0 0 10px 0 gray;
   margin: 3em 0;
+}
+
+.challenge-set h2 {
+  margin: 0.25em 0 !important;
+}
+
+.challenge-set h3 {
+  font-size: x-large;
+  color: red;
+}
+
+.title {
+  margin-bottom: 1.5em;
 }
