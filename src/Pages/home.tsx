@@ -9,6 +9,8 @@ import TestimonialData from "../Data/JSONData/testimonials.json";
 import ChallengeSetData from "../Data/JSONData/challengeSetData.json";
 import WorkingData from "../Data/JSONData/workingData.json";
 import AwardData from "../Data/JSONData/awardData.json";
+import ImportantDates from "../Components/About/Dates/importantDates";
+import ImportantDateData from "../Data/JSONData/importantDate.json";
 
 export default function Home() {
   return (
@@ -17,6 +19,8 @@ export default function Home() {
       <WhoAreWe />
       <hr />
       <WorkingSection works={WorkingData} />
+      <hr />
+      <ImportantDates dates={ImportantDateData} />
       <hr />
       <Awards awards={AwardData} />
       <hr />

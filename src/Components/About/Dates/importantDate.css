@@ -1,0 +1,9 @@
+.event-title {
+  background-color: red;
+  color: white;
+  padding: 0.5em;
+  font-size: larger;
+  text-align: center;
+  margin: 0.5em 0;
+  border-radius: 10px;
+}
