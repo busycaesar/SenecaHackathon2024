@@ -2,11 +2,11 @@ export default function AboutUs() {
   return (
     <>
       <div>
-        <h1>
+        <h1 class="text-center">
           <strong>About the Hackathon</strong>
         </h1>
-        <h3>March 16,2024</h3>
-        <div className="card">
+        <h3 class="text-center">March 16,2024</h3>
+        <div class="card ">
           <h5>What is a Hackathon?</h5>
           <p>
             A hackathon is a problem-solving competition in which a diverse
@@ -23,14 +23,11 @@ export default function AboutUs() {
 <section class="relative pb-20  flex-center max-w-l bg-gray-50 border-r">
  
   
-    <h2 class="mt-8 mb-8 lg:mb-12 text-center font-bold text-4xl lg:text-6xl font-semibold">Information about the Hackathon</h2>
+    <h2 class="font-bold text-center"><strong>Information about the Hackathon</strong></h2>
  
 </section>
 
-
-
-        
-        <div className="card">
+        <div class="card ">
         <h5>Problem Statement</h5>
         <p>
             The Seneca Sustainability Hackathon was a creative and collaborative event
