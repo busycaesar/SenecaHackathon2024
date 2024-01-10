@@ -1,5 +1,4 @@
 import { Row, Col } from "react-bootstrap";
-import SampleImage from "../../svgs/sample.jpg";
 import WhoAreWe1 from "../../svgs/WhoAreWe/1.jpeg";
 import WhoAreWe2 from "../../svgs/WhoAreWe/2.jpeg";
 import WhoAreWe3 from "../../svgs/WhoAreWe/3.jpeg";
