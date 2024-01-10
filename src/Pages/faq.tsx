@@ -1,5 +1,5 @@
 import Accordion from "../Components/Accordion/accordion";
-import faqData from "../Data/JSONData/faqData.json";
+import { FAQData } from "../Data/JSONData";
 
 export default function Faq() {
   return (
@@ -7,7 +7,7 @@ export default function Faq() {
       <h1 className="page-title">
         <strong>Frequently Asked Questions</strong>
       </h1>
-      {faqData.map((accordionContent, index) => (
+      {FAQData.map((accordionContent, index) => (
         <>
           <Accordion
             title={`${index + 1}. ${accordionContent.title}`}

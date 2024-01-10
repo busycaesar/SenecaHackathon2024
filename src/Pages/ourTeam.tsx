@@ -1,5 +1,5 @@
 import TeamDepartment from "../Components/TeamDepartmnet/teamDepartment";
-import DepartmentData from "../Data/JSONData/teamDepartments.json";
+import { TeamDepartmentData } from "../Data/JSONData";
 import { findMemberByDepartmentId } from "../Data/Query/teamQuery";
 
 export default function OurTeam() {
@@ -8,7 +8,7 @@ export default function OurTeam() {
       <h1 className="page-title">
         <strong>Meet Our Team</strong>
       </h1>
-      {DepartmentData.map((department) => (
+      {TeamDepartmentData.map((department) => (
         <>
           <TeamDepartment
             department={department}

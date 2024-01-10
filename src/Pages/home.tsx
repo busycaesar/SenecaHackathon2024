@@ -1,16 +1,18 @@
-import HeaderBanner from "../Components/About/Banner/headerBanner";
-import WhoAreWe from "../Components/About/whoAreWe";
-import Testimonial from "../Components/About/Testimonial/testimonials";
-import SocialMediaSection from "../Components/About/socialMediaSection";
-import ChallengeSetsSection from "../Components/About/ChallengeSets/challengeSetsSection";
-import WorkingSection from "../Components/About/Working/workingSection";
-import Awards from "../Components/About/Awards/awards";
-import TestimonialData from "../Data/JSONData/testimonials.json";
-import ChallengeSetData from "../Data/JSONData/challengeSetData.json";
-import WorkingData from "../Data/JSONData/workingData.json";
-import AwardData from "../Data/JSONData/awardData.json";
-import ImportantDates from "../Components/About/Dates/importantDates";
-import ImportantDateData from "../Data/JSONData/importantDate.json";
+import HeaderBanner from "../Components/Home/Banner/headerBanner";
+import WhoAreWe from "../Components/Home/whoAreWe";
+import Testimonial from "../Components/Home/Testimonial/testimonials";
+import SocialMediaSection from "../Components/Home/socialMediaSection";
+import ChallengeSetsSection from "../Components/Home/ChallengeSets/challengeSetsSection";
+import WorkingSection from "../Components/Home/Working/workingSection";
+import Awards from "../Components/Home/Awards/awards";
+import ImportantDates from "../Components/Home/Dates/importantDates";
+import {
+  WorkingData,
+  ImportantDateData,
+  AwardData,
+  ChallengeSetData,
+  TestimonialData,
+} from "../Data/JSONData";
 
 export default function Home() {
   return (

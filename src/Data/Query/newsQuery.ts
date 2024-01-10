@@ -1,6 +1,5 @@
 import { News, Category } from "../Schema/newsSchema";
-import NewsData from "../JSONData/newsData.json";
-import CategoryData from "../JSONData/newsCategoryData.json";
+import { NewsData, NewsCategoryData } from "../JSONData";
 
 export const findNewsById = (newsId: Number): News | undefined =>
   NewsData.find((news: News) => news._id === newsId);
@@ -18,6 +17,6 @@ export const findLatestNews = (): News[] =>
   );
 
 export const findCategoryById = (categoryId: Number): Category | undefined =>
-  CategoryData.find((category: Category) => category._id === categoryId);
+  NewsCategoryData.find((category: Category) => category._id === categoryId);
 
-export const AllCategories = (): Category[] | undefined => CategoryData;
+export const AllCategories = (): Category[] | undefined => NewsCategoryData;
