@@ -3,7 +3,7 @@ export default function AboutUs() {
     <>
       <div>
         <h1 class="text-center">
-          <strong>About The Hackathon</strong>
+          <strong>About the Hackathon</strong>
         </h1>
         <h3 class="text-center">March 16,2024</h3>
         <div class="card ">
