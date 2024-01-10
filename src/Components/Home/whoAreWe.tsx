@@ -1,8 +1,13 @@
 import { Row, Col } from "react-bootstrap";
 import SampleImage from "../../svgs/sample.jpg";
+import WhoAreWe1 from "../../svgs/WhoAreWe/1.jpeg";
+import WhoAreWe2 from "../../svgs/WhoAreWe/2.jpeg";
+import WhoAreWe3 from "../../svgs/WhoAreWe/3.jpeg";
+import WhoAreWe4 from "../../svgs/WhoAreWe/4.jpeg";
 import "./about.css";
 
 export default function WhoAreWe() {
+  const whoareweImages = [WhoAreWe1, WhoAreWe2, WhoAreWe3, WhoAreWe4];
   return (
     <div id="who-are-we-section">
       <Row>
@@ -25,18 +30,11 @@ export default function WhoAreWe() {
         </Col>
         <Col md={6}>
           <Row>
-            <Col sm={6}>
-              <img src={SampleImage} alt="Sample" />
-            </Col>
-            <Col sm={6}>
-              <img src={SampleImage} alt="Sample" />
-            </Col>
-            <Col sm={6}>
-              <img src={SampleImage} alt="Sample" />
-            </Col>
-            <Col sm={6}>
-              <img src={SampleImage} alt="Sample" />
-            </Col>
+            {whoareweImages.map((image) => (
+              <Col sm={6}>
+                <img src={image} alt="Team" />
+              </Col>
+            ))}
           </Row>
         </Col>
       </Row>
