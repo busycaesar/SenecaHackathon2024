@@ -12,7 +12,7 @@ export default function Awards(props: { awards: any }) {
       </h2>
       <Row>
         {props.awards.map((award: any) => (
-          <Col md={3} key={award._id}>
+          <Col lg={3} style={{ marginBottom: "1em" }} key={award._id}>
             <AwardLevel
               awardLevelOrder={award.level}
               awardLevelName={award.awardName}

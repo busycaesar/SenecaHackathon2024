@@ -16,7 +16,7 @@ export default function HeaderBanner() {
             hackathon for hands-on experience
           </p>
           <div className="button">
-            <a href={`/`}>
+            <a href={`https://registrations.senecahackathon.com/`}>
               <button>Register Now</button>
             </a>
           </div>
