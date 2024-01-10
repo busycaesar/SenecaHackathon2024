@@ -18,7 +18,7 @@ export default function ImportantDates(props: { dates: any }) {
             eventMonth: string = eventDateWhole.toLocaleString("en-US", {
               month: "long",
             }),
-            eventDate: string = eventDateWhole.getUTCMonth().toString();
+            eventDate: string = eventDateWhole.getUTCDate().toString();
           return (
             <Col md={3} index={date._id}>
               <DateBox
