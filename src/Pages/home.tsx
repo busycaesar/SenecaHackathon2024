@@ -26,8 +26,8 @@ export default function Home() {
       <hr />
       <Awards awards={AwardData} />
       <hr />
-      <ChallengeSetsSection challengeSet={ChallengeSetData} />
-      <hr />
+      {/* <ChallengeSetsSection challengeSet={ChallengeSetData} />
+      <hr /> */}
       <Testimonial testimonials={TestimonialData} />
       <hr />
       <SocialMediaSection />
