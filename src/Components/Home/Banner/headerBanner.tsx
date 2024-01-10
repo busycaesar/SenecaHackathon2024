@@ -1,4 +1,4 @@
-import SampleImage from "../../../svgs/sampleBanner.jpg";
+import SampleImage from "../../../svgs/banner.jpg";
 import "../about.css";
 import SponsersBanner from "./sponsersBanner";
 
