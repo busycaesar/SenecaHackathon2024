@@ -28,8 +28,8 @@ export default function Home() {
       <hr />
       {/* <ChallengeSetsSection challengeSet={ChallengeSetData} />
       <hr /> */}
-      <Testimonial testimonials={TestimonialData} />
-      <hr />
+      {/* <Testimonial testimonials={TestimonialData} />
+      <hr /> */}
       <SocialMediaSection />
     </>
   );
