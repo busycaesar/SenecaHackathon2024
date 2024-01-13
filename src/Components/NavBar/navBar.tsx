@@ -17,6 +17,7 @@ import HackathonLogo from "../../svgs/hack-logo.png";
 import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./navBar.css";
+import Login from "../User/Login";
 
 const drawerWidth = 240;
 
@@ -114,6 +115,9 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({ navItems }) => {
                         </Button>
                       </Link>
                     ))}
+                    <Box sx={{ display: "flex", alignItems: "center" }}>
+                      <Login />
+                    </Box>
                   </Col>
                 </Row>
               </Link>

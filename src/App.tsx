@@ -18,10 +18,10 @@ function App() {
         <NavBar
           navItems={[
             "About",
-            // "Challenge Sets",
-            // "Our Team",
-            // "News",
-            // "Gallery",
+            "Challenge Sets",
+            "Our Team",
+            "News",
+            "Gallery",
             "FAQ",
           ]}
         />
