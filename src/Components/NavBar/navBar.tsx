@@ -102,7 +102,7 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({ navItems }) => {
                       height={70}
                     />
                   </Col>
-                  <Col style={{ display: "flex" }}>
+                  <Col style={{ display: "flex", alignItems: "center" }}>
                     {navItems.map((item) => (
                       <Link
                         key={item}
@@ -115,7 +115,14 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({ navItems }) => {
                         </Button>
                       </Link>
                     ))}
-                    <Box sx={{ display: "flex", alignItems: "center" }}>
+                    <Box
+                      sx={{
+                        position: "absolute",
+                        right: "0",
+                        display: "flex",
+                        alignItems: "center",
+                      }}
+                    >
                       <Login />
                     </Box>
                   </Col>

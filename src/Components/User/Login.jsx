@@ -12,17 +12,22 @@ direct link to the login page: https://registrations.senecahackathon.com/getallp
 
 import React, { useState } from "react";
 import Token from "../../model/TokenModel";
-import { Button, TextField, Modal, Box } from "@mui/material";
+import { Button, TextField, Modal, Box, Slide } from "@mui/material";
 import useToggle from "../CustomHooks/useToggle";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../../model/firebase/config";
+import Grid from "@material-ui/core/Grid";
+import Typography from "@material-ui/core/Typography";
+
+import CloseIcon from "@mui/icons-material/Close";
 
 function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [openModal, setOpenModal] = useToggle(false);
+  const [openForm, setOpenForm] = useToggle(false);
   const token = new Token();
   const [isLogin, setIsLogin] = useToggle(false);
+  const [forgetPassword, togglePassword] = useToggle(false);
 
   const handleLoginClick = () => {
     if (isLogin) {
@@ -32,7 +37,7 @@ function Login() {
         "_blank"
       );
     } else {
-      setOpenModal(true);
+      setOpenForm(true);
     }
   };
 
@@ -44,11 +49,9 @@ function Login() {
         email,
         password
       );
-      const user = userCredential.user;
-      console.log(user);
-      token.setToken("test");
+
       setIsLogin(true);
-      setOpenModal(false);
+      setOpenForm(false);
     } catch (err) {
       console.log(err);
     }
@@ -60,14 +63,37 @@ function Login() {
   };
 
   const modalStyle = {
-    position: "absolute",
-    top: "50%",
-    left: "50%",
-    transform: "translate(-50%, -50%)",
-    width: 400,
-    bgcolor: "background.paper",
+    position: "fixed",
+    top: "15%",
+    left: "83%",
+    transform: "translate(-50%, 0)",
+    width: "100%",
+    maxWidth: "300px",
+    bgcolor: "#363636",
+    border: "1px solid #000",
+    borderRadius: "10px",
     boxShadow: 24,
     p: 4,
+    opacity: "90%",
+    overflowY: "auto",
+    zIndex: 500,
+    "@media (max-width:1280px)": {
+      top: "20%",
+      left: "67%",
+      width: "200px",
+      maxWidth: "90%",
+      p: 2,
+    },
+    "@media (max-width:1024px)": {
+      top: "20%",
+      left: "67%",
+      width: "200px",
+      maxWidth: "90%",
+      p: 2,
+    },
+
+    fontWeight: "bold",
+    color: "white",
   };
 
   return (
@@ -85,7 +111,7 @@ function Login() {
           "&:hover": { backgroundColor: "#d10000" },
         }}
       >
-        {isLogin ? "View Participants" : "Login"}
+        {isLogin ? "View Participants" : "Admin"}
       </Button>
 
       {isLogin && (
@@ -105,47 +131,118 @@ function Login() {
         </Button>
       )}
 
-      <Modal
-        open={openModal}
-        onClose={() => setOpenModal(false)}
-        aria-labelledby="modal-modal-title"
-        aria-describedby="modal-modal-description"
-      >
+      <Slide direction="down" in={openForm} mountOnEnter unmountOnExit>
         <Box sx={modalStyle} component="form" onClick={handleLogin}>
-          <TextField
-            label="Email"
-            variant="outlined"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            size="small"
-            fullWidth
-            sx={{ mb: 2 }}
-          />
-          <TextField
-            label="Password"
-            type="password"
-            variant="outlined"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            size="small"
-            fullWidth
-            sx={{ mb: 2 }}
-          />
           <Button
-            type="submit"
-            variant="contained"
-            size="small"
             sx={{
-              padding: "2px 6px",
-              fontSize: "0.7rem",
-              backgroundColor: "#ff2916",
-              "&:hover": { backgroundColor: "#d10000" },
+              position: "absolute",
+              top: "50px",
             }}
+            onClick={() => setOpenForm(false)}
           >
-            Submit
+            <CloseIcon />
           </Button>
+          <Box mb={3} textAlign="center">
+            <Typography variant="h5" component="h2">
+              Login
+            </Typography>
+          </Box>
+          <Grid container spacing={2}>
+            <Grid item xs={12}>
+              <TextField
+                label="Email"
+                variant="outlined"
+                required
+                fullWidth
+                name="email"
+                id="email"
+                autoComplete="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                InputLabelProps={{
+                  style: { color: "#fff" }, // White color for the label text
+                }}
+                InputProps={{
+                  style: { color: "#fff" }, // White color for the input text
+                }}
+                sx={{
+                  "& label.Mui-focused": {
+                    color: "#fff", // White color for the label when focused
+                  },
+                  "& .MuiOutlinedInput-root": {
+                    "& fieldset": {
+                      borderColor: "#fff", // White color for the border
+                    },
+                    "&:hover fieldset": {
+                      borderColor: "#fff", // White color for the border on hover
+                    },
+                    "&.Mui-focused fieldset": {
+                      borderColor: "#fff", // White color for the border when focused
+                    },
+                  },
+                }}
+              />
+            </Grid>
+            <Grid item xs={12}>
+              <TextField
+                label="Password"
+                type="password"
+                variant="outlined"
+                required
+                fullWidth
+                name="password"
+                id="password"
+                autoComplete="current-password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                InputLabelProps={{
+                  style: { color: "#fff" }, // White color for the label text
+                }}
+                InputProps={{
+                  style: { color: "#fff" }, // White color for the input text
+                }}
+                sx={{
+                  "& label.Mui-focused": {
+                    color: "#fff", // White color for the label when focused
+                  },
+                  "& .MuiOutlinedInput-root": {
+                    "& fieldset": {
+                      borderColor: "#fff", // White color for the border
+                    },
+                    "&:hover fieldset": {
+                      borderColor: "#fff", // White color for the border on hover
+                    },
+                    "&.Mui-focused fieldset": {
+                      borderColor: "#fff", // White color for the border when focused
+                    },
+                  },
+                }}
+              />
+            </Grid>
+          </Grid>
+          <Box my={2}>
+            <Button
+              type="submit"
+              fullWidth
+              variant="contained"
+              sx={{
+                backgroundColor: "#ff2916",
+                fontWeight: "bold",
+                "&:hover": { backgroundColor: "#d10000" },
+              }}
+            >
+              Login
+            </Button>
+          </Box>
+          <Grid container spacing={2}>
+            <Grid item xs={12}>
+              <Button onClick={togglePassword}>
+                {forgetPassword ? "Forget Password" : "Contact admin on Teams"}
+              </Button>
+            </Grid>
+          </Grid>
         </Box>
-      </Modal>
+      </Slide>
     </>
   );
 }
