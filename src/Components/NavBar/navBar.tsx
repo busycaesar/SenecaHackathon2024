@@ -17,6 +17,7 @@ import HackathonLogo from "../../svgs/hack-logo.png";
 import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./navBar.css";
+import Login from "../User/Login";
 
 const drawerWidth = 240;
 
@@ -101,7 +102,7 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({ navItems }) => {
                       height={70}
                     />
                   </Col>
-                  <Col style={{ display: "flex" }}>
+                  <Col style={{ display: "flex", alignItems: "center" }}>
                     {navItems.map((item) => (
                       <Link
                         key={item}
@@ -114,6 +115,16 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({ navItems }) => {
                         </Button>
                       </Link>
                     ))}
+                    <Box
+                      sx={{
+                        position: "absolute",
+                        right: "0",
+                        display: "flex",
+                        alignItems: "center",
+                      }}
+                    >
+                      <Login />
+                    </Box>
                   </Col>
                 </Row>
               </Link>
