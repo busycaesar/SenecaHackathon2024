@@ -96,11 +96,11 @@ function Login({ isLogin, setIsLogin }) {
   };
 
   return (
-    <>
+    <div>
       <Button
         onClick={handleLoginClick}
         variant="contained"
-        className="text-lg"
+        className="text-lg my-1"
         sx={{
           padding: "2px 6px",
           fontSize: "0.7rem",
@@ -118,7 +118,7 @@ function Login({ isLogin, setIsLogin }) {
         <Button
           onClick={handleLogout}
           variant="contained"
-          className="text-lg mr-4"
+          className="text-lg mr-4 my-1"
           sx={{
             padding: "2px 6px",
             fontSize: "0.7rem",
@@ -244,7 +244,7 @@ function Login({ isLogin, setIsLogin }) {
           </Grid>
         </Box>
       </Slide>
-    </>
+    </div>
   );
 }
 

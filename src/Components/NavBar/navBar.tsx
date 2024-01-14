@@ -42,7 +42,10 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({
   };
 
   const drawer = (
-    <Box sx={{ textAlign: "center", marginTop: "1.5em" }}>
+    <Box
+      sx={{ textAlign: "center", marginTop: "1.5em" }}
+      className="flex flex-col flex-1"
+    >
       <Link to="/" className="nav-link" onClick={handleDrawerToggle}>
         <img
           src={HackathonLogo}
@@ -52,23 +55,25 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({
         />
       </Link>
       <Divider />
-      <List>
-        {navItems.map((item) => (
-          <Link
-            onClick={handleDrawerToggle}
-            key={item}
-            className="nav-link"
-            to={convertToUrlFormat(item)}
-          >
-            <ListItem key={item} disablePadding>
-              <ListItemButton sx={{ textAlign: "center" }}>
-                <ListItemText primary={item} />
-              </ListItemButton>
-            </ListItem>
-          </Link>
-        ))}
-      </List>
-      <Login isLogin={isLogin} setIsLogin={setIsLogin} />
+      <div className="flex flex-col flex-1 justify-between">
+        <List>
+          {navItems.map((item) => (
+            <Link
+              onClick={handleDrawerToggle}
+              key={item}
+              className="nav-link"
+              to={convertToUrlFormat(item)}
+            >
+              <ListItem key={item} disablePadding>
+                <ListItemButton sx={{ textAlign: "center" }}>
+                  <ListItemText primary={item} />
+                </ListItemButton>
+              </ListItem>
+            </Link>
+          ))}
+        </List>
+        <Login isLogin={isLogin} setIsLogin={setIsLogin} />
+      </div>
     </Box>
   );
 
@@ -150,6 +155,7 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({
       </AppBar>
       <nav>
         <Drawer
+          className="flex flex-col"
           variant="temporary"
           open={mobileOpen}
           onClose={handleDrawerToggle}
