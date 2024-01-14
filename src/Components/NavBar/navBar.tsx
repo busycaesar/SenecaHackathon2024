@@ -18,14 +18,19 @@ import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./navBar.css";
 import Login from "../User/Login";
-
 const drawerWidth = 240;
 
 interface DrawerAppBarProps {
   navItems: string[];
+  isLogin: any;
+  setIsLogin: any;
 }
 
-const DrawerAppBar: React.FC<DrawerAppBarProps> = ({ navItems }) => {
+const DrawerAppBar: React.FC<DrawerAppBarProps> = ({
+  navItems,
+  isLogin,
+  setIsLogin,
+}) => {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const handleDrawerToggle = () => {
@@ -37,11 +42,8 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({ navItems }) => {
   };
 
   const drawer = (
-    <Box
-      onClick={handleDrawerToggle}
-      sx={{ textAlign: "center", marginTop: "1.5em" }}
-    >
-      <Link to="/" className="nav-link">
+    <Box sx={{ textAlign: "center", marginTop: "1.5em" }}>
+      <Link to="/" className="nav-link" onClick={handleDrawerToggle}>
         <img
           src={HackathonLogo}
           alt="Seneca Hackathon 2024's logo"
@@ -52,7 +54,12 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({ navItems }) => {
       <Divider />
       <List>
         {navItems.map((item) => (
-          <Link key={item} className="nav-link" to={convertToUrlFormat(item)}>
+          <Link
+            onClick={handleDrawerToggle}
+            key={item}
+            className="nav-link"
+            to={convertToUrlFormat(item)}
+          >
             <ListItem key={item} disablePadding>
               <ListItemButton sx={{ textAlign: "center" }}>
                 <ListItemText primary={item} />
@@ -61,6 +68,7 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({ navItems }) => {
           </Link>
         ))}
       </List>
+      <Login isLogin={isLogin} setIsLogin={setIsLogin} />
     </Box>
   );
 
@@ -132,7 +140,7 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({ navItems }) => {
                       alignItems: "center",
                     }}
                   >
-                    <Login />
+                    <Login isLogin={isLogin} setIsLogin={setIsLogin} />
                   </Box>
                 </Col>
               </Row>

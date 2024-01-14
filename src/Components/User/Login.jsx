@@ -21,12 +21,11 @@ import Typography from "@material-ui/core/Typography";
 
 import CloseIcon from "@mui/icons-material/Close";
 
-function Login() {
+function Login({ isLogin, setIsLogin }) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [openForm, setOpenForm] = useToggle(false);
   const token = new Token();
-  const [isLogin, setIsLogin] = useToggle(false);
   const [forgetPassword, togglePassword] = useToggle(false);
 
   const handleLoginClick = () => {
