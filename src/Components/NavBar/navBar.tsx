@@ -75,6 +75,7 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({ navItems }) => {
           top: 0,
           borderBottom: "2px solid red",
           boxShadow: "none",
+          paddingBottom: "0.5em",
         }}
       >
         <div className="navBarTop">
@@ -90,44 +91,51 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({ navItems }) => {
           >
             <MenuIcon />
           </IconButton>
-          <Box sx={{ display: { xs: "none", sm: "block" } }}>
+          <Box className="w-full" sx={{ display: { xs: "none", sm: "block" } }}>
             <Container>
-              <Link to="/" className="nav-link">
-                <Row>
-                  <Col sm="auto" style={{ margin: "0.5em" }}>
+              <Row>
+                <Col sm="auto" style={{ margin: "0.5em" }}>
+                  <Link to="/" className="nav-link">
                     <img
                       src={HackathonLogo}
                       alt="Seneca Hackathon 2024's logo"
                       width={375}
                       height={70}
                     />
-                  </Col>
-                  <Col style={{ display: "flex", alignItems: "center" }}>
-                    {navItems.map((item) => (
-                      <Link
-                        key={item}
-                        className="nav-link"
-                        style={{ display: "flex" }}
-                        to={convertToUrlFormat(item)}
-                      >
-                        <Button key={item} sx={{ color: "black" }}>
-                          {item}
-                        </Button>
-                      </Link>
-                    ))}
-                    <Box
-                      sx={{
-                        position: "absolute",
-                        right: "0",
-                        display: "flex",
-                        alignItems: "center",
-                      }}
+                  </Link>
+                </Col>
+                <Col
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "between",
+                    whiteSpace: "nowrap",
+                  }}
+                >
+                  {navItems.map((item) => (
+                    <Link
+                      key={item}
+                      className="nav-link"
+                      style={{ display: "flex" }}
+                      to={convertToUrlFormat(item)}
                     >
-                      <Login />
-                    </Box>
-                  </Col>
-                </Row>
-              </Link>
+                      <Button key={item} sx={{ color: "black" }}>
+                        {item}
+                      </Button>
+                    </Link>
+                  ))}
+                  <Box
+                    className="flex-1"
+                    sx={{
+                      display: "flex",
+                      justifyContent: "flex-end",
+                      alignItems: "center",
+                    }}
+                  >
+                    <Login />
+                  </Box>
+                </Col>
+              </Row>
             </Container>
           </Box>
         </Toolbar>
