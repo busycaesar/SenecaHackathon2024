@@ -10,7 +10,7 @@ export default function AboutUs() {
     <div class="max-w-lg w-full m-5 lg:max-w-full lg:flex ">
   <div class="h-48 flex-none rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"  title="Woman holding a mug">
   </div>
-  <div class="bg-my-red mb-5 border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+  <div class="bg-red-600 mb-5 border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
     <div class="mb-8">
       <div class="text-white font-bold text-center text-xl mb-2">What is a Hackathon?</div>
       <p class="text-white text-base text-justify m-5">The hackathon is a student-focused innovation competition that provides a unique experiential learning experience. It encourages and develops creative thinking, entrepreneurship, and problem-solving skills by bringing together students from diverse backgrounds to work together on addressing real-world challenges. The teams receive support from subject-specific mentors and technical specialists and then showcase their solutions in a fun and lively environment to be adjudicated by a panel of experts consisting of investors, partners, school representatives, and domain specialists. The winning teams will have the opportunity to receive prizes and be considered for applied research project investment opportunities. </p>
@@ -23,7 +23,7 @@ export default function AboutUs() {
 <div class="max-w-lg w-full m-5 lg:max-w-full lg:flex ">
   <div class="h-48 flex-none  rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"  title="Woman holding a mug">
   </div>
-  <div class="bg-my-red border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+  <div class="bg-red-600 border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
     <div class="">
       <div class="text-white font-bold text-center text-xl mb-2">How it all started</div>
       <p class="text-white text-base text-justify m-5">Seneca Hackathon began in July 2020 as a response to the COVID-19 pandemic – gathering passionate students to channel their talents and skills into crafting solutions that will address the challenges brought forth by the pandemic. The success of the first Hackathon paved the way for it to evolve into an annual contest with the goal to tackle the most relevant and pressing issues of our society.  </p>
