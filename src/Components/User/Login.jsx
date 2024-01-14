@@ -101,29 +101,31 @@ function Login() {
       <Button
         onClick={handleLoginClick}
         variant="contained"
-        size="small"
+        className="text-lg"
         sx={{
           padding: "2px 6px",
           fontSize: "0.7rem",
           backgroundColor: "#ff2916",
           fontWeight: "bold",
           marginRight: "10px",
+          textTransform: "none",
           "&:hover": { backgroundColor: "#d10000" },
         }}
       >
-        {isLogin ? "View Participants" : "Admin"}
+        {isLogin ? "View Participants" : "Sign In as Admin"}
       </Button>
 
       {isLogin && (
         <Button
           onClick={handleLogout}
           variant="contained"
-          size="small"
+          className="text-lg mr-4"
           sx={{
             padding: "2px 6px",
             fontSize: "0.7rem",
             backgroundColor: "grey",
             marginLeft: "10px",
+            textTransform: "none",
             "&:hover": { backgroundColor: "#666" },
           }}
         >
