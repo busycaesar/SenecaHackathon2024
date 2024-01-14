@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
           <Col md className="mb-4">
             <h3>Address</h3>
             <p style={{ margin: 0 }}>
-              Seneca College Newnham Campus, 1750 Finch Ave E., North York,
+              Seneca Polytechnic Newnham Campus, 1750 Finch Ave E., North York,
               Toronto, ON M2J 2X5
             </p>
           </Col>
