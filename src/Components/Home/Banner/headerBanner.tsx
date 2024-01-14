@@ -17,11 +17,11 @@ export default function HeaderBanner() {
           </p>
           <div className="button">
             <a
-              href={`https://registrations.senecahackathon.com/`}
+              // href={`https://registrations.senecahackathon.com/`}
               target="_blank"
               rel="noreferrer"
             >
-              <button>Register Now</button>
+              <button>Register Opens on Jan 15</button>
             </a>
           </div>
           <p>Registration closes on March 1st, 2024</p>
