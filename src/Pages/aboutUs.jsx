@@ -2,16 +2,22 @@ export default function AboutUs() {
   return (
     <>
       <div>
-        <h1 class="text-center text-3xl font-bold mb-3">
-          About the Hackathon
+        <h1 class="text-center text-3xl font-bold mb-3 text-red-700">
+          What is Hackathon?
         </h1>
-        <h3 class="text-center mb-5">March 16, 2024</h3>
       </div>
       <div class="max-w-lg w-full m-5 lg:max-w-full lg:flex ">
         <div class="card mb-5 border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
           <div class="mb-8">
-            <div class="text-white font-bold text-center text-xl mb-2">What is a Hackathon?</div>
+            <div class="text-white font-bold text-center text-xl mb-2"></div>
             <p class="text-white text-base text-justify m-5">The hackathon is a student-focused innovation competition that provides a unique experiential learning experience. It encourages and develops creative thinking, entrepreneurship, and problem-solving skills by bringing together students from diverse backgrounds to work together on addressing real-world challenges. The teams receive support from subject-specific mentors and technical specialists and then showcase their solutions in a fun and lively environment to be adjudicated by a panel of experts consisting of investors, partners, school representatives, and domain specialists. The winning teams will have the opportunity to receive prizes and be considered for applied research project investment opportunities. </p>
+            <div class="text-white font-bold text-center text-xl mb-2">Challenge Statement</div>
+            <p class="text-white text-base text-justify m-5">
+              The Seneca Sustainability Hackathon was a creative and collaborative
+              event that brought together individuals with a passion for
+              sustainability to generate innovative solutions to environmental
+              challenges.
+            </p>
           </div>
           <div class="flex items-center">
           </div>
