@@ -1,13 +1,13 @@
 [
   {
     "_id": 0,
-    "eventDate": "2024-02-01T12:30:00.000Z",
+    "eventDate": "2024-01-16T12:30:00.000Z",
     "eventTitle": "Registration Opens",
     "eventDescription": "The first day to make your mark and join our Housing Hackathon"
   },
   {
     "_id": 1,
-    "eventDate": "2024-03-01T12:30:00.000Z",
+    "eventDate": "2024-03-08T12:30:00.000Z",
     "eventTitle": "Registration Deadline",
     "eventDescription": "The last day to make your mark and join our Housing Hackathon"
   },
@@ -15,12 +15,12 @@
     "_id": 2,
     "eventDate": "2024-03-10T12:30:00.000Z",
     "eventTitle": "Qualifier Round 1",
-    "eventDescription": "You and your team will begin preparing your challenge set solutions"
+    "eventDescription": "Participants will begin preparing solutions for the challenge set."
   },
   {
     "_id": 3,
     "eventDate": "2024-03-16T12:30:00.000Z",
-    "eventTitle": "Finale Day",
-    "eventDescription": "If your submission qualifies, you will join us for the finale day"
+    "eventTitle": "Finale",
+    "eventDescription": "If your submission qualifies, you will be invited to join us for the in-person finale."
   }
 ]

@@ -21,12 +21,11 @@ import Typography from "@material-ui/core/Typography";
 
 import CloseIcon from "@mui/icons-material/Close";
 
-function Login() {
+function Login({ isLogin, setIsLogin }) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [openForm, setOpenForm] = useToggle(false);
   const token = new Token();
-  const [isLogin, setIsLogin] = useToggle(false);
   const [forgetPassword, togglePassword] = useToggle(false);
 
   const handleLoginClick = () => {
@@ -97,33 +96,35 @@ function Login() {
   };
 
   return (
-    <>
+    <div>
       <Button
         onClick={handleLoginClick}
         variant="contained"
-        size="small"
+        className="text-lg my-1"
         sx={{
           padding: "2px 6px",
           fontSize: "0.7rem",
-          backgroundColor: "#ff2916",
+          backgroundColor: "#ff0000",
           fontWeight: "bold",
           marginRight: "10px",
+          textTransform: "none",
           "&:hover": { backgroundColor: "#d10000" },
         }}
       >
-        {isLogin ? "View Participants" : "Admin"}
+        {isLogin ? "View Participants" : "Sign In as Admin"}
       </Button>
 
       {isLogin && (
         <Button
           onClick={handleLogout}
           variant="contained"
-          size="small"
+          className="text-lg mr-4 my-1"
           sx={{
             padding: "2px 6px",
             fontSize: "0.7rem",
             backgroundColor: "grey",
             marginLeft: "10px",
+            textTransform: "none",
             "&:hover": { backgroundColor: "#666" },
           }}
         >
@@ -243,7 +244,7 @@ function Login() {
           </Grid>
         </Box>
       </Slide>
-    </>
+    </div>
   );
 }
 

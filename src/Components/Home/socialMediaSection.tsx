@@ -7,7 +7,7 @@ export default function SocialMediaSection() {
       <h2>
         <strong>Our Social Media</strong>
       </h2>
-      <p style={{ maxWidth: "50%" }}>
+      <p className="w-full sm:w-10/12 lg:w-1/2">
         Follow us on our social media platforms for all the latest updates on
         the Housing 2024 Hackathon.
       </p>
