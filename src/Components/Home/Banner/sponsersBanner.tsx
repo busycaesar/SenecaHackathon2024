@@ -1,6 +1,6 @@
 import { Row, Col } from "react-bootstrap";
 import SenecaAppliedResearch from "../../../svgs/seneca-applied-research.png";
-import SenecaPolytechnic from "../../../svgs/seneca-polytechnic.jpg";
+import SenecaPolytechnic from "../../../svgs/seneca-polytechnic.png";
 
 export default function SponsersBanner() {
   return (
@@ -21,11 +21,7 @@ export default function SponsersBanner() {
       <Col sm={2}>Sponser Logo</Col>
     <Col sm={2}>Sponser Logo</Col> */}
         <Col sm={6}>
-          <img
-            src={SenecaPolytechnic}
-            style={{ borderRadius: "10px", marginBottom: "1em" }}
-            alt="Seneca Innovation"
-          />
+          <img src={SenecaPolytechnic} width={200} alt="Seneca Innovation" />
         </Col>
       </Row>
     </>
