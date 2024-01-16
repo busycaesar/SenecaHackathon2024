@@ -22,7 +22,7 @@ export default function WhoAreWe() {
             participants and 58 submissions.
           </p>
           <div className="button">
-            <a href={`/`}>
+            <a href={`/about`}>
               <button>Learn More</button>
             </a>
           </div>
