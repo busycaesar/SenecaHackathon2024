@@ -36,9 +36,9 @@ export default function AboutUs() {
         </div>
       </div>
       <div>
-        <section class="py-5 m-5">
+        <section class="py-5 w-full m-5">
           <div class="container font-sans px-4 mx-auto bg-gray-200">
-            <div class="max-w-2xl mx-auto">
+            <div class="max-w-4xl mx-auto">
               <h2 class="mb-5 pt-5 text-3xl text-red-500 font-semibold font-heading">Who we are</h2>
               <h3 class="mb-3 text-xl font-medium underline">The organizing team</h3>
               <p class="mb-6 text-xl md:text-justify text-black">Seneca Hackathon is comprised of dedicated organizing committee of volunteers – skilled professionals and enthusiastic students who lead the way to steer and integrate our mission and vision, ensuring seamless execution of the entire Hackathon event.  </p>
@@ -51,9 +51,9 @@ export default function AboutUs() {
               <h2 class="mb-3 text-2xl text-red-500 italic font-normal font-heading">Our mission </h2>
               <p class="mb-3 text-xl text-centr md:text-justify text-black">Uniting talents with shared passion </p>
               <ul role="list" class="mb-6 marker:text-red-500 list-disc pl-5 space-y-3 text-black md:text-justify">
-                <li>Create innovative and impactful hackathon experience (Commitment to Participants) </li>
-                <li>Set new standards for excellence in organizing hackathons (Commitment to Hackathon Organizing Committee) </li>
-                <li>Foster a community of dedicated to continuous learning and growth (Commitment to Staff Member) </li>
+                <li>(Commitment to Participants) Create innovative and impactful hackathon experience. </li>
+                <li>(Commitment to Hackathon Organizing Committee) Set new standards for excellence in organizing hackathons. </li>
+                <li>(Commitment to Staff Member) Foster a community of dedicated to continuous learning and growth. </li>
               </ul>
               <h2 class="mb-3 text-2xl text-red-500 italic font-normal font-heading">Our Manifesto  </h2>
               <ul role="list" class="pb-5 marker:text-red-500 list-disc pl-5 space-y-3 text-black md:text-justify">
