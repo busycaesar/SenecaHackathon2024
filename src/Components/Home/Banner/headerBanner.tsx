@@ -24,7 +24,7 @@ export default function HeaderBanner() {
               <button>Register Opens on Jan 16</button>
             </a>
           </div>
-          <p>Registration closes on March 1st, 2024</p>
+          <p>Registration closes on March 8th, 2024</p>
         </div>
       </div>
       <SponsersBanner />
