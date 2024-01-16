@@ -1,5 +1,4 @@
 import React from "react";
-import SocialMediaIcons from "../SocialMedia/socialMedia";
 import Email from "../../svgs/SocialMedia/email.png";
 import { Container, Row, Col } from "react-bootstrap";
 import "./footer.css";
@@ -10,7 +9,7 @@ const Footer: React.FC = () => {
       <Container>
         <h2>Need Help?</h2>
         <Row>
-          <Col md className="mb-4">
+          <Col md className="mb-6">
             <h3>Email us</h3>
             <img
               src={Email}
@@ -25,19 +24,17 @@ const Footer: React.FC = () => {
               info@senecahackathon.com
             </a>
           </Col>
-          <Col md className="mb-4">
+          <Col md className="mb-6">
             <h3>Address</h3>
             <p style={{ margin: 0 }}>
               Seneca Polytechnic Newnham Campus, 1750 Finch Ave E., North York,
               Toronto, ON M2J 2X5
             </p>
           </Col>
-          <Col md className="mb-4">
-            <h3>Social Media</h3>
-            <SocialMediaIcons />
-          </Col>
         </Row>
-        <p>&copy; Copyright. All rights reserved by Housing Hackathon.</p>
+        <p style={{ fontSize: "x-small" }}>
+          &copy; Copyright. All rights reserved by Housing Hackathon.
+        </p>
       </Container>
     </div>
   );
