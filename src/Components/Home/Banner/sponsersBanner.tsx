@@ -1,6 +1,7 @@
 import { Row, Col } from "react-bootstrap";
 import SenecaAppliedResearch from "../../../svgs/seneca-applied-research.png";
-import SenecaPolytechnic from "../../../svgs/seneca-polytechnic.jpg";
+import SenecaPolytechnic from "../../../svgs/seneca-polytechnic.png";
+import "./banner.css";
 
 export default function SponsersBanner() {
   return (
@@ -8,22 +9,19 @@ export default function SponsersBanner() {
       <h2 style={{ marginTop: "1em" }}>
         <strong>Our Sponsers</strong>
       </h2>
-      <Row style={{ textAlign: "center" }}>
-        <Col sm={6}>
+      <Row>
+        <Col className="center-hv" style={{ margin: "1em 0" }} md={6}>
           <img
             src={SenecaAppliedResearch}
-            width={500}
+            style={{ width: "70%" }}
             alt="Seneca Innovation"
           />
         </Col>
-        {/* <Col sm={2}>Sponser Logo</Col>
-      <Col sm={2}>Sponser Logo</Col>
-      <Col sm={2}>Sponser Logo</Col>
-    <Col sm={2}>Sponser Logo</Col> */}
-        <Col sm={6}>
+        <Col className="center-hv" style={{ margin: "1em 0" }} md={6}>
           <img
             src={SenecaPolytechnic}
-            style={{ borderRadius: "10px", marginBottom: "1em" }}
+            style={{ width: "30%" }}
+            width={200}
             alt="Seneca Innovation"
           />
         </Col>

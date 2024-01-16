@@ -24,8 +24,6 @@ export default function Home() {
       <hr />
       <ImportantDates dates={ImportantDateData} />
       <hr />
-      
-      <hr />
       {/* <ChallengeSetsSection challengeSet={ChallengeSetData} />
       <hr /> */}
       {/* <Testimonial testimonials={TestimonialData} />
