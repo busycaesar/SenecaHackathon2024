@@ -9,7 +9,7 @@ export default function ChallengeSets() {
       </h1>
       <div className="center">
         <p className="red-background curved-border">
-          Challenge sets comming soon! Stay Tuned!
+          Challenge sets coming soon! Stay Tuned!!
         </p>
       </div>
       {/*Delete this below div which has visibility hidden. It is added to the code to keep the footer stick to the bottom of the website.*/}
