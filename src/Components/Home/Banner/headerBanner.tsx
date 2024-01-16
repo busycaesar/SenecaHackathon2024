@@ -21,7 +21,7 @@ export default function HeaderBanner() {
               target="_blank"
               rel="noreferrer"
             >
-              <button>Register Opens on Jan 15</button>
+              <button>Register Opens on Jan 16</button>
             </a>
           </div>
           <p>Registration closes on March 1st, 2024</p>
