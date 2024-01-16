@@ -10,15 +10,20 @@ export default function SponsersBanner() {
         <strong>Our Sponsers</strong>
       </h2>
       <Row>
-        <Col className="center-hv" sm={6}>
+        <Col className="center-hv" style={{ margin: "1em 0" }} md={6}>
           <img
             src={SenecaAppliedResearch}
-            width={500}
+            style={{ width: "70%" }}
             alt="Seneca Innovation"
           />
         </Col>
-        <Col className="center-hv" sm={6}>
-          <img src={SenecaPolytechnic} width={200} alt="Seneca Innovation" />
+        <Col className="center-hv" style={{ margin: "1em 0" }} md={6}>
+          <img
+            src={SenecaPolytechnic}
+            style={{ width: "30%" }}
+            width={200}
+            alt="Seneca Innovation"
+          />
         </Col>
       </Row>
     </>
