@@ -28,7 +28,7 @@ const Timer = () => {
   <div className="rounded-3xl bg-transparent mt-5 flex justify-center">
   <div className="flex flex-wrap">
    <div className="w-1/4 py-2 px-5 flex flex-col text-white text-4xl font-bold md:font-extrabold justify-center">
-      <div>
+      <div >
         <p className="text-4xl">{days < 10 ? "0" + days : days}</p>
         <span className="text-lg md:text-2xl">Days</span>
       </div>
