@@ -10,7 +10,7 @@ export default function WorkingSection({
   return (
     <div>
       <h2>
-        <strong>How it Works</strong>
+        <strong>Why participate?</strong>
       </h2>
       <Row>
         {works.map((work, index) => (
