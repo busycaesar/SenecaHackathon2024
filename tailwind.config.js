@@ -1,12 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  important: true,
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
       colors: {
-        'my-red': '#b91c1c',
+        'my-red': '#D92D27',
       },
+      fontFamily: {
+        'gotham': ['"Gotham"', "sans-serif"],
+      },
+     
     },
     
   },

@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .page-content {
   margin: 2em 5em;
   padding-bottom: 3em;
@@ -6,7 +10,7 @@
 .red-background {
   padding: 0.5em 1em;
   width: fit-content;
-  background-color: red;
+  background-color: #D92D27;
   color: white;
 }
 
