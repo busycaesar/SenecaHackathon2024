@@ -127,8 +127,8 @@ function Roadmap() {
                   )}
                 </div>
                 <div className="flex items-center">
-                  <div className="z-10 w-5 h-5 bg-blue-100 rounded-full ring-0 ring-white dark:bg-red-700 sm:ring-8 dark:ring-gray-200 shrink-0"></div>
-                  <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+                  <div className="z-10 w-5 h-5 bg-red-700 rounded-full ring-0 ring-white  sm:ring-8 dark:ring-gray-200 shrink-0"></div>
+                  <div className="hidden sm:flex w-full bg-red-700 h-0.5 0"></div>
                 </div>
                 <div className="mt-3 sm:pe-8 h-60 w-80 text-center">
                   {index % 2 === 0 && (
