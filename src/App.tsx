@@ -12,6 +12,7 @@ import IndividualNews from "./Pages/individualNews";
 import AboutUs from "./Pages/aboutUs";
 import Login from "./Components/User/Login";
 import useToggle from "./Components/CustomHooks/useToggle";
+import Roadmap from "./Pages/Roadmap";
 
 function App() {
   const [isLogin, setIsLogin] = useToggle(false);
@@ -40,6 +41,7 @@ function App() {
             <Route path="/news/:id" element={<IndividualNews />} />
             <Route path="/gallery" element={<Gallery />} /> */}
             <Route path="/faq" element={<Faq />} />
+            <Route path="/roadmap" element={<Roadmap />} />
             <Route
               path="/login"
               element={<Login isLogin={isLogin} setIsLogin={setIsLogin} />}

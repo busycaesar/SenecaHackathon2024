@@ -1,0 +1,147 @@
+import React from "react";
+import { Chrono } from "react-chrono";
+import RegistrationImg from "../svgs/RoadmapImg/registration.png";
+import ChallengeSetMentoring from "../svgs/RoadmapImg/challengeSetMentoring.png";
+import Finale from "../svgs/RoadmapImg/finale.png";
+import FinalistsAnnoucement from "../svgs/RoadmapImg/finalistsAnnoucement.png";
+import FinalOpening from "../svgs/RoadmapImg/finalOpening.png";
+import HackathonQualifiers from "../svgs/RoadmapImg/hackathonQualifiers.png";
+import TeamFormation from "../svgs/RoadmapImg/teamFormation.png";
+import PreHackathonMixer from "../svgs/RoadmapImg/preHackathonMixer.png";
+
+function Roadmap() {
+  const items = [
+    {
+      title: "Registration",
+      cardTitle: "22nd January 2024",
+      media: {
+        name: "Registration image",
+        source: {
+          url: RegistrationImg,
+        },
+        type: "IMAGE",
+      },
+    },
+    {
+      title: "Team Formation",
+      cardTitle: "1st February 2024",
+      media: {
+        name: "Team Formation",
+        source: {
+          url: TeamFormation,
+        },
+        type: "IMAGE",
+      },
+    },
+    {
+      title: "Pre-hackathon Mixer",
+      cardTitle: "14th February 2024",
+      media: {
+        name: "Pre-hackathon Mixer",
+        source: {
+          url: PreHackathonMixer,
+        },
+        type: "IMAGE",
+      },
+    },
+    {
+      title: "Challenge Set Mentoring",
+      cardTitle: "20th February 2024",
+      media: {
+        name: "Challenge Set Mentoring",
+        source: {
+          url: ChallengeSetMentoring,
+        },
+        type: "IMAGE",
+      },
+    },
+    {
+      title: "Hackathon Qualifiers",
+      cardTitle: "10th & 12th March 2024",
+      media: {
+        name: "Hackathon Qualifiers",
+        source: {
+          url: HackathonQualifiers,
+        },
+        type: "IMAGE",
+      },
+    },
+    {
+      title: "Finalists Announcements",
+      cardTitle: "13th March 2024",
+      media: {
+        name: "Finalists Announcements",
+        source: {
+          url: FinalistsAnnoucement,
+        },
+        type: "IMAGE",
+      },
+    },
+    {
+      title: "Final Opening",
+      cardTitle: "15th March 2024",
+      media: {
+        name: "Final Opening",
+        source: {
+          url: FinalOpening,
+        },
+        type: "IMAGE",
+      },
+    },
+    {
+      title: "Hackathon Finale",
+      cardTitle: "16th March 2024",
+      media: {
+        name: "Hackathon Finale",
+        source: {
+          url: Finale,
+        },
+        type: "IMAGE",
+      },
+    },
+  ];
+
+  return (
+    <div className="App">
+      <div style={{ width: "95%" }}>
+        <Chrono
+          mode="VERTICAL_ALTERNATING"
+          showAllCardsHorizontal
+          cardWidth={350}
+          cardHeight={250}
+          contentDetailsHeight={100}
+          fontSizes={{
+            title: "1rem",
+          }}
+          slideShow
+          theme={{
+            primary: "#b91c1c",
+            secondary: "#b91c1c",
+            titleColor: "black",
+            titleColorActive: "white",
+          }}
+          hideControls="true"
+          classNames={{
+            cardTitle: "text-center text-black",
+          }}
+        >
+          {items.map((item, index) => {
+            return (
+              <div className="text-center overflow-hidden">
+                <img
+                  src={item.media.source.url}
+                  alt={item.media.name}
+                  className="h-2/5 sm:h-3/5"
+                ></img>
+                <h1 className="sm:text-2xl text-lg">{item.title}</h1>
+                <p className="sm:text-lg text-base">{item.cardTitle}</p>
+              </div>
+            );
+          })}
+        </Chrono>
+      </div>
+    </div>
+  );
+}
+
+export default Roadmap;
