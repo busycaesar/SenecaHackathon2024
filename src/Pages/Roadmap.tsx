@@ -102,8 +102,58 @@ function Roadmap() {
   ];
 
   return (
-    <div className="App">
-      <div style={{ width: "95%" }}>
+    <div>
+      {/* Desktop view */}
+      <div className="hidden lg:inline">
+        <ol className="items-center sm:flex overflow-x-scroll list-none">
+          {items.map((item, index) => {
+            return (
+              <li className="relative mb-6 sm:mb-0">
+                <div className="h-60 w-80 text-center">
+                  {index % 2 !== 0 && (
+                    <>
+                      <div>
+                        <h1 className="text-2xl">{item.title}</h1>
+                        <p className="text-lg">{item.cardTitle}</p>
+                      </div>
+                      <div>
+                        <img
+                          src={item.media.source.url}
+                          alt={item.media.name}
+                          className="h-2/5 sm:h-3/5"
+                        ></img>
+                      </div>
+                    </>
+                  )}
+                </div>
+                <div className="flex items-center">
+                  <div className="z-10 w-5 h-5 bg-blue-100 rounded-full ring-0 ring-white dark:bg-red-700 sm:ring-8 dark:ring-gray-200 shrink-0"></div>
+                  <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+                </div>
+                <div className="mt-3 sm:pe-8 h-60 w-80 text-center">
+                  {index % 2 === 0 && (
+                    <>
+                      <div>
+                        <h1 className="text-2xl">{item.title}</h1>
+                        <p className="text-lg">{item.cardTitle}</p>
+                      </div>
+                      <div>
+                        <img
+                          src={item.media.source.url}
+                          alt={item.media.name}
+                          className="h-2/5 sm:h-3/5"
+                        ></img>
+                      </div>
+                    </>
+                  )}
+                </div>
+              </li>
+            );
+          })}
+        </ol>
+      </div>
+      {/* Small screen view */}
+      <div className="lg:hidden" style={{ width: "95%" }}>
         <Chrono
           mode="VERTICAL_ALTERNATING"
           showAllCardsHorizontal
