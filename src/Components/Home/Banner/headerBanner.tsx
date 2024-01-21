@@ -18,10 +18,10 @@ export default function HeaderBanner() {
       <div  id="head-banner">
         <img src={SampleImage} alt="Banner" />
         <div className="content">
-          <h1 className="text-6xl">
+          <h1 className="md:text-6xl">
             <strong>Housing <span className="text-my-red">Hackathon </span></strong>
           </h1>
-          <p className="text-lg">
+          <p className="md:text-lg">
             Join us in innovating, collaborating and building an inclusive
             hackathon for hands-on experience
           </p>
@@ -37,7 +37,7 @@ export default function HeaderBanner() {
           <div>
             <Timer/>
           </div>
-          <p className="text-lg">Registration closes on March 8th, 2024</p>
+          <p className="md:text-lg">Registration closes on March 8th, 2024</p>
         </div>
       </div>
       <div
