@@ -7,7 +7,7 @@ export default function SponsersBanner() {
   return (
     <>
       <h2 style={{ marginTop: "1em" }}>
-        <strong>Our Sponsers</strong>
+        <strong>Our Sponsors</strong>
       </h2>
       <Row>
         <Col className="center-hv" style={{ margin: "1em 0" }} md={6}>
