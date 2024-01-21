@@ -22,10 +22,14 @@ export default function HeaderBanner() {
               Housing <span className="text-my-red">Hackathon </span>
             </strong>
           </h1>
-          <p className="md:text-lg">
-            Join us in innovating, collaborating and building an inclusive
-            hackathon for hands-on experience
-          </p>
+          <div style={{ width: "50%", margin: "auto" }}>
+            <p className="md:text-lg" style={{ margin: "1em 0" }}>
+              Elevate your skills, connect with industry experts, and transform
+              your ideas into reality. Join the hackathon for a chance to win
+              amazing prizes and contribute to shaping the future of the housing
+              industry!
+            </p>
+          </div>
           <div className="button">
             <a
               // href={`https://registrations.senecahackathon.com/`}
