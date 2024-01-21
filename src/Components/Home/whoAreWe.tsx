@@ -12,7 +12,7 @@ export default function WhoAreWe() {
       <Row>
         <Col md={6} style={{ marginBottom: "1em" }}>
           <h2>
-            <strong>Who Are We</strong>
+            <strong>Who We Are</strong>
           </h2>
           <p>
             The Seneca Hackathon is an all-inclusive student-focused innovation
