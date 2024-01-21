@@ -22,15 +22,10 @@ const drawerWidth = 240;
 
 interface DrawerAppBarProps {
   navItems: string[];
-  isLogin: any;
-  setIsLogin: any;
+  
 }
 
-const DrawerAppBar: React.FC<DrawerAppBarProps> = ({
-  navItems,
-  isLogin,
-  setIsLogin,
-}) => {
+const DrawerAppBar: React.FC<DrawerAppBarProps> = ({ navItems }) => {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const handleDrawerToggle = () => {
@@ -72,7 +67,6 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({
             </Link>
           ))}
         </List>
-        <Login isLogin={isLogin} setIsLogin={setIsLogin} />
       </div>
     </Box>
   );
@@ -144,9 +138,7 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({
                       justifyContent: "flex-end",
                       alignItems: "center",
                     }}
-                  >
-                    <Login isLogin={isLogin} setIsLogin={setIsLogin} />
-                  </Box>
+                  ></Box>
                 </Col>
               </Row>
             </Container>

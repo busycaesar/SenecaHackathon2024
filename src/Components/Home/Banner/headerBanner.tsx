@@ -1,6 +1,15 @@
 import SampleImage from "../../../svgs/banner.jpg";
+import Timer from "../../Timer/Timer";
 import "../about.css";
 import SponsersBanner from "./sponsersBanner";
+
+const styles = {
+  paperContainer: {
+    backgroundImage: `url(${SampleImage})`,
+    height: "100%",
+    width: "100%",
+  },
+};
 
 export default function HeaderBanner() {
   return (
@@ -8,10 +17,12 @@ export default function HeaderBanner() {
       <div id="head-banner">
         <img src={SampleImage} alt="Banner" />
         <div className="content">
-          <h1>
-            <strong>Housing Hackathon</strong>
+          <h1 className="md:text-6xl">
+            <strong>
+              Housing <span className="text-my-red">Hackathon </span>
+            </strong>
           </h1>
-          <p>
+          <p className="md:text-lg">
             Join us in innovating, collaborating and building an inclusive
             hackathon for hands-on experience
           </p>
@@ -24,9 +35,13 @@ export default function HeaderBanner() {
               <button>Register Here</button>
             </a>
           </div>
-          <p>Registration closes on March 8th, 2024</p>
+          <div>
+            <Timer />
+          </div>
+          <p className="md:text-lg">Registration closes on March 8th, 2024</p>
         </div>
       </div>
+      <div className="bg-wh rounded-3xl overflow-hidden border border-gray-100 "></div>
       <SponsersBanner />
     </div>
   );

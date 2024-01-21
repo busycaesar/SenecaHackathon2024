@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
         <h2>Need Help?</h2>
         <Row>
           <Col md className="mb-6">
-            <h3>Email us</h3>
+            <h3 className="font-semibold">Email us</h3>
             <img
               src={Email}
               alt="Link to Instagram"
@@ -25,10 +25,12 @@ const Footer: React.FC = () => {
             </a>
           </Col>
           <Col md className="mb-6">
-            <h3>Address</h3>
+            <h3 className="font-semibold">Address</h3>
             <p style={{ margin: 0 }}>
-              Seneca Polytechnic Newnham Campus, 1750 Finch Ave E., North York,
-              Toronto, ON M2J 2X5
+              Seneca Polytechnic <br/>
+              1750 Finch Ave East<br/>
+              Toronto, Ontario, Canada <br/>
+              M2J 2X5
             </p>
           </Col>
         </Row>
