@@ -3,13 +3,13 @@
     "_id": 0,
     "eventDate": "2024-01-22T12:30:00.000Z",
     "eventTitle": "Registration Opens",
-    "eventDescription": "The first day to make your mark and join our Housing Hackathon"
+    "eventDescription": "Interested participants can sign up to join the Housing Hackathon."
   },
   {
     "_id": 1,
     "eventDate": "2024-03-08T12:30:00.000Z",
     "eventTitle": "Registration Deadline",
-    "eventDescription": "The last day to make your mark and join our Housing Hackathon"
+    "eventDescription": "The last day for accepting registrations."
   },
   {
     "_id": 2,
@@ -21,6 +21,6 @@
     "_id": 3,
     "eventDate": "2024-03-11T12:30:00.000Z",
     "eventTitle": "Finale",
-    "eventDescription": "If your submission qualifies, you will be invited to join us for the in-person finale."
+    "eventDescription": "If your submission qualifies, you will be invited to join us for the finale."
   }
 ]
