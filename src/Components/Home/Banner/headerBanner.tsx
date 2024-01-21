@@ -42,7 +42,7 @@ export default function HeaderBanner() {
           <div>
             <Timer />
           </div>
-          <p className="md:text-lg">Registration closes on March 8th, 2024</p>
+          <p className="md:text-lg">Deadline to register is on March 8, 2024</p>
         </div>
       </div>
       <div className="bg-wh rounded-3xl overflow-hidden border border-gray-100 "></div>
