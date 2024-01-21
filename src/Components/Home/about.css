@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  border-radius: 1%;
 }
 
 #head-banner img {
@@ -10,6 +11,7 @@
   filter: brightness(50%);
   height: 80vh;
   width: 100%;
+  background-color: #D92D27 !important;
 }
 
 .content {
@@ -19,13 +21,6 @@
   margin: 0 2.5em;
 }
 
-.content p {
-  font-size: small;
-}
-
-.content .button {
-  margin-bottom: 1em;
-}
 
 #who-are-we-section img {
   width: 100%;

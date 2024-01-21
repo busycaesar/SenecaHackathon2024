@@ -8,7 +8,7 @@ export default function DateBox(props: {
   return (
     <>
       <div className="event-title">{props.eventDate}</div>
-      <h3 style={{ color: "red ", fontSize: "large" }}>
+      <h3 style={{ color: "#D92D27 ", fontSize: "large" }}>
         <strong>{props.eventTitle}</strong>
       </h3>
       <p>{props.eventDescription}</p>
