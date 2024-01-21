@@ -1,4 +1,5 @@
 import SampleImage from "../../../svgs/banner.jpg";
+import Timer from "../../Timer/Timer";
 import "../about.css";
 import SponsersBanner from "./sponsersBanner";
 
@@ -24,7 +25,10 @@ export default function HeaderBanner() {
               <button>Registration begins on Jan 22, 2024</button>
             </a>
           </div>
-          <p>Registration closes on March 8th, 2024</p>
+          <div>
+            <Timer/>
+          </div>
+          <p className="text-lg">Registration closes on March 8th, 2024</p>
         </div>
       </div>
       <SponsersBanner />

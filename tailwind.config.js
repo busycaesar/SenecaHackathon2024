@@ -6,6 +6,9 @@ module.exports = {
       colors: {
         'my-red': '#ff0000',
       },
+      fontFamily: {
+        'gotham': ['"Gotham"', "sans-serif"],
+      },
     },
     
   },
