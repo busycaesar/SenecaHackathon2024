@@ -40,15 +40,6 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({ navItems }) => {
       sx={{ textAlign: "center", marginTop: "1.5em" }}
       className="flex flex-col flex-1"
     >
-      <Link to="/" className="nav-link" onClick={handleDrawerToggle}>
-        <img
-          src={HackathonLogo}
-          alt="Seneca Hackathon 2024's logo"
-          width={175}
-          height={40}
-        />
-      </Link>
-      <Divider />
       <div className="flex flex-col flex-1 justify-between">
         <List>
           {navItems.map((item) => (
@@ -67,6 +58,15 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({ navItems }) => {
           ))}
         </List>
       </div>
+      <Link to="/" className="nav-link" onClick={handleDrawerToggle}>
+        <img
+          src={HackathonLogo}
+          alt="Seneca Hackathon 2024's logo"
+          width={190}
+          height={45}
+          style={{ marginBottom: "3em" }}
+        />
+      </Link>
     </Box>
   );
 
