@@ -13,13 +13,7 @@
   },
   {
     "id": 2,
-    "title": "Seneca Student federation",
-    "path": "/svgs/sponsers/ssf.png",
-    "width": "100%"
-  },
-  {
-    "id": 1,
-    "title": "Seneca Polytechnic",
+    "title": "Seneca Alumini",
     "path": "/svgs/sponsers/seneca-alumini.png",
     "width": "100%"
   }

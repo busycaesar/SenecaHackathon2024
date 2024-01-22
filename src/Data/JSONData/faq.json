@@ -1,5 +1,9 @@
 [
   {
+    "title": "Who can participate?",
+    "body": "The Housing Hackathon is open to all Seneca students and alumni. Other students from another learning institutions may also join, provided that a Seneca student is included in their team. "
+  },
+  {
   "title": "What is Seneca Hackathon? ",
   "body": "Seneca hackathon is a student-focused innovation competition that provides a unique experiential learning experience. It encourages and develops creative thinking, entrepreneurship, and problem-solving skills by bringing together students from diverse backgrounds to work together on addressing real-world challenges. The teams receive support from subject-specific mentors and technical specialists and then showcase their solutions in a fun and lively environment to be adjudicated by a panel of experts consisting of investors, partners, school representatives, and domain specialists. "
   },
@@ -11,10 +15,6 @@
   {
     "title": "Is the event free? ",
     "body": "Yes, participation in the Housing Hackathon is completely free of charge. All essential resources, including food during the event, will be provided at no cost. However, participants are kindly requested to bring their laptops and any necessary materials required for presentations or project preparation. "
-  },
-  {
-    "title": "Who can participate?",
-    "body": "The Housing Hackathon is open to all Seneca students and alumni. Other students from another learning institutions may also join, provided that a Seneca student is included in their team. "
   },
   {
     "title": "Do I need to know how to code? ",
@@ -38,7 +38,7 @@
   },
   {
     "title": "When will the registration close? ",
-    "body": "Registration closes on March 1, 2024 at 11:59PM. "
+    "body": "Registration closes on February 26, 2024 at 11:59PM. "
   }
 
 ]
