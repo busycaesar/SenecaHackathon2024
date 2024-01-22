@@ -87,10 +87,10 @@ export default function AboutUs() {
           <p class="text-lg text-black md:text-justify font-gotham leading-loose">This is our showcases which is full of innovative ideas from our previous hackathons. Here lies the themes, challenges, and teams behind these cutting-edge projects that solved complex problems. Explore this section for inspiration and to see the exciting world of our past hackathons!</p>
         </div>
         <div class="flex flex-wrap md:mx-24 mb-12">
-          <div class="w-full md:w-1/2 px-4 mb-8">
+          <div class="w-full md:w-1/2 md:px-4 mb-8">
             <div class="p-6 bg-white border-solid border-my-red rounded-lg">
               <div class="relative md:h-40 mb-6">
-                <img class="w-full h-fit object-cover rounded-lg" src={smartCities} alt=""></img>
+                <img class="w-full md:h-fit object-cover rounded-lg" src={smartCities} alt=""></img>
               </div>
               <span class="inline-block md:pt-20 text-xs font-bold font-gotham text-gray-500">2023</span>
               <h2 class="mb-2 text-2xl text-my-red font-bold font-gotham font-heading">Smart Cities Hackathon</h2>
@@ -98,7 +98,7 @@ export default function AboutUs() {
               
             </div>
           </div>
-          <div class="w-full md:h-fit md:w-1/2 px-4 mb-8">
+          <div class="w-full md:h-fit md:w-1/2 md:px-4 mb-8">
             <div class="p-6 bg-white border-solid border-my-red rounded-lg">
               <div class="relative md:h-40 mb-6">
                 <img class="h-full w-full md:h-64 object-scale-down md:object-contain rounded-lg" src={sustainability} alt=""></img>
@@ -109,10 +109,10 @@ export default function AboutUs() {
               
             </div>
           </div>
-          <div class="w-full md:w-1/2 px-4 mb-8">
+          <div class="w-full md:w-1/2 md:px-4 mb-8">
             <div class="p-6 bg-white border-solid border-my-red rounded-lg">
               <div class="relative md:h-40 mb-6">             
-                <img class="w-full h-fit object-cover rounded-lg" src={digitalHealth} alt=""></img>
+                <img class="w-full md:h-fit object-cover rounded-lg" src={digitalHealth} alt=""></img>
               </div>
               <span class="inline-block md:pt-20 text-xs font-bold text-gray-500 font-gotham">2021</span>
               <h2 class="mb-2 text-2xl text-my-red font-bold font-heading font-gotham">Digital Health Hackathon</h2>
@@ -120,10 +120,10 @@ export default function AboutUs() {
               
             </div>
           </div>
-          <div class="w-full md:w-1/2 px-4 mb-8">
+          <div class="w-full md:w-1/2 md:px-4 mb-8">
             <div class="p-6 bg-white border-solid border-my-red rounded-lg">
               <div class="relative md:h-40 mb-6">               
-                <img class="w-full h-fit object-cover rounded-lg" src={Covid19} alt=""></img>
+                <img class="w-full md:h-fit object-cover rounded-lg" src={Covid19} alt=""></img>
               </div>
               <span class="inline-block md:pt-20 text-xs font-bold text-gray-500 font-gotham">2020</span>
               <h2 class="mb-2 text-2xl text-my-red font-bold font-heading font-gotham">Covid-19 Business Response Hackathon</h2>
