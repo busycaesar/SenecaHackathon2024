@@ -15,7 +15,8 @@ export default function SponsersBanner(props: { sponsers: Sponsers[] }) {
           <Col
             key={sponser.id}
             className="center-hv"
-            style={{ margin: "1em 0" }}
+            style={{ margin: "1.5em 0" }}
+            sm={4}
           >
             <img
               src={sponser.path}
