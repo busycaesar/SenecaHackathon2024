@@ -22,7 +22,6 @@ const drawerWidth = 240;
 
 interface DrawerAppBarProps {
   navItems: string[];
-  
 }
 
 const DrawerAppBar: React.FC<DrawerAppBarProps> = ({ navItems }) => {
@@ -89,12 +88,19 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({ navItems }) => {
           <SocialMediaIcons />
         </div>
         <Toolbar>
+          <Link to="/" className="nav-link">
+            <img
+              src={HackathonLogo}
+              alt="Seneca Hackathon 2024's logo"
+              width={275}
+            />
+          </Link>
           <IconButton
             color="inherit"
             aria-label="open drawer"
             edge="start"
             onClick={handleDrawerToggle}
-            sx={{ mr: 2, display: { sm: "none" } }}
+            sx={{ marginLeft: "auto", display: { sm: "none" } }}
           >
             <MenuIcon />
           </IconButton>
