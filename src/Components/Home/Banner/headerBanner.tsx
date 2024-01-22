@@ -16,7 +16,7 @@ export default function HeaderBanner(props: { sponsers: Sponsers[] }) {
   return (
     <div style={{ marginBottom: "3em" }}>
       <div id="head-banner">
-        <img src={SampleImage} alt="Banner" />
+        <img className="transparency" src={SampleImage} alt="Banner" />
         <div className="content">
           <h1 className="md:text-6xl">
             <strong>
@@ -26,18 +26,20 @@ export default function HeaderBanner(props: { sponsers: Sponsers[] }) {
           <div className="text-center md:px-40">
             <p className="text-sm md:max-w-1/2 md:text-lg" style={{ margin: "1em 0" }}>
               Elevate your skills, connect with industry experts, and transform
-              your ideas into reality. Join the hackathon for a chance to win
+              your ideas into reality. <br></br> Join the hackathon for a chance to win
               amazing prizes and contribute to shaping the future of the housing
-              industry!
+              industry.
             </p>
           </div>
+          
           <div className="button">
+            
             <a
               href={`https://registrations.senecahackathon.com/`}
               target="_blank"
               rel="noreferrer"
             >
-              <button>Click Here to Register</button>
+              <button className="font-bold">Click Here to Register</button>
             </a>
           </div>
           <div>
