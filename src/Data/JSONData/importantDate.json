@@ -7,20 +7,33 @@
   },
   {
     "_id": 1,
-    "eventDate": "2024-03-08T12:30:00.000Z",
-    "eventTitle": "Registration Deadline",
-    "eventDescription": "The last day to make your mark and join our Housing Hackathon."
+    "eventDate": "2024-02-14T12:30:00.000Z",
+    "eventTitle": "Pre-Hackathon Mixer",
+    "eventDescription": "Join our pre-hackathon mixer! Connect, share ideas, and kickstart an epic hackathon."
   },
   {
     "_id": 2,
-    "eventDate": "2024-03-10T12:30:00.000Z",
-    "eventTitle": "Qualifier Round 1",
-    "eventDescription": "Participants will begin preparing solutions for the challenge set."
+    "eventDate": "2024-02-26T12:30:00.000Z",
+    "eventTitle": "Registration Deadline",
+    "eventDescription": "The last day to confirm your registration and join our housing hackathon."
   },
   {
     "_id": 3,
+    "eventDate": "2024-03-10T12:30:00.000Z",
+    "eventTitle": "Opening Ceremony | Qualifier Round",
+    "eventDescription": "Participants will begin developing solutions for the challenge set."
+  },
+  {
+    "_id": 4,
+    "eventDate": "2024-03-11T12:30:00.000Z",
+    "eventTitle": "Qualifier Submission Deadline",
+    "eventDescription": "Submit your entry for Qualifier Round judging."
+  },
+  {
+    "_id": 5,
     "eventDate": "2024-03-16T12:30:00.000Z",
     "eventTitle": "Finale",
     "eventDescription": "If your submission qualifies, you will be invited to join us for the in-person finale."
   }
+ 
 ]
