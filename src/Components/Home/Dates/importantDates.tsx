@@ -20,7 +20,7 @@ export default function ImportantDates(props: { dates: any }) {
             }),
             eventDate: string = eventDateWhole.getUTCDate().toString();
           return (
-            <Col md={3} index={date._id}>
+            <Col md={2} index={date._id}>
               <DateBox
                 eventDate={`${eventMonth} ${eventDate}`}
                 eventTitle={date.eventTitle}

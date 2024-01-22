@@ -1,6 +1,16 @@
+
 .center-hv {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.background-banner {
+  background-image: url('../../../svgs/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #333333;
+  background-blend-mode: soft-light;
 }
