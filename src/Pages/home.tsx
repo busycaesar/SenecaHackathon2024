@@ -12,12 +12,13 @@ import {
   AwardData,
   ChallengeSetData,
   TestimonialData,
+  SponsersData,
 } from "../Data/JSONData";
 
 export default function Home() {
   return (
     <>
-      <HeaderBanner />
+      <HeaderBanner sponsers={SponsersData} />
       <WhoAreWe />
       <hr />
       <WorkingSection works={WorkingData} />
