@@ -1,3 +1,4 @@
+import { Sponsers } from "../../../Data/Schema/sponsers";
 import SampleImage from "../../../svgs/banner.jpg";
 import Timer from "../../Timer/Timer";
 import "../about.css";
@@ -11,7 +12,7 @@ const styles = {
   },
 };
 
-export default function HeaderBanner() {
+export default function HeaderBanner(props: { sponsers: Sponsers[] }) {
   return (
     <div style={{ marginBottom: "3em" }}>
       <div id="head-banner">
@@ -36,7 +37,7 @@ export default function HeaderBanner() {
               target="_blank"
               rel="noreferrer"
             >
-              <button>Registration begins in JAN 22</button>
+              <button>Register Here</button>
             </a>
           </div>
           <div>
@@ -46,7 +47,7 @@ export default function HeaderBanner() {
         </div>
       </div>
       <div className="bg-wh rounded-3xl overflow-hidden border border-gray-100 "></div>
-      <SponsersBanner />
+      <SponsersBanner sponsers={props.sponsers} />
     </div>
   );
 }

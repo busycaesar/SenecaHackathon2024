@@ -2,31 +2,37 @@
   {
     "_id": 0,
     "title": "Experiential Learning",
-    "description": "Expand your creative tools through unique experiential learning."
+    "description": "Expand your creative tools through unique experiential learning.",
+    "image": "/svgs/whyParticipate/experimentalLearning.svg"
   },
   {
     "_id": 1,
     "title": "Mentorship and Technical Support",
-    "description": "Receive mentorship that will bring your ideas to life."
+    "description": "Receive mentorship that will bring your ideas to life.",
+    "image": "/svgs/whyParticipate/mentorship.svg"
   },
   {
     "_id": 2,
     "title": "Collaboration",
-    "description": "Collaborate with minds from diverse backgrounds."
+    "description": "Collaborate with minds from diverse backgrounds.",
+    "image": "/svgs/whyParticipate/collaboration.svg"
   },
   {
     "_id": 3,
     "title": "Showcase",
-    "description": "Showcase your solutions in a fun and lively environment."
+    "description": "Showcase your solutions in a fun and lively environment.",
+    "image": "/svgs/whyParticipate/showcase.svg"
   },
   {
     "_id": 4,
     "title": "Winning Opportunities",
-    "description": "Win grand prizes and gain recognition."
+    "description": "Win grand prizes and gain recognition.",
+    "image": "/svgs/whyParticipate/winning.svg"
   },
   {
     "_id": 5,
     "title": "Student-Led",
-    "description": "By students, for students."
+    "description": "By students, for students.",
+    "image": "/svgs/whyParticipate/student.svg"
   }
 ]
