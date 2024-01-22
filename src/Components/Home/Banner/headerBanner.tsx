@@ -20,7 +20,7 @@ export default function HeaderBanner(props: { sponsers: Sponsers[] }) {
         <div className="content">
           <h1 className="md:text-6xl">
             <strong>
-              Housing <span className="text-my-red">Hackathon </span>
+              Housing Hackathon
             </strong>
           </h1>
           <div className="text-center md:px-40">
@@ -33,17 +33,17 @@ export default function HeaderBanner(props: { sponsers: Sponsers[] }) {
           </div>
           <div className="button">
             <a
-              // href={`https://registrations.senecahackathon.com/`}
+              href={`https://registrations.senecahackathon.com/`}
               target="_blank"
               rel="noreferrer"
             >
-              <button>Register Here</button>
+              <button>Click Here to Register</button>
             </a>
           </div>
           <div>
             <Timer />
           </div>
-          <p className="text-sm pt-4 md:text-lg">Deadline to register is on March 8, 2024</p>
+          <p className="text-sm pt-4 md:text-lg">Deadline to register is on February 26, 2024</p>
         </div>
       </div>
       <div className="bg-wh rounded-3xl overflow-hidden border border-gray-100 "></div>

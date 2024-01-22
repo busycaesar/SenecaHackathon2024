@@ -82,9 +82,9 @@ export default function AboutUs() {
 
       <section class="py-5">
       <div class="container px-4 md:mx-auto">
-        <div class="mb-16 max-w-3xl mx-auto text-center">
-          <h2 class="mt-2 mb-4 text-4xl font-gotham lg:text-5xl text-my-red font-bold font-heading">Our Past Hackathons</h2>
-          <p class="text-lg text-black font-gotham leading-loose">This is our showcases which is full of innovative ideas from our previous hackathons. Here lies the themes, challenges, and teams behind these cutting-edge projects that solved complex problems. Explore this section for inspiration and to see the exciting world of our past hackathons!</p>
+        <div class="mb-16 max-w-3xl md:max-w-4xl mx-auto ">
+          <h2 class="mt-2 mb-4 text-4xl text-center font-gotham lg:text-5xl text-my-red font-bold font-heading">Our Past Hackathons</h2>
+          <p class="text-lg text-black md:text-justify font-gotham leading-loose">This is our showcases which is full of innovative ideas from our previous hackathons. Here lies the themes, challenges, and teams behind these cutting-edge projects that solved complex problems. Explore this section for inspiration and to see the exciting world of our past hackathons!</p>
         </div>
         <div class="flex flex-wrap md:mx-24 mb-12">
           <div class="w-full md:w-1/2 px-4 mb-8">
