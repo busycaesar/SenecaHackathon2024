@@ -9,7 +9,7 @@
     "_id": 1,
     "eventDate": "2024-03-08T12:30:00.000Z",
     "eventTitle": "Registration Deadline",
-    "eventDescription": "The last day for accepting registrations."
+    "eventDescription": "The last day to make your mark and join our Housing Hackathon."
   },
   {
     "_id": 2,
@@ -19,8 +19,8 @@
   },
   {
     "_id": 3,
-    "eventDate": "2024-03-11T12:30:00.000Z",
+    "eventDate": "2024-03-16T12:30:00.000Z",
     "eventTitle": "Finale",
-    "eventDescription": "If your submission qualifies, you will be invited to join us for the finale."
+    "eventDescription": "If your submission qualifies, you will be invited to join us for the in-person finale."
   }
 ]
