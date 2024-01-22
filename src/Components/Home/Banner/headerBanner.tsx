@@ -23,8 +23,8 @@ export default function HeaderBanner(props: { sponsers: Sponsers[] }) {
               Housing <span className="text-my-red">Hackathon </span>
             </strong>
           </h1>
-          <div style={{ width: "90%", margin: "auto" }}>
-            <p className="md:text-lg" style={{ margin: "0.5em 0" }}>
+          <div className="text-center md:px-40">
+            <p className="text-sm md:max-w-1/2 md:text-lg" style={{ margin: "1em 0" }}>
               Elevate your skills, connect with industry experts, and transform
               your ideas into reality. Join the hackathon for a chance to win
               amazing prizes and contribute to shaping the future of the housing
@@ -43,7 +43,7 @@ export default function HeaderBanner(props: { sponsers: Sponsers[] }) {
           <div>
             <Timer />
           </div>
-          <p className="md:text-lg">Deadline to register is on March 8, 2024</p>
+          <p className="text-sm pt-4 md:text-lg">Deadline to register is on March 8, 2024</p>
         </div>
       </div>
       <div className="bg-wh rounded-3xl overflow-hidden border border-gray-100 "></div>
