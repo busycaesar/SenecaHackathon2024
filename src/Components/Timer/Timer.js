@@ -30,25 +30,25 @@ const Timer = () => {
    <div className="w-1/4 px-2 md:py-2 md:px-5 flex flex-col text-white md:text-4xl font-bold md:font-extrabold justify-center">
       <div >
         <p className="md:text-4xl">{days < 10 ? "0" + days : days}</p>
-        <span className="text-lg md:text-2xl">Days</span>
+        <span className="text-sm md:text-2xl">Days</span>
       </div>
     </div>
       <div className="w-1/4 md:py-2 md:px-5 flex flex-col  text-white md:text-4xl font-bold md:font-extrabold">
         <div>
           <p id="hour" className="md:text-4xl">{hours < 10 ? "0" + hours : hours}</p>
-          <span className="text-lg   md:text-2xl">Hours</span>
+          <span className="text-sm md:text-2xl">Hours</span>
         </div>
       </div>
       <div className="w-1/4 px-2 md:py-2 md:px-5 flex flex-col  text-white md:text-4xl font-bold md:font-extrabold justify-center">
         <div>
           <p className="md:text-4xl">{minutes < 10 ? "0" + minutes : minutes}</p>
-          <span className="text-lg md:text-2xl">Minutes</span>
+          <span className="text-sm md:text-2xl">Minutes</span>
         </div>
       </div>
       <div className="w-1/4 px-2 md:py-2 md:px-5 flex flex-col  text-white md:text-4xl font-bold md:font-extrabold">
         <div>
           <p id="second" className="md:text-4xl">{seconds < 10 ? "0" + seconds : seconds}</p>
-          <span className="text-lg px-2 md:text-2xl">Seconds</span>
+          <span className="text-sm px-2 md:text-2xl">Seconds</span>
         </div>
       </div>
   </div>
