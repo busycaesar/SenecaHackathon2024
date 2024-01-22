@@ -36,7 +36,7 @@ export default function HeaderBanner() {
               target="_blank"
               rel="noreferrer"
             >
-              <button>Register Here</button>
+              <button>Registration begins in JAN 22</button>
             </a>
           </div>
           <div>
