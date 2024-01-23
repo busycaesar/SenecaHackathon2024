@@ -114,7 +114,7 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({ navItems }) => {
                   style={{
                     display: "flex",
                     alignItems: "center",
-                    justifyContent: "between",
+                    justifyContent: "right",
                     whiteSpace: "nowrap",
                   }}
                 >
@@ -130,14 +130,6 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({ navItems }) => {
                       </Button>
                     </Link>
                   ))}
-                  <Box
-                    className="flex-1"
-                    sx={{
-                      display: "flex",
-                      justifyContent: "flex-end",
-                      alignItems: "center",
-                    }}
-                  ></Box>
                 </Col>
               </Row>
             </Container>
