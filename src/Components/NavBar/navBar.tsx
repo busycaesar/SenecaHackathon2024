@@ -88,13 +88,6 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({ navItems }) => {
           <SocialMediaIcons />
         </div>
         <Toolbar>
-          <Link to="/" className="nav-link">
-            <img
-              src={HackathonLogo}
-              alt="Seneca Hackathon 2024's logo"
-              width={275}
-            />
-          </Link>
           <IconButton
             color="inherit"
             aria-label="open drawer"
