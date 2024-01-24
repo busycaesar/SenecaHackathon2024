@@ -2,37 +2,37 @@
   {
     "_id": 0,
     "title": "Experiential Learning",
-    "description": "Expand your creative tools through unique experiential learning.",
-    "image": "/svgs/whyParticipate/experimentalLearning.svg"
+    "description": "Break free from the traditional learning boundaries of your classroom. Immerse in real-world challenges and transform your knowledge into a dynamic, hands-on experience.",
+    "image": "/svgs/whyParticipate/ExperientialLearngng.svg"
   },
   {
     "_id": 1,
-    "title": "Mentorship and Technical Support",
-    "description": "Receive mentorship that will bring your ideas to life.",
-    "image": "/svgs/whyParticipate/mentorship.svg"
+    "title": "Network",
+    "description": "Stimulate your creative thinking and gain access to new ideas by engaging with a diverse pool of talents, which can open doors to future partnerships, job opportunities, and more.",
+    "image": "/svgs/whyParticipate/Network.svg"
   },
   {
     "_id": 2,
-    "title": "Collaboration",
-    "description": "Collaborate with minds from diverse backgrounds.",
-    "image": "/svgs/whyParticipate/collaboration.svg"
+    "title": "Mentorship",
+    "description": "Gain valuable feedback and support from experienced professionals across various fields of study.",
+    "image": "/svgs/whyParticipate/Mentorship.svg"
   },
   {
     "_id": 3,
-    "title": "Showcase",
-    "description": "Showcase your solutions in a fun and lively environment.",
-    "image": "/svgs/whyParticipate/showcase.svg"
+    "title": "Student Led",
+    "description": "Get motivated and inspired in this innovative event designed and organized by students, for students.",
+    "image": "/svgs/whyParticipate/StudentLed.svg"
   },
   {
     "_id": 4,
-    "title": "Winning Opportunities",
-    "description": "Win grand prizes and gain recognition.",
-    "image": "/svgs/whyParticipate/winning.svg"
+    "title": "Awards and Recognitions",
+    "description": "Win amazing prizes, gain recognitions to boost your portfolio, and showcase your ideas to potential investors.",
+    "image": "/svgs/whyParticipate/award.svg"
   },
   {
     "_id": 5,
-    "title": "Student-Led",
-    "description": "By students, for students.",
-    "image": "/svgs/whyParticipate/student.svg"
+    "title": "Have Fun",
+    "description": "Work and present your creative ideas in an interactive and fun environment.",
+    "image": "/svgs/whyParticipate/HaveFun.svg"
   }
 ]
