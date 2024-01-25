@@ -8,7 +8,7 @@ import "./about.css";
 export default function WhoAreWe() {
   const whoareweImages = [WhoAreWe1, WhoAreWe2, WhoAreWe3, WhoAreWe4];
   return (
-    <div id="who-are-we-section" className="mt-10">
+    <div id="who-are-we-section" className="mt-10 page-content">
       <Row>
         <Col md={6} style={{ marginBottom: "1em" }}>
           <h2>
