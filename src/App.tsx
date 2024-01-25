@@ -37,8 +37,8 @@ function App() {
             <Route path="/challenge-sets" element={<ChallengeSets />} />
             {/* <Route path="/our-team" element={<OurTeam />} />
             <Route path="/news" element={<NewsPage />} />
-            <Route path="/news/:id" element={<IndividualNews />} />
-            <Route path="/gallery" element={<Gallery />} /> */}
+            <Route path="/news/:id" element={<IndividualNews />} /> */}
+            {/* <Route path="/gallery" element={<Gallery />} /> */}
             <Route path="/faq" element={<Faq />} />
             <Route
               path="/login"
