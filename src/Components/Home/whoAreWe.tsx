@@ -8,7 +8,7 @@ import "./about.css";
 export default function WhoAreWe() {
   const whoareweImages = [WhoAreWe1, WhoAreWe2, WhoAreWe3, WhoAreWe4];
   return (
-    <div id="who-are-we-section">
+    <div id="who-are-we-section" className="mt-10">
       <Row>
         <Col md={6} style={{ marginBottom: "1em" }}>
           <h2>
@@ -28,7 +28,7 @@ export default function WhoAreWe() {
           <Row>
             {whoareweImages.map((image) => (
               <Col sm={6}>
-                <img src={image} alt="Team" height={300} />
+                <img src={image} alt="Team" height={260} width={300} />
               </Col>
             ))}
           </Row>
