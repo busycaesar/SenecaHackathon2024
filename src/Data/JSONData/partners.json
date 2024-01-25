@@ -1,0 +1,27 @@
+[
+  {
+    "id": 0,
+    "title": "Conestoga College",
+    "path": "/svgs/partners/c.png",
+    "width": "100%"
+  },
+  {
+    "id": 1,
+    "title": "World Citi Colleges (Philippines)",
+    "path": "/svgs/partners/wcc.png",
+    "width": "70%"
+  },
+  {
+    "id": 2,
+    "title": "PIM (Thailand)",
+    "path": "/svgs/partners/Logo-PIM.jpg",
+    "width": "80%"
+  },
+  {
+    "id": 4,
+    "title": "York University",
+    "path": "/svgs/partners/3.png",
+    "width": "80%"
+  }
+]
+
