@@ -9,3 +9,4 @@ export { default as TeamMemberData } from "./teamMember.json";
 export { default as TestimonialData } from "./testimonial.json";
 export { default as WorkingData } from "./working.json";
 export { default as SponsersData } from "./sponsers.json";
+export { default as PartnersData } from "./partners.json";
