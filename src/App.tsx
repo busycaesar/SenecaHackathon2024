@@ -27,9 +27,15 @@ function App() {
             "FAQ",
           ]}
         />
+        <div>
+         <Routes>
+            <Route path="/" element={<Home />} />
+            </Routes>
+
+        </div>
         <div className="page-content">
           <Routes>
-            <Route path="/" element={<Home />} />
+            {/* <Route path="/" element={<Home />} /> */}
             <Route path="/about" element={<AboutUs />} />
             <Route path="/challenge-sets" element={<ChallengeSets />} />
             {/* <Route path="/our-team" element={<OurTeam />} />

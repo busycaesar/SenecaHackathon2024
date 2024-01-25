@@ -3,6 +3,8 @@ import React from "react";
 export default function WhoCanParticipate() {
   return (
     <>
+    <div className="page-content">
+      
       <h2 >
         <strong>Who Can Participate</strong>
       </h2>
@@ -13,6 +15,7 @@ export default function WhoCanParticipate() {
               </ul>
       <div >
       </div>
+    </div>
     </>
   );
 }
