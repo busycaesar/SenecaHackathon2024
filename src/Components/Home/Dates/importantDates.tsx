@@ -9,6 +9,8 @@ export default function ImportantDates(props: { dates: any }) {
   });
   return (
     <>
+    <div className="page-content">
+
       <h2>
         <strong>Important Dates (2024)</strong>
       </h2>
@@ -19,17 +21,18 @@ export default function ImportantDates(props: { dates: any }) {
               month: "long",
             }),
             eventDate: string = eventDateWhole.getUTCDate().toString();
-          return (
-            <Col md={2} index={date._id}>
+            return (
+              <Col md={2} index={date._id}>
               <DateBox
                 eventDate={`${eventMonth} ${eventDate}`}
                 eventTitle={date.eventTitle}
                 eventDescription={date.eventDescription}
-              />
+                />
             </Col>
           );
         })}
       </Row>
+        </div>
     </>
   );
 }

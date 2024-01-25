@@ -3,25 +3,29 @@
     "id": 0,
     "title": "Conestoga College",
     "path": "/svgs/partners/c.png",
-    "width": "100%"
+    "width": "100%",
+    "link": "https://www.conestogac.on.ca"
   },
   {
     "id": 1,
     "title": "World Citi Colleges (Philippines)",
     "path": "/svgs/partners/wcc.png",
-    "width": "70%"
+    "width": "70%",
+    "link": "https://www.worldciti.edu.ph"
   },
   {
     "id": 2,
     "title": "PIM (Thailand)",
     "path": "/svgs/partners/Logo-PIM.jpg",
-    "width": "80%"
+    "width": "80%",
+    "link": "https://www.pim.ac.th"
   },
   {
     "id": 4,
     "title": "York University",
     "path": "/svgs/partners/3.png",
-    "width": "80%"
+    "width": "80%",
+    "link": "https://www.yorku.ca/"
   }
 ]
 
