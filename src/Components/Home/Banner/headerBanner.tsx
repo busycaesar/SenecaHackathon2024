@@ -15,7 +15,7 @@ export default function HeaderBanner(props: {
   partners: Partners[]; sponsers: Sponsers[] 
 }) {
   return (
-      <div className="">
+      <div className="page-content-1">
       <section className="md:max-w-full">
         <div className="md:max-w-full">
           <div className="px-8 md:py-20 py-16 overflow-hidden rounded-xl background-banner" >
@@ -45,7 +45,8 @@ export default function HeaderBanner(props: {
           </div>
         </div>
       </section>
-   
+   <div className="page-content">
+
       <SponsersBanner sponsers={props.sponsers} />
 
       <h2 style={{ marginTop: "1em" }}>
@@ -67,6 +68,7 @@ export default function HeaderBanner(props: {
           </Col>
         ))}
       </Row>
+   </div>
     </div>
   );
 }
