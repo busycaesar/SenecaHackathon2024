@@ -8,7 +8,7 @@ export default function WorkingSection({
   works: WordDescription[];
 }) {
   return (
-    <div>
+    <div className="page-content">
       <h2>
         <strong>Why Participate</strong>
       </h2>
