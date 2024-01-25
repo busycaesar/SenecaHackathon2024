@@ -4,8 +4,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'my-red': '#ff0000',
+        'my-red': '#D92D27',
       },
+      fontFamily: {
+        'gotham': ['"Gotham"', "sans-serif"],
+      },
+     
     },
     
   },

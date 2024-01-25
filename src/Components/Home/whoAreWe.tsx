@@ -12,7 +12,7 @@ export default function WhoAreWe() {
       <Row>
         <Col md={6} style={{ marginBottom: "1em" }}>
           <h2>
-            <strong>Who Are We</strong>
+            <strong>Who We Are</strong>
           </h2>
           <p>
             The Seneca Hackathon is an all-inclusive student-focused innovation
@@ -31,7 +31,7 @@ export default function WhoAreWe() {
           <Row>
             {whoareweImages.map((image) => (
               <Col sm={6}>
-                <img src={image} alt="Team" />
+                <img src={image} alt="Team" height={300} />
               </Col>
             ))}
           </Row>

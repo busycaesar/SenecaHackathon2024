@@ -51,15 +51,15 @@ a {
 }
 
 .button button {
-  background-color: #ff0000;
+  background-color: #D92D27;
   border: 0;
   color: white;
   padding: 0.5em 1em;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .card {
-  background-color: red !important;
+  background-color: #D92D27!important;
 }
 
 .card h5 {
