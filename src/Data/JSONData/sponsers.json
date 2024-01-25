@@ -17,23 +17,5 @@
     "path": "/svgs/sponsers/seneca-alumini.png",
     "width": "100%"
   },
-  {
-    "id": 3,
-    "title": "Ciocan-en-logo",
-    "path": "/svgs/sponsers/ciocan-logo.svg",
-    "width": "90%"
-  },
-  {
-    "id": 4,
-    "title": "raceatlast",
-    "path": "/svgs/sponsers/1.png",
-    "width": "130%"
-  },
-  {
-    "id": 5,
-    "title": "Think north",
-    "path": "/svgs/sponsers/2.png",
-    "width": "70%"
-  }
 ]
 
