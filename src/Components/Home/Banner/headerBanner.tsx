@@ -21,7 +21,7 @@ export default function HeaderBanner(props: {
           <div className="px-8 md:py-20 py-16 overflow-hidden rounded-xl background-banner" >
             <div className="md:max-w-6xl text-center mx-auto">
               <h1 className="font-heading mb-6 md:my-10 text-4xl md:text-5xl lg:text-6xl text-white font-black tracking-tight"><span>Housing Hackathon </span></h1>
-              <p className=" mb-11 text-base text-justify md:text-center md:text-lg text-white ">Elevate your skills, connect with industry experts, and transform
+              <p className=" mb-11 text-base md:text-lg text-white ">Elevate your skills, connect with industry experts, and transform
                     your ideas into reality. <br></br> Join the hackathon for a chance to win
                     amazing prizes and contribute to shaping the future of the housing
                     industry.</p>
@@ -39,7 +39,7 @@ export default function HeaderBanner(props: {
                 <div className="">
                   <Timer />
                 </div>
-                <p className="m-4 md:text-lg text-base text-white">Deadline to register is on February 26, 2024</p>
+                <p className="m-4 md:text-lg text-base text-white font-bold">Deadline to register is on February 26, 2024</p>
               </div>
             </div>
           </div>
@@ -52,6 +52,7 @@ export default function HeaderBanner(props: {
       <h2 style={{ marginTop: "1em" }}>
         <strong className="">Our Partner Institutions</strong>
       </h2>
+      <center>
       <Row>
         {props.partners.map((partners) => (
           <Col
@@ -60,14 +61,17 @@ export default function HeaderBanner(props: {
             style={{ margin: "1.5em 0" }}
             sm={3}
           >
+            <a href={partners.link} target="_blank">
             <img
               src={partners.path}
               style={{ width: partners.width }}
               alt={partners.title}
             />
+            </a>
           </Col>
         ))}
       </Row>
+      </center>
    </div>
     </div>
   );
