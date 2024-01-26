@@ -15,11 +15,7 @@ export default function WhoAreWe() {
             <strong>Who We Are</strong>
           </h2>
           <p>
-            The Seneca Hackathon is an all-inclusive student-focused innovation
-            competition, originally conceived at the height of the pandemic in
-            2020. Since then,we’ve come a long way to hosting the
-            secondin-person Hackathon event in 2024! We have an average of 595
-            participants and 58 submissions.
+            The hackathon is a student-focused innovation competition that provides a unique experiential learning experience. It encourages and develops creative thinking, entrepreneurship, and problem-solving skills by bringing together students from diverse backgrounds to work together on addressing real-world challenges. The teams receive support from subject-specific mentors and technical specialists and then showcase their solutions in a fun and lively environment to be adjudicated by a panel of experts consisting of investors, partners, school representatives, and domain specialists. The winning teams will have the opportunity to receive prizes and be considered for applied research project investment opportunities.
           </p>
           <div className="button">
             <a href={`/about`}>
