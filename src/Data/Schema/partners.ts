@@ -3,4 +3,5 @@ export interface Partners {
   title: string;
   path: string;
   width: string;
+  link: string;
 }

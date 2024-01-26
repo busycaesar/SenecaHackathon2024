@@ -3,37 +3,50 @@
     "id": 0,
     "title": "Seneca Applied Research",
     "path": "svgs/sponsers/seneca-applied-research.png",
-    "width": "100%"
+    "width": "100%",
+    "link": "#"
   },
   {
     "id": 1,
     "title": "Seneca Polytechnic",
     "path": "/svgs/sponsers/seneca-polytechnic.png",
-    "width": "50%"
+    "width": "50%",
+    "link": "#"
   },
   {
     "id": 2,
     "title": "Seneca Alumini",
     "path": "/svgs/sponsers/seneca-alumini.png",
-    "width": "100%"
+    "width": "100%",
+    "link": "#"
   },
   {
     "id": 3,
     "title": "Ciocan-en-logo",
     "path": "/svgs/sponsers/ciocan-logo.svg",
-    "width": "90%"
+    "width": "90%",
+    "link": "https://www.ciocan.ca"
   },
   {
     "id": 4,
     "title": "raceatlast",
     "path": "/svgs/sponsers/1.png",
-    "width": "130%"
+    "width": "110%",
+    "link": "https://raceatlas.com/"
   },
   {
     "id": 5,
     "title": "Think north",
     "path": "/svgs/sponsers/2.png",
-    "width": "70%"
+    "width": "70%",
+    "link": "https://thinkingnorth.com/"
+  },
+  {
+    "id": 6,
+    "title": "3oC",
+    "path": "/svgs/sponsers/3oc.jpg",
+    "width": "130%",
+    "link": "https://www.3oc.world/"
   }
 ]
 

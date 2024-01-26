@@ -3,4 +3,5 @@ export interface Sponsers {
   title: string;
   path: string;
   width: string;
+  link: string;
 }

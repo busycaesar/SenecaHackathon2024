@@ -13,7 +13,9 @@ import ListItemText from "@mui/material/ListItemText";
 import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Button from "@mui/material/Button";
-import HackathonLogo from "../../svgs/hack-logo.png";
+import HackathonLogo from "../../svgs/hack-logo.svg";
+import Line from "../../svgs/line.svg";
+import SenecaLogo from "../../svgs/seneca-logo.png";
 import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./navBar.css";
@@ -81,7 +83,7 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({ navItems }) => {
           top: 0,
           borderBottom: "2px solid red",
           boxShadow: "none",
-          paddingBottom: "0.5em",
+          paddingBottom: "0.3em",
         }}
       >
         <div className="navBarTop">
@@ -115,8 +117,23 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({ navItems }) => {
                     <img
                       src={HackathonLogo}
                       alt="Seneca Hackathon 2024's logo"
-                      width={375}
+                      // width={375}
                       height={70}
+                    />
+                    <img
+                      src={Line}
+                      alt="Line"
+                      // width={375}
+                      height={70}
+                    />
+                    {/* <div className="inline">hello</div> */}
+                    {/* <span className=" ml-4 text-sm font-gotham font-normal  ">hosted by</span> */}
+                    <img
+                    className=" ml-4"
+                      src={SenecaLogo}
+                      alt="Seneca Hackathon 2024's logo"
+                      // width={375}
+                      height={57}
                     />
                   </Link>
                 </Col>
@@ -125,7 +142,7 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({ navItems }) => {
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "right",
-                    whiteSpace: "nowrap",
+                    whiteSpace: "unset",
                   }}
                 >
                   {navItems.map((item) => (

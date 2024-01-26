@@ -31,7 +31,7 @@ export default function WhoAreWe() {
           <Row>
             {whoareweImages.map((image) => (
               <Col sm={6}>
-                <img src={image} alt="Team" height={260} width={300} />
+                <img src={image} alt="Team" height={238} />
               </Col>
             ))}
           </Row>
