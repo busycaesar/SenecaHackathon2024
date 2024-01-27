@@ -15,7 +15,6 @@ import useToggle from "./Components/CustomHooks/useToggle";
 import Roadmap from "./Pages/Roadmap";
 
 function App() {
-  const [isLogin, setIsLogin] = useToggle(false);
   return (
     <div className="App">
       <Router>
@@ -28,8 +27,6 @@ function App() {
             //"Gallery",
             "FAQ",
           ]}
-          isLogin={isLogin}
-          setIsLogin={setIsLogin}
         />
         <div className="page-content">
           <Routes>
@@ -38,14 +35,10 @@ function App() {
             <Route path="/challenge-sets" element={<ChallengeSets />} />
             {/* <Route path="/our-team" element={<OurTeam />} />
             <Route path="/news" element={<NewsPage />} />
-            <Route path="/news/:id" element={<IndividualNews />} />
-            <Route path="/gallery" element={<Gallery />} /> */}
+            <Route path="/news/:id" element={<IndividualNews />} /> */}
+            {/* <Route path="/gallery" element={<Gallery />} /> */}
             <Route path="/faq" element={<Faq />} />
             <Route path="/roadmap" element={<Roadmap />} />
-            <Route
-              path="/login"
-              element={<Login isLogin={isLogin} setIsLogin={setIsLogin} />}
-            />
           </Routes>
         </div>
       </Router>

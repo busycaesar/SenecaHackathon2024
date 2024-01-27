@@ -1,0 +1,20 @@
+[
+  {
+    "id": 0,
+    "title": "Seneca Applied Research",
+    "path": "svgs/sponsers/seneca-applied-research.png",
+    "width": "100%"
+  },
+  {
+    "id": 1,
+    "title": "Seneca Polytechnic",
+    "path": "/svgs/sponsers/seneca-polytechnic.png",
+    "width": "50%"
+  },
+  {
+    "id": 2,
+    "title": "Seneca Alumini",
+    "path": "/svgs/sponsers/seneca-alumini.png",
+    "width": "100%"
+  }
+]

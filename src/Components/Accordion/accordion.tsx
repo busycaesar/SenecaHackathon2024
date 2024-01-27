@@ -29,6 +29,7 @@ export default function BasicAccordion(props: { title: string; body: string }) {
             padding: "1em 2em",
             borderRadius: "0 0 15px 15px",
           }}
+          className="rounded-bottom"
         >
           <Typography>{body}</Typography>
         </AccordionDetails>

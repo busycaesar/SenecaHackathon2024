@@ -22,15 +22,9 @@ const drawerWidth = 240;
 
 interface DrawerAppBarProps {
   navItems: string[];
-  isLogin: any;
-  setIsLogin: any;
 }
 
-const DrawerAppBar: React.FC<DrawerAppBarProps> = ({
-  navItems,
-  isLogin,
-  setIsLogin,
-}) => {
+const DrawerAppBar: React.FC<DrawerAppBarProps> = ({ navItems }) => {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const handleDrawerToggle = () => {
@@ -46,15 +40,6 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({
       sx={{ textAlign: "center", marginTop: "1.5em" }}
       className="flex flex-col flex-1"
     >
-      <Link to="/" className="nav-link" onClick={handleDrawerToggle}>
-        <img
-          src={HackathonLogo}
-          alt="Seneca Hackathon 2024's logo"
-          width={175}
-          height={40}
-        />
-      </Link>
-      <Divider />
       <div className="flex flex-col flex-1 justify-between">
         <List>
           {navItems.map((item) => (
@@ -72,8 +57,16 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({
             </Link>
           ))}
         </List>
-        <Login isLogin={isLogin} setIsLogin={setIsLogin} />
       </div>
+      <Link to="/" className="nav-link" onClick={handleDrawerToggle}>
+        <img
+          src={HackathonLogo}
+          alt="Seneca Hackathon 2024's logo"
+          width={190}
+          height={45}
+          style={{ marginBottom: "3em" }}
+        />
+      </Link>
     </Box>
   );
 
@@ -95,12 +88,22 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({
           <SocialMediaIcons />
         </div>
         <Toolbar>
+          <Box sx={{ display: { sm: "none" } }}>
+            <Link to="/" className="nav-link">
+              <img
+                src={HackathonLogo}
+                alt="Seneca Hackathon 2024's logo"
+                width={225}
+                height={50}
+              />
+            </Link>
+          </Box>
           <IconButton
             color="inherit"
             aria-label="open drawer"
             edge="start"
             onClick={handleDrawerToggle}
-            sx={{ mr: 2, display: { sm: "none" } }}
+            sx={{ marginLeft: "auto", display: { sm: "none" } }}
           >
             <MenuIcon />
           </IconButton>
@@ -121,7 +124,7 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({
                   style={{
                     display: "flex",
                     alignItems: "center",
-                    justifyContent: "between",
+                    justifyContent: "right",
                     whiteSpace: "nowrap",
                   }}
                 >
@@ -137,16 +140,6 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({
                       </Button>
                     </Link>
                   ))}
-                  <Box
-                    className="flex-1"
-                    sx={{
-                      display: "flex",
-                      justifyContent: "flex-end",
-                      alignItems: "center",
-                    }}
-                  >
-                    <Login isLogin={isLogin} setIsLogin={setIsLogin} />
-                  </Box>
                 </Col>
               </Row>
             </Container>

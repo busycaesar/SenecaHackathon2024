@@ -12,13 +12,17 @@ import {
   AwardData,
   ChallengeSetData,
   TestimonialData,
+  SponsersData,
 } from "../Data/JSONData";
+import WhoCanParticipate from "../Components/WhoParticipant/WhoParticipant";
 
 export default function Home() {
   return (
     <>
-      <HeaderBanner />
+      <HeaderBanner sponsers={SponsersData} />
       <WhoAreWe />
+      <hr />
+      <WhoCanParticipate/>
       <hr />
       <WorkingSection works={WorkingData} />
       <hr />
@@ -28,6 +32,7 @@ export default function Home() {
       <hr /> */}
       {/* <Testimonial testimonials={TestimonialData} />
       <hr /> */}
+
       <SocialMediaSection />
     </>
   );

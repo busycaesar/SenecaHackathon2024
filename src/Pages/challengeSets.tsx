@@ -1,5 +1,6 @@
 import React from "react";
 import ChallengeSet from "../Components/ChallengeSet/challengeSet";
+import SocialMediaIcons from "../Components/SocialMedia/socialMedia";
 
 export default function ChallengeSets() {
   return (
@@ -8,10 +9,14 @@ export default function ChallengeSets() {
         <strong>Know Your Challenge Sets</strong>
       </h1>
       <div className="center">
-        <p className="red-background curved-border">
-          Challenge sets coming soon! Stay Tuned!!
+        <p className="red-background md:p-10 text-center curved-border">
+          The challenge statement will be announced before the Qualifier round. <br></br> Meanwhile, we invite you to visit our social media channels for more updates.
         </p>
+        
       </div>
+      <div className="center">
+      <div className="bg-my-red p-2 flex mx:auto curved-border"><SocialMediaIcons/></div></div>
+      
       {/*Delete this below div which has visibility hidden. It is added to the code to keep the footer stick to the bottom of the website.*/}
       <div style={{ visibility: "hidden" }}>
         <p>
