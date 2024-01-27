@@ -20,7 +20,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./navBar.css";
 import Login from "../User/Login";
-const drawerWidth = 240;
+import { autocompleteClasses } from "@mui/material";
 
 interface DrawerAppBarProps {
   navItems: string[];
@@ -64,8 +64,7 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({ navItems }) => {
         <img
           src={HackathonLogo}
           alt="Seneca Hackathon 2024's logo"
-          width={190}
-          height={45}
+          width="75%"
           style={{ marginBottom: "3em" }}
         />
       </Link>
@@ -90,13 +89,12 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({ navItems }) => {
           <SocialMediaIcons />
         </div>
         <Toolbar>
-          <Box sx={{ display: { sm: "none" } }}>
+          <Box>
             <Link to="/" className="nav-link">
               <img
                 src={HackathonLogo}
                 alt="Seneca Hackathon 2024's logo"
-                width={225}
-                height={50}
+                width="75%"
               />
             </Link>
           </Box>
@@ -105,62 +103,10 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({ navItems }) => {
             aria-label="open drawer"
             edge="start"
             onClick={handleDrawerToggle}
-            sx={{ marginLeft: "auto", display: { sm: "none" } }}
+            sx={{ marginLeft: "auto" }}
           >
             <MenuIcon />
           </IconButton>
-          <Box className="w-full" sx={{ display: { xs: "none", sm: "block" } }}>
-            <Container>
-              <Row>
-                <Col sm="auto" style={{ margin: "0.5em" }}>
-                  <Link to="/" className="nav-link">
-                    <img
-                      src={HackathonLogo}
-                      alt="Seneca Hackathon 2024's logo"
-                      // width={375}
-                      height={70}
-                    />
-                    <img
-                      src={Line}
-                      alt="Line"
-                      // width={375}
-                      height={70}
-                    />
-                    {/* <div className="inline">hello</div> */}
-                    {/* <span className=" ml-4 text-sm font-gotham font-normal  ">hosted by</span> */}
-                    <img
-                    className=" ml-4"
-                      src={SenecaLogo}
-                      alt="Seneca Hackathon 2024's logo"
-                      // width={375}
-                      height={57}
-                    />
-                  </Link>
-                </Col>
-                <Col
-                  style={{
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "right",
-                    whiteSpace: "unset",
-                  }}
-                >
-                  {navItems.map((item) => (
-                    <Link
-                      key={item}
-                      className="nav-link"
-                      style={{ display: "flex" }}
-                      to={convertToUrlFormat(item)}
-                    >
-                      <Button key={item} sx={{ color: "black" }}>
-                        {item}
-                      </Button>
-                    </Link>
-                  ))}
-                </Col>
-              </Row>
-            </Container>
-          </Box>
         </Toolbar>
       </AppBar>
       <nav>
@@ -173,10 +119,9 @@ const DrawerAppBar: React.FC<DrawerAppBarProps> = ({ navItems }) => {
             keepMounted: true, // Better open performance on mobile.
           }}
           sx={{
-            display: { xs: "block", sm: "none" },
             "& .MuiDrawer-paper": {
               boxSizing: "border-box",
-              width: drawerWidth,
+              width: { sm: "30%", xs: "70%" },
             },
           }}
         >
