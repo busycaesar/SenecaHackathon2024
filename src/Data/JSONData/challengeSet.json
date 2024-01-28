@@ -1,32 +1,26 @@
 [
   {
     "_id": 0,
-    "title": "Mental Health",
-    "description": "Improve mental health awareness, treatment, and prevention in smart cities associated with mental health services."
+    "title": "Student Housing",
+    "description": "Focus exclusively on the unique challenges and opportunities in student housing. This category invites you to craft innovative housing models that cater to the specific needs of students. From maximizing space in dorm rooms to creating communal living spaces that foster learning and collaboration, your ideas can transform the student living experience.",
+    "image": "/svgs/challengeSet/Student Housing.svg"
   },
   {
     "_id": 1,
-    "title": "Mental Health",
-    "description": "Improve mental health awareness, treatment, and prevention in smart cities associated with mental health services."
+    "title": "Affordable Housing Solutions",
+    "description": "Dive into the challenge of making housing accessible and affordable for everyone. In this category, you’ll innovate to redefine rental management systems, streamline homeownership processes, and create sustainable living models. Your solutions could be the key to reshaping the landscape of housing affordability, opening doors to homes for people from all walks of life.",
+    "image": "/svgs/challengeSet/Affordable Housing Solutions.svg"
   },
   {
     "_id": 2,
-    "title": "Mental Health",
-    "description": "Improve mental health awareness, treatment, and prevention in smart cities associated with mental health services."
+    "title": "Community Well-being",
+    "description": "Prioritize the heart and soul of residential areas—community well-being. Tackle challenges related to health, education, and social connectivity to enhance the quality of life within neighbourhoods. Whether it's through designing health-integrated living spaces, creating digital inclusion hubs, or fostering community engagement, your contributions will sow the seeds for thriving, supportive communities.",
+    "image": "/svgs/challengeSet/Community Well-being.svg"
   },
   {
     "_id": 3,
-    "title": "Mental Health",
-    "description": "Improve mental health awareness, treatment, and prevention in smart cities associated with mental health services."
-  },
-  {
-    "_id": 4,
-    "title": "Mental Health",
-    "description": "Improve mental health awareness, treatment, and prevention in smart cities associated with mental health services."
-  },
-  {
-    "_id": 5,
-    "title": "Mental Health",
-    "description": "Improve mental health awareness, treatment, and prevention in smart cities associated with mental health services."
+    "title": "Housing Tech",
+    "description": "Step into the future where technology and housing intersect. In this category, you’ll harness the power of fintech, IoT, and smart home innovations to revolutionize the way we secure, manage, and experience our homes. From fintech solutions that make homeownership more attainable to smart security systems that keep neighbourhoods safe, your tech-driven solutions will pave the way for the next generation of living spaces.",
+    "image": "/svgs/challengeSet/Housing Tech.svg"
   }
 ]
