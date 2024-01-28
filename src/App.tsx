@@ -24,7 +24,7 @@ function App() {
             "Challenge Sets",
             //"Our Team",
             //"News",
-            "Gallery",
+            // "Gallery",
             "FAQ",
           ]}
         />
@@ -42,7 +42,7 @@ function App() {
             {/* <Route path="/our-team" element={<OurTeam />} />
             <Route path="/news" element={<NewsPage />} />
             <Route path="/news/:id" element={<IndividualNews />} /> */}
-            <Route path="/gallery" element={<Gallery />} />
+            {/* <Route path="/gallery" element={<Gallery />} /> */}
             <Route path="/faq" element={<Faq />} />
           </Routes>
         </div>

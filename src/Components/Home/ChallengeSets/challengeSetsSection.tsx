@@ -9,6 +9,7 @@ export default function ChallengeSetsSection({
 }) {
   return (
     <>
+    <div className="page-content">
       <h2>
         <strong>Challenge Sets</strong>
       </h2>
@@ -28,6 +29,7 @@ export default function ChallengeSetsSection({
         <a href={`/challenge-sets`}>
           <button>More on Challenge Sets</button>
         </a>
+      </div>
       </div>
     </>
   );
