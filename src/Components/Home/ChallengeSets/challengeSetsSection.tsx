@@ -13,13 +13,13 @@ export default function ChallengeSetsSection({
         <strong>Challenge Sets</strong>
       </h2>
       <p>
-        Explore a variety of challenges in the hackathonand demonstrate your
+        Explore a variety of challenges in the hackathon and demonstrate your
         innovative skills and creativity. Choose your passion and make a
         real-world impact.
       </p>
       <Row style={{ margin: "1.5em 0" }}>
         {challengeSet.map((challengeSetItem, index) => (
-          <Col key={index} md={4}>
+          <Col key={index} md={6}>
             <ChallengeSetItem challengeSetItem={challengeSetItem} />
           </Col>
         ))}

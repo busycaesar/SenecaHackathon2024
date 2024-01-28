@@ -12,6 +12,7 @@ import IndividualNews from "./Pages/individualNews";
 import AboutUs from "./Pages/aboutUs";
 import Login from "./Components/User/Login";
 import useToggle from "./Components/CustomHooks/useToggle";
+import ChallengeSet from "./Components/ChallengeSet/challengeSet";
 
 function App() {
   return (
@@ -31,7 +32,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<AboutUs />} />
-            <Route path="/challenge-sets" element={<ChallengeSets />} />
+            <Route path="/challenge-sets" element={<ChallengeSets/>} />
             {/* <Route path="/our-team" element={<OurTeam />} />
             <Route path="/news" element={<NewsPage />} />
             <Route path="/news/:id" element={<IndividualNews />} /> */}
