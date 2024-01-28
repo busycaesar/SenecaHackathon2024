@@ -13,13 +13,14 @@ import {
   ChallengeSetData,
   TestimonialData,
   SponsersData,
+  PartnersData,
 } from "../Data/JSONData";
 import WhoCanParticipate from "../Components/WhoParticipant/WhoParticipant";
 
 export default function Home() {
   return (
     <>
-      <HeaderBanner sponsers={SponsersData} />
+      <HeaderBanner sponsers={SponsersData} partners={PartnersData} />
       <WhoAreWe />
       <hr />
       <WhoCanParticipate/>
@@ -28,8 +29,8 @@ export default function Home() {
       <hr />
       <ImportantDates dates={ImportantDateData} />
       <hr />
-      {/* <ChallengeSetsSection challengeSet={ChallengeSetData} />
-      <hr /> */}
+      <ChallengeSetsSection challengeSet={ChallengeSetData} />
+      <hr />
       {/* <Testimonial testimonials={TestimonialData} />
       <hr /> */}
 

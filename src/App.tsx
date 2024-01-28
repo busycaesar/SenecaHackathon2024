@@ -13,6 +13,7 @@ import AboutUs from "./Pages/aboutUs";
 import Login from "./Components/User/Login";
 import useToggle from "./Components/CustomHooks/useToggle";
 import Roadmap from "./Pages/Roadmap";
+import ChallengeSet from "./Components/ChallengeSet/challengeSet";
 
 function App() {
   return (
@@ -24,15 +25,21 @@ function App() {
             "Challenge Sets",
             //"Our Team",
             //"News",
-            //"Gallery",
+            // "Gallery",
             "FAQ",
           ]}
         />
+        <div>
+         <Routes>
+            <Route path="/" element={<Home />} />
+            </Routes>
+
+        </div>
         <div className="page-content">
           <Routes>
-            <Route path="/" element={<Home />} />
+            {/* <Route path="/" element={<Home />} /> */}
             <Route path="/about" element={<AboutUs />} />
-            <Route path="/challenge-sets" element={<ChallengeSets />} />
+            <Route path="/challenge-sets" element={<ChallengeSets/>} />
             {/* <Route path="/our-team" element={<OurTeam />} />
             <Route path="/news" element={<NewsPage />} />
             <Route path="/news/:id" element={<IndividualNews />} /> */}

@@ -4,6 +4,8 @@ import SocialMediaIcons from "../SocialMedia/socialMedia";
 export default function SocialMediaSection() {
   return (
     <>
+    <div className="page-content">
+
       <h2>
         <strong>Connect with us</strong>
       </h2>
@@ -14,6 +16,7 @@ export default function SocialMediaSection() {
       <div className="red-background curved-border">
         <SocialMediaIcons />
       </div>
+    </div>
     </>
   );
 }

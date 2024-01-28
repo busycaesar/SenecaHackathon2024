@@ -4,7 +4,11 @@
 
 .page-content {
   margin: 2em 5em;
-  padding-bottom: 3em;
+  padding-bottom: 2em;
+}
+.page-content-1 {
+  margin: 1em 0.2em;
+  padding-bottom: 2em;
 }
 
 .red-background {

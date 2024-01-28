@@ -1,4 +1,4 @@
-export interface Sponsers {
+export interface Partners {
   id: number;
   title: string;
   path: string;
