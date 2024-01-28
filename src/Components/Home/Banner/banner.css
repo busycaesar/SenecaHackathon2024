@@ -1,4 +1,3 @@
-
 .center-hv {
   display: flex;
   flex-direction: column;
@@ -13,4 +12,7 @@
   background-repeat: no-repeat;
   background-color: #333333;
   background-blend-mode: soft-light;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+
 }
