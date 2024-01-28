@@ -25,11 +25,18 @@ export default function ChallengeSetsSection({
           </Col>
         ))}
       </Row>
-      <div className="button" style={{ textAlign: "center" }}>
-        <a href={`/challenge-sets`}>
-          <button>More on Challenge Sets</button>
-        </a>
-      </div>
+      <div className="button pt-4 text-center md:mx-auto">
+                  
+                  <a
+                    href={`/challenge-sets`}
+                    rel="noreferrer"
+                  >
+                    <button className="font-bold ">
+                      More On Challenge Sets 
+                    </button>
+                  </a>
+                </div>
+        
       </div>
     </>
   );

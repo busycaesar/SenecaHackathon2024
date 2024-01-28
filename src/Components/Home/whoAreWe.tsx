@@ -18,11 +18,18 @@ export default function WhoAreWe() {
           The hackathon is a student-focused innovation competition that provides a unique experiential learning experience. It encourages and develops creative thinking, entrepreneurship, and problem-solving skills by bringing together students from diverse backgrounds to work together on addressing real-world challenges. <br></br><br></br>
           The teams receive support from subject-specific mentors and technical specialists and then showcase their solutions in a fun and lively environment to be adjudicated by a panel of experts consisting of investors, partners, school representatives, and domain specialists. The winning teams will have the opportunity to receive prizes and be considered for applied research project investment opportunities.
           </p>
-          <div className="button">
-            <a href={`/about`}>
-              <button>Learn More</button>
-            </a>
-          </div>
+          <div className="button pt-4 md:mx-auto">
+                  
+                  <a
+                    href={`/about`}
+                    rel="noreferrer"
+                  >
+                    <button className="font-bold ">
+                      Learn More
+                    </button>
+                  </a>
+                
+        </div>
         </Col>
         <Col md={6}>
           <Row>
