@@ -23,17 +23,16 @@ export default function Home() {
       <HeaderBanner sponsers={SponsersData} partners={PartnersData} />
       <WhoAreWe />
       <hr />
-      <WhoCanParticipate/>
+      <WhoCanParticipate />
       <hr />
       <WorkingSection works={WorkingData} />
       <hr />
       <ImportantDates dates={ImportantDateData} />
       <hr />
-      {/* <ChallengeSetsSection challengeSet={ChallengeSetData} />
-      <hr /> */}
+      <ChallengeSetsSection challengeSet={ChallengeSetData} />
+      <hr />
       {/* <Testimonial testimonials={TestimonialData} />
       <hr /> */}
-
       <SocialMediaSection />
     </>
   );
