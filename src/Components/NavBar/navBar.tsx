@@ -1,135 +1,115 @@
-import React, { useState } from "react";
-import SocialMediaIcons from "../SocialMedia/socialMedia";
+import * as React from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
-import CssBaseline from "@mui/material/CssBaseline";
-import Divider from "@mui/material/Divider";
-import Drawer from "@mui/material/Drawer";
-import IconButton from "@mui/material/IconButton";
-import List from "@mui/material/List";
-import ListItem from "@mui/material/ListItem";
-import ListItemButton from "@mui/material/ListItemButton";
-import ListItemText from "@mui/material/ListItemText";
-import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
+import IconButton from "@mui/material/IconButton";
+import Typography from "@mui/material/Typography";
+import Menu from "@mui/material/Menu";
+import MenuIcon from "@mui/icons-material/Menu";
+import Container from "@mui/material/Container";
+import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
+import Tooltip from "@mui/material/Tooltip";
+import MenuItem from "@mui/material/MenuItem";
+import AdbIcon from "@mui/icons-material/Adb";
+import { Link } from "react-router-dom";
 import HackathonLogo from "../../svgs/hack-logo.svg";
 import Line from "../../svgs/line.svg";
 import SenecaLogo from "../../svgs/seneca-logo.png";
-import { Container, Row, Col } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import SocialMediaIcons from "../SocialMedia/socialMedia";
 import "./navBar.css";
-import Login from "../User/Login";
-import { autocompleteClasses } from "@mui/material";
 
-interface DrawerAppBarProps {
-  navItems: string[];
-}
+function ResponsiveAppBar(props: { navItems: string[] }) {
+  const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(
+    null
+  );
 
-const DrawerAppBar: React.FC<DrawerAppBarProps> = ({ navItems }) => {
-  const [mobileOpen, setMobileOpen] = useState(false);
+  const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
+    setAnchorElNav(event.currentTarget);
+  };
 
-  const handleDrawerToggle = () => {
-    setMobileOpen((prevState) => !prevState);
+  const handleCloseNavMenu = () => {
+    setAnchorElNav(null);
   };
 
   const convertToUrlFormat = (text: string): string => {
     return text.toLowerCase().replace(/\s+/g, "-");
   };
-
-  const drawer = (
-    <Box
-      sx={{ textAlign: "center", marginTop: "1.5em" }}
-      className="flex flex-col flex-1"
-    >
-      <div className="flex flex-col flex-1 justify-between">
-        <List>
-          {navItems.map((item) => (
-            <Link
-              onClick={handleDrawerToggle}
-              key={item}
-              className="nav-link"
-              to={convertToUrlFormat(item)}
-            >
-              <ListItem key={item} disablePadding>
-                <ListItemButton sx={{ textAlign: "center" }}>
-                  <ListItemText primary={item} />
-                </ListItemButton>
-              </ListItem>
-            </Link>
-          ))}
-        </List>
-      </div>
-      <Link to="/" className="nav-link" onClick={handleDrawerToggle}>
-        <img
-          src={HackathonLogo}
-          alt="Seneca Hackathon 2024's logo"
-          width="75%"
-          style={{ marginBottom: "3em" }}
-        />
-      </Link>
-    </Box>
-  );
-
   return (
-    <Box sx={{ display: "flex" }}>
-      <CssBaseline />
-      <AppBar
-        position="sticky"
-        sx={{
-          backgroundColor: "white",
-          color: "black",
-          top: 0,
-          borderBottom: "2px solid red",
-          boxShadow: "none",
-          paddingBottom: "0.3em",
-        }}
-      >
-        <div className="navBarTop">
-          <SocialMediaIcons />
-        </div>
-        <Toolbar>
-          <Box>
+    <AppBar
+      position="static"
+      sx={{
+        backgroundColor: "white",
+        color: "black",
+        top: 0,
+        borderBottom: "2px solid red",
+        boxShadow: "none",
+        paddingBottom: "0.3em",
+      }}
+    >
+      <div className="navBarTop">
+        <SocialMediaIcons />
+      </div>
+      <Container maxWidth="xl">
+        <Toolbar disableGutters>
+          <Box sx={{ flexGrow: 1 }}>
             <Link to="/" className="nav-link">
               <img
                 src={HackathonLogo}
                 alt="Seneca Hackathon 2024's logo"
-                width="75%"
+                // width={375}
+                height={70}
+              />
+              <img
+                src={Line}
+                alt="Line"
+                // width={375}
+                height={70}
+              />
+              {/* <div className="inline">hello</div> */}
+              {/* <span className=" ml-4 text-sm font-gotham font-normal  ">hosted by</span> */}
+              <img
+                className=" ml-4"
+                src={SenecaLogo}
+                alt="Seneca Hackathon 2024's logo"
+                // width={375}
+                height={57}
               />
             </Link>
           </Box>
           <IconButton
+            size="large"
+            aria-label="open navigation menu"
+            aria-controls="menu-appbar"
+            aria-haspopup="true"
+            onClick={handleOpenNavMenu}
             color="inherit"
-            aria-label="open drawer"
-            edge="start"
-            onClick={handleDrawerToggle}
-            sx={{ marginLeft: "auto" }}
           >
             <MenuIcon />
           </IconButton>
         </Toolbar>
-      </AppBar>
-      <nav>
-        <Drawer
-          className="flex flex-col"
-          variant="temporary"
-          open={mobileOpen}
-          onClose={handleDrawerToggle}
-          ModalProps={{
-            keepMounted: true, // Better open performance on mobile.
-          }}
-          sx={{
-            "& .MuiDrawer-paper": {
-              boxSizing: "border-box",
-              width: { sm: "30%", xs: "70%" },
-            },
-          }}
-        >
-          {drawer}
-        </Drawer>
-      </nav>
-    </Box>
+      </Container>
+      <Menu
+        id="menu-appbar"
+        anchorEl={anchorElNav}
+        anchorOrigin={{
+          vertical: "top",
+          horizontal: "right",
+        }}
+        keepMounted
+        open={Boolean(anchorElNav)}
+        onClose={handleCloseNavMenu}
+        sx={{ mt: 4 }}
+      >
+        {props.navItems.map((item, index) => (
+          <Link key={index} className="nav-link" to={convertToUrlFormat(item)}>
+            <MenuItem onClick={handleCloseNavMenu}>
+              <Typography textAlign="center">{item}</Typography>
+            </MenuItem>
+          </Link>
+        ))}
+      </Menu>
+    </AppBar>
   );
-};
-
-export default DrawerAppBar;
+}
+export default ResponsiveAppBar;
