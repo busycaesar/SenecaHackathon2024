@@ -7,11 +7,9 @@ import Typography from "@mui/material/Typography";
 import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
-import Avatar from "@mui/material/Avatar";
-import Button from "@mui/material/Button";
-import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
-import AdbIcon from "@mui/icons-material/Adb";
+import { Hidden } from "@mui/material";
+import Button from "@mui/material/Button";
 import { Link } from "react-router-dom";
 import HackathonLogo from "../../svgs/hack-logo.svg";
 import Line from "../../svgs/line.svg";
@@ -19,7 +17,10 @@ import SenecaLogo from "../../svgs/seneca-logo.png";
 import SocialMediaIcons from "../SocialMedia/socialMedia";
 import "./navBar.css";
 
-function ResponsiveAppBar(props: { navItems: string[] }) {
+function ResponsiveAppBar(props: {
+  mainNavItems: string[];
+  otherNavItems: string[];
+}) {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(
     null
   );
@@ -57,26 +58,41 @@ function ResponsiveAppBar(props: { navItems: string[] }) {
               <img
                 src={HackathonLogo}
                 alt="Seneca Hackathon 2024's logo"
-                // width={375}
-                height={70}
+                width={200}
               />
-              <img
-                src={Line}
-                alt="Line"
-                // width={375}
-                height={70}
-              />
-              {/* <div className="inline">hello</div> */}
-              {/* <span className=" ml-4 text-sm font-gotham font-normal  ">hosted by</span> */}
-              <img
-                className=" ml-4"
-                src={SenecaLogo}
-                alt="Seneca Hackathon 2024's logo"
-                // width={375}
-                height={57}
-              />
+              <Hidden smDown>
+                <img
+                  src={Line}
+                  alt="Line"
+                  // width={375}
+                  height={70}
+                />
+                {/* <div className="inline">hello</div> */}
+                {/* <span className=" ml-4 text-sm font-gotham font-normal  ">hosted by</span> */}
+                <img
+                  className=" ml-4"
+                  src={SenecaLogo}
+                  alt="Seneca Hackathon 2024's logo"
+                  // width={375}
+                  height={57}
+                />
+              </Hidden>
             </Link>
           </Box>
+          <Hidden mdDown>
+            {props.mainNavItems.map((item) => (
+              <Link
+                key={item}
+                className="nav-link"
+                style={{ display: "flex" }}
+                to={convertToUrlFormat(item)}
+              >
+                <Button key={item} sx={{ color: "black" }}>
+                  {item}
+                </Button>
+              </Link>
+            ))}
+          </Hidden>
           <IconButton
             size="large"
             aria-label="open navigation menu"
@@ -97,11 +113,28 @@ function ResponsiveAppBar(props: { navItems: string[] }) {
           horizontal: "right",
         }}
         keepMounted
+        transformOrigin={{
+          vertical: "top",
+          horizontal: "right",
+        }}
         open={Boolean(anchorElNav)}
         onClose={handleCloseNavMenu}
-        sx={{ mt: 4 }}
+        sx={{ mt: 5, p: 50 }}
       >
-        {props.navItems.map((item, index) => (
+        <Hidden mdUp>
+          {props.mainNavItems.map((item, index) => (
+            <Link
+              key={index}
+              className="nav-link"
+              to={convertToUrlFormat(item)}
+            >
+              <MenuItem onClick={handleCloseNavMenu}>
+                <Typography textAlign="center">{item}</Typography>
+              </MenuItem>
+            </Link>
+          ))}
+        </Hidden>
+        {props.otherNavItems.map((item, index) => (
           <Link key={index} className="nav-link" to={convertToUrlFormat(item)}>
             <MenuItem onClick={handleCloseNavMenu}>
               <Typography textAlign="center">{item}</Typography>
