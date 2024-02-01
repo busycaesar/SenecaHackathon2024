@@ -29,7 +29,7 @@ export default function Testimonials({
   };
 
   return (
-    <div className="mx-5">
+    <div className="page-content">
       <h2>
         <strong>Testimonials</strong>
       </h2>
