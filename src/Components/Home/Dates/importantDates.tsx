@@ -32,7 +32,7 @@ export default function ImportantDates(props: { dates: any }) {
           );
         })}
       </Row>
-      {/* <div className="button pt-4 text-center md:mx-auto">
+      <div className="button pt-4 text-center md:mx-auto">
                   
                   <a
                     href={`/roadmap`}
@@ -42,7 +42,7 @@ export default function ImportantDates(props: { dates: any }) {
                       Check Our Roadmap 
                     </button>
                   </a>
-                </div> */}
+                </div>
         </div>
     </>
   );

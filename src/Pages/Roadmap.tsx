@@ -29,6 +29,7 @@ function Roadmap() {
         },
         type: "IMAGE",
       },
+      info: "The registration portal will be open for interested students to sign up.",
     },
     {
       title: "Team Formation",
@@ -41,6 +42,7 @@ function Roadmap() {
         },
         type: "IMAGE",
       },
+      info: "The organizing committee will reach out to participants who registered individually to facilitate the grouping process.",
     },
     {
       title: "Pre-hackathon Mixer",
@@ -53,6 +55,7 @@ function Roadmap() {
         },
         type: "IMAGE",
       },
+      info: "All qualified teams are given the opportunity to connect, exchange ideas, and start their exciting hackathon journey.",
     },
     {
       title: "Challenge Set Mentoring",
@@ -65,34 +68,37 @@ function Roadmap() {
         },
         type: "IMAGE",
       },
+      info:"Mentors for the Housing Hackathon will engage with each team and offer guidance and feedback according to their chosen challenge set."
     },
     {
-      title: "Hackathon Qualifiers",
-      cardTitle: "10th & 12th March 2024",
+      title: "Registration Deadline",
+      cardTitle: "26th February 2024",
       media: {
-        name: "Hackathon Qualifiers",
+        name: "Registration Deadline",
         source: {
           url: HackathonQualifiers,
           horizontalUrl: HackathonQualifiersSVG,
         },
         type: "IMAGE",
       },
+      info: "This is the last day to sign up and register for the event.",
     },
     {
-      title: "Finalists Announcements",
-      cardTitle: "13th March 2024",
+      title: "Opening Ceremony and Qualifier Round",
+      cardTitle: "10th March 2024",
       media: {
-        name: "Finalists Announcements",
+        name: "Opening Ceremony and Qualifier Round",
         source: {
           url: FinalistsAnnoucement,
           horizontalUrl: FinalistsAnnouncementsSVG,
         },
         type: "IMAGE",
       },
+      info: "Each team is expected to begin developing solutions for their selected challenge set.",
     },
     {
-      title: "Final Opening",
-      cardTitle: "15th March 2024",
+      title: "Qualifier Submission Deadline",
+      cardTitle: "11th March 2024",
       media: {
         name: "Final Opening",
         source: {
@@ -101,9 +107,10 @@ function Roadmap() {
         },
         type: "IMAGE",
       },
+      info:"This is the last day for each team to submit their entry for judging. Please note that all finalists are expected to attend the in-person finale on March 16, 2024."
     },
     {
-      title: "Hackathon Finale",
+      title: "Finale",
       cardTitle: "16th March 2024",
       media: {
         name: "Hackathon Finale",
@@ -113,6 +120,7 @@ function Roadmap() {
         },
         type: "IMAGE",
       },
+      info: "Qualified teams will be invited for the in-person finale. This marks the culmination of the 2024 Housing Hackathon in which the winning team will be formally awarded.",
     },
   ];
 
@@ -127,14 +135,15 @@ function Roadmap() {
                 <div className="h-60 w-80 text-center relative">
                   {index % 2 !== 0 && (
                     <>
-                      <div className="absolute bottom-0  left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full">
-                        <h1 className="text-2xl">{item.title}</h1>
+                      <div className="absolute bottom-0  left-1/2 transform -translate-x-1/2 -translate-y-2 w-full">
+                        {item.info && <p className="text-sm">{item.info}</p>}
+                        <h1 className="text-xl font-bold">{item.title}</h1>
                       </div>
                     </>
                   )}
                   {index % 2 === 0 && (
                     <>
-                      <p className="text-lg text-center w-80">
+                      <p className="text-lg text-center w-80 font-bold">
                         {item.cardTitle}
                       </p>
                       <div className="h-4/5 mx-auto">
@@ -155,8 +164,9 @@ function Roadmap() {
                 <div className="mt-3 sm:pe-8 h-60 w-80 text-center">
                   {index % 2 === 0 && (
                     <>
-                      <div>
-                        <h1 className="text-2xl">{item.title}</h1>
+                      <div className="flex justify-center flex-col w-80 ">
+                        <h1 className="text-xl font-bold">{item.title}</h1>
+                        {item.info && <p className="text-sm">{item.info}</p>}
                       </div>
                     </>
                   )}
@@ -169,7 +179,7 @@ function Roadmap() {
                           className="h-full w-full"
                         ></img>
                       </div>
-                      <p className="text-lg text-center w-80">
+                      <p className="text-lg text-center w-80 font-bold">
                         {item.cardTitle}
                       </p>
                     </>
@@ -190,7 +200,8 @@ function Roadmap() {
                   {index % 2 !== 0 && (
                     <>
                       <div>
-                        <h1 className="text-lg mx-0.5">{item.title}</h1>
+                        <h1 className="text-lg mx-0.5 font-bold">{item.title}</h1>
+                        {item.info && <p className="text-sm">{item.info}</p>}
                       </div>
                     </>
                   )}
@@ -203,7 +214,7 @@ function Roadmap() {
                           className="h-full w-full"
                         ></img>
                       </div>
-                      <p className="text-base text-center">{item.cardTitle}</p>
+                      <p className="text-base text-center font-bold">{item.cardTitle}</p>
                     </>
                   )}
                 </div>
@@ -216,7 +227,8 @@ function Roadmap() {
                   {index % 2 === 0 && (
                     <>
                       <div>
-                        <h1 className="text-lg mx-0.5">{item.title}</h1>
+                        <h1 className="text-lg mx-0.5 font-bold">{item.title}</h1>
+                        {item.info && <p className="text-sm">{item.info}</p>}
                       </div>
                     </>
                   )}
@@ -229,7 +241,7 @@ function Roadmap() {
                           className="h-full w-full"
                         ></img>
                       </div>
-                      <p className="text-base text-center">{item.cardTitle}</p>
+                      <p className="text-base text-center font-bold">{item.cardTitle}</p>
                     </>
                   )}
                 </div>
