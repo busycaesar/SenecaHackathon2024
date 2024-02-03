@@ -20,7 +20,7 @@ function App() {
     <div className="App">
       <Router>
         <NavBar
-          navItems={[
+          mainNavItems={[
             "About",
             "Challenge Sets",
             //"Our Team",
@@ -28,12 +28,12 @@ function App() {
             // "Gallery",
             "FAQ",
           ]}
+          otherNavItems={["Challenge Sets", "FAQ"]}
         />
         <div>
-         <Routes>
+          <Routes>
             <Route path="/" element={<Home />} />
-            </Routes>
-
+          </Routes>
         </div>
         <div className="page-content">
           <Routes>
