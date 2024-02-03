@@ -33,7 +33,9 @@ export default function HeaderBanner(props: {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <button className="font-bold">Click Here to Register</button>
+                    <button className="font-bold">
+                      Click Here to Register
+                    </button>
                   </a>
                 </div>
                 <div className="">

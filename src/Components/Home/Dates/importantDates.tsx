@@ -32,6 +32,17 @@ export default function ImportantDates(props: { dates: any }) {
           );
         })}
       </Row>
+      {/* <div className="button pt-4 text-center md:mx-auto">
+                  
+                  <a
+                    href={`/roadmap`}
+                    rel="noreferrer"
+                  >
+                    <button className="font-bold ">
+                      Check Our Roadmap 
+                    </button>
+                  </a>
+                </div> */}
         </div>
     </>
   );
