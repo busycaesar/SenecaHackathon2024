@@ -1,18 +1,7 @@
-import { doc, onSnapShot } from "firebase/firestore";
-import { db } from "./config";
+const storage = firebase.storage();
+const storageRef = storage.ref();
+const fileRef = storageRef.child("path/to/your/image.jpg");
 
-export const getRealtimeData = () => {
-  try {
-    const data = onSnapShot(doc(db, "Participants"), (doc) => {
-      console.log("Current data: ", doc.data());
-    });
-    if (data) {
-      return data;
-    } else {
-      console.log("No data found");
-    }
-  } catch (err) {
-    console.log(err);
-    throw err;
-  }
-};
+fileRef.put(file).then((snapshot) => {
+  console.log("Uploaded a blob or file!");
+});

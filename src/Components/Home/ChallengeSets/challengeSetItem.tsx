@@ -9,15 +9,14 @@ export default function ChallengeSetItem({
   return (
     <div id="challenge-set-item">
       <img
-        src={ChallengeSetSVG}
+        src={challengeSetItem.image}
         alt="icon"
-        width={50}
         style={{ marginBottom: "1em" }}
+        className="w-1/3 "
       />
       <p style={{ color: "red" }}>
         <strong>{challengeSetItem.title}</strong>
       </p>
-      <p>{challengeSetItem.description}</p>
     </div>
   );
 }
