@@ -123,6 +123,25 @@ function ResponsiveAppBar(props: {
       >
         <Hidden mdUp>
           {props.mainNavItems.map((item, index) => (
+            <>
+              <Link
+                key={index}
+                className="nav-link"
+                to={convertToUrlFormat(item)}
+              >
+                <MenuItem onClick={handleCloseNavMenu}>
+                  <Typography textAlign="center">{item}</Typography>
+                </MenuItem>
+              </Link>
+              {index < props.otherNavItems.length - 1 && (
+                <hr style={{ margin: "0" }} />
+              )}
+            </>
+          ))}
+          <hr style={{ margin: "0" }} />
+        </Hidden>
+        {props.otherNavItems.map((item, index) => (
+          <>
             <Link
               key={index}
               className="nav-link"
@@ -132,14 +151,10 @@ function ResponsiveAppBar(props: {
                 <Typography textAlign="center">{item}</Typography>
               </MenuItem>
             </Link>
-          ))}
-        </Hidden>
-        {props.otherNavItems.map((item, index) => (
-          <Link key={index} className="nav-link" to={convertToUrlFormat(item)}>
-            <MenuItem onClick={handleCloseNavMenu}>
-              <Typography textAlign="center">{item}</Typography>
-            </MenuItem>
-          </Link>
+            {index < props.otherNavItems.length - 1 && (
+              <hr style={{ margin: "0" }} />
+            )}
+          </>
         ))}
       </Menu>
     </AppBar>
