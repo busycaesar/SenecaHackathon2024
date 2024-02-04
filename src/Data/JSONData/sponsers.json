@@ -47,6 +47,27 @@
     "path": "/svgs/sponsers/3oc.jpg",
     "width": "130%",
     "link": "https://www.3oc.world/"
+  },
+  {
+    "id": 7,
+    "title": "Ride ALike",
+    "path": "/svgs/sponsers/ridealike.png",
+    "width": "130%",
+    "link": "https://www.ridealike.com/"
+  },
+  {
+    "id": 8,
+    "title": "CPOS",
+    "path": "/svgs/sponsers/CPOS.svg", 
+    "width": "130%",
+    "link": "https://www.3oc.world/"
+  },
+  {
+    "id": 9,
+    "title": "Skill Squirrel",
+    "path": "/svgs/sponsers/Skill-Squirrel.png",
+    "width": "130%",
+    "link": "https://www.skillsquirrel.com/"
   }
 ]
 
