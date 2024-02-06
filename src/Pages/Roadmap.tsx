@@ -72,7 +72,7 @@ function Roadmap() {
     },
     {
       title: "Registration Deadline",
-      cardTitle: "26th February 2024",
+      cardTitle: "1st March 2024",
       media: {
         name: "Registration Deadline",
         source: {

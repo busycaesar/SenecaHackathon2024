@@ -41,7 +41,7 @@ export default function HeaderBanner(props: {
                 <div className="">
                   <Timer />
                 </div>
-                <p className="m-4 md:text-lg text-base text-white font-bold">Deadline to register is on February 26, 2024</p>
+                <p className="m-4 md:text-lg text-base text-white font-bold">Deadline to register is on March 1st, 2024</p>
               </div>
             </div>
           </div>
