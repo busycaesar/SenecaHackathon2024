@@ -23,7 +23,7 @@ export default function Home() {
       <HeaderBanner sponsers={SponsersData} partners={PartnersData} />
       <WhoAreWe />
       <hr />
-      <WhoCanParticipate/>
+      <WhoCanParticipate />
       <hr />
       <WorkingSection works={WorkingData} />
       <hr />
