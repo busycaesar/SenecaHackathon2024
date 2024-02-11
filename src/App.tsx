@@ -12,6 +12,8 @@ import IndividualNews from "./Pages/individualNews";
 import AboutUs from "./Pages/aboutUs";
 import Login from "./Components/User/Login";
 import useToggle from "./Components/CustomHooks/useToggle";
+import Roadmap from "./Pages/Roadmap";
+import ChallengeSet from "./Components/ChallengeSet/challengeSet";
 
 function App() {
   return (
@@ -21,9 +23,9 @@ function App() {
           mainNavItems={[
             "About",
             "Challenge Sets",
-            //"Our Team",
+            // "Our Team",
             //"News",
-            //"Gallery",
+            // "Gallery",
             "FAQ",
           ]}
           otherNavItems={["Challenge Sets", "FAQ"]}
@@ -37,12 +39,13 @@ function App() {
           <Routes>
             {/* <Route path="/" element={<Home />} /> */}
             <Route path="/about" element={<AboutUs />} />
-            <Route path="/challenge-sets" element={<ChallengeSets />} />
-            {/* <Route path="/our-team" element={<OurTeam />} />
-            <Route path="/news" element={<NewsPage />} />
+            <Route path="/challenge-sets" element={<ChallengeSets/>} />
+            <Route path="/our-team" element={<OurTeam />} />
+           {/*  <Route path="/news" element={<NewsPage />} />
             <Route path="/news/:id" element={<IndividualNews />} /> */}
             {/* <Route path="/gallery" element={<Gallery />} /> */}
             <Route path="/faq" element={<Faq />} />
+            <Route path="/roadmap" element={<Roadmap />} />
           </Routes>
         </div>
       </Router>

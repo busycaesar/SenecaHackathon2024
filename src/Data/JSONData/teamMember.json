@@ -4,9 +4,9 @@
     "firstName": "Alice",
     "lastName": "Johnson",
     "designation": "Software Developer",
-    "department": 3,
+    "department": 0, 
     "linkedinLink": "https://www.linkedin.com/in/alicejohnson"
-  },
+  }, 
   {
     "_id": 1,
     "firstName": "Bob",

@@ -33,13 +33,15 @@ export default function HeaderBanner(props: {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <button className="font-bold">Click Here to Register</button>
+                    <button className="font-bold">
+                      Click Here to Register
+                    </button>
                   </a>
                 </div>
                 <div className="">
                   <Timer />
                 </div>
-                <p className="m-4 md:text-lg text-base text-white font-bold">Deadline to register is on February 26, 2024</p>
+                <p className="m-4 md:text-lg text-base text-white font-bold">Deadline to register is on March 1st, 2024</p>
               </div>
             </div>
           </div>
