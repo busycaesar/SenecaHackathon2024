@@ -23,7 +23,7 @@
   {
     "id": 3,
     "title": "Ciocan-en-logo",
-    "path": "/svgs/sponsers/ciocan-logo.svg",
+    "path": "/svgs/sponsers/CIOCAN.png",
     "width": "90%",
     "link": "https://www.ciocan.ca"
   },
@@ -58,7 +58,7 @@
   {
     "id": 8,
     "title": "CPOS",
-    "path": "/svgs/sponsers/CPOS.svg", 
+    "path": "/svgs/sponsers/CPOS.svg",
     "width": "130%",
     "link": "https://cpos.com/"
   },
@@ -70,4 +70,3 @@
     "link": "https://www.skillsquirrel.com/"
   }
 ]
-
