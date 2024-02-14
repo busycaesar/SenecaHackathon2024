@@ -68,5 +68,12 @@
     "path": "/svgs/sponsers/Skill-Squirrel.png",
     "width": "100%",
     "link": "https://www.skillsquirrel.com/"
+  },
+  {
+    "id": 10,
+    "title": "Oppos",
+    "path": "/svgs/sponsers/oppos.png",
+    "width": "80%",
+    "link": "https://getoppos.com/"
   }
 ]
