@@ -21,7 +21,6 @@ export default function Home() {
   return (
     <>
       <HeaderBanner sponsers={SponsersData} partners={PartnersData} />
-      <WhoAreWe />
       <hr />
       <WhoCanParticipate />
       <hr />
