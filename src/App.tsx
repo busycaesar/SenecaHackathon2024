@@ -28,7 +28,7 @@ function App() {
             // "Gallery",
             "FAQ",
           ]}
-          otherNavItems={["Challenge Sets", "FAQ"]}
+          otherNavItems={[]}
         />
         <div>
           <Routes>
