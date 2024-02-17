@@ -93,7 +93,7 @@ function ResponsiveAppBar(props: {
               </Link>
             ))}
           </Hidden>
-          {props.otherNavItems.length > 0 && (
+          <Hidden mdUp>
             <IconButton
               size="large"
               aria-label="open navigation menu"
@@ -104,7 +104,7 @@ function ResponsiveAppBar(props: {
             >
               <MenuIcon />
             </IconButton>
-          )}
+          </Hidden>
         </Toolbar>
       </Container>
       <Menu
