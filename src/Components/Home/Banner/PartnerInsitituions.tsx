@@ -25,7 +25,7 @@ export default function PartnersBanner(props: { partners: Partner[] }) {
                 >
                   <img
                     src={partner.path}
-                    className="object-contain w-[350px] h-[350px] flex flex-row  bg-transparent"
+                    className="object-contain md:w-[350px] md:h-[350px] bg-transparent w-[260px] h-[260px] flex flex-row p-1"
                     alt={partner.title}
                   />
                 </a>
