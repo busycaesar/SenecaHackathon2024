@@ -12,7 +12,24 @@
   background-repeat: no-repeat;
   background-color: #333333;
   background-blend-mode: soft-light;
+}
 
+.full-width-override {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  width: 100vw !important;
+}
 
+.sponsor-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 10px;
+  /* Fixed width for all sponsor images */
+  max-width: 100%;
 
+}
+
+.sponsor-shadow:hover {
+  transform: scale(1.05);
 }
