@@ -1,6 +1,13 @@
 [
   {
     "id": 0,
+    "title": "York University",
+    "path": "/svgs/partners/york_uni.png",
+    "width": "100%",
+    "link": "https://www.yorku.ca/"
+  },
+  {
+    "id": 4,
     "title": "Conestoga College",
     "path": "/svgs/partners/c.png",
     "width": "100%",
@@ -21,11 +28,10 @@
     "link": "https://www.pim.ac.th"
   },
   {
-    "id": 4,
-    "title": "York University",
-    "path": "/svgs/partners/3.png",
-    "width": "80%",
-    "link": "https://www.yorku.ca/"
+    "id": 3,
+    "title": "Universidad del Rosario",
+    "path": "/svgs/partners/university of rosario.png",
+    "width": "100%",
+    "link": "https://www.siam.edu"
   }
 ]
-
