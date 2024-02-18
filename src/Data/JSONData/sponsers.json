@@ -97,5 +97,12 @@
     "path": "/svgs/sponsers/spaceshared.png",
     "width": "150%",
     "link": "https://www.spacesshared.ca/home"
+  },
+  {
+    "id": 14,
+    "title": "SkeonTech",
+    "path": "https://skeon.tech/images/logo-825b473b.svg",
+    "width": "150%",
+    "link": "https://skeon.tech"
   }
 ]
