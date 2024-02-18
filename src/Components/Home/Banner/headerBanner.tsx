@@ -7,10 +7,7 @@ import "../about.css";
 import SponsersBanner from "./sponsersBanner";
 import PartnersBanner from "./PartnerInsitituions";
 
-export default function HeaderBanner(props: {
-  partners: Partners[];
-  sponsers: Sponsers[];
-}) {
+export default function HeaderBanner() {
   return (
     <div className="page-content-1">
       <section className="md:max-w-full">
@@ -49,16 +46,7 @@ export default function HeaderBanner(props: {
           </div>
         </div>
       </section>
-      <div>
-        <div className="rounded-xl mt-3">
-          <SponsersBanner sponsers={props.sponsers} />
-        </div>
-        <div className="rounded-xl mt-3">
-          <PartnersBanner partners={props.partners} />
-        </div>
-
-        <WhoAreWe />
-      </div>
+      
     </div>
   );
 }

@@ -21,9 +21,7 @@ function ResponsiveAppBar(props: {
   mainNavItems: string[];
   otherNavItems: string[];
 }) {
-  const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(
-    null
-  );
+  const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
 
   const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
     setAnchorElNav(event.currentTarget);
@@ -36,6 +34,7 @@ function ResponsiveAppBar(props: {
   const convertToUrlFormat = (text: string): string => {
     return text.toLowerCase().replace(/\s+/g, "-");
   };
+
   return (
     <AppBar
       position="static"
@@ -64,16 +63,12 @@ function ResponsiveAppBar(props: {
                 <img
                   src={Line}
                   alt="Line"
-                  // width={375}
                   height={70}
                 />
-                {/* <div className="inline">hello</div> */}
-                {/* <span className=" ml-4 text-sm font-gotham font-normal  ">hosted by</span> */}
                 <img
                   className=" ml-4"
                   src={SenecaLogo}
-                  alt="Seneca Hackathon 2024's logo"
-                  // width={375}
+                  alt="Seneca's logo"
                   height={57}
                 />
               </Hidden>
@@ -93,16 +88,19 @@ function ResponsiveAppBar(props: {
               </Link>
             ))}
           </Hidden>
-          <IconButton
-            size="large"
-            aria-label="open navigation menu"
-            aria-controls="menu-appbar"
-            aria-haspopup="true"
-            onClick={handleOpenNavMenu}
-            color="inherit"
-          >
-            <MenuIcon />
-          </IconButton>
+          {/* Only show the IconButton for smaller screens */}
+          <Hidden mdUp>
+            <IconButton
+              size="large"
+              aria-label="open navigation menu"
+              aria-controls="menu-appbar"
+              aria-haspopup="true"
+              onClick={handleOpenNavMenu}
+              color="inherit"
+            >
+              <MenuIcon />
+            </IconButton>
+          </Hidden>
         </Toolbar>
       </Container>
       <Menu
@@ -122,7 +120,7 @@ function ResponsiveAppBar(props: {
         sx={{ mt: 5, p: 50 }}
       >
         <Hidden mdUp>
-          {props.mainNavItems.map((item, index) => (
+          {props.mainNavItems.concat(props.otherNavItems).map((item, index) => (
             <>
               <Link
                 key={index}
@@ -133,29 +131,12 @@ function ResponsiveAppBar(props: {
                   <Typography textAlign="center">{item}</Typography>
                 </MenuItem>
               </Link>
-              {index < props.otherNavItems.length - 1 && (
+              {(index < props.mainNavItems.length - 1 || index < props.mainNavItems.length + props.otherNavItems.length - 1) && (
                 <hr style={{ margin: "0" }} />
               )}
             </>
           ))}
-          <hr style={{ margin: "0" }} />
         </Hidden>
-        {props.otherNavItems.map((item, index) => (
-          <>
-            <Link
-              key={index}
-              className="nav-link"
-              to={convertToUrlFormat(item)}
-            >
-              <MenuItem onClick={handleCloseNavMenu}>
-                <Typography textAlign="center">{item}</Typography>
-              </MenuItem>
-            </Link>
-            {index < props.otherNavItems.length - 1 && (
-              <hr style={{ margin: "0" }} />
-            )}
-          </>
-        ))}
       </Menu>
     </AppBar>
   );

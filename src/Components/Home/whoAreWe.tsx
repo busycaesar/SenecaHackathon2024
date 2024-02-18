@@ -46,7 +46,6 @@ export default function WhoAreWe() {
                     src={image}
                     alt={`Team ${index + 1}`}
                     className="rounded-xl object-cover shadow-2xl w-full h-auto bg-transparent d-block mx-auto"
-
                   />
                 </div>
               </Col>
