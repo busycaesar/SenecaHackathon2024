@@ -21,7 +21,7 @@
     "link": "#"
   },
   {
-    "id":3,
+    "id": 3,
     "title": "Seneca Student Federation",
     "path": "/svgs/sponsers/SSF.png",
     "width": "130%",
@@ -97,5 +97,27 @@
     "path": "/svgs/sponsers/oppo.png",
     "width": "130%",
     "link": "https://getoppos.com/"
+  },
+
+  {
+    "id": 14,
+    "title": "SkeonTech",
+    "path": "https://skeon.tech/images/logo-825b473b.svg",
+    "width": "150%",
+    "link": "https://skeon.tech"
+  },
+  {
+    "id": 15,
+    "title": "SkeonTech",
+    "path": "/svgs/sponsers/Prosperity GS.png",
+    "width": "150%",
+    "link": "https://skeon.tech"
+  },
+  {
+    "id": 16,
+    "title": "Aladdin AlRadhi",
+    "path": "/svgs/sponsers/alad.png",
+    "width": "150%",
+    "link": "https://skeon.tech"
   }
 ]
