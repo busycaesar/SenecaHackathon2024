@@ -15,7 +15,7 @@ export default function WhoAreWe() {
             <strong>Who We Are</strong>
           </h1>
 
-          <p>
+          <p className="pb-3 text-2xl font-gotham marker:text-my-red mr-10  ">
             The hackathon is a student-focused innovation competition that
             provides a unique experiential learning experience. It encourages
             and develops creative thinking, entrepreneurship, and
@@ -46,7 +46,6 @@ export default function WhoAreWe() {
                     src={image}
                     alt={`Team ${index + 1}`}
                     className="rounded-xl object-cover shadow-2xl w-full h-auto bg-transparent d-block mx-auto"
-
                   />
                 </div>
               </Col>
