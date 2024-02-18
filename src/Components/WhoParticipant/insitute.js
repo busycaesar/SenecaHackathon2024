@@ -13,6 +13,12 @@ const Insititute = [
         "width": "100%",
         "link": "https://www.yorku.ca/"
     }, {
+        "id": 2,
+        "title": "U of T",
+        "path": "/svgs/partners/uoft.png",
+        "width": "100%",
+        "link": "https://ischool.utoronto.ca"
+    }, {
         "id": 1,
         "title": "World Citi Colleges (Philippines)",
         "path": "/svgs/partners/wcc.png",
