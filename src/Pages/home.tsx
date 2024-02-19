@@ -23,6 +23,7 @@ import {
   SponsersData,
   PartnersData,
 } from "../Data/JSONData";
+import VideoComponents from "../Components/VideoComponent/VideoComponent";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -55,15 +56,12 @@ export default function Home() {
     <>
       <HeaderBanner />
 
-      <hr />
-      <div className="animateSection rounded-xl mt-3">
-        <SponsersBanner sponsers={SponsersData} />
+      <div className="animateSection -pt-4 rounded-xl -mt-24 md:-mt-60">
+      <VideoComponents/>
       </div>
-      <hr />
-      <div className="animateSection rounded-xl mt-3">
-        <PartnersBanner partners={PartnersData} />
-      </div>
-      <hr />
+
+<hr />
+     
       <div className="animateSection rounded-xl mt-3">
         <WhoAreWe />
       </div>
@@ -79,6 +77,7 @@ export default function Home() {
       <div className="animateSection">
         <WorkingSection works={WorkingData} />
       </div>
+      <hr />
 
       <div className="animateSection">
         <ImportantDates dates={ImportantDateData} />
@@ -88,6 +87,16 @@ export default function Home() {
         <ChallengeSetsSection challengeSet={ChallengeSetData} />
       </div>
       <hr />
+      <div className="animateSection rounded-xl mt-3">
+        <PartnersBanner partners={PartnersData} />
+      </div>
+     
+      <hr />
+      <div className="animateSection rounded-xl mt-3">
+        <SponsersBanner sponsers={SponsersData} />
+      </div>
+      <hr />
+      
       <div className="animateSection">
         <Testimonial testimonials={TestimonialData} />
       </div>

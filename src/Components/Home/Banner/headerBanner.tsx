@@ -38,7 +38,7 @@ export default function HeaderBanner() {
                 <div className="">
                   <Timer />
                 </div>
-                <p className="m-4 md:text-lg text-base text-white font-bold">
+                <p className="m-4 md:text-lg text-base text-white md:pb-40 font-bold">
                   Deadline to register is on March 1st, 2024
                 </p>
               </div>
