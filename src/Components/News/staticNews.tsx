@@ -90,7 +90,12 @@ https://www.youtube.com/embed/sk7Dtu2gm0I?si=pKefrsQXhVVK7tVz"
               <div className="flex flex-col ml-auto justify-end items-end">
                 <p className="lg:text-xl text-base font-bold">Subscribe to</p>
                 <div className="red-background mb-10 curved-border">
-                  <YouTubeIcon />
+                  <a
+                    href="https://www.youtube.com/@seneca.hackathon"
+                    target="_blank"
+                  >
+                    <YouTubeIcon />
+                  </a>
                 </div>
               </div>
             </div>
