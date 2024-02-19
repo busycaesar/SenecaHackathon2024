@@ -4,7 +4,7 @@ const Insititute = [
         "title": "Seneca Polytechnic",
         "path": "/svgs/sponsers/seneca-polytechnic.png",
         "width": "50%",
-        "link": "#"
+        "link": "https://www.senecapolytechnic.ca/home.html"
     },
     {
         "id": 0,
@@ -35,7 +35,7 @@ const Insititute = [
         "title": "Universidad del Rosario",
         "path": "/svgs/partners/university of rosario.png",
         "width": "100%",
-        "link": "https://www.siam.edu"
+        "link": "https://urosario.edu.co/en"
     },
 
 ]

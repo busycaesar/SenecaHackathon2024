@@ -15,7 +15,7 @@ export default function PartnersBanner(props: { partners: Partner[] }) {
           <h1 style={{ marginTop: "1em" }}>
             <strong>Our Partner Institutions</strong>
           </h1>
-          <Row className="justify-center w-full">
+          <Row className="flex flex-wrap justify-center ">
             {props.partners.map((partner) => (
               <Col key={partner.id} className="p-4" lg={4}>
                 <div className="flex items-center justify-center hover:scale-110 transition duration-300 ease-in-out bg-white  rounded-lg shadow-slate-950 shadow-lg overflow-hidden">

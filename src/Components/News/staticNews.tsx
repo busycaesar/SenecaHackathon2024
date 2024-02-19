@@ -10,7 +10,7 @@ export default function StaticNews() {
           <div className="md:max-w-2xl mx-auto mb-12 text-center">
             <h1>
               <span className="text-4xl md:text-5xl font-bold text-black">
-                Our Blogs
+                News | Media
               </span>
             </h1>
             <div className="flex items-center justify-center">
