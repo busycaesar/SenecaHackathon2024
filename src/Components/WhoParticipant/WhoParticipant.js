@@ -5,7 +5,7 @@ import Institute from "./insitute";
 export default function WhoCanParticipate() {
   return (
     <div className="page-content">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 gap-4">
         <div className="">
           <h1 style={{ marginTop: "1em" }} className="pb-2">
             <strong>Who Can Participate</strong>
@@ -43,12 +43,12 @@ export default function WhoCanParticipate() {
         <div className=" text-black p-4 lg:p-10 flex flex-col justify-start">
           <Row className="justify-center w-full bg-my-red rounded-xl bg-opacity-90 ">
             {Institute.map((partner) => (
-              <Col key={partner.id} className="p-2" lg={4}>
+              <Col key={partner.id} className="p-4" lg={4}>
                 <div className="flex items-center justify-center hover:scale-110 transition-transform duration-300 ease-in-out bg-white rounded-lg shadow-xl overflow-hidden">
                   <a href={partner.link} target="_blank" rel="noopener noreferrer">
                     <img
                       src={partner.path}
-                      className="object-contain w-[200px]  h-[250px] flex flex-row p-1"
+                      className="object-contain w-full  h-[250px] flex flex-row p-4"
                       alt={partner.title}
                     />
                   </a>
