@@ -25,9 +25,12 @@ export default function StaticNews() {
               </p>
             </div>
           </div>
-          <div className="responsive-iframe-container mb-10 mx-auto max-w-max overflow-hidden rounded-lg flex flex-col items-center ">
+          <div className="relative overflow-hidden max-w-6xl mx-auto rounded-lg aspect-video">
             <iframe
-              src="https://www.youtube.com/embed/sk7Dtu2gm0I?si=pKefrsQXhVVK7tVz"
+              className="absolute inset-0 w-full h-full rounded-lg"
+              height="315"
+              src="
+https://www.youtube.com/embed/sk7Dtu2gm0I?si=pKefrsQXhVVK7tVz"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
@@ -41,7 +44,6 @@ export default function StaticNews() {
               </span>
             </h1>
           </div>
-
           <div className="md:max-w-3xl mx-auto font-gotham text-black">
             <p className="mb-4 lg:text-xl text-base  ">
               Welcome to our initial video podcast episode, where we provide the
