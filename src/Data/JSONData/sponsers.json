@@ -4,21 +4,21 @@
     "title": "Seneca Applied Research",
     "path": "svgs/sponsers/seneca-applied-research.png",
     "width": "100%",
-    "link": "#"
+    "link": "https://www.senecapolytechnic.ca/innovation/research.html"
   },
   {
     "id": 1,
     "title": "Seneca Polytechnic",
     "path": "/svgs/sponsers/seneca-polytechnic.png",
     "width": "50%",
-    "link": "#"
+    "link": "https://www.senecapolytechnic.ca/home.html"
   },
   {
     "id": 2,
     "title": "Seneca Alumini",
     "path": "/svgs/sponsers/seneca-alumini.png",
     "width": "100%",
-    "link": "#"
+    "link": "https://www.senecapolytechnic.ca/alumni.html"
   },
   {
     "id": 3,
@@ -51,7 +51,7 @@
   {
     "id": 7,
     "title": "Ciocan-en-logo",
-    "path": "/svgs/sponsers/ciocan-logo.svg",
+    "path": "/svgs/sponsers/ciocan-logo.png",
     "width": "90%",
     "link": "https://www.ciocan.ca"
   },
@@ -108,16 +108,51 @@
   },
   {
     "id": 15,
-    "title": "SkeonTech",
-    "path": "/svgs/sponsers/Prosperity GS.png",
+    "title": "ProsperityGS",
+    "path": "/svgs/sponsers/ProsperityGS.png",
     "width": "150%",
-    "link": "https://skeon.tech"
+    "link": "#"
   },
   {
     "id": 16,
     "title": "Aladdin AlRadhi",
-    "path": "/svgs/sponsers/alad.png",
+    "path": "/svgs/sponsers/aladin.png",
     "width": "150%",
-    "link": "https://skeon.tech"
+    "link": "https://www.linkedin.com/in/alaaaldinalradhi/?originalSubdomain=ca"
+  },
+  {
+    "id": 17,
+    "title": "Rameh Law",
+    "path": "/svgs/sponsers/rameh.jpeg",
+    "width": "150%",
+    "link": "https://ramehlaw.com/"
+  },
+  {
+    "id": 18,
+    "title": "Cyber Ai",
+    "path": "/svgs/sponsers/cyberai.png",
+    "width": "150%",
+    "link": "https://cyberai.pro/"
+  },
+  {
+    "id": 19,
+    "title": "Camh",
+    "path": "/svgs/sponsers/camh.png",
+    "width": "150%",
+    "link": "https://www.camh.ca/"
+  },
+  {
+    "id": 20,
+    "title": "City of Brampton",
+    "path": "/svgs/sponsers/citybrampton.jpeg",
+    "width": "150%",
+    "link": "https://www.brampton.ca/"
+  },
+  {
+    "id": 21,
+    "title": "Inheritchain",
+    "path": "/svgs/sponsers/ic.png",
+    "width": "150%",
+    "link": "https://inheritchain.com/"
   }
 ]
