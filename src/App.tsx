@@ -6,14 +6,15 @@ import ChallengeSets from "./Pages/challengeSets";
 import OurTeam from "./Pages/ourTeam";
 import Faq from "./Pages/faq";
 import NewsPage from "./Pages/newsPage";
-import Gallery from "./Pages/gallery";
+//import Gallery from "./Pages/gallery";
+import StaticNews from "./Components/News/staticNews";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import IndividualNews from "./Pages/individualNews";
+//import IndividualNews from "./Pages/individualNews";
 import AboutUs from "./Pages/aboutUs";
-import Login from "./Components/User/Login";
-import useToggle from "./Components/CustomHooks/useToggle";
+//import Login from "./Components/User/Login";
+//import useToggle from "./Components/CustomHooks/useToggle";
 import Roadmap from "./Pages/Roadmap";
-import ChallengeSet from "./Components/ChallengeSet/challengeSet";
+//import ChallengeSet from "./Components/ChallengeSet/challengeSet";
 
 function App() {
   return (
@@ -24,11 +25,11 @@ function App() {
             "About",
             "Challenge Sets",
             // "Our Team",
-            //"News",
+            "Blogs",
             // "Gallery",
             "FAQ",
           ]}
-          otherNavItems={["Challenge Sets", "FAQ"]}
+          otherNavItems={[]}
         />
         <div>
           <Routes>
@@ -41,7 +42,8 @@ function App() {
             <Route path="/about" element={<AboutUs />} />
             <Route path="/challenge-sets" element={<ChallengeSets />} />
             <Route path="/our-team" element={<OurTeam />} />
-            {/*  <Route path="/news" element={<NewsPage />} />
+            <Route path="/blogs" element={<StaticNews />} />
+            {/*   />
             <Route path="/news/:id" element={<IndividualNews />} /> */}
             {/* <Route path="/gallery" element={<Gallery />} /> */}
             <Route path="/faq" element={<Faq />} />
