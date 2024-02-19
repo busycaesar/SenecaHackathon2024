@@ -67,6 +67,7 @@ export default function SocialMediaIcons() {
           width={20}
         />
       </a>
+
     </div>
   );
 }
