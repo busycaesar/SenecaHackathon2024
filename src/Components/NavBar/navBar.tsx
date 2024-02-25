@@ -54,32 +54,33 @@ function ResponsiveAppBar(props: {
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Box sx={{ flexGrow: 1 }}>
-            <a className="nav-link">
-              <a href="/">
+            <a href="/">
               <img
                 src={HackathonLogo}
                 alt="Seneca Hackathon 2024's logo"
                 width={200}
               />
-              </a>
-                <img
-                  src={Line}
-                  alt="Line"
-                  // width={375}
-                  height={70}
-                />
-                {/* <div className="inline">hello</div> */}
-                {/* <span className=" ml-4 text-sm font-gotham font-normal  ">hosted by</span> */}
-                <a href="https://www.senecapolytechnic.ca/home.html" target="_blank">
-                <img
-                  className=" ml-4"
-                  
-                  src={SenecaLogo}
-                  alt="Seneca Hackathon 2024's logo"
-                  // width={375}
-                  height={57}
-                />
-                </a>
+            </a>
+            <img
+              src={Line}
+              alt="Line"
+              // width={375}
+              height={70}
+            />
+            {/* <div className="inline">hello</div> */}
+            {/* <span className=" ml-4 text-sm font-gotham font-normal  ">hosted by</span> */}
+            <a
+              href="https://www.senecapolytechnic.ca/home.html"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className=" ml-4"
+                src={SenecaLogo}
+                alt="Seneca Hackathon 2024's logo"
+                // width={375}
+                height={57}
+              />
             </a>
           </Box>
           <Hidden mdDown>
