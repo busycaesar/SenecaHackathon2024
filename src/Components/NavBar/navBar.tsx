@@ -54,13 +54,14 @@ function ResponsiveAppBar(props: {
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Box sx={{ flexGrow: 1 }}>
-            <Link to="/" className="nav-link">
+            <a className="nav-link">
+              <a href="/">
               <img
                 src={HackathonLogo}
                 alt="Seneca Hackathon 2024's logo"
                 width={200}
               />
-              <Hidden smDown>
+              </a>
                 <img
                   src={Line}
                   alt="Line"
@@ -69,15 +70,17 @@ function ResponsiveAppBar(props: {
                 />
                 {/* <div className="inline">hello</div> */}
                 {/* <span className=" ml-4 text-sm font-gotham font-normal  ">hosted by</span> */}
+                <a href="https://www.senecapolytechnic.ca/home.html" target="_blank">
                 <img
                   className=" ml-4"
+                  
                   src={SenecaLogo}
                   alt="Seneca Hackathon 2024's logo"
                   // width={375}
                   height={57}
                 />
-              </Hidden>
-            </Link>
+                </a>
+            </a>
           </Box>
           <Hidden mdDown>
             {props.mainNavItems.map((item) => (

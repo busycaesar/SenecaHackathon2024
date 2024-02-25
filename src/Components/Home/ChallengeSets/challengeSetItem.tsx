@@ -12,7 +12,7 @@ export default function ChallengeSetItem({
         src={challengeSetItem.image}
         alt="icon"
         style={{ marginBottom: "1em" }}
-        className="w-1/3 "
+        className="w-1/3"
       />
       <p style={{ color: "red" }}>
         <strong>{challengeSetItem.title}</strong>
