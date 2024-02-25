@@ -66,36 +66,35 @@
     "id": 9,
     "title": "3oC",
     "path": "/svgs/sponsers/3oc.jpg",
-    "width": "130%",
+    "width": "100%",
     "link": "https://www.3oc.world/"
   },
   {
     "id": 10,
     "title": "Ride ALike",
     "path": "/svgs/sponsers/ridealike.png",
-    "width": "130%",
+    "width": "100%",
     "link": "https://www.ridealike.com/"
   },
   {
     "id": 11,
     "title": "CPOS",
     "path": "/svgs/sponsers/CPOS.svg",
-    "width": "130%",
+    "width": "100%",
     "link": "https://cpos.com/"
   },
   {
     "id": 12,
     "title": "Skill Squirrel",
     "path": "/svgs/sponsers/Skill-Squirrel.png",
-    "width": "130%",
+    "width": "100%",
     "link": "https://www.skillsquirrel.com/"
   },
-
   {
     "id": 13,
     "title": "Oppos",
     "path": "/svgs/sponsers/oppo.png",
-    "width": "130%",
+    "width": "100%",
     "link": "https://getoppos.com/"
   },
 
