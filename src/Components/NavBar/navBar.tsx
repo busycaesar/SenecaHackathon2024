@@ -13,9 +13,10 @@ import Button from "@mui/material/Button";
 import { Link } from "react-router-dom";
 import HackathonLogo from "../../svgs/hack-logo.svg";
 import Line from "../../svgs/line.svg";
-import SenecaLogo from "../../svgs/seneca-logo.png";
+import SenecaLogo from "../../svgs/seneca-polytechnic.png";
 import SocialMediaIcons from "../SocialMedia/socialMedia";
 import "./navBar.css";
+import { Row, Col } from "react-bootstrap";
 
 function ResponsiveAppBar(props: {
   mainNavItems: string[];
@@ -53,35 +54,25 @@ function ResponsiveAppBar(props: {
       </div>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <Box sx={{ flexGrow: 1 }}>
-            <a href="/">
+          <Box sx={{ flexGrow: 1 }} className="flex">
+            <a href="/" className="flex">
               <img
                 src={HackathonLogo}
                 alt="Seneca Hackathon 2024's logo"
-                width={200}
+                width={215}
               />
             </a>
-            <img
-              src={Line}
-              alt="Line"
-              // width={375}
-              height={70}
-            />
-            {/* <div className="inline">hello</div> */}
-            {/* <span className=" ml-4 text-sm font-gotham font-normal  ">hosted by</span> */}
-            <a
-              href="https://www.senecapolytechnic.ca/home.html"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                className=" ml-4"
-                src={SenecaLogo}
-                alt="Seneca Hackathon 2024's logo"
-                // width={375}
-                height={57}
-              />
-            </a>
+            <img className="mx-3" src={Line} alt="Line" height={70} />
+            <div className="flex flex-col">
+              <strong>hosted by</strong>
+              <a
+                href="https://www.senecapolytechnic.ca/home.html"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={SenecaLogo} alt="Seneca's logo" height={57} />
+              </a>
+            </div>
           </Box>
           <Hidden mdDown>
             {props.mainNavItems.map((item) => (
