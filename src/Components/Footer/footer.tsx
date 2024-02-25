@@ -27,9 +27,10 @@ const Footer: React.FC = () => {
           <Col md className="mb-6">
             <h3 className="font-semibold">Address</h3>
             <p style={{ margin: 0 }}>
-              Seneca Polytechnic <br/>
-              1750 Finch Ave East<br/>
-              Toronto, Ontario, Canada <br/>
+              Seneca Polytechnic <br />
+              1750 Finch Ave East
+              <br />
+              Toronto, Ontario, Canada <br />
               M2J 2X5
             </p>
           </Col>

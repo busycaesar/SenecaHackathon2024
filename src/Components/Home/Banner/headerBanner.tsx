@@ -7,10 +7,7 @@ import "../about.css";
 import SponsersBanner from "./sponsersBanner";
 import PartnersBanner from "./PartnerInsitituions";
 
-export default function HeaderBanner(props: {
-  partners: Partners[];
-  sponsers: Sponsers[];
-}) {
+export default function HeaderBanner() {
   return (
     <div className="page-content-1">
       <section className="md:max-w-full">
@@ -41,7 +38,7 @@ export default function HeaderBanner(props: {
                 <div className="">
                   <Timer />
                 </div>
-                <p className="m-4 md:text-lg text-base text-white font-bold">
+                <p className="m-4 md:text-lg text-base text-white md:pb-40 font-bold">
                   Deadline to register is on March 1st, 2024
                 </p>
               </div>
@@ -49,16 +46,7 @@ export default function HeaderBanner(props: {
           </div>
         </div>
       </section>
-      <div>
-        <div className="rounded-xl mt-3">
-          <SponsersBanner sponsers={props.sponsers} />
-        </div>
-        <div className="rounded-xl mt-3">
-          <PartnersBanner partners={props.partners} />
-        </div>
-
-        <WhoAreWe />
-      </div>
+      
     </div>
   );
 }
