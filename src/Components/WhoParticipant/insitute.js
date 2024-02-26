@@ -11,28 +11,22 @@ const Insititute = [
         "path": "/svgs/partners/uoft.png",
         "width": "100%",
         "link": "https://ischool.utoronto.ca"
-    },  {
-        "id": 2,
-        "title": "Conestoga College",
-        "path": "/svgs/partners/c.png",
-        "width": "100%",
-        "link": "https://www.conestogac.on.ca"
-      },
+    },  
      {
-        "id": 4,
+        "id": 3,
         "title": "PIM (Thailand)",
         "path": "/svgs/partners/Logo-PIM.jpg",
         "width": "80%",
         "link": "https://www.pim.ac.th"
     }, {
-        "id": 5,
+        "id": 4,
         "title": "Universidad del Rosario",
         "path": "/svgs/partners/university of rosario.png",
         "width": "100%",
         "link": "https://urosario.edu.co/en"
     },
     {
-        "id": 3,
+        "id": 5,
         "title": "World Citi Colleges (Philippines)",
         "path": "/svgs/partners/wcc.png",
         "width": "70%",
