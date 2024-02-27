@@ -1,5 +1,5 @@
 .navBarTop {
-  background-color: #D92D27;
+  background-color: #d92d27;
   width: 100%;
   right: 0;
   justify-content: right;
@@ -19,4 +19,8 @@
 .nav-link {
   text-decoration: none !important;
   color: inherit !important;
+}
+
+a {
+  text-decoration: none;
 }
