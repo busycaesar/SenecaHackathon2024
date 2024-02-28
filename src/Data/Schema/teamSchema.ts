@@ -6,6 +6,7 @@ export interface Department {
 
 export interface Member {
   _id: number;
+  image: string;
   firstName: string;
   lastName: string;
   designation: string;
