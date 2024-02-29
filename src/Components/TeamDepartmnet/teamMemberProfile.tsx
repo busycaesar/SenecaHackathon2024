@@ -23,9 +23,10 @@ export default function TeamMemberProfile({ member }: { member: Member }) {
               </div>
               <div className="p-6">
                 <h5 className="text-lg text-white font-bold mb-4 mt-16">{member.firstName} {member.lastName}</h5>
-                <p className="text-white mb-6">{member.designation}</p>  
+                <p className="text-white  mb-10">{member.designation}</p>  
+      
                   <a href={member.linkedinLink} target="_blank">
-                    <img className="" src="https://logos-world.net/wp-content/uploads/2020/04/Linkedin-Logo-2003-2011.png" alt="" style={{"width":"100px; height: 24px"}}/>
+                    <img className="mt-20" src="https://logos-world.net/wp-content/uploads/2020/04/Linkedin-Logo-2003-2011.png" alt="" style={{"width":"100px; height: 24px"}}/>
                   </a>
               </div>
              </div>
