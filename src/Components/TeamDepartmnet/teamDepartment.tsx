@@ -16,7 +16,7 @@ export default function TeamDepartment({
         <h2>
           <strong>{department.title.toUpperCase()}</strong>
         </h2>
-        <p>{department.description}</p>
+        <p className="pb-10">{department.description}</p>
         <Row>
           {member.map((memb) => (
             <>

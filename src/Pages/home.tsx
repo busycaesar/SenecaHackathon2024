@@ -63,11 +63,11 @@ export default function Home() {
 
 <hr />
 
-<div className="animateSection rounded-xl mt-3">
+{/* <div className="animateSection rounded-xl mt-3">
         <QandA />
-      </div>
+      </div> */}
 
-      <hr />
+      {/* <hr /> */}
      
       <div className="animateSection rounded-xl mt-3">
         <WhoAreWe />
