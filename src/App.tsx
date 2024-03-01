@@ -9,7 +9,7 @@ import NewsPage from "./Pages/newsPage";
 //import Gallery from "./Pages/gallery";
 import StaticNews from "./Components/News/staticNews";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-//import IndividualNews from "./Pages/individualNews";
+import IndividualNews from "./Pages/individualNews";
 import AboutUs from "./Pages/aboutUs";
 //import Login from "./Components/User/Login";
 //import useToggle from "./Components/CustomHooks/useToggle";
@@ -43,6 +43,8 @@ function App() {
             <Route path="/challenge-sets" element={<ChallengeSets />} />
             <Route path="/our-team" element={<OurTeam />} />
             <Route path="/News-&-Media" element={<StaticNews />} />
+            <Route path="/news" element={<NewsPage />} />
+            <Route path="/news/:id" element={<IndividualNews />} />
             {/*   />
             <Route path="/news/:id" element={<IndividualNews />} /> */}
             {/* <Route path="/gallery" element={<Gallery />} /> */}

@@ -1,6 +1,6 @@
 import { Row, Col } from "react-bootstrap";
 import SocialMediaIcons from "../SocialMedia/socialMedia";
-import SampleImage from "../../svgs/sample.jpg";
+import SampleImage from "../../svgs/seneca-polytechnic.png";
 import "./news.css";
 import { News } from "../../Data/Schema/newsSchema";
 
