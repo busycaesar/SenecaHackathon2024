@@ -6,7 +6,6 @@ import WhoAreWe from "../whoAreWe";
 import "../about.css";
 import SponsersBanner from "./sponsersBanner";
 import PartnersBanner from "./PartnerInsitituions";
-import SenecaWhiteLogo from "../../../svgs/seneca-logo-white.png";
 
 export default function HeaderBanner() {
   return (
@@ -15,8 +14,6 @@ export default function HeaderBanner() {
         <div className="md:max-w-full text-white">
           <div className="px-8 md:py-20 py-16 overflow-hidden rounded-xl background-banner">
             <div className="md:max-w-6xl text-center mx-auto">
-              <img src={SenecaWhiteLogo} width={150} alt="Seneca Logo" />
-              <p className="my-6">presents</p>
               <h1 className="font-heading mb-6 md:my-10 text-4xl md:text-5xl lg:text-6xl text-white font-black tracking-tight">
                 <span>Housing Hackathon</span>
               </h1>

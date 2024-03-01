@@ -59,10 +59,19 @@ export default function WhoCanParticipate() {
                                         alt={partner.title}
                                     />
                                 </a>
+                               
                             </div>
+                            
                         </Col>
+                        
                     ))}
+                    <div>
+                    <h2 style={{ marginTop: "1em" }} className="pb-2 text center text-white">
+                                  <strong>Our Partner Institutes</strong>
+                                </h2>
+                    </div>
                 </Row>
+                
             </div>
         </div>
     </div>
