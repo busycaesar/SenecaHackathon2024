@@ -25,6 +25,7 @@ import {
   PartnersData,
 } from "../Data/JSONData";
 import VideoComponents from "../Components/VideoComponent/VideoComponent";
+import QandA from "../Components/Small Component/TFandQA";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -62,6 +63,12 @@ export default function Home() {
       </div>
 
       <hr />
+
+      {/* <div className="animateSection rounded-xl mt-3">
+        <QandA />
+      </div> */}
+
+      {/* <hr /> */}
 
       <div className="animateSection rounded-xl mt-3">
         <WhoAreWe />

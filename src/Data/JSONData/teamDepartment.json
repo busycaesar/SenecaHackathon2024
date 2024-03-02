@@ -1,7 +1,7 @@
 [
   {
     "_id": 0,
-    "title": "Learders",
+    "title": "Leaders",
     "description": "Chief of Staff is responsible for volunteer/intern experience, equity, inclusiveness."
   },
   {
@@ -12,7 +12,7 @@
   {
     "_id": 2,
     "title": "Partner Experience Team",
-    "description": "Missing Description"
+    "description": ""
   },
   {
     "_id": 3,
@@ -28,5 +28,20 @@
     "_id": 5,
     "title": "Marketing Team",
     "description": "Marketing Department is the face of Seneca Hackathon. It is the Marketing Department's job to reach out to prospects, customers, investors and/or the community, while creating an overarching image that represents your company in a positive light."
+  },
+  {
+    "_id": 6,
+    "title": "Financial Team",
+    "description": ""
+  },
+  {
+    "_id": 7,
+    "title": "Communication Team",
+    "description": ""
+  },
+  {
+    "_id": 8,
+    "title": "Issues Management Team",
+    "description": ""
   }
 ]
