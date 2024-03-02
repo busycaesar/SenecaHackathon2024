@@ -15,16 +15,36 @@ export default function ChallengeSetsSection({
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
+    responsive: [
+      {
+        breakpoint: 1280, // lg breakpoint
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 1024, // md breakpoint
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 768, // sm breakpoint
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
 
   return (
     <>
-      <div className="">
-        <section className="py-20 w-screen bg-my-red">
-          <div className="absolute inset-0">
+      <div className="flex justify-center items-center">
+        <section className="py-8 w-full bg-my-red">
+          <div className="absolute p-10">
             <svg
               width="804"
               height="728"
@@ -32,7 +52,7 @@ export default function ChallengeSetsSection({
               fill="#e50000"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <g opacity="0.5" clip-path="url(#clip0)">
+              <g opacity="0.2" clip-path="url(#clip0)">
                 <path
                   d="M784.903 402.215C784.903 402.024 784.903 401.833 784.712 401.642L593.738 76.8126L593.547 76.6215L593.356 76.4305L479.154 0.191094L478.963 1.7597e-05L478.772 1.75887e-05L478.581 1.75803e-05L478.39 1.7572e-05L478.199 1.75636e-05L134.446 76.4304C134.255 76.4304 134.064 76.6215 133.873 76.8126C133.873 77.0037 133.682 77.1948 133.682 77.3858L133.682 77.5769L182.189 250.883C182.38 251.456 182.953 251.647 183.335 251.456C183.908 251.265 184.099 250.883 184.099 250.501L184.099 250.31L135.783 78.1501L476.862 2.29293L396.271 214.77L220.766 338.396C220.384 338.587 220.384 338.969 220.384 339.16C220.384 339.351 220.384 339.542 220.575 339.733C220.957 340.115 221.53 340.307 221.912 339.924L395.125 217.827L316.062 426.482L234.707 430.877L199.568 305.531C199.568 305.149 199.186 304.957 199.186 304.957C198.995 304.957 198.804 304.766 198.422 304.957C197.849 305.149 197.658 305.531 197.658 305.913L197.658 306.104L232.606 431.068L80.5911 439.284L175.123 372.79C175.505 372.598 175.505 372.216 175.505 372.025C175.505 371.834 175.505 371.643 175.314 371.452C174.932 371.07 174.359 370.879 173.977 371.261L76.7716 439.666C76.5806 439.857 76.3896 440.048 76.3896 440.43C76.3896 440.622 76.3896 440.622 76.3896 440.813C76.5806 441.195 76.9626 441.386 77.3445 441.386L233.179 432.978L267.363 555.076L267.554 555.458L267.554 555.649L267.745 555.84L267.936 556.032L592.592 708.892C592.974 709.083 593.165 709.083 593.547 708.892C593.738 708.701 593.929 708.51 593.929 708.128L593.929 493.741C593.929 493.167 593.547 492.785 592.974 492.785C592.401 492.785 592.019 493.167 592.019 493.741L592.019 706.408L269.464 554.503L317.208 428.393L530.716 416.928C531.289 416.928 531.671 416.546 531.671 415.973C531.671 415.399 531.098 415.017 530.716 415.017L318.163 426.482L397.99 215.916L592.019 79.2966L592.019 411.769L588.009 411.96C587.436 411.96 587.054 412.342 587.054 412.916C587.054 413.489 587.627 413.871 588.009 413.871L592.019 413.68L592.019 436.418C592.019 436.991 592.401 437.373 592.974 437.373C593.547 437.373 593.929 436.991 593.929 436.418L593.929 413.489L783.948 403.171C784.33 403.171 784.521 402.98 784.712 402.597C784.903 402.406 784.903 402.406 784.903 402.215ZM782.42 401.26L593.929 411.387L593.929 80.8252L782.42 401.26ZM478.772 2.48401L591.255 77.3858L399.135 212.668L478.772 2.48401ZM315.298 428.584L268.509 552.019L235.089 432.787L315.298 428.584Z"
                   fill="#fff"
@@ -68,57 +88,48 @@ export default function ChallengeSetsSection({
               </g>
             </svg>
           </div>
-          <div className="mx-10 flex justify-center items-center z-50">
+          <div className="mx-10 flex justify-center items-center z-10 relative">
             <div className="flex flex-wrap">
-              <div className="">
-                <div className="max-w-md mx-auto py-10">
-                  <h2 className="mb-6 text-[5rem] text-nowrap text-white uppercase font-heading">
-                    <strong>Challenge Sets</strong>
-                  </h2>
-                  <p className="mb-12 text-[2rem] opacity-85 w-[50vw] text-gray-50">
-                    Explore a variety of challenges in the hackathon and
-                    demonstrate your innovative skills and creativity. Choose
-                    your passion and make a real-world impact.
-                  </p>
-                </div>
+              <div className="mx-auto py-10">
+                <h2 className="mb-6 text-3xl lg:text-5xl text-white uppercase font-heading">
+                  <strong>Challenge Sets</strong>
+                </h2>
+                <span className="mb-12 text-base md:text-2xl text-gray-50">
+                  Explore a variety of challenges in the hackathon and
+                  demonstrate your innovative skills and creativity. Choose your
+                  passion and make a real-world impact.
+                </span>
               </div>
             </div>
           </div>
-          <section className="py-20 bg-black overflow-hidden">
-            <div className="relative flex-row flex justify-center items-center -mx-4 mb-16 lg:mb-12">
-              {challengeSet.length > 0 ? (
-                <>
-                  {challengeSet.map((challengeSetItem, index) => (
-                    <div key={index} className="">
-                      <div className="transform w-full lg:w-1/3 px-4 mb-10 lg:mb-0">
-                        <div className="">
-                          <img
-                            src={challengeSetItem.image}
-                            width={500}
-                            height={500}
-                          />
-                        </div>
-                        <div className="w-[20vw]">
-                          <h3 className="mb-6 text-2xl text-white font-heading">
-                            Spectacular team plan
-                          </h3>
-                          <p className="text-lg text-gray-500">
-                            Fairly assigning daily tasks to your employees. Take
-                            a big step forward in growing your business with
-                            this great tool.
-                          </p>
-                        </div>
-                      </div>
+          <section className="py-10 bg-white overflow-hidden">
+            <Slider {...settings}>
+              {challengeSet.map((challengeSetItem, index) => (
+                <div key={index} className="px-4 mb-8">
+                  <div className="flex flex-col items-center justify-center">
+                    <img
+                      className="rounded-xl shadow-xl mb-6 hover:scale-105 transition-transform duration-500 ease-in-out"
+                      src={challengeSetItem.image}
+                    />
+                    <div className="text-center">
+                      <h3 className="mb-6 text-2xl text-red-500 font-heading">
+                        {challengeSetItem.title}
+                      </h3>
+                      <p className="text-lg text-gray-900">
+                        {challengeSetItem.description}
+                      </p>
                     </div>
-                  ))}
-                </>
-              ) : (
-                <h1>No challenge sets available</h1>
-              )}
-            </div>
+                  </div>
+                </div>
+              ))}
+            </Slider>
           </section>
-          <div className="pt-4 text-center md:mx-auto z-50 mt-10 ">
-            <a href={`/challenge-sets`} rel="noreferrer">
+          <div className="flex justify-center text-center md:mx-auto z-50 mt-10">
+            <a
+              href={`/challenge-sets`}
+              rel="noreferrer"
+              className="no-underline hover:scale-125 transition-all duration-150 ease-in-out"
+            >
               <svg
                 className="mr-3"
                 width="30"
@@ -132,7 +143,9 @@ export default function ChallengeSetsSection({
                   fill="#fff"
                 ></path>
               </svg>
-              <span>More On Challenge Sets</span>
+              <span className="button hover:cursor-pointer bg-white p-3 rounded-xl hover:scale-125 transition-all duration-150 ease-in-out">
+                More On Challenge Sets
+              </span>
             </a>
           </div>
         </section>
