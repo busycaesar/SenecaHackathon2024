@@ -32,7 +32,7 @@ export default function ImportantDates(props: { dates: any }) {
               );
             })}
           </Row>
-          <div className="button pt-4 text-center md:mx-auto">
+          <div className="button pt-4 text-center md:mx-auto hover:scale-125 transition-all duration-150 ease-in-out hover:cursor-pointer">
             <a href={`/roadmap`} rel="noreferrer">
               <button className="font-bold ">Check Our Roadmap</button>
             </a>
