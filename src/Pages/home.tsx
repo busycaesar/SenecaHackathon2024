@@ -14,6 +14,7 @@ import WhoAreWe from "../Components/Home/whoAreWe";
 import Awards from "../Components/Home/Awards/awards";
 import ImportantDates from "../Components/Home/Dates/importantDates";
 import WhoCanParticipate from "../Components/WhoParticipant/WhoParticipant";
+import Prize from "../Components/Prize/Prize";
 import {
   WorkingData,
   ImportantDateData,
@@ -57,11 +58,11 @@ export default function Home() {
       <HeaderBanner />
 
       <div className="animateSection -pt-4 rounded-xl -mt-24 md:-mt-60">
-      <VideoComponents/>
+        <VideoComponents />
       </div>
 
-<hr />
-     
+      <hr />
+
       <div className="animateSection rounded-xl mt-3">
         <WhoAreWe />
       </div>
@@ -80,6 +81,11 @@ export default function Home() {
       <hr />
 
       <div className="animateSection">
+        <Prize />
+      </div>
+      <hr />
+
+      <div className="animateSection">
         <ImportantDates dates={ImportantDateData} />
       </div>
       <hr />
@@ -90,13 +96,13 @@ export default function Home() {
       <div className="animateSection rounded-xl mt-3">
         <PartnersBanner partners={PartnersData} />
       </div>
-     
+
       <hr />
       <div className="animateSection rounded-xl mt-3">
         <SponsersBanner sponsers={SponsersData} />
       </div>
       <hr />
-      
+
       <div className="animateSection">
         <Testimonial testimonials={TestimonialData} />
       </div>

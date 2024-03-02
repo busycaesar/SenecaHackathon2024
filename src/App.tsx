@@ -14,7 +14,6 @@ import AboutUs from "./Pages/aboutUs";
 //import Login from "./Components/User/Login";
 //import useToggle from "./Components/CustomHooks/useToggle";
 import Roadmap from "./Pages/Roadmap";
-import Prize from "./Pages/Prize";
 //import ChallengeSet from "./Components/ChallengeSet/challengeSet";
 
 function App() {
@@ -49,8 +48,6 @@ function App() {
             {/* <Route path="/gallery" element={<Gallery />} /> */}
             <Route path="/faq" element={<Faq />} />
             <Route path="/roadmap" element={<Roadmap />} />
-            {/* Temporary */}
-            <Route path="/prize" element={<Prize />} />
           </Routes>
         </div>
       </Router>
