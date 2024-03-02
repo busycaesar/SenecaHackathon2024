@@ -66,6 +66,7 @@ export default function HeaderBanner() {
                     >
                       info@senecahackathon.com
                     </span>
+                    &nbsp; using the email you registered with.
                   </p>
                 </p>
                 <div className="md:pb-40"></div>
