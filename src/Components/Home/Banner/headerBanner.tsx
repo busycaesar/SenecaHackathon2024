@@ -6,8 +6,21 @@ import WhoAreWe from "../whoAreWe";
 import "../about.css";
 import SponsersBanner from "./sponsersBanner";
 import PartnersBanner from "./PartnerInsitituions";
+import { toast } from "react-toastify";
 
 export default function HeaderBanner() {
+  const copyEmailToClipboard = () => {
+    const email = "info@senecahackathon.com";
+    navigator.clipboard.writeText(email).then(
+      () => {
+        toast.success("Email copied to clipboard");
+      },
+      (err) => {
+        console.error("Could not copy text: ", err);
+      }
+    );
+  };
+
   return (
     <div className="page-content-1">
       <section className="md:max-w-full">
@@ -30,22 +43,32 @@ export default function HeaderBanner() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <button className="font-bold">Registration Closed.</button>
+                    <button className="font-bold">Registration Closed</button>
                   </a>
                 </div>
 
-                <p className="m-4 md:text-lg text-base text-white  font-bold">
+                <p className="m-4 md:text-md text-base text-white  font-medium">
                   Thank you for your interest in participating in Housing
                   Hackathon 2024. The registration is now closed.
                 </p>
-                <p className=" text-amber-400 font-gotham p-3 rounded-xl bg-dark">
-                  Team Formation and Category Selection is
-                  due on March 2, 2024, 6 PM. After the due date, you will be
-                  grouped with other participants in the same category.
+                <p className="text-amber-400 font-pretty md:text-md text-base p-3 font-medium rounded-xl bg-gray-900">
+                  ⚠️ Team Formation and Category Selection is due on March 2,
+                  2024, 6 PM. After the due date, you will be grouped with other
+                  participants in the same category.
+                  <p className="mt-4 text-white text-sm md:text-sm">
+                    Once you have confirmed your team or want to make changes to
+                    your team, please send an email to{" "}
+                    <span
+                      className="email-link hover:cursor-pointer hover:underline"
+                      onClick={(e) => {
+                        copyEmailToClipboard();
+                      }}
+                    >
+                      info@senecahackathon.com
+                    </span>
+                  </p>
                 </p>
-                <div className="md:pb-40">
-
-                </div>
+                <div className="md:pb-40"></div>
               </div>
             </div>
           </div>

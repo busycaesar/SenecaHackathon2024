@@ -25,6 +25,7 @@
     "react-multi-carousel": "^2.8.4",
     "react-scripts": "5.0.1",
     "react-scrollmagic": "^2.3.0",
+    "react-toastify": "^10.0.4",
     "scrollmagic": "^2.0.8",
     "shufflejs": "^6.1.0",
     "typescript": "^4.9.5",
