@@ -51,41 +51,33 @@ export default function Home() {
         }
       );
     });
-  }, []);
+  }, []); // dont change this set as run only once
 
   return (
     <>
       <HeaderBanner />
 
       <div className="animateSection -pt-4 rounded-xl -mt-24 md:-mt-60">
-      <VideoComponents/>
-      </div>
-
-<hr />
-
-<div className="animateSection rounded-xl mt-3">
-        <QandA />
+        <VideoComponents />
       </div>
 
       <hr />
-     
+      <div className="animateSection rounded-xl mt-3">
+        <QandA />
+      </div>
+      <hr />
       <div className="animateSection rounded-xl mt-3">
         <WhoAreWe />
       </div>
-
       <hr />
-
       <div className="animateSection">
         <WhoCanParticipate />
       </div>
-
       <hr />
-
       <div className="animateSection">
         <WorkingSection works={WorkingData} />
       </div>
       <hr />
-
       <div className="animateSection">
         <ImportantDates dates={ImportantDateData} />
       </div>
@@ -97,13 +89,13 @@ export default function Home() {
       <div className="animateSection rounded-xl mt-3">
         <PartnersBanner partners={PartnersData} />
       </div>
-     
+
       <hr />
       <div className="animateSection rounded-xl mt-3">
         <SponsersBanner sponsers={SponsersData} />
       </div>
       <hr />
-      
+
       <div className="animateSection">
         <Testimonial testimonials={TestimonialData} />
       </div>
