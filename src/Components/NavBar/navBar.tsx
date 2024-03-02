@@ -59,18 +59,18 @@ function ResponsiveAppBar(props: {
               <img
                 src={HackathonLogo}
                 alt="Seneca Hackathon 2024's logo"
-                width={215}
+                className="w-[180px] md:w-[215px]"
               />
             </a>
-            <img className="mx-3" src={Line} alt="Line" height={70} />
+            <img className="mx-3 h-[70px]" src={Line} alt="Line" />
             <div className="flex flex-col">
-              <strong>hosted by</strong>
+            <span className=" mb-0 text-xs pt-2">hosted by</span>
               <a
                 href="https://www.senecapolytechnic.ca/home.html"
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src={SenecaLogo} alt="Seneca's logo" height={57} />
+                <img src={SenecaLogo} alt="Seneca's logo" className=" h-[40px] md:h-[40px]"/>
               </a>
             </div>
           </Box>
@@ -82,7 +82,7 @@ function ResponsiveAppBar(props: {
                 style={{ display: "flex" }}
                 to={convertToUrlFormat(item)}
               >
-                <Button key={item} sx={{ color: "black" }}>
+                <Button className="" key={item} sx={{ color: "black" }}>
                   {item}
                 </Button>
               </Link>

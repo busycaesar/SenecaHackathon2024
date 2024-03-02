@@ -58,6 +58,7 @@ export default function Home() {
       <HeaderBanner />
 
       <div className="animateSection -pt-4 rounded-xl -mt-24 md:-mt-60">
+<<<<<<< HEAD
         <VideoComponents />
       </div>
 
@@ -66,6 +67,19 @@ export default function Home() {
         <QandA />
       </div>
       <hr />
+=======
+      <VideoComponents/>
+      </div>
+
+<hr />
+
+{/* <div className="animateSection rounded-xl mt-3">
+        <QandA />
+      </div> */}
+
+      {/* <hr /> */}
+     
+>>>>>>> bac11d0ea1bc09142c4f47e761359ab758095ecc
       <div className="animateSection rounded-xl mt-3">
         <WhoAreWe />
       </div>
