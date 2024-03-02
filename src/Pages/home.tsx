@@ -14,6 +14,7 @@ import WhoAreWe from "../Components/Home/whoAreWe";
 import Awards from "../Components/Home/Awards/awards";
 import ImportantDates from "../Components/Home/Dates/importantDates";
 import WhoCanParticipate from "../Components/WhoParticipant/WhoParticipant";
+import Prize from "../Components/Prize/Prize";
 import {
   WorkingData,
   ImportantDateData,
@@ -143,6 +144,11 @@ export default function Home() {
         <WorkingSection works={WorkingData} />
       </div>
       <hr />
+      <div className="animateSection">
+        <Prize />
+      </div>
+      <hr />
+
       <div className="animateSection">
         <ImportantDates dates={ImportantDateData} />
       </div>
