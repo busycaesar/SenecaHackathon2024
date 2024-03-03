@@ -39,9 +39,9 @@ const prizeList = [
   {
     id: 3,
     price: 500,
-    note: "*4 individual winners will receive this prize",
+    note: "4 individual winners will receive this prize",
     housingImg: houseForth,
-    title: "Forth Prize",
+    title: "Challenge Set Winners",
     hImg: hForth,
     customColor: "bg-blue-500",
   },
@@ -86,9 +86,9 @@ function Prize() {
   );
   return (
     <>
-      <section className=" flex flex-col items-center border-solid border-red-700 border-8 rounded-3xl mt-20 py-10 mx-3 md:mx-5">
+      <section className=" bg-gray-800 flex flex-col items-center border-solid border-red-700 border-8 rounded-3xl mt-20 py-10 mx-3 md:mx-5">
         <h2>
-          <strong>Important Dates (2024)</strong>
+          <strong className="text-3xl text-white md:text-5xl"> Winners & Prizes</strong>
         </h2>
         <div
           id="prizeHolder"
@@ -109,7 +109,7 @@ function Prize() {
                     <p className="text-xl font-bold xl:text-6xl xl:tracking-widest md:text-4xl tracking-wide sm:text-2xl">
                       ${selectedPrize.price}
                     </p>
-                    <p className="text-sm">{selectedPrize.note}</p>
+                    <p className="text-base">{selectedPrize.note}</p>
                   </div>
                   <div className="w-full sm:w-3/5 ">
                     {selectedPrize.hImg && selectedPrize.id !== 3 && (
