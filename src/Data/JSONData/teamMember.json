@@ -64,16 +64,16 @@
   },
   {
     "_id": 7,
-    "image":"/svgs/teams/Ana_Maria_Avendano.jpg",
+    "image":"https://media.licdn.com/dms/image/D5603AQFv6QDLa2W7Gw/profile-displayphoto-shrink_400_400/0/1689699089702?e=1714608000&v=beta&t=_3ff0MKB-kDQVtsSAqMJASHOSR26jfDa1IIGv4HLqaU",
     "firstName": "Ana Maria",
     "lastName": "Avendano Rojas",
-    "designation": "Director of Student Success Department",
+    "designation": "Director | Student Success Department",
     "department": 0,
     "linkedinLink": "https://www.linkedin.com/feed/"
   },
   {
     "_id": 8,
-    "image":"/svgs/teams/Daisy_Le.jpg",
+    "image":"/svgs/teams/Daisy_Le.jpeg",
     "firstName": "Daisy",
     "lastName": "Le",
     "designation": "Director of Finance",
@@ -100,7 +100,7 @@
   },
   {
     "_id": 11,
-    "image":"/svgs/teams/Aladdin_AlRadhi.jpg",
+    "image":"/svgs/teams/Aladdin_AlRadhi.jpeg",
     "firstName": "Aladdin",
     "lastName": "AlRadhi",
     "designation": "Cyber Security Professor",
@@ -145,7 +145,7 @@
   },
   {
     "_id": 16,
-    "image":"/svgs/teams/Nonthachai_Plodthong.jpg",
+    "image":"/svgs/teams/Nonthachai_Plodthong.jpeg",
     "firstName": "Nonthachai",
     "lastName": "Plodthong",
     "designation": "Manager | IT Team",
@@ -280,7 +280,7 @@
   },
   {
     "_id": 31,
-    "image":"/svgs/teams/Abhishek_Raj.jpg",
+    "image":"/svgs/teams/Abhishek_Raj.jpeg",
     "firstName": "Abhishek",
     "lastName": "Raj",
     "designation": "Partner Experience Officer",
@@ -379,7 +379,7 @@
   },
   {
     "_id": 42,
-    "image":"/svgs/teams/Reshma_Chandra_Mohan.jpg",
+    "image":"/svgs/teams/Reshma_Chandra_Mohan.jpeg",
     "firstName": "Reshma",
     "lastName": "Chandra Mohan",
     "designation": "Challenge Category Manager",
@@ -524,7 +524,7 @@
   },
   {
     "_id": 58,
-    "image":"/svgs/teams/Vinh_Ng.jpg",
+    "image":"/svgs/teams/Vinh_Ng.jpeg",
     "firstName": "Vinh",
     "lastName": "Nguyen",
     "designation": "Content Creator",
@@ -650,7 +650,7 @@
   },
   {
     "_id": 72,
-    "image":"/svgs/teams/Sky_Yoon.png",
+    "image":"https://media.licdn.com/dms/image/D5603AQGm2NKCnE567Q/profile-displayphoto-shrink_400_400/0/1700071486190?e=1714608000&v=beta&t=RRDMsalh9STZMwA1gDX828o5VkYtzqtiXMCqDbl_fiQ",
     "firstName": "Sky",
     "lastName": "Yoon",
     "designation": "Business Analyst",
