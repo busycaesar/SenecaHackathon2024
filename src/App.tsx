@@ -9,17 +9,21 @@ import NewsPage from "./Pages/newsPage";
 //import Gallery from "./Pages/gallery";
 
 import StaticNews from "./Components/News/staticNews";
+import "react-toastify/dist/ReactToastify.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import IndividualNews from "./Pages/individualNews";
 import AboutUs from "./Pages/aboutUs";
 //import Login from "./Components/User/Login";
 //import useToggle from "./Components/CustomHooks/useToggle";
 import Roadmap from "./Pages/Roadmap";
+import { ToastContainer} from "react-toastify";
 //import ChallengeSet from "./Components/ChallengeSet/challengeSet";
 
 function App() {
   return (
-    <div className="">
+
+    <div className="App">
+      <ToastContainer />
       <Router>
         <NavBar
           mainNavItems={[

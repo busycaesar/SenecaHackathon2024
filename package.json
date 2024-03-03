@@ -27,6 +27,7 @@
     "react-scripts": "5.0.1",
     "react-scrollmagic": "^2.3.0",
     "react-slick": "^0.30.2",
+    "react-toastify": "^10.0.4",
     "scrollmagic": "^2.0.8",
     "shufflejs": "^6.1.0",
     "slick-carousel": "^1.8.1",
