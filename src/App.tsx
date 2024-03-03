@@ -29,7 +29,7 @@ function App() {
           mainNavItems={[
             "About",
             "Challenge Sets",
-            "Our Team",
+            //"Our Team",
             "News & Media",
             // "Gallery",
             "FAQ",
