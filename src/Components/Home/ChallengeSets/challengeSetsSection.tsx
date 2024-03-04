@@ -11,6 +11,20 @@ export default function ChallengeSetsSection({
 }: {
   challengeSet: WordDescription[];
 }) {
+  const [isLargeScreen, setIsLargeScreen] = React.useState(
+    window.innerWidth >= 1024
+  );
+
+  React.useEffect(() => {
+    const handleResize = () => {
+      setIsLargeScreen(window.innerWidth >= 1024);
+    };
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   const settings = {
     dots: true,
     infinite: true,
@@ -103,26 +117,51 @@ export default function ChallengeSetsSection({
             </div>
           </div>
           <section className="py-10 bg-white overflow-hidden">
-            <Slider {...settings}>
-              {challengeSet.map((challengeSetItem, index) => (
-                <div key={index} className="px-4 mb-8">
-                  <div className="flex flex-col items-center justify-center">
-                    <img
-                      className="rounded-xl shadow-xl mb-6 hover:scale-105 transition-transform duration-500 ease-in-out"
-                      src={challengeSetItem.image}
-                    />
-                    <div className="text-center">
-                      <h3 className="mb-6 text-2xl text-red-500 font-heading">
-                        {challengeSetItem.title}
-                      </h3>
-                      <p className="text-lg text-gray-900">
-                        {challengeSetItem.description}
-                      </p>
+            {isLargeScreen ? (
+              <div className="flex justify-center flex-wrap">
+                {challengeSet.map((challengeSetItem, index) => (
+                  <div key={index} className="px-4 mb-8 xl:w-1/4 md:w-1/3">
+                    <div className="flex flex-col items-center justify-center">
+                      <img
+                        className="rounded-xl shadow-xl mb-6 hover:scale-105 transition-transform duration-500 ease-in-out"
+                        src={challengeSetItem.image}
+                        width={300}
+                        height={300}
+                      />
+                      <div className="text-center">
+                        <h3 className="mb-6 text-xl text-red-500 font-heading">
+                          {challengeSetItem.title}
+                        </h3>
+                        <p className="text-lg text-gray-900">
+                          {challengeSetItem.description}
+                        </p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              ))}
-            </Slider>
+                ))}
+              </div>
+            ) : (
+              <Slider {...settings}>
+                {challengeSet.map((challengeSetItem, index) => (
+                  <div key={index} className="px-4 mb-8">
+                    <div className="flex flex-col items-center justify-center">
+                      <img
+                        className="rounded-xl shadow-xl mb-6 hover:scale-105 transition-transform duration-500 ease-in-out"
+                        src={challengeSetItem.image}
+                      />
+                      <div className="text-center">
+                        <h3 className="mb-6 text-2xl text-red-500 font-heading">
+                          {challengeSetItem.title}
+                        </h3>
+                        <p className="text-lg text-gray-900">
+                          {challengeSetItem.description}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </Slider>
+            )}
           </section>
           <div className="flex justify-center text-center md:mx-auto z-50 mt-10">
             <a

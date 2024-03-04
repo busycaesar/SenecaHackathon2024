@@ -63,7 +63,6 @@ export default function Home() {
   return (
     <>
       <HeaderBanner />
-
       <div className="animateSection -pt-4 rounded-xl -mt-24 md:-mt-60">
         {toggleVideo ? (
           <>
