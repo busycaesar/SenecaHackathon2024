@@ -148,10 +148,41 @@
     "link": "https://www.brampton.ca/"
   },
   {
+    "id": 20,
+    "title": "Renoshare",
+    "path": "https://renoshare.co/wp-content/uploads/2023/07/cropped-8.png",
+    "width": "150%",
+    "link": "https://renoshare.co/"
+  },
+
+  {
     "id": 21,
+    "title": "Trinetra",
+    "path": "https://trinetra.ca/wp-content/uploads/2022/04/Trinetra-Logo-White-1024x318.png",
+    "width": "150%",
+    "link": "https://trinetra.ca/"
+  },
+
+  {
+    "id": 22,
+    "title": "We Watch",
+    "path": "https://i0.wp.com/we-watch.ca/wp-content/uploads/2023/09/we-watch-logo.png?resize=1024%2C297&ssl=1",
+    "width": "150%",
+    "link": "https://we-watch.ca/"
+  },
+  {
+    "id": 23,
+    "title": "Blockchain (Healthcare)",
+    "path": "/svgs/sponsers/blockchain.jpeg",
+    "width": "150%",
+    "link": "https://blockchainhealthcaretoday.com/index.php/journal"
+  },
+  {
+    "id": 24,
     "title": "Inheritchain",
     "path": "/svgs/sponsers/ic.png",
     "width": "150%",
     "link": "https://inheritchain.com/"
   }
+  
 ]
