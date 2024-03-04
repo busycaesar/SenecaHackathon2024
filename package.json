@@ -32,7 +32,8 @@
     "shufflejs": "^6.1.0",
     "slick-carousel": "^1.8.1",
     "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "yet-another-react-lightbox": "^3.17.0"
   },
   "scripts": {
     "start": "react-scripts start",

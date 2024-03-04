@@ -1,11 +1,11 @@
 import hFirst from "../../svgs/Prize/hFisrt.png";
 import hSecond from "../../svgs/Prize/hSecond.png";
 import hThird from "../../svgs/Prize/hThird.png";
-import hForth from "../../svgs/Prize/hForth.png";
+import hForth from "../../svgs/Prize/hackathon_no_text_log_red_bg.png";
 import houseFirst from "../../svgs/Prize/houseFirst.png";
 import houseSecond from "../../svgs/Prize/houseSecond.png";
 import houseThird from "../../svgs/Prize/houseThird.png";
-import houseForth from "../../svgs/Prize/houseForth.png";
+import houseForth from "../../svgs/Prize/hForth.png";
 import { useState } from "react";
 
 const prizeList = [
@@ -41,7 +41,7 @@ const prizeList = [
     price: 500,
     note: "4 individual winners will receive this prize",
     housingImg: houseForth,
-    title: "Challenge Set Winners",
+    title: "Team Awards",
     hImg: hForth,
     customColor: "bg-blue-500",
   },
@@ -52,43 +52,15 @@ function Prize() {
     setSelectedPrize(data);
   };
 
-  const housingImgDecoration = (
-    <div
-      aria-hidden="true"
-      className="flex xl:flex-col w-full xl:w-1/12 md:h-full overflow-hidden justify-center items-center"
-    >
-      <img
-        src={selectedPrize.housingImg}
-        alt="house icon"
-        className="xl:w-full sm:w-2/12 w-1/4"
-      />
-      <img
-        src={selectedPrize.housingImg}
-        alt="house icon"
-        className="xl:w-full sm:w-2/12 w-1/4"
-      />
-      <img
-        src={selectedPrize.housingImg}
-        alt="house icon"
-        className="xl:w-full sm:w-2/12 w-1/4"
-      />
-      <img
-        src={selectedPrize.housingImg}
-        alt="house icon"
-        className="xl:w-full sm:w-2/12 w-1/4"
-      />
-      <img
-        src={selectedPrize.housingImg}
-        alt="house icon"
-        className="xl:w-full sm:w-2/12 w-1/4"
-      />
-    </div>
-  );
+
   return (
     <>
       <section className=" bg-gray-800 flex flex-col items-center border-solid border-red-700 border-8 rounded-3xl mt-20 py-10 mx-3 md:mx-5">
         <h2>
-          <strong className="text-3xl text-white md:text-5xl"> Winners & Prizes</strong>
+          <strong className="text-3xl text-gray-100 md:text-5xl">
+            {" "}
+            Winners & Prizes
+          </strong>
         </h2>
         <div
           id="prizeHolder"
@@ -98,32 +70,60 @@ function Prize() {
             id="prizeInfo"
             className="flex-1 w-full bg-red-700 rounded-3xl px-5 py-4 sm:py-8 sm:px-10 flex justify-around items-center flex-col xl:flex-row shadow-2xl relative"
           >
-            {housingImgDecoration}
             {selectedPrize && (
               <>
                 <div className="flex flex-col justify-center items-center w-full flex-1 z-10">
-                  <div className="text-white sm:text-left text-center w-full">
+                  <div className="text-gray-100 sm:text-left text-center w-full">
                     <p className="text-2xl font-bold xl:text-8xl md:text-5xl sm:text-3xl">
                       {selectedPrize.title}
                     </p>
                     <p className="text-xl font-bold xl:text-6xl xl:tracking-widest md:text-4xl tracking-wide sm:text-2xl">
                       ${selectedPrize.price}
                     </p>
-                    <p className="text-base">{selectedPrize.note}</p>
+                    <p className="text-sm">{selectedPrize.note}</p>
                   </div>
-                  <div className="w-full sm:w-3/5 ">
+                  <div className="w-full flex justify-center">
                     {selectedPrize.hImg && selectedPrize.id !== 3 && (
-                      <img
-                        src={selectedPrize.hImg}
-                        alt={selectedPrize.title}
-                        className="w-full"
-                      />
+                      <>
+                        <div className="w-1/6 flex items-center justify-center">
+                          <img
+                            src={selectedPrize.housingImg}
+                            alt={selectedPrize.title}
+                            className="w-full"
+                          />
+                        </div>
+                        <div className="w-full flex-1">
+                          <img
+                            src={selectedPrize.hImg}
+                            alt={selectedPrize.title}
+                            className="w-full"
+                          />
+                        </div>
+
+                        <div className="w-1/6 flex items-center justify-center">
+                          <img
+                            src={selectedPrize.housingImg}
+                            alt={selectedPrize.title}
+                            className="w-full"
+                          />
+                        </div>
+                      </>
+                    )}
+                    {selectedPrize.hImg && selectedPrize.id === 3 && (
+                      <>
+                        <div className="w-full sm:w-2/3 lg:w-1/2 mt-3  rounded-2xl">
+                          <img
+                            src={selectedPrize.hImg}
+                            alt={selectedPrize.title}
+                            className="w-full"
+                          />
+                        </div>
+                      </>
                     )}
                   </div>
                 </div>
               </>
             )}
-            {housingImgDecoration}
           </div>
           <div
             id="prizeList"
@@ -144,8 +144,8 @@ function Prize() {
                     />
                   )}
 
-                  {prize.hImg && prize.id === 3 && (
-                    <img src={prize.hImg} alt={prize.title} className="w-1/3" />
+                  {prize.housingImg && prize.id === 3 && (
+                    <img src={prize.housingImg} alt={prize.title} className="w-1/3" />
                   )}
                 </div>
                 <p className="text-center text-sm md:text-base lg:text-lg font-bold">

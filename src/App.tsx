@@ -17,6 +17,7 @@ import AboutUs from "./Pages/aboutUs";
 //import useToggle from "./Components/CustomHooks/useToggle";
 import Roadmap from "./Pages/Roadmap";
 import { ToastContainer} from "react-toastify";
+import ImageGallery from "./Components/PhotoGallery/ImageGallery";
 //import ChallengeSet from "./Components/ChallengeSet/challengeSet";
 
 function App() {
@@ -31,7 +32,7 @@ function App() {
             "Challenge Sets",
             //"Our Team",
             "News & Media",
-            // "Gallery",
+            "Gallery",
             "FAQ",
           ]}
           otherNavItems={[]}
@@ -49,7 +50,7 @@ function App() {
             <Route path="/our-team" element={<OurTeam />} />
             <Route path="/News-&-Media" element={<StaticNews />} />
             <Route path="/news/:id" element={<IndividualNews />} />
-            {/* <Route path="/gallery" element={<Gallery />} /> */}
+            <Route path="/gallery" element={<ImageGallery />} />
             <Route path="/faq" element={<Faq />} />
             <Route path="/roadmap" element={<Roadmap />} />
           </Routes>
