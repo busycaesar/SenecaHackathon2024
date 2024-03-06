@@ -7,7 +7,7 @@ export default function ChallengeSetItem({
   challengeSetItem: WordDescription;
 }) {
   return (
-    <div id="challenge-set-item">
+    <div>
       <img
         src={challengeSetItem.image}
         alt="icon"
