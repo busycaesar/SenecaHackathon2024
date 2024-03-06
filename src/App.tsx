@@ -7,26 +7,32 @@ import OurTeam from "./Pages/ourTeam";
 import Faq from "./Pages/faq";
 import NewsPage from "./Pages/newsPage";
 //import Gallery from "./Pages/gallery";
+
 import StaticNews from "./Components/News/staticNews";
+import "react-toastify/dist/ReactToastify.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-//import IndividualNews from "./Pages/individualNews";
+import IndividualNews from "./Pages/individualNews";
 import AboutUs from "./Pages/aboutUs";
 //import Login from "./Components/User/Login";
 //import useToggle from "./Components/CustomHooks/useToggle";
 import Roadmap from "./Pages/Roadmap";
+import { ToastContainer} from "react-toastify";
+import ImageGallery from "./Components/PhotoGallery/ImageGallery";
 //import ChallengeSet from "./Components/ChallengeSet/challengeSet";
 
 function App() {
   return (
+
     <div className="App">
+      <ToastContainer />
       <Router>
         <NavBar
           mainNavItems={[
             "About",
             "Challenge Sets",
-            // "Our Team",
+            //"Our Team",
             "News & Media",
-            // "Gallery",
+            "Gallery",
             "FAQ",
           ]}
           otherNavItems={[]}
@@ -43,9 +49,8 @@ function App() {
             <Route path="/challenge-sets" element={<ChallengeSets />} />
             <Route path="/our-team" element={<OurTeam />} />
             <Route path="/News-&-Media" element={<StaticNews />} />
-            {/*   />
-            <Route path="/news/:id" element={<IndividualNews />} /> */}
-            {/* <Route path="/gallery" element={<Gallery />} /> */}
+            <Route path="/news" element={<NewsPage />} />
+            <Route path="/news/:id" element={<IndividualNews />} />
             <Route path="/faq" element={<Faq />} />
             <Route path="/roadmap" element={<Roadmap />} />
           </Routes>

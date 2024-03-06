@@ -5,13 +5,13 @@ import "./news.css";
 export default function NewsThumbnail({ news }: { news: News }) {
   return (
     <div id="thumbnailImage" className="summarize">
-      <img src={SampleImage} alt="Sample" />
-      <a href={`/news/${news._id}`}>
-        <h3 style={{ color: "red", textDecoration: "underline" }}>
+      <img src={news.photo} alt="Sample" />
+      <a href={`/news/${news._id}`} className="no-underline">
+        <span className="text-my-red md:text-xl text-lg font-gotham">
           {news.title}
-        </h3>
+        </span>
       </a>
-      <p>{news.body}</p>
+      <p className="text-[0.8rem]">{news.body}</p>
     </div>
   );
 }
