@@ -1,92 +1,29 @@
 [
   {
     "_id": 0,
-    "title": "Seneca Housing Hackathon | Hackathon Insider | Episode 1 Experience of Hackathon",
-    "author": "Housing Hackathon",
-    "photo": "../../svgs/N_ID01.png",
-    "body": "This is the body of the news. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quam velit aliquid inventore maxime ducimus. Eaque libero aperiam, eveniet recusandae assumenda voluptas iure impedit ex, quos rem ad veritatis eligendi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate porro recusandae incidunt consequuntur ex voluptatum sint, ea, numquam, illo dolorum similique quia aliquam sit nobis accusamus rerum hic pariatur nemo! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis temporibus illum repellat, tempora beatae perspiciatis autem libero delectus magni ipsum assumenda laboriosam vel, suscipit dolores voluptatibus asperiores consequatur provident dolorem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse nemo repellat numquam debitis quibusdam cupiditate fugit, accusantium dolorum dolores consequatur nisi quo doloremque magni saepe ex eligendi reiciendis ea sint. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora vero amet obcaecati officiis! Sunt eius excepturi, inventore illo, vero sint reprehenderit in dolore distinctio dolores accusamus consequuntur quam cum architecto? Lorem ipsum dolor sit amet consectetur, adipisicing elit. A autem explicabo debitis vitae rerum necessitatibus unde? Odit id dignissimos, magnam ex pariatur accusantium autem iste architecto eum, illum, eveniet saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid omnis suscipit mollitia, iusto nostrum provident. Reprehenderit tempora nihil necessitatibus in distinctio. Omnis totam officiis iure harum! Quaerat adipisci laudantium magni? Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit obcaecati non molestiae dolore rerum veniam? Illum a mollitia laborum doloribus iure omnis sunt vel qui facilis dignissimos eius, consectetur exercitationem? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos fuga natus unde id. Nihil beatae quam molestias amet! Suscipit omnis eligendi laboriosam, officiis ad tempora sunt id nam quos pariatur!",
+    "title": "Housing Hackathon 2024: The motivation behind this year’s theme and its significance ",
+    "author": "Carol Lorenzana",
+    "photo": "../../svgs/id0.png",
+    "body": "The much-anticipated comeback of the annual Seneca Hackathon is here, and the event is poised to kick off this February. The organizers have chosen to center this year's event on the theme of \"housing\" in response to the pressing challenges of Canada's housing crisis. Motivated by a sense of urgency and social responsibility, the decision to focus on housing solutions arises from its alarming impact on vulnerable populations, particularly international students, and even indigenous communities.\n\"The subtler motivations emerged during our conversations with elders from Wasauksing First Nation, where we gained insight into the acute housing crisis affecting indigenous peoples. This revelation fueled our determination to make a positive impact and offer solutions”, said Mark Buchner, the Hackathon Chair. He also added that the support in addressing housing challenges of Thinking North, a sponsor from the previous event, contributed to their firm dedication to the theme.\nThis year’s hackathon aims to address a spectrum of challenges and opportunities within the housing sector by strategically breaking down the overarching problem into manageable \"challenge sets\" jointly with its sponsors and partners. This approach allows participants to tackle specific aspects of the issue, such as student housing, social housing, indigenous housing, and the viewpoints of builders, developers, financiers, and various levels of government—municipal, provincial, or federal.\nAccording to Mark, the solutions that they are expecting this year are mainly focused on cost reduction. “It’s intricately linked to enhancing efficiency, streamlining paperwork and administration, and exploring innovative financing solutions through technology”, he said. These priorities highlight the practical and transformative impact of the initiatives that will be developed during the Hackathon.\nAs we look forward to the innovations that will come out of this year's event, it is important to recognize the collaborative efforts and shared dedication pushing this meaningful event forward. With the support of sponsors and the creative energy of participants, we have the potential to turn challenges into opportunities and make significant strides toward ensuring safe and affordable housing for everyone.",
     "category": 1,
-    "creationDate": "2024-03-01T08:30:00.000Z"
+    "creationDate": "2024-01-20T08:30:00.000Z"
   },
   {
     "_id": 1,
-    "title": "Exciting Discovery in Astrophysics",
-    "author": "Astronomer123",
-    "photo": "../../svgs/discovery.jpg",
-    "body": "Scientists have made an exciting discovery in the field of astrophysics. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quam velit aliquid inventore maxime ducimus. Eaque libero aperiam, eveniet recusandae assumenda voluptas iure impedit ex, quos rem ad veritatis eligendi.",
+    "title": "Hackathon Enhancements: What participants can anticipate this year ",
+    "author": "Carol Lorenzana",
+    "photo": "../../svgs/id1.png",
+    "body": "Organizers of the hackathon has made a couple of improvements to further enrich the overall experience for all stakeholders involved, most especially its participants.\nParticipating teams can look forward to several unique elements this year. “We have designed the hackathon this year to optimize participant engagement and ensure high-quality output”, said Mark Buchner, when asked what makes the upcoming hackathon different from the previous ones. “Enhanced digital element strategies were incorporated and new positions were added in the organizing team to ensure a more inclusive and engaging experience for all participants”, he added.\nBuilding on lessons learned from previous hackathon events, among the deliberate shifts and improvements this year includes a greater emphasis on its adjudication processes, e-commerce integration, and the effective management of operational issues which may arise at any period during the entire stretch of this year’s hackathon event.\nNew and specialized roles were introduced to cater to a more diverse skillset, thereby strengthening the team’s overall operational efficiency. “We have added new positions in our expanded team such as Issues Management Specialist, VIP Experience Coordinator, Business Analyst and Communications Specialist, among others”, Mark revealed. As of the moment, there are 62 dedicated volunteer organizers in the hackathon, and it is expected to reach more than a hundred members as the event unfolds.\nWhile there are notable refinements, the foundational structure of the 2024 Housing Hackathon remains similar with its highly successful past events. Staying true to its mission, vision, and manifesto, Seneca Hackathon continues to prioritize a diverse team composition, ensuring inclusivity for all students, cultivating a fun working environment, and committed to deliver a practical learning opportunity to students.",
     "category": 1,
-    "creationDate": "2023-12-17T10:45:00.000Z"
+    "creationDate": "2024-02-03T10:45:00.000Z"
   },
   {
     "_id": 2,
-    "title": "New Breakthrough in Medical Research",
-    "author": "MedResearcher",
-    "photo": "../../svgs/medical.jpg",
-    "body": "A recent breakthrough in medical research promises new treatments for various diseases. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quam velit aliquid inventore maxime ducimus. Eaque libero aperiam, eveniet recusandae assumenda voluptas iure impedit ex, quos rem ad veritatis eligendi.",
+    "title": "Beyond the Hackathon Journey: A Story of Personal and Professional Growth",
+    "author": "Chogo Asuma",
+    "photo": "../../svgs/id2.png",
+    "body": "The Seneca Hackathon is not just an event; it's a catalyst for transformation. As participants embark on their hackathon journey, they are not only equipped with technical skills and problem-solving abilities but also propelled into a world of endless opportunities and possibilities. Let's explore the post-hackathon journey through the eyes of our past participants and envision what the 2024 hackathon’s future looks like.\nTestimonials: Previous participants’ success stories\nYancy Liu, a past participant, reflects on how hackathons expanded her horizons, fostering interdisciplinary collaboration and problem-solving. The skills she acquired led to coveted opportunities such as a Research Assistant role at Seneca Innovation and offers from prestigious master's programs.\nAnnabelle Adjei shares her unforgettable experience at the Seneca Hackathon, highlighting the support she received from her team, mentors, and event management.\n Kaung Khant Zaw describes the 2023 Seneca Hackathon as an inspirational journey that fueled his motivation to participate in more hackathons. Beyond solving real-world problems, he valued the opportunity to network with industry professionals, expanding his professional network and fostering future collaborations.\nKirandeep Kaur expresses gratitude for the enriching experience of participating and emerging victorious at the Seneca Hackathon. The event motivates her to push the boundaries of innovation and collaboration, leaving an indelible mark on her personal and professional growth.\nMadiha Turshin, a winner of the Thinking North Smart Cities Hackathon, emphasizes the transformative power of collaborative problem-solving. Winning first place underscored the importance of teamwork and innovation, setting the stage for future success.\n    While these testimonials show transformative power of the Hackathon, this merely marks the beginning of its impact. Behind every participant, there are countless untold stories of growth, innovation, and success waiting to be shared. From launching startups to advocating for policy change, the possibilities are endless for those who dare to embark on this transformative journey.\nA glimpse of the future: More than the prizes and recognitions\nThe Seneca 2024 Housing Hackathon doesn't shy away from tackling the most pressing challenges facing the housing sector. Whether it's addressing affordability, improving accessibility, and promoting sustainability, or enhancing community well-being, participants are tasked with developing innovative solutions that have a tangible impact on people's lives.\nBy providing a platform for collaboration and co-creation, the hackathon fosters the development of holistic solutions that consider the complex interplay of social, economic, and environmental factors shaping the housing landscape. From modular housing designs to smart city initiatives, the ideas born out of the hackathon have the potential to address systemic issues and pave the way for a more inclusive and sustainable future.\nPerhaps the most significant impact of the Seneca Housing Hackathon lies in its ability to empower change agents – individuals who are not content with the status quo and are driven to make a difference in the world. By equipping participants with the skills, knowledge, and networks they need to drive impact, the hackathon serves as a launching pad for a new generation of leaders and innovators in the housing industry.\nThe post-hackathon journey is not just about reaching destinations; it's about embracing the journey itself. It's about the friendships forged, the lessons learned, and the growth experienced along the way. As participants venture into the unknown, they carry with them the invaluable lessons and memories from their hackathon experience, shaping their futures in ways they never imagined possible.\nWhat you can do now: Be an agent of change.\nThis is your chance to collaborate with like-minded individuals, unleash your creativity, and contribute to shaping the future of housing. Don't miss out on this transformative opportunity to expand your network and make a real impact. Register now and let's build a better tomorrow together.",
     "category": 1,
-    "creationDate": "2023-12-17T13:15:00.000Z"
-  },
-  {
-    "_id": 3,
-    "title": "Tech Giants Announce Collaboration",
-    "author": "TechInsider",
-    "photo": "../../svgs/tech_collab.jpg",
-    "body": "Major tech companies have joined forces for a groundbreaking collaboration. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quam velit aliquid inventore maxime ducimus. Eaque libero aperiam, eveniet recusandae assumenda voluptas iure impedit ex, quos rem ad veritatis eligendi.",
-    "category": 1,
-    "creationDate": "2023-12-17T15:30:00.000Z"
-  },
-  {
-    "_id": 4,
-    "title": "Climate Change Summit Recap",
-    "author": "EnviroAdvocate",
-    "photo": "../../svgs/climate_change.jpg",
-    "body": "Global leaders gather to discuss urgent measures for combating climate change. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quam velit aliquid inventore maxime ducimus. Eaque libero aperiam, eveniet recusandae assumenda voluptas iure impedit ex, quos rem ad veritatis eligendi.",
-    "category": 1,
-    "creationDate": "2023-12-17T17:45:00.000Z"
-  },
-  {
-    "_id": 5,
-    "title": "SpaceX Launches New Satellite",
-    "author": "SpaceEnthusiast",
-    "photo": "../../svgs/spacex_launch.jpg",
-    "body": "SpaceX successfully launches a new satellite into orbit, advancing space exploration. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quam velit aliquid inventore maxime ducimus. Eaque libero aperiam, eveniet recusandae assumenda voluptas iure impedit ex, quos rem ad veritatis eligendi.",
-    "category": 1,
-    "creationDate": "2023-12-17T19:00:00.000Z"
-  },
-  {
-    "_id": 6,
-    "title": "New Art Installation Unveiled",
-    "author": "ArtCurator",
-    "photo": "../../svgs/art_installation.jpg",
-    "body": "A captivating art installation is unveiled, capturing the essence of creativity. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quam velit aliquid inventore maxime ducimus. Eaque libero aperiam, eveniet recusandae assumenda voluptas iure impedit ex, quos rem ad veritatis eligendi.",
-    "category": 2,
-    "creationDate": "2023-12-14T09:15:00.000Z"
-  },
-  {
-    "_id": 7,
-    "title": "New Study on Human Psychology",
-    "author": "PsychInsights",
-    "photo": "../../svgs/psychology_study.jpg",
-    "body": "Researchers reveal fascinating insights into human psychology in a recent study. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quam velit aliquid inventore maxime ducimus. Eaque libero aperiam, eveniet recusandae assumenda voluptas iure impedit ex, quos rem ad veritatis eligendi.",
-    "category": 2,
-    "creationDate": "2023-12-14T11:30:00.000Z"
-  },
-  {
-    "_id": 8,
-    "title": "World Leaders Address Global Challenges",
-    "author": "GlobalLeader",
-    "photo": "../../svgs/world_leaders.jpg",
-    "body": "World leaders come together to address pressing global challenges and discuss collaborative solutions. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quam velit aliquid inventore maxime ducimus. Eaque libero aperiam, eveniet recusandae assumenda voluptas iure impedit ex, quos rem ad veritatis eligendi.",
-    "category": 2,
-    "creationDate": "2023-12-14T13:45:00.000Z"
-  },
-  {
-    "_id": 9,
-    "title": "New Innovations in Renewable Energy",
-    "author": "GreenTechInnovator",
-    "photo": "../../svgs/renewable_energy.jpg",
-    "body": "Innovations in renewable energy promise a greener future for the planet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quam velit aliquid inventore maxime ducimus. Eaque libero aperiam, eveniet recusandae assumenda voluptas iure impedit ex, quos rem ad veritatis eligendi.",
-    "category": 2,
-    "creationDate": "2023-12-14T16:00:00.000Z"
+    "creationDate": "2024-02-17T13:15:00.000Z"
   }
 ]
