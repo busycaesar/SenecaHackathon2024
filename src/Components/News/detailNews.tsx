@@ -17,7 +17,7 @@ export default function DetailNews({ newsItem }: { newsItem: News }) {
         </div>
       </Col>
       <Col md={7}>
-        <img src={SampleImage} alt="Sample" style={{ width: "75%" }} />
+        <img src={""} alt="Sample" style={{ width: "75%" }} />
         <p>
           <span style={{ fontSize: "xxx-large", fontWeight: "700" }}>
             {newsItem.body.charAt(0)}
