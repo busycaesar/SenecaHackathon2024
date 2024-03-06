@@ -7,11 +7,21 @@ export default function DateBox(props: {
 }) {
   return (
     <>
-      <div className="event-title">{props.eventDate}</div>
-      <h3 style={{ color: "#D92D27 ", fontSize: "large" }}>
-        <strong>{props.eventTitle}</strong>
-      </h3>
-      <p>{props.eventDescription}</p>
+      <div className="flex flex-col">
+        <div className="inline-block bg-my-red p-3 rounded-lg text-white mb-2">
+          {props.eventDate}
+        </div>
+        <div className="">
+          <h3
+            style={{ color: "#fff", fontSize: "large" }}
+            className="font-bold"
+          >
+            {props.eventTitle}
+          </h3>
+        </div>
+
+        <p className="text-white">{props.eventDescription}</p>
+      </div>
     </>
   );
 }
