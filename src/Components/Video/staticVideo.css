@@ -31,7 +31,7 @@
 
 .text-section {
     background-color: white;
-    border: 2px solid#D92D27;
+    border: 2px solid red;
     padding: 16px;
     /* Adjust padding as needed */
     margin-bottom: 16px;
