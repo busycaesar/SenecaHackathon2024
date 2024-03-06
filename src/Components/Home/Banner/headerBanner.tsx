@@ -51,7 +51,7 @@ export default function HeaderBanner() {
                   Thank you for your interest in participating in Housing
                   Hackathon 2024. The registration is now closed.
                 </p>
-                <p className="text-amber-400 font-pretty md:text-md text-base p-3 font-medium rounded-xl bg-gray-900">
+                <p className="text-white font-pretty md:text-md text-base p-3 font-medium rounded-xl bg-gray-900">
                   ⚠️ Team Formation and Category Selection is due on March 2,
                   2024, 6 PM. After the due date, you will be grouped with other
                   participants in the same category.

@@ -71,11 +71,11 @@ export default function Home() {
                 e.preventDefault();
                 toggleVideoHandler();
               }}
-              className="text-dark-900 bg-white rounded-full p-2 absolute top-0 right-0 m-4 z-50 hover:cursor-pointer hover:bg-gray-200 transition-all duration-150 ease-in-out"
+              className="text-dark-900 bg-white rounded-full p-1 absolute top-0 right-0 m-4 z-50 hover:cursor-pointer hover:bg-gray-200 transition-all duration-150 ease-in-out"
             >
               <svg
-                width="15"
-                height="15"
+                width="23"
+                height="23"
                 viewBox="0 0 15 15"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"

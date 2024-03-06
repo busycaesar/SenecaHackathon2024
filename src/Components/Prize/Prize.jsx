@@ -30,7 +30,7 @@ const prizeList = [
   {
     id: 2,
     price: 1359,
-    note: "2 month Edmonton rent | 1 bedroom condo",
+    note: "1 month Edmonton rent | 1 bedroom condo",
     housingImg: houseThird,
     title: "Third Prize",
     hImg: hThird,
