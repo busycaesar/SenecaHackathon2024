@@ -49,8 +49,8 @@ function App() {
             <Route path="/challenge-sets" element={<ChallengeSets />} />
             <Route path="/our-team" element={<OurTeam />} />
             <Route path="/News-&-Media" element={<StaticNews />} />
+            <Route path="/news" element={<NewsPage />} />
             <Route path="/news/:id" element={<IndividualNews />} />
-            <Route path="/gallery" element={<ImageGallery />} />
             <Route path="/faq" element={<Faq />} />
             <Route path="/roadmap" element={<Roadmap />} />
           </Routes>
