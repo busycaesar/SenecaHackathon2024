@@ -48,7 +48,6 @@ function App() {
             <Route path="/about" element={<AboutUs />} />
             <Route path="/challenge-sets" element={<ChallengeSets />} />
             <Route path="/our-team" element={<OurTeam />} />
-            <Route path="/News-&-Media" element={<StaticNews />} />
             <Route path="/news" element={<NewsPage />} />
             <Route path="/news/:id" element={<IndividualNews />} />
             <Route path="/faq" element={<Faq />} />
@@ -62,3 +61,6 @@ function App() {
 }
 
 export default App;
+
+//<Route path="/News-&-Media" element={<StaticNews />} />
+//
