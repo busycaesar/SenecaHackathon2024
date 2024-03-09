@@ -1,6 +1,5 @@
 import React from "react";
 import { Video } from "../../Data/Schema/videoSchema"; // Assuming you have updated the schema
-import { dateFormat } from "./utils"; // Assuming this utility function is appropriate for formatting the date
 
 // Prop type adjusted to match the YouTubeVideo interface
 export default function VideoIframe({ video }: { video: Video }) {
@@ -10,7 +9,7 @@ export default function VideoIframe({ video }: { video: Video }) {
         <a href={`/video/${video.id}`} className="no-underline">
           {/* Using iframe for YouTube video instead of img tag */}
           <iframe
-            src={`https://www.youtube.com/embed/${video.id}`}
+            src={`${video.videoUrl}`}
             title={video.title}
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
@@ -21,8 +20,7 @@ export default function VideoIframe({ video }: { video: Video }) {
           <span className="text-wrap text-center text-xl md:text-2xl">
             {video.title}
           </span>
-          <p>By {video.author}</p>
-          <p>{dateFormat(video.publishDate)}</p>
+          <p>{video.publishDate.toISOString()}</p>
         </div>
       </div>
     </div>

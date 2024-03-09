@@ -1,9 +1,8 @@
 export interface Video {
-  id: string; 
-  title: string; 
-  author: string; 
-  thumbnailUrl: string; 
+  id: number;
+  title: string;
+  thumbnailUrl: string;
   description: string;
-  publishDate: string; 
-  videoUrl: string; 
+  publishDate: Date; 
+  videoUrl: string;
 }
