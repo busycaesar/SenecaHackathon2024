@@ -4,22 +4,22 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 
 export default function VideoComponents() {
   return (
+      
+<section class="">
+<div className="container px-10 rounded-3xl text-center mx-auto">
 
-    <section class="">
-      <div className="container px-10 rounded-3xl text-center mx-auto">
-
-        <div className="relative  overflow-hidden md:max-w-6xl mx-auto rounded-3xl aspect-video">
-          <iframe
-            className="absolute inset-0 w-full h-full rounded-lg"
-            height="315"
-            src="https://www.youtube.com/embed/7fBkaY6-_rU?si=LbPm-vRxv70fqcoL"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-          ></iframe>
-
-        </div>
-        {/* <div className="flex flex-col pt-5 ml-auto justify-center items-center">
+          <div className="relative  overflow-hidden md:max-w-6xl mx-auto rounded-3xl aspect-video">
+            <iframe
+              className="absolute inset-0 w-full h-full rounded-lg"
+              height="315"
+              src="https://www.youtube.com/embed/7fBkaY6-_rU?si=LbPm-vRxv70fqcoL"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            ></iframe>
+            
+          </div> 
+          {/* <div className="flex flex-col pt-5 ml-auto justify-center items-center">
                 <p className="lg:text-xl text-base text-black font-bold">Click below & Subscribe to our Channel for Hackathon Videos</p>
                 <div className="fill-white mb-10 curved-border">
                   <a
@@ -44,7 +44,7 @@ export default function VideoComponents() {
                   </a>
                 </div>
               </div> */}
-      </div>
-    </section>
+        </div>
+</section>
   );
 }
