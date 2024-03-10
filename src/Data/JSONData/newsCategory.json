@@ -1,11 +1,6 @@
 [
-  { "_id": 0, "title": "Latest News and Updates" },
   {
     "_id": 1,
-    "title": "Science"
-  },
-  {
-    "_id": 2,
-    "title": "Environment"
+    "title": "Blog"
   }
 ]

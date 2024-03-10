@@ -16,6 +16,7 @@ import AboutUs from "./Pages/aboutUs";
 //import Login from "./Components/User/Login";
 //import useToggle from "./Components/CustomHooks/useToggle";
 import Roadmap from "./Pages/Roadmap";
+import SubChallengeSet from "./Pages/subChallengeset/subChallengeSets";
 import { ToastContainer} from "react-toastify";
 import ImageGallery from "./Components/PhotoGallery/ImageGallery";
 //import ChallengeSet from "./Components/ChallengeSet/challengeSet";
@@ -47,10 +48,10 @@ function App() {
             {/* <Route path="/" element={<Home />} /> */}
             <Route path="/about" element={<AboutUs />} />
             <Route path="/challenge-sets" element={<ChallengeSets />} />
+            <Route path="/challenge-sets/:id" element={<SubChallengeSet />} />
             <Route path="/our-team" element={<OurTeam />} />
-            <Route path="/News-&-Media" element={<StaticNews />} />
+            <Route path="/news" element={<NewsPage />} />
             <Route path="/news/:id" element={<IndividualNews />} />
-            <Route path="/gallery" element={<ImageGallery />} />
             <Route path="/faq" element={<Faq />} />
             <Route path="/roadmap" element={<Roadmap />} />
           </Routes>
@@ -62,3 +63,6 @@ function App() {
 }
 
 export default App;
+
+//<Route path="/News-&-Media" element={<StaticNews />} />
+//
