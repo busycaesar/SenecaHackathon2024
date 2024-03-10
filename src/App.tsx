@@ -54,7 +54,7 @@ function App() {
               element={<CategorySubChallengeSet />}
             />
             <Route path="/our-team" element={<OurTeam />} />
-            <Route path="/news" element={<NewsPage />} />
+            <Route path="/News-&-Media" element={<NewsPage />} />
             <Route path="/news/:id" element={<IndividualNews />} />
             <Route path="/faq" element={<Faq />} />
             <Route path="/roadmap" element={<Roadmap />} />
