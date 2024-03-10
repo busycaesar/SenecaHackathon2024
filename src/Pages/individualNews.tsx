@@ -7,6 +7,7 @@ import {
   findNewsByCategoryId,
   findLatestNews,
 } from "../Data/Query/newsQuery";
+import SocialMediaIcons from "../Components/SocialMedia/socialMedia";
 
 export default function IndividualNews() {
   const { id } = useParams<{ id: string }>(),
@@ -39,10 +40,15 @@ export default function IndividualNews() {
         )}
       </div>
       {category && <CategoryNews categoryTitle={category.title} news={news} />}
-      <div className="button right-side">
-        <a href={`/news-&-media`}>
-          <button>More News</button>
-        </a>
+      <div className="flex flex-col content-center">
+        <div className="button my-2">
+          <a href={`/news-&-media`}>
+            <button>More News</button>
+          </a>
+        </div>
+        <div className="red-background my-2 curved-border">
+          <SocialMediaIcons />
+        </div>
       </div>
     </>
   );
