@@ -60,3 +60,6 @@ function App() {
 }
 
 export default App;
+
+//<Route path="/News-&-Media" element={<StaticNews />} />
+//

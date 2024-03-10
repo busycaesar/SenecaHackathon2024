@@ -12,3 +12,5 @@ export interface News {
   category: number;
   creationDate: string;
 }
+
+
