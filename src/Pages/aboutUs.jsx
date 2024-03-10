@@ -48,12 +48,6 @@ export default function AboutUs() {
           <div class="">
             <div class="text-black font-gotham md:px-20 ml-5 mb-2">
             <h2 class="mb-5 pt-5 font-gotham text-4xl text-my-red font-semibold font-heading">Who we are</h2>
-            <h3 class="mb-3 text-lg font-gotham font-medium underline">The organizing team</h3>
-              <p class="mb-6 text-lg font-gotham md:text-justify text-black">Seneca Hackathon is comprised of dedicated organizing committee of volunteers – skilled professionals and enthusiastic students who lead the way to steer and integrate our mission and vision, ensuring seamless execution of the entire Hackathon event.  </p>
-              <h3 class="mb-3 text-lg font-gotham font-medium underline">The participants </h3>
-              <p class="mb-6 text-lg font-gotham md:text-justify text-black">Our participants are students and alumni of Seneca and its partner institutions with wide-ranging interests and diverse backgrounds united and driven by shared passion for innovation.  </p>
-              <h3 class="mb-3 text-lg font-gotham font-medium underline">The sponsors  </h3>
-              <p class="mb-10 text-lg font-gotham md:text-justify text-black">Our sponsors and partners help us shape our challenge sets according to the theme of the hackathon and extend their resources and expertise in support to the overall success of the event.  </p>
               <h2 class="mb-3 text-2xl font-gotham text-my-red italic font-bold font-heading">Our vision </h2>
               <p class="mb-10 text-lg font-gotham md:text-justify text-black">Empowering innovation, fostering collaboration.</p>
               <h2 class="mb-3 text-2xl font-gotham text-my-red italic font-bold font-heading">Our mission </h2>
@@ -71,16 +65,8 @@ export default function AboutUs() {
                 <li>By Students – For Students – Top experiential learning opportunities  </li>
                 <li>Market Value Accelerator – Resume builder, interview content, micro-credential </li>
               </ul>
-            </div>
-          </div>
-          <div class="flex items-center">
-          </div>
-        </div>
-      </div>
 
-      <div>
-
-      <section class="py-5">
+              <section class="py-5">
       <div class="container px-4 md:mx-auto">
         <div class="mb-16 max-w-3xl md:max-w-4xl mx-auto ">
           <h2 class="mt-2 mb-4 text-4xl text-center font-gotham lg:text-5xl text-my-red font-bold font-heading">Our Past Hackathons</h2>
@@ -134,6 +120,16 @@ export default function AboutUs() {
           </div>
       </div>
     </section>
+            </div>
+          </div>
+          <div class="flex items-center">
+          </div>
+        </div>
+      </div>
+
+      <div>
+
+
 
       </div>
     </>
