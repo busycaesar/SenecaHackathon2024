@@ -16,7 +16,8 @@
               {
                 "title": "ss",
                 "content": "2323"
-              },{
+              },
+              {
                 "title": "ss",
                 "content": "2323"
               }
@@ -101,55 +102,105 @@
         "id": 3,
         "name": "Community Well-being",
         "img": "/svgs/challengeSet/Community Well-being.svg",
-        "detail": "Prioritize the heart and soul of residential areas—community well-being. Tackle challenges related to health, education, and social connectivity to enhance the quality of life within neighbourhoods. Whether it's through designing health-integrated living spaces, creating digital inclusion hubs, or fostering community engagement, your contributions will sow the seeds for thriving, supportive communities.",
+        "detail": "Prioritize the heart and soul of residential areas—community well-being. Tackle challenges related to health, education, and social connectivity to enhance the quality of life within neighborhoods.",
         "challenges": [
-          {
-            "categoryName": "CAMH",
-            "categoryTitle": "Empowering community well-being through mobile solutions",
-            "categoryDescription": "This challenge focuses on developing mobile applications to support individuals facing homelessness or housing insecurity due to mental health issues or substance addictions, by providing mental health interventions, addiction recovery support, and proactive measures to address mental health and substance use challenges.",
-            "categoryGuidedBy": "CAMH",
-            "problemStatement": "Homelessness and housing insecurity intertwined with mental health disorders and substance use, necessitating mobile solutions that offer support and resources.",
-            "possibleSolution": "Development of self-assessment apps, crisis response features, and community resource mapping apps to empower at-risk individuals and connect them with necessary resources.",
-            "locationAnalysis": "",
-            "marketTrendAnalysis": "",
-            "policyAndRegulatory": "",
-            "optimizationOFGIS": ""
-          },
           {
             "categoryName": "3 OF CUPS",
             "categoryTitle": "Newcomers Trust System",
-            "categoryDescription": "The challenge aims to enhance the student housing experience by using technology and community involvement to make housing affordable, sustainable, and safe, fostering strong community ties.",
+            "categoryDescription": "Enhancing the student housing experience by using technology and community involvement to make housing affordable, sustainable, and safe.",
             "categoryGuidedBy": "3 OF CUPS",
-            "problemStatement": "Addressing the housing crisis with a focus on student housing by exploring roommate dynamics, social networks, and trust-building.",
-            "possibleSolution": "Leverage AI, VR, mobile apps, and wearables to improve the accommodation search process, foster community, and provide data-driven insights. Develop systems and apps for roommate cooperation and transparent communication.",
-            "locationAnalysis": "",
-            "marketTrendAnalysis": "",
-            "policyAndRegulatory": "",
-            "optimizationOFGIS": ""
+            "problemStatement": [
+              {
+                "title": "Stakeholder Analysis",
+                "content": "Conduct a detailed analysis of various stakeholders in housing to understand the diverse needs and preferences of community members."
+              },
+              {
+                "title": "Reshaping Student Housing",
+                "content": "Craft inventive solutions that focus on affordability, sustainability, safety, and fostering community cohesion."
+              },
+              {
+                "title": "Roommate Dynamics and Social Networks",
+                "content": "Explore how roommate dynamics and social networks influence students' happiness, health, and overall quality of life."
+              }
+            ],
+            "possibleSolution": [
+              {
+                "title": "Innovative Technological Solutions",
+                "content": "Leverage AI, VR, mobile apps, and wearables to improve the accommodation search process and foster community ties."
+              },
+              {
+                "title": "Roommate Cooperation and Trust Systems",
+                "content": "Develop systems to facilitate trust-building among roommates, including gamification elements for bonding."
+              },
+              {
+                "title": "Communication Applications",
+                "content": "Design communication applications that facilitate transparent and open communication between roommates."
+              }
+            ]
           },
           {
             "categoryName": "Skill Squirrel",
-            "categoryTitle": "Digitalized apprenticeship programs for construction trades",
-            "categoryDescription": "The challenge is centered on transforming trades training specifically to provide more manpower for the housing initiative and earning opportunities to people looking for jobs. Trades can include carpentry, construction, and plumbing, to align closely with the contemporary demands of the housing sector. Traditional construction education often overlooks modern housing essentials, lacking exposure to eco-friendly materials, sustainable practices, and safety considerations specific to housing projects. Aspiring tradespeople require updated skills relevant to evolving housing needs. ",
+            "categoryTitle": "Digitalized Apprenticeship Programs for Construction Trades",
+            "categoryDescription": "Transforming trades training to provide more manpower for housing initiatives and opportunities for job seekers.",
             "categoryGuidedBy": "Skill Squirrel",
-            "problemStatement": "As you delve into solving the Affordable Housing Solutions challenge, these ideas offer potential directions for your projects. While these suggestions serve as starting points, feel free to explore additional innovative approaches. Your solutions should aim to tackle the complexities of affordable housing using technology, policy, community engagement, and sustainability to make a tangible impact. ",
-            "possibleSolution": "Remote mentorship, dynamic programs with industry input, immersive AR/VR simulations, and specialized affordable housing design modules. Implement AI-powered virtual mentoring and chatbots for a tailored learning experience.",
-            "locationAnalysis": "",
-            "marketTrendAnalysis": "",
-            "policyAndRegulatory": "",
-            "optimizationOFGIS": ""
+            "problemStatement": [
+              {
+                "title": "Knowledge Transfer",
+                "content": "Develop strategies to capture and transfer the expertise of experienced workers to the next generation."
+              },
+              {
+                "title": "Industry Relevance",
+                "content": "Ensure the digital apprenticeship programs align with current industry standards and practices."
+              },
+              {
+                "title": "User Engagement",
+                "content": "Maintain participant engagement throughout the program, especially in digital modules."
+              }
+            ],
+            "possibleSolution": [
+              {
+                "title": "Remote Mentorship by Housing Experts",
+                "content": "Facilitate remote mentorship programs where experienced housing professionals use digital tools to transfer knowledge."
+              },
+              {
+                "title": "Dynamic Program with Industry Input",
+                "content": "Regularly update the apprenticeship program's content by collaborating with industry experts."
+              },
+              {
+                "title": "Immersive AR/VR Simulations",
+                "content": "Create immersive AR/VR simulations in construction industry scenarios to maintain engagement."
+              }
+            ]
           },
           {
             "categoryName": "We-Watch",
             "categoryTitle": "Safeguarding Housing Safety and Security",
-            "categoryDescription": "The challenge involves the development of the We-Watch app for community safety, allowing anonymous reporting and response to incidents, and fostering community engagement.",
+            "categoryDescription": "Enhancing community safety through the development of a neighborhood watch application called We-Watch.",
             "categoryGuidedBy": "We-Watch",
-            "problemStatement": "Enhancing community safety through a neighborhood watch application integrating public data streams for real-time incident mapping and safety ratings.",
-            "possibleSolution": "AI-powered content moderation, integration with public data sources, user-friendly incident reporting, collaborative incident resolution, and continuous improvement mechanisms.",
-            "locationAnalysis": "",
-            "marketTrendAnalysis": "",
-            "policyAndRegulatory": "",
-            "optimizationOFGIS": ""
+            "problemStatement": [
+              {
+                "title": "Stickiness and Auto-population",
+                "content": "Integrate data from public sources related to crime and public safety to jumpstart user adoption."
+              },
+              {
+                "title": "Privacy and Censorship",
+                "content": "Devise efficient AI-based moderation solutions to censor media containing sensitive material."
+              }
+            ],
+            "possibleSolution": [
+              {
+                "title": "AI-powered Content Moderation",
+                "content": "Develop advanced AI algorithms capable of moderating user-generated content."
+              },
+              {
+                "title": "Integration with Public Data Sources",
+                "content": "Explore partnerships with public sector entities and leverage open-source databases."
+              },
+              {
+                "title": "User-friendly Incident Reporting",
+                "content": "Enhance the incident reporting feature to make it more user-friendly."
+              }
+            ]
           }
         ]
       },
