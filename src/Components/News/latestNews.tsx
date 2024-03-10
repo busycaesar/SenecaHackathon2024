@@ -16,7 +16,7 @@ export default function LatestNews({ news }: { news: News[] }) {
           {news.slice(0, 4).map((newsItem, index) => (
             <div
               key={index}
-              className={`news-list summarize ${
+              className={`news-list summarize hover:cursor-pointer ${
                 newsItem === activeLatestNews ? "activeLatestNews" : ""
               }`}
               onClick={() => setActiveLatestNews(newsItem)}

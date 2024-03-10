@@ -1,4 +1,3 @@
-import SampleImage from "../../svgs/Sustainability Hackathon 2022.png";
 import { News } from "../../Data/Schema/newsSchema";
 import "./news.css";
 
