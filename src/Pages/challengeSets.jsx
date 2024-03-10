@@ -39,7 +39,7 @@ export default function ChallengeSets() {
                       ></path>
                     </svg>
                   </Link>
-                  <p className=" text-xl md:text-lg font-semibold font-gotham">
+                  <p className="text-xl text-black font-medium md:text-lg  font-gotham">
                     {challengeSet.detail}
                   </p>
                 </div>

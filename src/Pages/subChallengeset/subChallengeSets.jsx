@@ -26,16 +26,19 @@ function SubChallengeSet() {
             >
               <div className="mb-6 border-solid bg-white border-gray-500 border-4 shadow-md p-6 rounded-2xl">
                 <Link
+                  className="no-underline"
                   to={{
                     pathname: `/challenge-sets/${challengeSet.id}/${challenge.categoryName}`,
                     state: { challengeSet: challengeSet.challenges },
                   }}
                 >
-                  <h3 className="text-xl font-bold text-red-700">
+                  <h3 className="text-lg md:text-2xl font-bold no-underline text-my-red">
                     {challenge.categoryTitle}
                   </h3>
                 </Link>
-                <p>{challenge.categoryDescription}</p>
+                <p className="font-gotham text-lg md:text-xl ">
+                  {challenge.categoryDescription}
+                </p>
               </div>
             </Slide>
           ))
