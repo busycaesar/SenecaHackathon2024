@@ -12,7 +12,7 @@ export default function TeamDepartment({
 }) {
   return (
     <>
-      <div className="items-center object-center justify-center ">
+      <div className="items-center object-center justify-center text-center">
         <h2 className=" text-my-red text-3xl md:text-5xl text-center">
           <strong>{department.title.toUpperCase()}</strong>
         </h2>

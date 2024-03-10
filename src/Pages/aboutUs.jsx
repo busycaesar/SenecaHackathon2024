@@ -16,9 +16,9 @@ export default function AboutUs() {
           <div class="mb-8">
             <div class="text-black font-bold text-center text-xl mb-2"></div>
             <div class="text-black hover:text-my-red hover:underline md:ml-5 font-gotham font-bold md:text-center text-2xl mb-2">About Hackathon</div>
-            <p class="text-black text-base font-gotham text-lg md:text-justify">The hackathon is a student-focused innovation competition that provides a unique experiential learning experience. It encourages and develops creative thinking, entrepreneurship, and problem-solving skills by bringing together students from diverse backgrounds to work together on addressing real-world challenges. The teams receive support from subject-specific mentors and technical specialists and then showcase their solutions in a fun and lively environment to be adjudicated by a panel of experts consisting of investors, partners, school representatives, and domain specialists. The winning teams will have the opportunity to receive prizes and be considered for applied research project investment opportunities. </p>
+            <p class="text-black  font-gotham text-lg md:text-justify">The hackathon is a student-focused innovation competition that provides a unique experiential learning experience. It encourages and develops creative thinking, entrepreneurship, and problem-solving skills by bringing together students from diverse backgrounds to work together on addressing real-world challenges. The teams receive support from subject-specific mentors and technical specialists and then showcase their solutions in a fun and lively environment to be adjudicated by a panel of experts consisting of investors, partners, school representatives, and domain specialists. The winning teams will have the opportunity to receive prizes and be considered for applied research project investment opportunities. </p>
             <div class="text-black hover:text-my-red hover:underline md:ml-5 font-bold font-gotham md:text-center text-2xl mb-2">Challenge Statement</div>
-            <p class="text-black font-gotham text-base text-lg md:text-justify">
+            <p class="text-black font-gotham  text-lg md:text-justify">
               The Seneca Housing Hackathon is a creative and collaborative
               event that brought together individuals with a passion for
               sustainability to generate innovative solutions to housing
@@ -35,7 +35,7 @@ export default function AboutUs() {
         <div class="bg-gray-200 border-2 border-solid rounded-lg border-my-red p-4 flex flex-col justify-between leading-normal">
           <div class="">
             <div class="text-black font-gotham hover:text-my-red hover:underline font-bold md:text-center text-2xl md:ml-5 mb-2">How it all started</div>
-            <p class="text-black font-gotham text-base text-lg md:text-justify">Seneca Hackathon began in July 2020 as a response to the COVID-19 pandemic – gathering passionate students to channel their talents and skills into crafting solutions that will address the challenges brought forth by the pandemic. The success of the first Hackathon paved the way for it to evolve into an annual contest with the goal to tackle the most relevant and pressing issues of our society.  </p>
+            <p class="text-black font-gotham text-lg md:text-justify">Seneca Hackathon began in July 2020 as a response to the COVID-19 pandemic – gathering passionate students to channel their talents and skills into crafting solutions that will address the challenges brought forth by the pandemic. The success of the first Hackathon paved the way for it to evolve into an annual contest with the goal to tackle the most relevant and pressing issues of our society.  </p>
           </div>
           <div class="flex items-center">
           </div>

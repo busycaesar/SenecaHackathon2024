@@ -26,7 +26,7 @@ function CategorySubChallengeSet() {
 
   return (
     // <section class="py-20 bg-white p-20">
-    <section className="mx-auto  text-black font-gotham sm:text-base text-sm">
+    <section className="mx-auto font-gotham  text-black sm:text-base text-sm">
       <div className="mx-auto w-3/4 sm:w-1/4 xl:w-1/6">
         <img
           src={challengeSet.img}
