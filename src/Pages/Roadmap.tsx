@@ -142,7 +142,7 @@ function Roadmap() {
   return (
     <div>
       {/* Desktop view */}
-      <div className="hidden lg:inline">
+      <div className="hidden font-gotham lg:inline">
         <ol className="items-center sm:flex overflow-x-scroll list-none">
           {items.map((item, index) => {
             return (

@@ -4,7 +4,7 @@
     "image":"/svgs/teams/Mark_Buchner.jpg",
     "firstName": "Mark",
     "lastName": "Buchner",
-    "designation": "Academic Chair",
+    "designation": "Chair",
     "department": 0, 
     "linkedinLink": "https://www.linkedin.com/in/mark-buchner-bb6a7013/"
   }, 
@@ -13,84 +13,12 @@
     "image":"/svgs/teams/David_Jeong.jpeg",
     "firstName": "David",
     "lastName": "Jeong",
-    "designation": "Senior Project Consultant",
+    "designation": "Senior Consultant - Strategy & Issues Management",
     "department": 0,
     "linkedinLink": "https://www.linkedin.com/in/david-jeong/"
   },
   {
     "_id": 2,
-    "image":"/svgs/teams/Yahui_Liu.jpg",
-    "firstName": "Yahui",
-    "lastName": "Liu (Yancy)",
-    "designation": "Consultant, Stakeholders & Students Experience",
-    "department": 0,
-    "linkedinLink": "https://www.linkedin.com/in/yahui-liu-44183a137/"
-  },
-  {
-    "_id": 3,
-    "image":"/svgs/teams/Santosh_Bohara.jpg",
-    "firstName": "Santosh",
-    "lastName": "Bohara",
-    "designation": "Director of IT operations",
-    "department": 0,
-    "linkedinLink": "https://www.linkedin.com/in/santosh-bohara-4b04a0140/"
-  },
-  {
-    "_id": 4,
-    "image":"/svgs/teams/Kartik_Sorathiya.jpg",
-    "firstName": "Kartik",
-    "lastName": "Sorathiya",
-    "designation": "IT Consultant",
-    "department": 0,
-    "linkedinLink": "https://www.linkedin.com/in/kartiksorathiya/"
-  },
-  {
-    "_id": 5,
-    "image":"/svgs/teams/Carol_Lorenzana.jpg",
-    "firstName": "Carol",
-    "lastName": "Lorenzana",
-    "designation": "Communications Manager",
-    "department": 0,
-    "linkedinLink": "https://www.linkedin.com/in/carollorenzana/"
-  },
-  {
-    "_id": 6,
-    "image":"/svgs/teams/Sherya_Saxena.jpeg",
-    "firstName": "Sherya",
-    "lastName": "Saxena",
-    "designation": "Director - Partner Experience",
-    "department": 0,
-    "linkedinLink": "https://www.linkedin.com/in/shreyasaxena01/"
-  },
-  {
-    "_id": 7,
-    "image":"https://media.licdn.com/dms/image/D5603AQFv6QDLa2W7Gw/profile-displayphoto-shrink_400_400/0/1689699089702?e=1714608000&v=beta&t=_3ff0MKB-kDQVtsSAqMJASHOSR26jfDa1IIGv4HLqaU",
-    "firstName": "Ana Maria",
-    "lastName": "Avendano Rojas",
-    "designation": "Director | Student Success Department",
-    "department": 0,
-    "linkedinLink": "https://www.linkedin.com/feed/"
-  },
-  {
-    "_id": 8,
-    "image":"/svgs/teams/Daisy_Le.jpeg",
-    "firstName": "Daisy",
-    "lastName": "Le",
-    "designation": "Director of Finance",
-    "department": 0,
-    "linkedinLink": "https://www.linkedin.com/in/daisyldct/"
-  },
-  {
-    "_id": 9,
-    "image":"/svgs/teams/Giriraj_Vyas.jpg",
-    "firstName": "Giriraj",
-    "lastName": "Vyas",
-    "designation": "Manager, Issues Management",
-    "department": 0,
-    "linkedinLink": "https://www.linkedin.com/in/giriraj-vyas-04260511a/"
-  },
-  {
-    "_id": 10,
     "image":"/svgs/teams/Kohulan_Thevananthan.jpg",
     "firstName": "Kohulan",
     "lastName": "Thevananthan",
@@ -99,97 +27,331 @@
     "linkedinLink": "https://www.linkedin.com/in/kohulan-thevananthan/"
   },
   {
-    "_id": 11,
+    "_id": 3,
     "image":"/svgs/teams/Aladdin_AlRadhi.jpeg",
     "firstName": "Aladdin",
     "lastName": "AlRadhi",
-    "designation": "Cyber Security Professor",
+    "designation": "Faculty Liaison",
     "department": 0,
     "linkedinLink": "https://www.linkedin.com/in/alaaaldinalradhi/"
   },
   {
-    "_id": 12,
+    "_id": 4,
+    "image":"/svgs/teams/Santosh_Bohara.jpg",
+    "firstName": "Santosh",
+    "lastName": "Bohara",
+    "designation": "Director of IT operations",
+    "department": 0,
+    "linkedinLink": "https://www.linkedin.com/in/santosh-bohara-4b04a0140/"
+  },
+  {
+    "_id": 5,
+    "image":"/svgs/teams/Shreya_Adhvaryu.jpg",
+    "firstName": "Shreya",
+    "lastName": "Adhvaryu",
+    "designation": "Director of Partner Experience",
+    "department": 0,
+    "linkedinLink": "https://www.linkedin.com/in/shreya-adhvaryu-9a786b21a/"
+  },
+  {
+    "_id": 6,
+    "image":"/svgs/teams/Sujeena_Formal_Sujeena_Shrestha.jpeg",
+    "firstName": "Sujeena",
+    "lastName": "Shrestha",
+    "designation": "Director of Student Success",
+    "department": 0,
+    "linkedinLink": "https://www.linkedin.com/in/sujeena/"
+  },
+  {
+    "_id": 7,
     "image":"/svgs/teams/Aliraza_Versi.png",
     "firstName": "Aliraza",
     "lastName": "Versi",
-    "designation": "Director | Student Success",
+    "designation": "Director of Records & Retention",
     "department": 0,
     "linkedinLink": "https://www.linkedin.com/in/aliraza-m-versi-760692128/"
   },
   {
-    "_id": 13,
-    "image":"/svgs/teams/Fenil_Mehta.jpg",
-    "firstName": "Fenil",
-    "lastName": "Mehta",
-    "designation": "Consultant | Partner Experience",
-    "department": 0,
-    "linkedinLink": "https://www.linkedin.com/in/fenilmehta"
-  },
-  {
-    "_id": 14,
+    "_id": 8,
     "image":"/svgs/teams/Neil_Javiya.jpeg",
     "firstName": "Neil",
     "lastName": "Javiya",
-    "designation": "Director | Operations",
+    "designation": "Director of Operations",
     "department": 0,
     "linkedinLink": "https://www.linkedin.com/in/neiljaviya"
   },
   {
-    "_id": 15,
+    "_id": 9,
     "image":"/svgs/teams/Sara_Noviski.jpeg",
     "firstName": "Sara",
     "lastName": "Noviski",
-    "designation": "Director | Marketing",
+    "designation": "Director of Marketing",
     "department": 0,
     "linkedinLink": "https://www.linkedin.com/in/saranoviski/"
   },
   {
-    "_id": 16,
+    "_id": 10,
+    "image":"/svgs/teams/Daisy_Le.jpeg",
+    "firstName": "Daisy",
+    "lastName": "Le",
+    "designation": "Director of Finance",
+    "department": 0,
+    "linkedinLink": "https://www.linkedin.com/in/daisyldct/"
+  },
+  {
+    "_id": 11,
     "image":"/svgs/teams/Nonthachai_Plodthong.jpeg",
     "firstName": "Nonthachai",
     "lastName": "Plodthong",
-    "designation": "Manager | IT Team",
-    "department": 1,
+    "designation": "IT Operations Manager",
+    "department": 0,
     "linkedinLink": "https://www.linkedin.com/in/nonthachai-plodthong-0882271a4/"
   },
   {
+    "_id": 12,
+    "image":"/svgs/teams/Uyen_La.jpg",
+    "firstName": "Uyen",
+    "lastName": "La",
+    "designation": "Partner Experience Manager",
+    "department": 0,
+    "linkedinLink": "https://www.linkedin.com/in/uyenla102/"
+  },
+  {
+    "_id": 13,
+    "image":"/svgs/teams/Sapna_Tiwari.jpeg",
+    "firstName": "Sapna",
+    "lastName": "Tiwari",
+    "designation": "Student Success Manager",
+    "department": 0,
+    "linkedinLink": "https://www.linkedin.com/in/sapna-tiwari-45aa6b212/"
+  },
+  {
+    "_id": 14,
+    "image":"/svgs/teams/Sarabjeetkaur_Shamsh.jpg",
+    "firstName": "Sarabjeetkaur Shamshersingh",
+    "lastName": "Sucharia",
+    "designation": "Student Success Manager",
+    "department": 0,
+    "linkedinLink": "https://www.linkedin.com/in/sarabjeetkaur025?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+  },
+  {
+    "_id": 15,
+    "image":"/svgs/teams/Yuvin_Premar.jpg",
+    "firstName": "Yuvin Uthsara",
+    "lastName": "Premaratne",
+    "designation": "Records & Retention Manager",
+    "department": 0,
+    "linkedinLink": "https://www.linkedin.com/in/yuvin-premaratne/"
+  }, 
+  {
+    "_id": 16,
+    "image":"/svgs/teams/Daria_Kolomiiets.png",
+    "firstName": "Daria",
+    "lastName": "Kolomiiets",
+    "designation": "Events & Guest Experience Manager",
+    "department": 0,
+    "linkedinLink": "https://www.linkedin.com/in/daria-kolomiiets/"
+  },
+  {
     "_id": 17,
-    "image":"/svgs/teams/Tanmay_Walzad.jpeg",
-    "firstName": "Tanmay",
-    "lastName": "Walzade",
-    "designation": "Project Manager",
-    "department": 1,
-    "linkedinLink": "https://www.linkedin.com/in/tanmay-walzade-9805091b3/"
+    "image":"/svgs/teams/Ma_Rijoyce_Ouano.jpeg",
+    "firstName": "Ma Rijoyce",
+    "lastName": "Ouano",
+    "designation": "Event Planning Manager",
+    "department": 0,
+    "linkedinLink": "https://www.linkedin.com/in/rijoyceouano/"
   },
   {
     "_id": 18,
-    "image":"/svgs/teams/Dev_Shah.jpg",
-    "firstName": "Dev",
-    "lastName": "Shah",
-    "designation": "Senior Website Developer",
-    "department": 1,
-    "linkedinLink": "https://www.linkedin.com/in/busycaesar/"
+    "image":"/svgs/teams/Giriraj_Vyas.jpg",
+    "firstName": "Giriraj",
+    "lastName": "Vyas",
+    "designation": "Issues Management Manager",
+    "department": 0,
+    "linkedinLink": "https://www.linkedin.com/in/giriraj-vyas-04260511a/"
   },
   {
     "_id": 19,
-    "image":"/svgs/teams/SzeNgaTsz.jpg",
-    "firstName": "Nga Tsz",
-    "lastName": "Sze (Yanice)",
-    "designation": "Senior Website Developer",
-    "department": 1,
-    "linkedinLink": "https://www.linkedin.com/in/yanice-sze-959013146/"
+    "image":"/svgs/teams/Tarun_Narula.jpg",
+    "firstName": "Tarun",
+    "lastName": "Narula",
+    "designation": "Media Production Manager",
+    "department": 0,
+    "linkedinLink": "https://www.linkedin.com/in/narulat"
   },
   {
     "_id": 20,
+    "image":"/svgs/teams/YeeLamCheng.jpg",
+    "firstName": "Yee Lam",
+    "lastName": "Cheng",
+    "designation": "Social Media Manager",
+    "department": 0,
+    "linkedinLink": "https://www.linkedin.com/in/yee-lam-c-94b555206/"
+  },
+  {
+    "_id": 21,
+    "image":"/svgs/teams/Carol_Lorenzana.jpg",
+    "firstName": "Carol",
+    "lastName": "Lorenzana",
+    "designation": "Communications Manager",
+    "department": 0,
+    "linkedinLink": "https://www.linkedin.com/in/carollorenzana/"
+  },
+  {
+    "_id": 22,
+    "image":"/svgs/teams/Inaara_Lal.jpeg",
+    "firstName": "Inaara",
+    "lastName": "Lalani",
+    "designation": "Events Manager",
+    "department": 0,
+    "linkedinLink": "www.linkedin.com/in/inaara-lalani17"
+  },
+  {
+    "_id": 23,
+    "image":"/svgs/teams/Tanmay_Walzad.jpeg",
+    "firstName": "Tanmay",
+    "lastName": "Walzade",
+    "designation": "Project Manager - IT Operations",
+    "department": 0,
+    "linkedinLink": "https://www.linkedin.com/in/tanmay-walzade-9805091b3/"
+  },
+  {
+    "_id": 24,
+    "image":"/svgs/teams/Kartik_Sorathiya.jpg",
+    "firstName": "Kartik Sanjaybhai",
+    "lastName": "Sorathiya",
+    "designation": "IT Operations Consultant",
+    "department": 0,
+    "linkedinLink": "https://www.linkedin.com/in/kartiksorathiya/"
+  },
+  {
+    "_id": 25,
+    "image":"/svgs/teams/Sherya_Saxena.jpeg",
+    "firstName": "Sherya",
+    "lastName": "Saxena",
+    "designation": "Partner Experience Consultant",
+    "department": 0,
+    "linkedinLink": "https://www.linkedin.com/in/shreyasaxena01/"
+  },
+  {
+    "_id": 26,
+    "image":"/svgs/teams/Fenil_Mehta.jpg",
+    "firstName": "Fenil",
+    "lastName": "Mehta",
+    "designation": "Partner Experience Consultant",
+    "department": 0,
+    "linkedinLink": "https://www.linkedin.com/in/fenilmehta"
+  },
+  {
+    "_id": 27,
+    "image":"/svgs/teams/Yahui_Liu.jpg",
+    "firstName": "Yahui (Yancy)",
+    "lastName": "Liu",
+    "designation": "Stakeholders & Students Experience Consultant",
+    "department": 0,
+    "linkedinLink": "https://www.linkedin.com/in/yahui-liu-44183a137/"
+  },
+  {
+    "_id": 28,
+    "image":"/svgs/teams/Dev_Shah.jpg",
+    "firstName": "Dev",
+    "lastName": "Shah",
+    "designation": "Senior Software Developer",
+    "department": 0,
+    "linkedinLink": "https://www.linkedin.com/in/busycaesar/"
+  },
+  {
+    "_id": 29,
+    "image":"/svgs/teams/SzeNgaTsz.jpg",
+    "firstName": "Nga Tsz (Yanice)",
+    "lastName": "Sze",
+    "designation": "Senior Software Developer",
+    "department": 0,
+    "linkedinLink": "https://www.linkedin.com/in/yanice-sze-959013146/"
+  },
+  {
+    "_id": 30,
+    "image":"/svgs/teams/Nhi_Ly.jpg",
+    "firstName": "Nalini",
+    "lastName": "Ly",
+    "designation": "Senior Business Analyst - Judging Planning",
+    "department": 0,
+    "linkedinLink": "https://www.linkedin.com/in/nalini-ly/"
+  },
+  {
+    "_id": 31,
+    "image":"https://media.licdn.com/dms/image/D5603AQGm2NKCnE567Q/profile-displayphoto-shrink_400_400/0/1700071486190?e=1714608000&v=beta&t=RRDMsalh9STZMwA1gDX828o5VkYtzqtiXMCqDbl_fiQ",
+    "firstName": "Sky",
+    "lastName": "Yoon",
+    "designation": "Senior Business Analyst - Project Planning",
+    "department": 0,
+    "linkedinLink": "https://www.linkedin.com/in/sky-saeha-yoon/"
+  },
+  {
+    "_id": 32,
+    "image":"/svgs/teams/Gisselle_Villagracia.jpg",
+    "firstName": "Gisselle",
+    "lastName": "Villagracia",
+    "designation": "Senior Graphic Designer",
+    "department": 0,
+    "linkedinLink": "https://www.linkedin.com/in/gisselle-villagracia-147079201/"
+  },
+  {
+    "_id": 33,
+    "image":"/svgs/teams/Arya_Samant.jpg",
+    "firstName": "Arya Prasad ",
+    "lastName": "Samant",
+    "designation": "Senior Media Production Specialist",
+    "department": 0,
+    "linkedinLink": "https://www.linkedin.com/in/arya-samant-aa4035195/"
+  },
+  {
+    "_id": 34,
+    "image":"/svgs/teams/Dalen_Ngoun.jpeg",
+    "firstName": "Dalen",
+    "lastName": "Ngoun",
+    "designation": "Senior Media Production Specialist",
+    "department": 0,
+    "linkedinLink": "https://www.linkedin.com/in/dalen-ngoun"
+  },
+  {
+    "_id": 35,
+    "image":"/svgs/teams/Benyamin_Rahimi.jpeg",
+    "firstName": "Benyamin",
+    "lastName": "Rahimi",
+    "designation": "Senior Social Media Specialist",
+    "department": 0,
+    "linkedinLink": "https://www.linkedin.com/in/benyamin-rahimi"
+  },
+  {
+    "_id": 36,
     "image":"/svgs/teams/Linh_Nguyen_Le.jpg",
-    "firstName": "Linh Nguyen",
+    "firstName": "Linh Nguyen (Nathan)",
     "lastName": "Le",
-    "designation": "Web Developer",
+    "designation": "Developer",
     "department": 1,
     "linkedinLink": "https://www.linkedin.com/in/le-linh-nguyen-21092002/"
   },
   {
-    "_id": 21,
+    "_id": 37,
+    "image":"/svgs/teams/Bregwin_Paul_Jogi.jpg",
+    "firstName": "Bregwin",
+    "lastName": "Jogi",
+    "designation": "Developer",
+    "department": 1,
+    "linkedinLink": "https://www.linkedin.com/in/bregwin-paul/"
+  },
+  {
+    "_id": 38,
+    "image":"/svgs/teams/Parsa_Parichehreh.jpg",
+    "firstName": "Parsa",
+    "lastName": "Parichehreh",
+    "designation": "Developer",
+    "department": 1,
+    "linkedinLink": "https://www.linkedin.com/in/parsa-parichehreh/"
+  },
+  {
+    "_id": 39,
     "image":"/svgs/teams/Maureen_Jane_Respicio.jpeg",
     "firstName": "Maureen Jane",
     "lastName": "Respicio",
@@ -198,269 +360,205 @@
     "linkedinLink": "www.linkedin.com/in/maureen-respicio"
   },
   {
-    "_id": 22,
-    "image":"/svgs/teams/Bregwin_Paul_Jogi.jpg",
-    "firstName": "Bregwin",
-    "lastName": "Jogi",
-    "designation": "Website Developer",
-    "department": 1,
-    "linkedinLink": "https://www.linkedin.com/in/bregwin-paul/"
-  },
-  {
-    "_id": 23,
-    "image":"/svgs/teams/Emmanuel_Hernandez.jpg",
-    "firstName": "Emmanuel",
-    "lastName": "Hernandez Quiroz",
-    "designation": "Liason for Universidad del Rosario",
-    "department": 2,
-    "linkedinLink": "https://www.linkedin.com/in/emmanuel-hernandez-572198245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_appq"
-  },
-  {
-    "_id": 24,
-    "image":"/svgs/teams/May_Rose_Cabiso.jpg",
-    "firstName": "May Rose",
-    "lastName": "Cabiso",
-    "designation": "Hackathon Liaison",
-    "department": 2,
-    "linkedinLink": "https://www.linkedin.com/in/may-rose-cabiso/"
-  },
-  {
-    "_id": 25,
-    "image":"/svgs/teams/Shreya_Adhvaryu.jpg",
-    "firstName": "Shreya",
-    "lastName": "Adhvaryu",
-    "designation": "Senior Manager",
-    "department": 2,
-    "linkedinLink": "https://www.linkedin.com/in/shreya-adhvaryu-9a786b21a/"
-  },
-  {
-    "_id": 26,
-    "image":"/svgs/teams/Sujeena_Formal_Sujeena_Shrestha.jpeg",
-    "firstName": "Sujeena",
-    "lastName": "Shrestha",
-    "designation": "Manager",
-    "department": 2,
-    "linkedinLink": "https://www.linkedin.com/in/sujeena/"
-  },
-  {
-    "_id": 27,
-    "image":"/svgs/teams/Vaishnavi_Prashantku.jpg",
-    "firstName": "Vaishnavi",
-    "lastName": "Shah",
-    "designation": "Partner Experience Officer",
-    "department": 2,
-    "linkedinLink": "https://www.linkedin.com/in/vaishnavi-shah"
-  },
-  {
-    "_id": 28,
-    "image":"/svgs/teams/Shama_Ravan.jpg",
-    "firstName": "Shama",
-    "lastName": "Ravani",
-    "designation": "Partner Experience Officer",
-    "department": 2,
-    "linkedinLink": "http://linkedin.com/in/shama-ravani-472b011a9"
-  },
-  {
-    "_id": 29,
-    "image":"/svgs/teams/Tanvi_Patel.jpg",
-    "firstName": "Tanvi",
-    "lastName": "Patel",
-    "designation": "Partner Experience Officer",
-    "department": 2,
-    "linkedinLink": "https://www.linkedin.com/in/tanvihpatel/"
-  },
-  {
-    "_id": 30,
+    "_id": 40,
     "image":"/svgs/teams/Arafat_Ansari.jpeg",
     "firstName": "Arafat",
     "lastName": "Ahmed",
-    "designation": "Partner Experience Officer",
+    "designation": "Officer",
     "department": 2,
     "linkedinLink": "http://linkedin.com/in/arfat-ahmed-ansari"
   },
   {
-    "_id": 31,
-    "image":"/svgs/teams/Abhishek_Raj.jpeg",
-    "firstName": "Abhishek",
-    "lastName": "Raj",
-    "designation": "Partner Experience Officer",
-    "department": 2,
-    "linkedinLink": "https://www.linkedin.com/in/abhishek-raj-aggarwal-6460561a2/"
-  },
-  {
-    "_id": 32,
-    "image":"/svgs/teams/Hannaneh_Habibpour.jpg",
-    "firstName": "Hannah",
-    "lastName": "Habibpour",
-    "designation": "Partner Experience Officer",
-    "department": 2,
-    "linkedinLink": "https://www.linkedin.com/in/hannah-habibpour"
-  },
-  {
-    "_id": 33,
-    "image":"/svgs/teams/Uyen_La.jpg",
-    "firstName": "Uyen",
-    "lastName": "La",
-    "designation": "Partner Experience Officer",
-    "department": 2,
-    "linkedinLink": "https://www.linkedin.com/in/uyenla102/"
-  },
-  {
-    "_id": 34,
-    "image":"/svgs/teams/RowenaDollison.jpg",
-    "firstName": "Rowena",
-    "lastName": "Dollison",
-    "designation": "Partner Experience Officer",
-    "department": 2,
-    "linkedinLink": "www.linkedin.com/in/RowenaDollison"
-  },
-  {
-    "_id": 35,
+    "_id": 41,
     "image":"/svgs/teams/Deeksha_Kataria.jpeg",
     "firstName": "Deeksha",
     "lastName": "Kataria",
-    "designation": "Partner Experience Officer",
+    "designation": "Officer",
     "department": 2,
     "linkedinLink": "https://www.linkedin.com/in/deeksha-kataria-726719171?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
   },
   {
-    "_id": 36,
+    "_id": 42,
+    "image":"/svgs/teams/Hannaneh_Habibpour.jpg",
+    "firstName": "Hannah",
+    "lastName": "Habibpour",
+    "designation": "Officer",
+    "department": 2,
+    "linkedinLink": "https://www.linkedin.com/in/hannah-habibpour"
+  },
+  {
+    "_id": 43,
     "image":"/svgs/teams/Kenly_Martinez.jpg",
     "firstName": "Kenly",
     "lastName": "Martinez",
-    "designation": "Member",
+    "designation": "Officer",
     "department": 2,
     "linkedinLink": "https://www.linkedin.com/in/kenly-martinez/"
   },
   {
-    "_id": 37,
-    "image":"/svgs/teams/Aileen_Valdecantos.jpg",
-    "firstName": "Aileen",
-    "lastName": "Valdecantos",
-    "designation": "WCC Liaison",
-    "department": 3,
-    "linkedinLink": "https://www.linkedin.com/in/aileen-valdecantos-202155b1/"
+    "_id": 44,
+    "image":"/svgs/teams/RowenaDollison.jpg",
+    "firstName": "Rowena",
+    "lastName": "Dollison",
+    "designation": "Officer",
+    "department": 2,
+    "linkedinLink": "www.linkedin.com/in/RowenaDollison"
   },
   {
-    "_id": 38,
-    "image":"/svgs/teams/Sarabjeetkaur_Shamsh.jpg",
-    "firstName": "Sarabjeetkaur",
-    "lastName": "Sucharia",
-    "designation": "Manager",
-    "department": 3,
-    "linkedinLink": "https://www.linkedin.com/in/sarabjeetkaur025?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    "_id": 45,
+    "image":"/svgs/teams/Shama_Ravan.jpg",
+    "firstName": "Shama Nizarali",
+    "lastName": "Ravani",
+    "designation": "Officer",
+    "department": 2,
+    "linkedinLink": "http://linkedin.com/in/shama-ravani-472b011a9"
   },
   {
-    "_id": 39,
-    "image":"/svgs/teams/Yuvin_Premar.jpg",
-    "firstName": "Yuvin",
-    "lastName": "Premaratne",
-    "designation": "Manager - Records and Retention",
-    "department": 3,
-    "linkedinLink": "https://www.linkedin.com/in/yuvin-premaratne/"
-  }, 
-  {
-    "_id": 40,
-    "image":"/svgs/teams/Sabita_Thapa.jpeg",
-    "firstName": "Sabita",
-    "lastName": "Thapa",
-    "designation": "Category Manager",
-    "department": 3,
-    "linkedinLink": "https://www.linkedin.com/in/sabita-thapa-26b11b112/"
+    "_id": 46,
+    "image":"/svgs/teams/Tanvi_Patel.jpg",
+    "firstName": "Tanvi",
+    "lastName": "Patel",
+    "designation": "Officer",
+    "department": 2,
+    "linkedinLink": "https://www.linkedin.com/in/tanvihpatel/"
   },
   {
-    "_id": 41,
+    "_id": 47,
+    "image":"/svgs/teams/Vaishnavi_Prashantku.jpg",
+    "firstName": "Vaishnavi",
+    "lastName": "Shah",
+    "designation": "Officer",
+    "department": 2,
+    "linkedinLink": "https://www.linkedin.com/in/vaishnavi-shah"
+  },
+  {
+    "_id": 48,
     "image":"/svgs/teams/Prachi_Pokley.jpg",
-    "firstName": "Prachi",
+    "firstName": "Prachi Vinod",
     "lastName": "Pokley",
-    "designation": "Challenge Category Manager",
+    "designation": "Category Lead",
     "department": 3,
     "linkedinLink": "www.linkedin.com/in/prachipokley"
   },
   {
-    "_id": 42,
+    "_id": 49,
     "image":"/svgs/teams/Reshma_Chandra_Mohan.jpeg",
-    "firstName": "Reshma",
-    "lastName": "Chandra Mohan",
-    "designation": "Challenge Category Manager",
+    "firstName": "Reshma Chandra",
+    "lastName": "Mohan",
+    "designation": "Category Lead",
     "department": 3,
     "linkedinLink": "www.linkedin.com/in/reshmachandramohan"
   },
   {
-    "_id": 43,
-    "image":"/svgs/teams/Jerico_Ray_Disonglo.jpg",
-    "firstName": "Jerico Ray",
-    "lastName": "Disonglo",
-    "designation": "Student Experience Officer",
+    "_id": 50,
+    "image":"/svgs/teams/Sabita_Thapa.jpeg",
+    "firstName": "Sabita",
+    "lastName": "Thapa",
+    "designation": "Category Lead",
     "department": 3,
-    "linkedinLink": "https://www.linkedin.com/in/jerico-ray-disonglo-640882117/"
+    "linkedinLink": "https://www.linkedin.com/in/sabita-thapa-26b11b112/"
   },
   {
-    "_id": 44,
-    "image":"/svgs/teams/Piraveen_Mahesan.jpg",
-    "firstName": "Piraveen",
-    "lastName": "Mahesan",
-    "designation": "Student Success Officer",
-    "department": 3,
-    "linkedinLink": "https://www.linkedin.com/in/piraveenmahesan/"
-  },
-  {
-    "_id": 45,
-    "image":"/svgs/teams/Devveer_Singh.jpg",
-    "firstName": "Devveer",
-    "lastName": "Singh",
-    "designation": "Student Success Officer",
-    "department": 3,
-    "linkedinLink": "http://linkedin.com/in/devveer-singh-a829411b9"
-  },
-  {
-    "_id": 46,
-    "image":"/svgs/teams/Sharmon_Chahal.jpg",
-    "firstName": "Sharmon",
-    "lastName": "Chahal",
-    "designation": "Student Success Officer",
-    "department": 3,
-    "linkedinLink": "https://www.linkedin.com/in/sharmon-chahal"
-  },
-  {
-    "_id": 47,
+    "_id": 51,
     "image":"/svgs/teams/Aliza_Dosani.jpeg",
-    "firstName": "Aliza",
+    "firstName": "Aliza Nizar",
     "lastName": "Dosani",
-    "designation": "Student Success Officer",
+    "designation": "Officer",
     "department": 3,
     "linkedinLink": "www.linkedin.com/in/aliza-dosani"
   },  
   {
-    "_id": 48,
-    "image":"/svgs/teams/Daria_Kolomiiets.png",
-    "firstName": "Daria",
-    "lastName": "Kolomiiets",
-    "designation": "Manager, Event and Guests Experience",
-    "department": 4,
-    "linkedinLink": "https://www.linkedin.com/in/daria-kolomiiets/"
+    "_id": 52,
+    "image":"/svgs/teams/Devveer_Singh.jpg",
+    "firstName": "Devveer",
+    "lastName": "Singh",
+    "designation": "Officer",
+    "department": 3,
+    "linkedinLink": "http://linkedin.com/in/devveer-singh-a829411b9"
   },
   {
-    "_id": 49,
-    "image":"/svgs/teams/Inaara_Lal.jpeg",
-    "firstName": "Inaara",
-    "lastName": "Lalani",
-    "designation": "Events Manager",
-    "department": 4,
-    "linkedinLink": "www.linkedin.com/in/inaara-lalani17"
+    "_id": 53,
+    "image":"/svgs/teams/Jerico_Ray_Disonglo.jpg",
+    "firstName": "Jerico Ray",
+    "lastName": "Disonglo",
+    "designation": "Officer",
+    "department": 3,
+    "linkedinLink": "https://www.linkedin.com/in/jerico-ray-disonglo-640882117/"
   },
-    
   {
-    "_id": 50,
+    "_id": 54,
+    "image":"/svgs/teams/Piraveen_Mahesan.jpg",
+    "firstName": "Piraveen",
+    "lastName": "Mahesan",
+    "designation": "Officer",
+    "department": 3,
+    "linkedinLink": "https://www.linkedin.com/in/piraveenmahesan/"
+  },
+  {
+    "_id": 55,
+    "image":"/svgs/teams/Aileen_Valdecantos.jpg",
+    "firstName": "Aileen",
+    "lastName": "Valdecantos",
+    "designation": "Partner Institute Liaison",
+    "department": 3,
+    "linkedinLink": "https://www.linkedin.com/in/aileen-valdecantos-202155b1/"
+  },
+  {
+    "_id": 56,
+    "image":"https://media.licdn.com/dms/image/D5603AQFv6QDLa2W7Gw/profile-displayphoto-shrink_400_400/0/1689699089702?e=1714608000&v=beta&t=_3ff0MKB-kDQVtsSAqMJASHOSR26jfDa1IIGv4HLqaU",
+    "firstName": "Ana Maria",
+    "lastName": "Avendano Rojas",
+    "designation": "Partner Institute Liaison",
+    "department": 3,
+    "linkedinLink": "https://www.linkedin.com/feed/"
+  },
+  {
+    "_id": 57,
+    "image":"/svgs/teams/Emmanuel_Hernandez.jpg",
+    "firstName": "Emmanuel",
+    "lastName": "Hernandez",
+    "designation": "Partner Institute Liaison",
+    "department": 3,
+    "linkedinLink": "https://www.linkedin.com/in/emmanuel-hernandez-572198245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_appq"
+  },
+  {
+    "_id": 58,
+    "image":"/svgs/teams/May_Rose_Cabiso.jpg",
+    "firstName": "May Rose",
+    "lastName": "Cabiso",
+    "designation": "Partner Institute Liaison",
+    "department": 3,
+    "linkedinLink": "https://www.linkedin.com/in/may-rose-cabiso/"
+  },
+  {
+    "_id": 59,
+    "image":"/svgs/teams/Chaitanya_Sahithi.jpeg",
+    "firstName": "Chaitanya Sahithi",
+    "lastName": "Boddepalli",
+    "designation": "Partner Institute Liaison",
+    "department": 3,
+    "linkedinLink": "https://www.linkedin.com/in/chaitanya-sahithi-b-27174b206/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+  },
+  {
+    "_id": 60,
+    "image":"/svgs/teams/Sharmon_Chahal.jpg",
+    "firstName": "Sharmon",
+    "lastName": "Chahal",
+    "designation": "Partner Institute Liaison",
+    "department": 3,
+    "linkedinLink": "https://www.linkedin.com/in/sharmon-chahal"
+  },
+  {
+    "_id": 61,
     "image":"/svgs/teams/Ann_Mary_Anto.jpg",
     "firstName": "Ann Mary",
     "lastName": "Anto",
-    "designation": "Operations Coordinator",
+    "designation": "Event Coordinator",
     "department": 4,
     "linkedinLink": "https://www.linkedin.com/in/ann-mary-anto"
   },
   {
-    "_id": 51,
+    "_id": 62,
     "image":"/svgs/teams/Reiena_Lorraine.jpg",
     "firstName": "Reiena Lorraine",
     "lastName": "Legaspina",
@@ -469,151 +567,79 @@
     "linkedinLink": "https://www.linkedin.com/in/reiena-lorraine-legaspina/"
   },
   {
-    "_id": 52,
-    "image":"/svgs/teams/Ma_Rijoyce_Ouano.jpeg",
-    "firstName": "Ma Rijoyce",
-    "lastName": "Ouano",
-    "designation": "Event Organizer",
-    "department": 4,
-    "linkedinLink": "https://www.linkedin.com/in/rijoyceouano/"
-  },
-  {
-    "_id": 53,
-    "image":"/svgs/teams/YeeLamCheng.jpg",
-    "firstName": "Yee Lam",
-    "lastName": "Cheng (Rachel)",
-    "designation": "Social Media Manager",
+    "_id": 63,
+    "image":"/svgs/teams/Kanica.png",
+    "firstName": "Kanica",
+    "lastName": "Bhushan",
+    "designation": "Business Analyst",
     "department": 5,
-    "linkedinLink": "https://www.linkedin.com/in/yee-lam-c-94b555206/"
+    "linkedinLink": "https://www.linkedin.com/in/kanica-bhushan/"
   },
   {
-    "_id": 54,
-    "image":"/svgs/teams/Tarun_Narula.jpg",
-    "firstName": "Tarun",
-    "lastName": "Narula",
-    "designation": "Media Production Manager",
+    "_id": 64,
+    "image":"/svgs/teams/Rahul_Mamania.jpg",
+    "firstName": "Rahul",
+    "lastName": "Mamania",
+    "designation": "Business Analyst",
     "department": 5,
-    "linkedinLink": "https://www.linkedin.com/in/narulat"
+    "linkedinLink": "https://www.linkedin.com/in/rahul-mamania/"
   },
   {
-    "_id": 55,
-    "image":"/svgs/teams/Benyamin_Rahimi.jpeg",
-    "firstName": "Benyamin",
-    "lastName": "Rahimi",
-    "designation": "Senior Marketing Specialist",
-    "department": 5,
-    "linkedinLink": "https://www.linkedin.com/in/benyamin-rahimi"
-  },
-  {
-    "_id": 56,
-    "image":"/svgs/teams/Arya_Samant.jpg",
-    "firstName": "Arya",
-    "lastName": "Samant",
-    "designation": "Senior Media Production Specialist",
-    "department": 5,
-    "linkedinLink": "https://www.linkedin.com/in/arya-samant-aa4035195/"
-  },
-  {
-    "_id": 57,
-    "image":"/svgs/teams/Gisselle_Villagracia.jpg",
-    "firstName": "Gisselle",
-    "lastName": "Villagracia",
-    "designation": "Lead Graphic Designer",
-    "department": 5,
-    "linkedinLink": "https://www.linkedin.com/in/gisselle-villagracia-147079201/"
-  },
-  {
-    "_id": 58,
-    "image":"/svgs/teams/Vinh_Ng.jpeg",
-    "firstName": "Vinh",
-    "lastName": "Nguyen",
-    "designation": "Content Creator",
-    "department": 5,
-    "linkedinLink": "https://www.linkedin.com/in/vinh-nguyen-008885194/"
-  },
-  {
-    "_id": 59,
-    "image":"/svgs/teams/Dalen_Ngoun.jpeg",
-    "firstName": "Dalen",
-    "lastName": "Ngoun",
-    "designation": "Media Production Specialist",
-    "department": 5,
-    "linkedinLink": "https://www.linkedin.com/in/dalen-ngoun"
-  },
-  {
-    "_id": 60,
-    "image":"/svgs/teams/Mishika_Batra.jpeg",
-    "firstName": "Mishika",
-    "lastName": "Batra",
-    "designation": "Media Production Specialist",
-    "department": 5,
-    "linkedinLink": "https://www.linkedin.com/in/mishika-batra-2a5492220/"
-  },
-  {
-    "_id": 61,
+    "_id": 65,
     "image":"/svgs/teams/Khushi_Tanwer.jpeg",
     "firstName": "Khushi",
     "lastName": "Tanwer",
     "designation": "Media Production Specialist",
-    "department": 5,
+    "department": 6,
     "linkedinLink": "https://www.linkedin.com/in/khushi-tanwer-/"
   },
   {
-    "_id": 62,
-    "image":"/svgs/teams/Stephanie_Po.jpeg",
-    "firstName": "Stephanie",
-    "lastName": "Pozo",
+    "_id": 66,
+    "image":"/svgs/teams/Stephanie_Po1.jpeg",
+    "firstName": "Stephanie Daniela Pozo",
+    "lastName": "Del Corral",
     "designation": "Media Production Specialist",
-    "department": 5,
+    "department": 6,
     "linkedinLink": "https://www.linkedin.com/in/stephanie-pozo-5522b71a4/"
   },
   {
-    "_id": 63,
-    "image":"/svgs/teams/Nicole_Abasto_Fernan.jpg",
-    "firstName": "Nicole",
-    "lastName": "Abasto Fernandez",
-    "designation": "Social Media Specialist",
-    "department": 5,
-    "linkedinLink": "https://www.linkedin.com/in/nicoleaf19/"
-  },  
-  {
-    "_id": 64,
+    "_id": 67,
     "image":"/svgs/teams/Shivani_Nallamati.jpg",
     "firstName": "Shivani",
     "lastName": "Nallamati",
     "designation": "Social Media Specialist",
-    "department": 5,
+    "department": 6,
     "linkedinLink": "https://www.linkedin.com/in/shivani-nallamati-801237215/"
   },
   {
-    "_id": 65,
+    "_id": 68,
     "image":"/svgs/teams/Dong_Ho_Lam.jpeg",
     "firstName": "Dong Ho",
     "lastName": "Lam",
     "designation": "Social Media Specialist",
-    "department": 5,
+    "department": 6,
     "linkedinLink": "https://www.linkedin.com/in/dongholam"
   },
   {
-    "_id": 66,
-    "image":"/svgs/teams/Gursirat_Singh.jpg",
-    "firstName": "Gursirat",
-    "lastName": "Singh",
-    "designation": "Finance Coordinator",
+    "_id": 69,
+    "image":"/svgs/teams/Vinh_Ng.jpeg",
+    "firstName": "Tran Vu Thuy Vinh",
+    "lastName": "Nguyen",
+    "designation": "Social Media Specialist",
     "department": 6,
-    "linkedinLink": "www.linkedin.com/in/gursirat"
+    "linkedinLink": "https://www.linkedin.com/in/vinh-nguyen-008885194/"
   },
   {
-    "_id": 67,
-    "image":"/svgs/teams/Khushboo_Singh.jpg",
-    "firstName": "Khushboo",
-    "lastName": "Singh",
-    "designation": "Communication Specialist",
-    "department": 7,
-    "linkedinLink": "https://www.linkedin.com/in/khushboo-singh7459?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-  },
+    "_id": 70,
+    "image":"/svgs/teams/Nicole_Abasto_Fernan.jpg",
+    "firstName": "Nicole Abasto",
+    "lastName": "Fernandez",
+    "designation": "Social Media Specialist",
+    "department": 6,
+    "linkedinLink": "https://www.linkedin.com/in/nicoleaf19/"
+  },  
   {
-    "_id": 68,
+    "_id": 71,
     "image":"/svgs/teams/Ray_Asuma.jpeg",
     "firstName": "Ray",
     "lastName": "Asuma",
@@ -622,39 +648,12 @@
     "linkedinLink": "https://www.linkedin.com/in/rayasuma?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
   },
   {
-    "_id": 69,
-    "image":"/svgs/teams/Nhi_Ly.jpg",
-    "firstName": "Nalini",
-    "lastName": "Ly",
-    "designation": "Senior Business Analyst",
-    "department": 8,
-    "linkedinLink": "https://www.linkedin.com/in/nalini-ly/"
-  },
-  {
-    "_id": 70,
-    "image":"/svgs/teams/Kanica.png",
-    "firstName": "Kanica",
-    "lastName": "Bhushan",
-    "designation": "Business Analyst",
-    "department": 8,
-    "linkedinLink": "https://www.linkedin.com/in/kanica-bhushan/"
-  },
-  {
-    "_id": 71,
-    "image":"/svgs/teams/Rahul_Mamania.jpg",
-    "firstName": "Rahul",
-    "lastName": "Mamania",
-    "designation": "Business Analyst",
-    "department": 8,
-    "linkedinLink": "https://www.linkedin.com/in/rahul-mamania/"
-  },
-  {
     "_id": 72,
-    "image":"https://media.licdn.com/dms/image/D5603AQGm2NKCnE567Q/profile-displayphoto-shrink_400_400/0/1700071486190?e=1714608000&v=beta&t=RRDMsalh9STZMwA1gDX828o5VkYtzqtiXMCqDbl_fiQ",
-    "firstName": "Sky",
-    "lastName": "Yoon",
-    "designation": "Business Analyst",
+    "image":"/svgs/teams/Gursirat_Singh.jpg",
+    "firstName": "Gursirat",
+    "lastName": "Singh",
+    "designation": "Coordinator",
     "department": 8,
-    "linkedinLink": "https://www.linkedin.com/in/sky-saeha-yoon/"
+    "linkedinLink": "www.linkedin.com/in/gursirat"
   }
 ]

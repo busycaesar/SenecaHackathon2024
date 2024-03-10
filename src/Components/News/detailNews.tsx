@@ -1,6 +1,5 @@
 import { Row, Col } from "react-bootstrap";
 import SocialMediaIcons from "../SocialMedia/socialMedia";
-//import SampleImage from "../../svgs/sample.jpg";
 import "./news.css";
 import { News } from "../../Data/Schema/newsSchema";
 
@@ -12,12 +11,9 @@ export default function DetailNews({ newsItem }: { newsItem: News }) {
           <strong>{newsItem.title}</strong>
         </h1>
         <p>Written by {newsItem.author}</p>
-        <div className="red-background curved-border">
-          <SocialMediaIcons />
-        </div>
       </Col>
       <Col md={7}>
-        <img src={""} alt="Sample" style={{ width: "75%" }} />
+        <img src={newsItem.photo} alt="Sample" style={{ width: "75%" }} />
         <p>
           <span style={{ fontSize: "xxx-large", fontWeight: "700" }}>
             {newsItem.body.charAt(0)}

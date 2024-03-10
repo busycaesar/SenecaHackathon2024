@@ -16,13 +16,14 @@ import AboutUs from "./Pages/aboutUs";
 //import Login from "./Components/User/Login";
 //import useToggle from "./Components/CustomHooks/useToggle";
 import Roadmap from "./Pages/Roadmap";
-import { ToastContainer} from "react-toastify";
+import SubChallengeSet from "./Pages/subChallengeset/subChallengeSets";
+import CategorySubChallengeSet from "./Pages/subChallengeset/subsubChallengeSet";
+import { ToastContainer } from "react-toastify";
 import ImageGallery from "./Components/PhotoGallery/ImageGallery";
 //import ChallengeSet from "./Components/ChallengeSet/challengeSet";
 
 function App() {
   return (
-
     <div className="App">
       <ToastContainer />
       <Router>
@@ -30,7 +31,7 @@ function App() {
           mainNavItems={[
             "About",
             "Challenge Sets",
-            //"Our Team",
+            "Our Team",
             "News & Media",
             "Gallery",
             "FAQ",
@@ -47,12 +48,17 @@ function App() {
             {/* <Route path="/" element={<Home />} /> */}
             <Route path="/about" element={<AboutUs />} />
             <Route path="/challenge-sets" element={<ChallengeSets />} />
+            <Route path="/challenge-sets/:id" element={<SubChallengeSet />} />
+            <Route
+              path="/challenge-sets/:id/:categoryName"
+              element={<CategorySubChallengeSet />}
+            />
             <Route path="/our-team" element={<OurTeam />} />
-            <Route path="/News-&-Media" element={<StaticNews />} />
+            <Route path="/News-&-Media" element={<NewsPage />} />
             <Route path="/news/:id" element={<IndividualNews />} />
-            <Route path="/gallery" element={<ImageGallery />} />
             <Route path="/faq" element={<Faq />} />
             <Route path="/roadmap" element={<Roadmap />} />
+            <Route path="/gallery" element={<ImageGallery />} />
           </Routes>
         </div>
       </Router>
@@ -62,3 +68,6 @@ function App() {
 }
 
 export default App;
+
+//<Route path="/News-&-Media" element={<StaticNews />} />
+//
