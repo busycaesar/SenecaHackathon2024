@@ -4,7 +4,6 @@ import { findChallengeSetById } from "../../Data/Query/challengeQuery";
 import { Link } from "react-router-dom";
 function SubChallengeSet() {
   const { id } = useParams();
-  console.log(id);
   const challengeSet = findChallengeSetById(id);
 
   return (
