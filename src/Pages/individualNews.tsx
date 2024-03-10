@@ -40,7 +40,7 @@ export default function IndividualNews() {
         )}
       </div>
       {category && <CategoryNews categoryTitle={category.title} news={news} />}
-      <div className="flex flex-col content-center">
+      <div className="flex flex-col items-center">
         <div className="button my-2">
           <a href={`/news-&-media`}>
             <button>More News</button>
