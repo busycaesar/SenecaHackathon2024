@@ -1,0 +1,213 @@
+[
+  {
+    "challengeSets": [
+      {
+        "id": 1,
+        "name": "Student Housing",
+        "img": "/svgs/challengeSet/Student Housing.svg",
+        "detail": "Focus exclusively on the unique challenges and opportunities in student housing. This category invites you to craft innovative housing models that cater to the specific needs of students. From maximizing space in dorm rooms to creating communal living spaces that foster learning and collaboration, your ideas can transform the student living experience.",
+        "challenges": [
+          {
+            "categoryName": "City of Brampton",
+            "categoryTitle": "Transforming Canadian housing with data science",
+            "categoryDescription": "This challenge aims to address the obstacles in the housing market for students and real estate professionals, focusing on housing fraud prevention, informed decision-making, and streamlined identity verification processes.",
+            "categoryGuidedBy": "City of Brampton",
+            "problemStatement": [
+              {
+                "title": "ss",
+                "content": "2323"
+              },{
+                "title": "ss",
+                "content": "2323"
+              }
+            ],
+            "possibleSolution": "Develop software for identifying underutilized land, propose tax incentives, design regulatory compliance frameworks, and enhance GIS tools for affordable housing development.",
+            "locationAnalysis": "Software identifies underutilized land for affordable housing construction considering accessibility and essential services.",
+            "marketTrendAnalysis": "Tax incentives for realtors, developers, and investors to encourage affordable housing projects.",
+            "policyAndRegulatory": "Frameworks to streamline regulatory processes ensuring compliance while facilitating affordable housing construction.",
+            "optimizationOFGIS": "Invest in R&D to enhance GIS tools with technologies like cloud computing and AI for efficient data analysis."
+          },
+          {
+            "categoryName": "Renoshare",
+            "categoryTitle": "Streamlining Construction Process through Innovative Technology",
+            "categoryDescription": "The challenge focuses on addressing the challenges in renovation projects to enhance efficiency, reduce costs, and promote sustainability.",
+            "categoryGuidedBy": "Renoshare",
+            "problemStatement": "Develop technological solutions to simplify and accelerate the construction process, enhancing project management, coordination, and sustainability in renovations.",
+            "possibleSolution": "Introduce smart project management tools, digital compliance assistants, sustainable material sourcing apps, automated quotes, and solutions for compliance and financing.",
+            "locationAnalysis": "",
+            "marketTrendAnalysis": "",
+            "policyAndRegulatory": "",
+            "optimizationOFGIS": ""
+          },
+          {
+            "categoryName": "Oppos",
+            "categoryTitle": "Cybersecurity Compliance",
+            "categoryDescription": "This challenge addresses cybersecurity risks in affordable housing digital systems, proposing solutions for data protection and privacy.",
+            "categoryGuidedBy": "Oppos",
+            "problemStatement": "Confront cybersecurity vulnerabilities in affordable housing's digital infrastructure, proposing measures against unauthorized access, data breaches, and privacy breaches.",
+            "possibleSolution": "Develop AI software for threat detection, applications for security assessments, solutions for monitoring regulatory changes, automating compliance processes, and safeguarding against AI-driven social engineering attacks.",
+            "locationAnalysis": "",
+            "marketTrendAnalysis": "",
+            "policyAndRegulatory": "",
+            "optimizationOFGIS": ""
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Affordable Housing",
+        "img": "/svgs/challengeSet/Affordable Housing Solutions.svg",
+        "detail": "Dive into the challenge of making housing accessible and affordable for everyone. In this category, you’ll innovate to redefine rental management systems, streamline homeownership processes, and create sustainable living models. Your solutions could be the key to reshaping the landscape of housing affordability, opening doors to homes for people from all walks of life.",
+        "challenges": [
+          {
+            "categoryName": "City of Brampton",
+            "categoryTitle": "Transforming Canadian housing with data science",
+            "categoryDescription": "This challenge aims to address the obstacles in the housing market for students and real estate professionals, focusing on housing fraud prevention, informed decision-making, and streamlined identity verification processes.",
+            "categoryGuidedBy": "City of Brampton",
+            "problemStatement": "Use GIS techniques and data science to analyze location-specific data and market trends, addressing affordability and sustainability in housing development.",
+            "possibleSolution": "Develop software for identifying underutilized land, propose tax incentives, design regulatory compliance frameworks, and enhance GIS tools for affordable housing development.",
+            "locationAnalysis": "Software identifies underutilized land for affordable housing construction considering accessibility and essential services.",
+            "marketTrendAnalysis": "Tax incentives for realtors, developers, and investors to encourage affordable housing projects.",
+            "policyAndRegulatory": "Frameworks to streamline regulatory processes ensuring compliance while facilitating affordable housing construction.",
+            "optimizationOFGIS": "Invest in R&D to enhance GIS tools with technologies like cloud computing and AI for efficient data analysis."
+          },
+          {
+            "categoryName": "Renoshare",
+            "categoryTitle": "Streamlining Construction Process through Innovative Technology",
+            "categoryDescription": "The challenge focuses on addressing the challenges in renovation projects to enhance efficiency, reduce costs, and promote sustainability.",
+            "categoryGuidedBy": "Renoshare",
+            "problemStatement": "Develop technological solutions to simplify and accelerate the construction process, enhancing project management, coordination, and sustainability in renovations.",
+            "possibleSolution": "Introduce smart project management tools, digital compliance assistants, sustainable material sourcing apps, automated quotes, and solutions for compliance and financing.",
+            "locationAnalysis": "",
+            "marketTrendAnalysis": "",
+            "policyAndRegulatory": "",
+            "optimizationOFGIS": ""
+          },
+          {
+            "categoryName": "Oppos",
+            "categoryTitle": "Cybersecurity Compliance",
+            "categoryDescription": "This challenge addresses cybersecurity risks in affordable housing digital systems, proposing solutions for data protection and privacy.",
+            "categoryGuidedBy": "Oppos",
+            "problemStatement": "Confront cybersecurity vulnerabilities in affordable housing's digital infrastructure, proposing measures against unauthorized access, data breaches, and privacy breaches.",
+            "possibleSolution": "Develop AI software for threat detection, applications for security assessments, solutions for monitoring regulatory changes, automating compliance processes, and safeguarding against AI-driven social engineering attacks.",
+            "locationAnalysis": "",
+            "marketTrendAnalysis": "",
+            "policyAndRegulatory": "",
+            "optimizationOFGIS": ""
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Community Well-being",
+        "img": "/svgs/challengeSet/Community Well-being.svg",
+        "detail": "Prioritize the heart and soul of residential areas—community well-being. Tackle challenges related to health, education, and social connectivity to enhance the quality of life within neighbourhoods. Whether it's through designing health-integrated living spaces, creating digital inclusion hubs, or fostering community engagement, your contributions will sow the seeds for thriving, supportive communities.",
+        "challenges": [
+          {
+            "categoryName": "CAMH",
+            "categoryTitle": "Empowering community well-being through mobile solutions",
+            "categoryDescription": "This challenge focuses on developing mobile applications to support individuals facing homelessness or housing insecurity due to mental health issues or substance addictions, by providing mental health interventions, addiction recovery support, and proactive measures to address mental health and substance use challenges.",
+            "categoryGuidedBy": "CAMH",
+            "problemStatement": "Homelessness and housing insecurity intertwined with mental health disorders and substance use, necessitating mobile solutions that offer support and resources.",
+            "possibleSolution": "Development of self-assessment apps, crisis response features, and community resource mapping apps to empower at-risk individuals and connect them with necessary resources.",
+            "locationAnalysis": "",
+            "marketTrendAnalysis": "",
+            "policyAndRegulatory": "",
+            "optimizationOFGIS": ""
+          },
+          {
+            "categoryName": "3 OF CUPS",
+            "categoryTitle": "Newcomers Trust System",
+            "categoryDescription": "The challenge aims to enhance the student housing experience by using technology and community involvement to make housing affordable, sustainable, and safe, fostering strong community ties.",
+            "categoryGuidedBy": "3 OF CUPS",
+            "problemStatement": "Addressing the housing crisis with a focus on student housing by exploring roommate dynamics, social networks, and trust-building.",
+            "possibleSolution": "Leverage AI, VR, mobile apps, and wearables to improve the accommodation search process, foster community, and provide data-driven insights. Develop systems and apps for roommate cooperation and transparent communication.",
+            "locationAnalysis": "",
+            "marketTrendAnalysis": "",
+            "policyAndRegulatory": "",
+            "optimizationOFGIS": ""
+          },
+          {
+            "categoryName": "Skill Squirrel",
+            "categoryTitle": "Digitalized apprenticeship programs for construction trades",
+            "categoryDescription": "The challenge is centered on transforming trades training specifically to provide more manpower for the housing initiative and earning opportunities to people looking for jobs. Trades can include carpentry, construction, and plumbing, to align closely with the contemporary demands of the housing sector. Traditional construction education often overlooks modern housing essentials, lacking exposure to eco-friendly materials, sustainable practices, and safety considerations specific to housing projects. Aspiring tradespeople require updated skills relevant to evolving housing needs. ",
+            "categoryGuidedBy": "Skill Squirrel",
+            "problemStatement": "As you delve into solving the Affordable Housing Solutions challenge, these ideas offer potential directions for your projects. While these suggestions serve as starting points, feel free to explore additional innovative approaches. Your solutions should aim to tackle the complexities of affordable housing using technology, policy, community engagement, and sustainability to make a tangible impact. ",
+            "possibleSolution": "Remote mentorship, dynamic programs with industry input, immersive AR/VR simulations, and specialized affordable housing design modules. Implement AI-powered virtual mentoring and chatbots for a tailored learning experience.",
+            "locationAnalysis": "",
+            "marketTrendAnalysis": "",
+            "policyAndRegulatory": "",
+            "optimizationOFGIS": ""
+          },
+          {
+            "categoryName": "We-Watch",
+            "categoryTitle": "Safeguarding Housing Safety and Security",
+            "categoryDescription": "The challenge involves the development of the We-Watch app for community safety, allowing anonymous reporting and response to incidents, and fostering community engagement.",
+            "categoryGuidedBy": "We-Watch",
+            "problemStatement": "Enhancing community safety through a neighborhood watch application integrating public data streams for real-time incident mapping and safety ratings.",
+            "possibleSolution": "AI-powered content moderation, integration with public data sources, user-friendly incident reporting, collaborative incident resolution, and continuous improvement mechanisms.",
+            "locationAnalysis": "",
+            "marketTrendAnalysis": "",
+            "policyAndRegulatory": "",
+            "optimizationOFGIS": ""
+          }
+        ]
+      },
+      {
+        "name": "Housing Tech",
+        "img": "/svgs/challengeSet/Housing Tech.svg",
+        "detail": "Step into the future where technology and housing intersect. In this category, you’ll harness the power of fintech, IoT, and smart home innovations to revolutionize the way we secure, manage, and experience our homes. From fintech solutions that make homeownership more attainable to smart security systems that keep neighbourhoods safe, your tech-driven solutions will pave the way for the next generation of living spaces.",
+        "challenges": [
+          {
+            "categoryName": "Tech-Driven Housing Innovations",
+            "categoryTitle": "Tech-Driven Housing Innovations",
+            "categoryDescription": "This challenge focuses on developing mobile applications to support individuals facing homelessness or housing insecurity due to mental health issues or substance addictions, by providing mental health interventions, addiction recovery support, and proactive measures to address mental health and substance use challenges.",
+            "categoryGuidedBy": "CAMH",
+            "problemStatement": "Homelessness and housing insecurity intertwined with mental health disorders and substance use, necessitating mobile solutions that offer support and resources.",
+            "possibleSolution": "Development of self-assessment apps, crisis response features, and community resource mapping apps to empower at-risk individuals and connect them with necessary resources.",
+            "locationAnalysis": "",
+            "marketTrendAnalysis": "",
+            "policyAndRegulatory": "",
+            "optimizationOFGIS": ""
+          },
+          {
+            "categoryName": "3 OF CUPS",
+            "categoryTitle": "Newcomers Trust System",
+            "categoryDescription": "The challenge aims to enhance the student housing experience by using technology and community involvement to make housing affordable, sustainable, and safe, fostering strong community ties.",
+            "categoryGuidedBy": "3 OF CUPS",
+            "problemStatement": "Addressing the housing crisis with a focus on student housing by exploring roommate dynamics, social networks, and trust-building.",
+            "possibleSolution": "Leverage AI, VR, mobile apps, and wearables to improve the accommodation search process, foster community, and provide data-driven insights. Develop systems and apps for roommate cooperation and transparent communication.",
+            "locationAnalysis": "",
+            "marketTrendAnalysis": "",
+            "policyAndRegulatory": "",
+            "optimizationOFGIS": ""
+          },
+          {
+            "categoryName": "Skill Squirrel",
+            "categoryTitle": "Digitalized apprenticeship programs for construction trades",
+            "categoryDescription": "This challenge is centered on transforming trades training to provide manpower for housing initiatives and opportunities for job seekers, with a focus on carpentry, construction, and plumbing.",
+            "categoryGuidedBy": "Skill Squirrel",
+            "problemStatement": "Modernizing trades training to align with contemporary housing needs, focusing on eco-friendly materials, sustainable practices, and safety.",
+            "possibleSolution": "Remote mentorship, dynamic programs with industry input, immersive AR/VR simulations, and specialized affordable housing design modules. Implement AI-powered virtual mentoring and chatbots for a tailored learning experience.",
+            "locationAnalysis": "",
+            "marketTrendAnalysis": "",
+            "policyAndRegulatory": "",
+            "optimizationOFGIS": ""
+          },
+          {
+            "categoryName": "We-Watch",
+            "categoryTitle": "Safeguarding Housing Safety and Security",
+            "categoryDescription": "The challenge involves the development of the We-Watch app for community safety, allowing anonymous reporting and response to incidents, and fostering community engagement.",
+            "categoryGuidedBy": "We-Watch",
+            "problemStatement": "Enhancing community safety through a neighborhood watch application integrating public data streams for real-time incident mapping and safety ratings.",
+            "possibleSolution": "AI-powered content moderation, integration with public data sources, user-friendly incident reporting, collaborative incident resolution, and continuous improvement mechanisms.",
+            "locationAnalysis": "",
+            "marketTrendAnalysis": "",
+            "policyAndRegulatory": "",
+            "optimizationOFGIS": ""
+          }
+        ]
+      }
+    ]
+  }
+]
