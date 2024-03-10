@@ -16,6 +16,8 @@ import AboutUs from "./Pages/aboutUs";
 //import Login from "./Components/User/Login";
 //import useToggle from "./Components/CustomHooks/useToggle";
 import Roadmap from "./Pages/Roadmap";
+import SubChallengeSet from "./Pages/subChallengeset/subChallengeSets";
+import CategorySubChallengeSet from "./Pages/subChallengeset/subsubChallengeSet";
 import { ToastContainer } from "react-toastify";
 import ImageGallery from "./Components/PhotoGallery/ImageGallery";
 //import ChallengeSet from "./Components/ChallengeSet/challengeSet";
@@ -46,6 +48,11 @@ function App() {
             {/* <Route path="/" element={<Home />} /> */}
             <Route path="/about" element={<AboutUs />} />
             <Route path="/challenge-sets" element={<ChallengeSets />} />
+            <Route path="/challenge-sets/:id" element={<SubChallengeSet />} />
+            <Route
+              path="/challenge-sets/:id/:categoryName"
+              element={<CategorySubChallengeSet />}
+            />
             <Route path="/our-team" element={<OurTeam />} />
             <Route path="/News-&-Media" element={<NewsPage />} />
             <Route path="/news/:id" element={<IndividualNews />} />
