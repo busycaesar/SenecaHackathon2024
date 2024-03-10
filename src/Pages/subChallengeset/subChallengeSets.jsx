@@ -1,10 +1,10 @@
 import React from "react";
 import { useLocation, useParams } from "react-router-dom";
-import { findChallengeSetById} from "../../Data/Query/challengeQuery";
-
+import { findChallengeSetById } from "../../Data/Query/challengeQuery";
+import { Link } from "react-router-dom";
 function SubChallengeSet() {
   const { id } = useParams();
-  console.log(id)
+  console.log(id);
   const challengeSet = findChallengeSetById(id);
 
   return (
@@ -16,6 +16,14 @@ function SubChallengeSet() {
             <div key={index} className="mb-10">
               <h3 className="text-xl font-bold">{challenge.categoryTitle}</h3>
               <p>{challenge.categoryDescription}</p>
+              <Link
+                to={{
+                  pathname: `/challenge-sets/${challengeSet.id}/${challenge.categoryName}`,
+                  state: { challengeSet: challengeSet.challenges },
+                }}
+              >
+                Read More
+              </Link>
             </div>
           ))
         ) : (
