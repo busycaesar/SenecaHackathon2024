@@ -9,7 +9,7 @@ import {
   findLatestNews,
 } from "../Data/Query/newsQuery";
 
-import ytVideo from '../Data/JSONData/video'
+import ytVideo from "../Data/JSONData/video";
 
 export default function NewsPage() {
   const newsToBeDisplayed = 4;
@@ -29,16 +29,17 @@ export default function NewsPage() {
           />
           <LatestNews news={LatestNewsList.slice(0, newsToBeDisplayed)} />
 
+          {/*
           <hr />
 
-          <VideoAndPodcast
+           <VideoAndPodcast
             categoryTitle="Lastest Videos and Podcasts"
             news={LatestNewsList.slice(
               newsToBeDisplayed,
               newsToBeDisplayed + 2
             )}
           />
-          <LatestVideo video={ytVideo}/>
+          <LatestVideo video={ytVideo}/> */}
         </>
       ) : (
         <LatestNews news={LatestNewsList} />

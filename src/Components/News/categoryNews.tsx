@@ -17,7 +17,7 @@ export default function CategoryNews({
       <Row>
         {news.map((newsItem) => (
           <>
-            <Col md={3}>
+            <Col md={4}>
               <NewsThumbnail news={newsItem} />
             </Col>
           </>

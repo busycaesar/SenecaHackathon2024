@@ -15,7 +15,7 @@ export default function IndividualNews() {
   if (newsItem) {
     category = findCategoryById(newsItem?.category);
     news = findNewsByCategoryId(newsItem?.category);
-    if (news.length >= 3) news = news.slice(0, 3);
+    if (news.length >= 4) news = news.slice(0, 4);
   } else {
     category = findCategoryById(0);
     news = findLatestNews();
@@ -40,7 +40,7 @@ export default function IndividualNews() {
       </div>
       {category && <CategoryNews categoryTitle={category.title} news={news} />}
       <div className="button right-side">
-        <a href={`/news`}>
+        <a href={`/news-&-media`}>
           <button>More News</button>
         </a>
       </div>
