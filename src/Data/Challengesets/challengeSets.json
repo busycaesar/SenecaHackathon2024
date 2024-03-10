@@ -53,8 +53,8 @@
             "categoryDescription": "Enter the realm where technology and housing converge. This challenge invites participants to explore the innovative use of construction tech, IoT devices, data analytics, and more to address critical issues in the housing sector. From revolutionizing construction methods to optimizing energy efficiency and enhancing safety, participants will harness the power of technology to shape the future of housing.",
             "categoryGuidedBy": "Mark Buchner",
             "problemStatementDescription": "As you delve into solving the Housing Technology challenge, these ideas offer potential directions for your projects. While these suggestions serve as starting points, feel free to explore additional innovative approaches. Your solutions should aim to tackle the complexities of affordable housing using technology, policy, community engagement, and sustainability to make a tangible impact.",
-            "problemStatement": [{}],
-            "possibleSolution": [{}]
+            "problemStatement": [],
+            "possibleSolution": []
           }
         ]
       },
@@ -70,8 +70,8 @@
             "categoryDescription": "Enter the realm where technology and housing converge. This challenge invites participants to explore the innovative use of construction tech, IoT devices, data analytics, and more to address critical issues in the housing sector. From revolutionizing construction methods to optimizing energy efficiency and enhancing safety, participants will harness the power of technology to shape the future of housing.",
             "categoryGuidedBy": "Mark Buchner",
             "problemStatementDescription": "As you delve into solving the Housing Technology challenge, these ideas offer potential directions for your projects. While these suggestions serve as starting points, feel free to explore additional innovative approaches. Your solutions should aim to tackle the complexities of affordable housing using technology, policy, community engagement, and sustainability to make a tangible impact.",
-            "problemStatement": [{}],
-            "possibleSolution": [{}]
+            "problemStatement": [],
+            "possibleSolution": []
           },
           {
             "categoryName": "Tech-Driven Housing Innovations",
@@ -79,8 +79,8 @@
             "categoryDescription": "Enter the realm where technology and housing converge. This challenge invites participants to explore the innovative use of construction tech, IoT devices, data analytics, and more to address critical issues in the housing sector. From revolutionizing construction methods to optimizing energy efficiency and enhancing safety, participants will harness the power of technology to shape the future of housing.",
             "categoryGuidedBy": "Mark Buchner",
             "problemStatementDescription": "As you delve into solving the Housing Technology challenge, these ideas offer potential directions for your projects. While these suggestions serve as starting points, feel free to explore additional innovative approaches. Your solutions should aim to tackle the complexities of affordable housing using technology, policy, community engagement, and sustainability to make a tangible impact.",
-            "problemStatement": [{}],
-            "possibleSolution": [{}]
+            "problemStatement": [],
+            "possibleSolution": []
           }
         ]
       },
@@ -96,8 +96,8 @@
             "categoryDescription": "Enter the realm where technology and housing converge. This challenge invites participants to explore the innovative use of construction tech, IoT devices, data analytics, and more to address critical issues in the housing sector. From revolutionizing construction methods to optimizing energy efficiency and enhancing safety, participants will harness the power of technology to shape the future of housing.",
             "categoryGuidedBy": "Mark Buchner",
             "problemStatementDescription": "As you delve into solving the Housing Technology challenge, these ideas offer potential directions for your projects. While these suggestions serve as starting points, feel free to explore additional innovative approaches. Your solutions should aim to tackle the complexities of affordable housing using technology, policy, community engagement, and sustainability to make a tangible impact.",
-            "problemStatement": [{}],
-            "possibleSolution": [{}]
+            "problemStatement": [],
+            "possibleSolution": []
           },
           {
             "categoryName": "Tech-Driven Housing Innovations",
@@ -105,12 +105,13 @@
             "categoryDescription": "Enter the realm where technology and housing converge. This challenge invites participants to explore the innovative use of construction tech, IoT devices, data analytics, and more to address critical issues in the housing sector. From revolutionizing construction methods to optimizing energy efficiency and enhancing safety, participants will harness the power of technology to shape the future of housing.",
             "categoryGuidedBy": "Mark Buchner",
             "problemStatementDescription": "As you delve into solving the Housing Technology challenge, these ideas offer potential directions for your projects. While these suggestions serve as starting points, feel free to explore additional innovative approaches. Your solutions should aim to tackle the complexities of affordable housing using technology, policy, community engagement, and sustainability to make a tangible impact.",
-            "problemStatement": [{}],
-            "possibleSolution": [{}]
+            "problemStatement": [],
+            "possibleSolution": []
           }
         ]
       },
       {
+        "id": 4,
         "name": "Housing Tech",
         "img": "/svgs/challengeSet/Housing Tech.svg",
         "detail": "Step into the future where technology and housing intersect. In this category, you’ll harness the power of fintech, IoT, and smart home innovations to revolutionize the way we secure, manage, and experience our homes. From fintech solutions that make homeownership more attainable to smart security systems that keep neighbourhoods safe, your tech-driven solutions will pave the way for the next generation of living spaces.",
@@ -121,8 +122,8 @@
             "categoryDescription": "Enter the realm where technology and housing converge. This challenge invites participants to explore the innovative use of construction tech, IoT devices, data analytics, and more to address critical issues in the housing sector. From revolutionizing construction methods to optimizing energy efficiency and enhancing safety, participants will harness the power of technology to shape the future of housing.",
             "categoryGuidedBy": "Mark Buchner",
             "problemStatementDescription": "As you delve into solving the Housing Technology challenge, these ideas offer potential directions for your projects. While these suggestions serve as starting points, feel free to explore additional innovative approaches. Your solutions should aim to tackle the complexities of affordable housing using technology, policy, community engagement, and sustainability to make a tangible impact.",
-            "problemStatement": [{}],
-            "possibleSolution": [{}]
+            "problemStatement": [],
+            "possibleSolution": []
           },
           {
             "categoryName": "Tech-Driven Housing Innovations",
@@ -130,8 +131,8 @@
             "categoryDescription": "Enter the realm where technology and housing converge. This challenge invites participants to explore the innovative use of construction tech, IoT devices, data analytics, and more to address critical issues in the housing sector. From revolutionizing construction methods to optimizing energy efficiency and enhancing safety, participants will harness the power of technology to shape the future of housing.",
             "categoryGuidedBy": "Mark Buchner",
             "problemStatementDescription": "As you delve into solving the Housing Technology challenge, these ideas offer potential directions for your projects. While these suggestions serve as starting points, feel free to explore additional innovative approaches. Your solutions should aim to tackle the complexities of affordable housing using technology, policy, community engagement, and sustainability to make a tangible impact.",
-            "problemStatement": [{}],
-            "possibleSolution": [{}]
+            "problemStatement": [],
+            "possibleSolution": []
           }
         ]
       }
