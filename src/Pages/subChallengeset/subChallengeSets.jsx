@@ -8,20 +8,15 @@ function SubChallengeSet() {
 
   return (
     <div>
-      <section className="py-5 sm:py-10  sm:px-8 px-2 no-underline">
-        <div className="mx-auto w-3/4 sm:w-1/4 no-underline xl:w-1/6">
+      <section className="py-5 sm:py-10 font-gotham bg-gray-100 sm:px-8 px-2">
+        <div className="mx-auto w-3/4 sm:w-1/4 xl:w-1/6">
           <img
             src={challengeSet.img}
             alt={challengeSet.name}
             className="w-full"
           />
         </div>
-        <div className="shadow rounded-xl mt-2">
-          <h2 className="font-gotham p-1 bg-gray-900 text-center uppercase md:text-4xl text-lg bg-gradient-to-r from-red-600 to-red-400 bg-clip-text text-transparent">
-            {challengeSet.name}
-          </h2>
-        </div>
-
+        <h2 className="text-center text-my-red font-bold text-3xl md:text-5xl">{challengeSet.name}</h2>
         {challengeSet.challenges && challengeSet.challenges.length > 0 ? (
           challengeSet.challenges.map((challenge, index) => (
             <Slide
@@ -29,7 +24,7 @@ function SubChallengeSet() {
               triggerOnce
               key={index}
             >
-              <div className="mb-10 shadow-2xl hover:scale-110 duration-300 transition-all ease-in-out p-3 rounded-2xl no-underline">
+              <div className="mb-6 border-solid bg-white border-gray-500 border-4 shadow-md p-6 rounded-2xl">
                 <Link
                   className="no-underline"
                   to={{

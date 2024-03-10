@@ -56,7 +56,7 @@ export default function ChallengeSetsSection({
 
   return (
     <>
-      <div className="flex justify-center items-center">
+      <div className="flex font-gotham justify-center items-center">
         <section className="py-8 w-full bg-my-red">
           <div className="absolute p-10">
             <svg
@@ -122,16 +122,14 @@ export default function ChallengeSetsSection({
                 <div key={index} className="px-4 mb-8 xl:w-1/4 md:w-1/3">
                   <div className="flex flex-col items-center justify-center">
                     <img
-                      className="rounded-xl shadow-xl mb-6 hover:scale-105 transition-transform duration-500 ease-in-out"
+                      className="rounded-xl shadow-xl mb-6 h-[300px] w-[300px] hover:scale-105 transition-transform duration-500 ease-in-out"
                       src={challengeSetItem.image}
-                      width={200}
-                      height={200}
                     />
                     <div className="text-center">
-                      <h3 className="mb-6 text-xl text-red-500 font-heading">
+                      <h3 className="mb-6 text-2xl text-red-500 font-semibold font-heading">
                         {challengeSetItem.title}
                       </h3>
-                      <p className="text-lg text-gray-900">
+                      <p className="text-lg hidden text-gray-900">
                         {challengeSetItem.description}
                       </p>
                     </div>

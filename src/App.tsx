@@ -31,7 +31,7 @@ function App() {
           mainNavItems={[
             "About",
             "Challenge Sets",
-            //"Our Team",
+            "Our Team",
             "News & Media",
             "Gallery",
             "FAQ",
@@ -58,6 +58,7 @@ function App() {
             <Route path="/news/:id" element={<IndividualNews />} />
             <Route path="/faq" element={<Faq />} />
             <Route path="/roadmap" element={<Roadmap />} />
+            <Route path="/gallery" element={<ImageGallery />} />
           </Routes>
         </div>
       </Router>

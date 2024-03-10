@@ -6,17 +6,15 @@ import { JackInTheBox } from "react-awesome-reveal";
 export default function ChallengeSets() {
   return (
     <>
-      <section className="py-20">
-        <div className="shadow rounded-xl">
-          <h2 className="font-gotham p-1 bg-gray-900 text-center uppercase md:text-4xl text-lg bg-gradient-to-r from-red-600 to-red-400 bg-clip-text text-transparent">
-            Challenge Set
-          </h2>
-        </div>
+      <section className="py-2 font-gotham">
+        <h2 className="text-center font-bold text-3xl md:text-5xl text-my-red">Know Your Challenge Sets</h2>
         {challengeSetObject.map((set) =>
           set.challengeSets.map((challengeSet, index) => (
             <JackInTheBox key={index} triggerOnce>
-              <div className="flex flex-wrap -mx-4 mb-20 shadow-xl hover:scale-105 transition-all ease-in-out duration-300 p-2 rounded-2xl">
-                <div className="w-full lg:w-1/2 px-4 lg:pr-20 lg:pt-4 order-1 lg:order-0">
+              <div
+                className="flex flex-wrap -mx-4 mb-8 border-solid border-gray-500 bg-white border-4 shadow-md p-3 rounded-2xl"
+              >
+                <div className="w-full lg:w-2/3 px-4 lg:pr-20 lg:pt-4 order-1 lg:order-0">
                   <Link
                     to={{
                       pathname: `/challenge-sets/${challengeSet.id}`,
@@ -45,7 +43,7 @@ export default function ChallengeSets() {
                     {challengeSet.detail}
                   </p>
                 </div>
-                <div className="w-full lg:w-1/2 px-4 mb-8 order-0 lg:order-1 rounded-xl">
+                <div className="w-full lg:w-1/3 px-4 mb-8 order-0 lg:order-1 rounded-xl">
                   <img
                     className="w-full h-80 object-fill rounded"
                     src={challengeSet.img}
