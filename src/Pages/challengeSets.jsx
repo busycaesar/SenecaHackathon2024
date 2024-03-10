@@ -7,13 +7,15 @@ export default function ChallengeSets() {
   return (
     <>
       <section className="py-20">
-        <h2>Challenge Set</h2>
+        <div className="shadow rounded-xl">
+          <h2 className="font-gotham p-1 bg-gray-900 text-center uppercase md:text-4xl text-lg bg-gradient-to-r from-red-600 to-red-400 bg-clip-text text-transparent">
+            Challenge Set
+          </h2>
+        </div>
         {challengeSetObject.map((set) =>
           set.challengeSets.map((challengeSet, index) => (
             <JackInTheBox key={index} triggerOnce>
-              <div
-                className="flex flex-wrap -mx-4 mb-20 border-solid border-gray-500 border-4 shadow-md p-3 rounded-2xl"
-              >
+              <div className="flex flex-wrap -mx-4 mb-20 shadow-xl hover:scale-105 transition-all ease-in-out duration-300 p-2 rounded-2xl">
                 <div className="w-full lg:w-1/2 px-4 lg:pr-20 lg:pt-4 order-1 lg:order-0">
                   <Link
                     to={{
@@ -39,7 +41,7 @@ export default function ChallengeSets() {
                       ></path>
                     </svg>
                   </Link>
-                  <p className=" text-xl md:text-lg font-semibold font-gotham">
+                  <p className="text-xl text-black font-medium md:text-lg  font-gotham">
                     {challengeSet.detail}
                   </p>
                 </div>
