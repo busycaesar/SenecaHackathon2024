@@ -11,9 +11,6 @@ export default function DetailNews({ newsItem }: { newsItem: News }) {
           <strong>{newsItem.title}</strong>
         </h1>
         <p>Written by {newsItem.author}</p>
-        <div className="red-background curved-border">
-          <SocialMediaIcons />
-        </div>
       </Col>
       <Col md={7}>
         <img src={newsItem.photo} alt="Sample" style={{ width: "75%" }} />
