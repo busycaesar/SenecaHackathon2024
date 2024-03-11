@@ -3,19 +3,19 @@
     "_id": 0,
     "eventDate": "2024-03-10T12:30:00.000Z",
     "eventTitle": "Opening Ceremony | Qualifier Round",
-    "eventDescription": "Participants will begin developing solutions for the challenge set."
+    "eventDescription": "Participants are expected to begin developing solutions for their selected challenge set."
   },
   {
     "_id": 1,
     "eventDate": "2024-03-11T12:30:00.000Z",
     "eventTitle": "Qualifier Submission Deadline",
-    "eventDescription": "Submit your entry for Qualifier Round judging."
+    "eventDescription": "Last day for each team to submit their entry for Qualifier Round judging."
   },
   {
     "_id": 2,
     "eventDate": "2024-03-15T12:30:00.000Z",
-    "eventTitle": "Finale Virtual",
-    "eventDescription": "If your submission qualifies, you will be invited to join us for the in-person finale."
+    "eventTitle": "Finalists Mentoring Session",
+    "eventDescription": "Finalists will have a chance to connect with our partners and sponsors for another mentorship session."
   },
   {
     "_id": 3,

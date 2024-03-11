@@ -4,7 +4,7 @@ import Institute from "./insitute";
 
 export default function WhoCanParticipate() {
   return (
-      <section class="page-content py-2 bg-coolGray-50">
+      <section class="page-content bg-coolGray-50">
   <div class="container-fluid mx-auto ">
     <div class="lg:max-w-none mx-auto">
       <div class="flex flex-wrap -mx-4 items-center">

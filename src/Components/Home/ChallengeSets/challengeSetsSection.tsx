@@ -109,9 +109,7 @@ export default function ChallengeSetsSection({
                   <strong>Challenge Sets</strong>
                 </h2>
                 <span className="mb-12 text-base md:text-2xl text-gray-50">
-                  Explore a variety of challenges in the hackathon and
-                  demonstrate your innovative skills and creativity. Choose your
-                  passion and make a real-world impact.
+                Participating teams must select one from the four challenge categories below. Each team has to focus on addressing issues within their chosen category.
                 </span>
               </div>
             </div>
