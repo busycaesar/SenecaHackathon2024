@@ -112,7 +112,7 @@ function Roadmap() {
       info: "This is the last day for each team to submit their entry for judging. Please note that all finalists are expected to attend the in-person finale on March 16, 2024.",
     },
     {
-      title: "Virtual Finale",
+      title: "Finalists Mentoring Session",
       cardTitle: "15th March 2024",
       media: {
         name: "Virtual Finale",
@@ -122,7 +122,7 @@ function Roadmap() {
         },
         type: "IMAGE",
       },
-      info: "All qualified teams will have a chance to have their doubts cleared by mentors during mentorship sessions for various challenge sets and start working on their solutions.",
+      info: "Finalists will have a chance to seek advice and clarify any doubts with our partners and sponsors through another mentoring session.",
     },
     {
       title: "Finale",

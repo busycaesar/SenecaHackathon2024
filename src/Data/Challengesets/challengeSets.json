@@ -5,7 +5,7 @@
         "id": 1,
         "name": "Student Housing",
         "img": "/svgs/challengeSet/Student Housing.svg",
-        "detail": "Focus exclusively on the unique challenges and opportunities in student housing. This category invites you to craft innovative housing models that cater to the specific needs of students. From maximizing space in dorm rooms to creating communal living spaces that foster learning and collaboration, your ideas can transform the student living experience.",
+        "detail": "This category invites you to create housing solutions that specifically cater to the needs of students. This includes maximizing dorm room spaces, creating communal living areas for learning and collaboration, or any initiative that can enhance the overall student living experience.",
         "challenges": [
           {
             "categoryName": "Scam and fraud awareness, and tools",
@@ -71,8 +71,8 @@
             ]
           },
           {
-            "categoryName": "Layer 1",
-            "categoryTitle": "Layer 1",
+            "categoryName": "Revolutionizing Homesharing Solution by building a Community",
+            "categoryTitle": "Revolutionizing Homesharing Solution by building a Community",
             "categoryDescription": "In today's fast-paced world, many older adults wish to age gracefully in their own homes, surrounded by familiar faces and memories. However, soaring housing costs and limited availability often force them to consider alternative living arrangements. At the same time, students face their own set of challenges when it comes to accessing safe and affordable housing near their campuses. SpacesShared aims to address these pressing issues by facilitating homesharing arrangements that benefit both older adults and students. The challenge lies in bridging the gap between these two demographics and leveraging technology to create meaningful connections. With the help of local partners and innovative matching algorithms, SpacesShared seeks to foster trust and safety within the community while providing affordable housing options for students and supplemental income for older adults. Through targeted advertising campaigns, incentives for early adopters, and the development of a user-friendly platform, SpacesShared aims to revolutionize the homesharing experience. By embracing advanced technologies such as AI, machine learning, and voice recognition, SpacesShared hopes to enhance the platform's functionality and accessibility for users of all ages. Additionally, strict security measures and comprehensive support services will ensure the privacy and well-being of participants throughout their homesharing journey. Together, let's build a brighter future where older adults can age in place and students can thrive in their academic pursuits, all while fostering a sense of community and connection.",
             "guidedBy": "SpacesShared",
             "problemStatementDescription": "The challenge aims to utilize data analytics and AI solutions to analyze public datasets encompassing housing market data, demographic data, affordability data, zoning data, transportation data, and environmental data. Participants will delve into the root causes of the student housing shortage and propose actionable solutions to improve accessibility for students in high-demand areas like the GTA.",
@@ -124,7 +124,7 @@
         "id": 2,
         "name": "Affordable Housing",
         "img": "/svgs/challengeSet/Affordable Housing Solutions.svg",
-        "detail": "Dive into the challenge of making housing accessible and affordable for everyone. In this category, you’ll innovate to redefine rental management systems, streamline homeownership processes, and create sustainable living models. Your solutions could be the key to reshaping the landscape of housing affordability, opening doors to homes for people from all walks of life.",
+        "detail": "This category allows you to work on solutions aimed at promoting accessible and affordable housing for everyone. This includes redefining rental management systems, streamlining homeownership processes, and creating sustainable housing models.",
         "challenges": [
           {
             "categoryName": "Transforming Canadian housing with data science",
@@ -235,7 +235,7 @@
         "id": 3,
         "name": "Community Well-being",
         "img": "/svgs/challengeSet/Community Well-being.svg",
-        "detail": "Prioritize the heart and soul of residential areas—community well-being. Tackle challenges related to health, education, and social connectivity to enhance the quality of life within neighborhoods.",
+        "detail": "This category focuses on housing challenges concerning social health, and community engagement. It touches areas of healthcare, mental health support, recreational spaces or any aspect that can enhance the quality of life of a community. This includes designing health-integrated living spaces, creating digital inclusion hubs, and more.",
         "challenges": [
           {
             "categoryName": "Newcomers Trust System",
@@ -386,7 +386,7 @@
         "id": 4,
         "name": "Housing Tech",
         "img": "/svgs/challengeSet/Housing Tech.svg",
-        "detail": "Step into the future where technology and housing intersect. In this category, you’ll harness the power of fintech, IoT, and smart home innovations to revolutionize the way we secure, manage, and experience our homes. From fintech solutions that make homeownership more attainable to smart security systems that keep neighbourhoods safe, your tech-driven solutions will pave the way for the next generation of living spaces.",
+        "detail": "This category allows you to explore the innovative use of fintech, IoT devices, data analytics, and more to revolutionize the way we secure, manage, and experience our homes. This includes methods to optimize the use of energy and reduce cost, home design applications, improvements to property management process, etc.",
         "challenges": [
           {
             "categoryName": "Tech-Driven Housing Innovations",

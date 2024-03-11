@@ -21,7 +21,7 @@ export default function ChallengeSets() {
                       state: { challengeSet: challengeSet },
                     }}
                   >
-                    <h3 className="inline-block py-1 uppercase text-lg md:text-2xl font-semibold  rounded-full text-my-red">
+                    <h3 className="inline-block py-1 uppercase text-2xl md:text-4xl md:mt-10 font-semibold hover:underline  rounded-full text-my-red">
                       {challengeSet.name}
                     </h3>
                     <svg
