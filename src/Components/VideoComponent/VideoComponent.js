@@ -12,7 +12,7 @@ export default function VideoComponents() {
             <iframe
               className="absolute inset-0 w-full h-full rounded-lg"
               height="315"
-              src="https://www.youtube.com/embed/7fBkaY6-_rU?si=LbPm-vRxv70fqcoL"
+              src="https://www.youtube.com/embed/Z0hmxbc224s?si=v8HknQLf0aasY-sm"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
