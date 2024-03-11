@@ -1,16 +1,19 @@
 .accordion {
   margin: 1.5em auto;
   width: 50%;
+
+
+
 }
 
 .accordion-design {
-  border-left: 10px solid red !important;
+  border-left: 10px solid #D92D27 !important;
   border-radius: 10px !important;
   padding: 0.5em 1.5em !important;
 }
 
 .textColor {
-  color: red !important;
+  color: #D92D27 !important;
 }
 
 @media screen and (max-width: 1300px) {

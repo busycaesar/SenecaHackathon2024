@@ -1,26 +1,46 @@
 [
   {
-    "_id": 0,
-    "name": "John Doe",
-    "review": "This is the review from John Doe. It was a great experience participating at Seneca Hackathon!",
-    "headshot": "../svgs/sampleAvatar.png"
-  },
-  {
     "_id": 1,
-    "name": "Jane Smith",
-    "review": "Jane Smith's feedback is positive. She enjoyed the Seneca Hackathon and learned a lot!",
-    "headshot": "../../svgs/sampleAvatar.png"
+    "name": "Yancy Liu",
+    "review": "Hackathons expanded my horizons, fostering cross-disciplinary collaboration and problem-solving. These experiences honed my mediation and negotiation skills, leading to a Research Assistant role at Seneca Innovation and master’s program offers from UofT and Waterloo’s UX programs",
+    "headshot": "./images/testimonials/Yancy_Liu.jpg"
   },
   {
     "_id": 2,
-    "name": "Alex Johnson",
-    "review": "Alex Johnson had an amazing time at Seneca Hackathon. The projects were outstanding!",
-    "headshot": "../../svgs/sampleAvatar.png"
+    "name": "Annabelle Adjei",
+    "review": "The Seneca Hackathon was an unforgettable experience! It was exciting, nerve-wracking, and challenging but with the support of my team, mentors, and Seneca Hackathon management, everything went as smooth as possible.",
+    "headshot": "./images/testimonials/Annabelle_Adjei.jpg"
+    
   },
   {
     "_id": 3,
-    "name": "Emily Davis",
-    "review": "Emily Davis appreciates the organizers and participants. A well-organized event!",
-    "headshot": "../../svgs/sampleAvatar.png"
+    "name": "Kaung Khant Zaw",
+    "review": "Participating in the 2023 Seneca Hackathon was an inspirational experience for me. Besides working together with my teammates on a real-world problem, I got to network with various individuals in the industry. It also fueled my motivation to participate more in Hackathons.",
+    "headshot": "./images/testimonials/Kaung Khant Zaw.jpg"
+  },
+  {
+    "_id": 4,
+    "name": "Kirandeep Kaur",
+    "review": "I am delighted to share my experience and gratitude for the incredible opportunity to participate in and emerge victorious at last year's Seneca Hackathon.\nIt was an enriching and transformative experience that allowed me to push the boundaries of innovation and collaboration.",
+    "headshot": "./images/testimonials/Kirandeep.jpeg"
+  },
+  {
+    "_id": 5,
+    "name": "Madiha Turshin",
+    "review": "Participating in the Seneca ThinkingNorth Smart Cities Hackathon was a transformative experience that ignited my passion for innovative solutions. Winning first place in the Student Experience category was an honour that underscored the power of collaborative problem-solving.",
+    "headshot": "./images/testimonials/Madiha_Turshin.jpg"
+  },
+  {
+    "_id": 6,
+    "name": "Hien Nguyen",
+    "review": "Participating in the Seneca Hackathon was one of the most amazing experiences I have ever had. It provided an opportunity to learn from other participants with diverse backgrounds and work together toward solving a real-world challenge. Given the time constraint, effective communication was crucial.",
+    "headshot": "./images/testimonials/Hien_Nguyen.png"
+  },
+  {
+    "_id": 7,
+    "name": "Samina Rahman Purba",
+    "review": "Seneca Hackathon allowed me to showcase my creative problem-solving skills and connect with industry leaders. The hackathon had a very energetic atmosphere where everyone welcomed new ideas and feedback. It is also very cool to list hackathon projects on your resume." ,
+    "headshot": "./images/testimonials/Samina_Rahman_Purba.jpg"
   }
+
 ]

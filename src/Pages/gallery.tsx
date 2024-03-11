@@ -1,71 +1,17 @@
-import React from "react";
+// import React from "react";
+// import Carousel from "react-bootstrap/Carousel";
+import ImageGallery from "../Components/PhotoGallery/ImageGallery";
 
 export default function Gallery() {
   return (
     <>
-      <h1 className="page-title">
-        <strong>Gallery</strong>
-      </h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
-        reiciendis, adipisci esse perspiciatis aspernatur totam quae? Velit aut
-        dolorum, assumenda asperiores eligendi fugiat voluptatem odio nesciunt
-        vel itaque impedit consequatur. Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Eum enim eveniet quis possimus praesentium? Ad fuga et
-        impedit ducimus. Facere alias modi tempore itaque libero maiores ipsam
-        natus quae quisquam. Lorem ipsum dolor sit amet consectetur adipisicing
-        elit. Nemo dicta libero veniam magnam et, veritatis eligendi cum omnis?
-        Nisi, magni voluptas libero est cupiditate totam voluptates neque dolore
-        eos cumque?
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
-        reiciendis, adipisci esse perspiciatis aspernatur totam quae? Velit aut
-        dolorum, assumenda asperiores eligendi fugiat voluptatem odio nesciunt
-        vel itaque impedit consequatur. Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Eum enim eveniet quis possimus praesentium? Ad fuga et
-        impedit ducimus. Facere alias modi tempore itaque libero maiores ipsam
-        natus quae quisquam. Lorem ipsum dolor sit amet consectetur adipisicing
-        elit. Nemo dicta libero veniam magnam et, veritatis eligendi cum omnis?
-        Nisi, magni voluptas libero est cupiditate totam voluptates neque dolore
-        eos cumque?
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
-        reiciendis, adipisci esse perspiciatis aspernatur totam quae? Velit aut
-        dolorum, assumenda asperiores eligendi fugiat voluptatem odio nesciunt
-        vel itaque impedit consequatur. Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Eum enim eveniet quis possimus praesentium? Ad fuga et
-        impedit ducimus. Facere alias modi tempore itaque libero maiores ipsam
-        natus quae quisquam. Lorem ipsum dolor sit amet consectetur adipisicing
-        elit. Nemo dicta libero veniam magnam et, veritatis eligendi cum omnis?
-        Nisi, magni voluptas libero est cupiditate totam voluptates neque dolore
-        eos cumque?
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
-        reiciendis, adipisci esse perspiciatis aspernatur totam quae? Velit aut
-        dolorum, assumenda asperiores eligendi fugiat voluptatem odio nesciunt
-        vel itaque impedit consequatur. Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Eum enim eveniet quis possimus praesentium? Ad fuga et
-        impedit ducimus. Facere alias modi tempore itaque libero maiores ipsam
-        natus quae quisquam. Lorem ipsum dolor sit amet consectetur adipisicing
-        elit. Nemo dicta libero veniam magnam et, veritatis eligendi cum omnis?
-        Nisi, magni voluptas libero est cupiditate totam voluptates neque dolore
-        eos cumque?
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
-        reiciendis, adipisci esse perspiciatis aspernatur totam quae? Velit aut
-        dolorum, assumenda asperiores eligendi fugiat voluptatem odio nesciunt
-        vel itaque impedit consequatur. Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Eum enim eveniet quis possimus praesentium? Ad fuga et
-        impedit ducimus. Facere alias modi tempore itaque libero maiores ipsam
-        natus quae quisquam. Lorem ipsum dolor sit amet consectetur adipisicing
-        elit. Nemo dicta libero veniam magnam et, veritatis eligendi cum omnis?
-        Nisi, magni voluptas libero est cupiditate totam voluptates neque dolore
-        eos cumque?
-      </p>
+      <div className="bg-gray-900 -mx-20  -mt-8 -mb-20 p-8 ">
+        <div className="font-semibold pb-4 text-center text-white text-3xl md:text-5xl">
+          Captured Moments of Hackathon
+        </div>
+
+        <ImageGallery/>
+      </div>
     </>
   );
 }

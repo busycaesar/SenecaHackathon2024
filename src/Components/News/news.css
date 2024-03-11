@@ -15,8 +15,6 @@
 
 #photo-with-title img {
   width: 100%;
-  height: 40em;
-  object-fit: cover;
   margin-bottom: 1.5em;
   padding-right: 1.5em;
 }
@@ -32,7 +30,7 @@
 
 .activeLatestNews,
 .red-background {
-  background-color: red;
+  background-color: #D92D27;
   color: white;
 }
 

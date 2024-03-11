@@ -12,11 +12,11 @@ export default function TeamDepartment({
 }) {
   return (
     <>
-      <div className="department">
-        <h2>
+      <div className="items-center object-center justify-center text-center">
+        <h2 className=" text-my-red text-3xl md:text-5xl text-center">
           <strong>{department.title.toUpperCase()}</strong>
         </h2>
-        <p>{department.description}</p>
+        <p className="pb-10 text-center text-white">{department.description}</p>
         <Row>
           {member.map((memb) => (
             <>

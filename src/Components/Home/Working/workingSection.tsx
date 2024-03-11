@@ -8,9 +8,9 @@ export default function WorkingSection({
   works: WordDescription[];
 }) {
   return (
-    <div>
+    <div className="page-content">
       <h2>
-        <strong>How it Works</strong>
+        <strong>Why Participate</strong>
       </h2>
       <Row>
         {works.map((work, index) => (

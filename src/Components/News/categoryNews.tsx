@@ -10,11 +10,10 @@ export default function CategoryNews({
   news: News[];
 }) {
   return (
-    <div id="category-news">
+    <div id="">
       <h2>
         <strong>{categoryTitle}</strong>
       </h2>
-      <hr />
       <Row>
         {news.map((newsItem) => (
           <>

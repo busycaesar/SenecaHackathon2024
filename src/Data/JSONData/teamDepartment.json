@@ -1,32 +1,47 @@
 [
   {
     "_id": 0,
-    "title": "Learders",
-    "description": "Chief of Staff is responsible for volunteer/intern experience, equity, inclusiveness."
+    "title": "KEY ORGANIZERS",
+    "description": "The Key Organizers are responsible for developing and executing the vision and mission of the Hackathon. They provide strategic direction, and each appointed director offers operational management to its respective department. Organizing team members collaborate closely with each department head to ensure objective alignment and drive member performance. The team is also in-charge of representing the organization to external partners."
   },
   {
     "_id": 1,
-    "title": "IT Team",
-    "description": "The IT department is responsible for the company's technology infrastructure. They are in charge of ensuring that all technical aspects of the company are running smoothly and efficiently. They also provide support to employees who have technical problems."
+    "title": "IT TEAM",
+    "description": "The IT Department is primarily in-charge of designing, coding, modifying, and maintaining the hackathon’s official website such as layout, functionality, and user experience. They are also responsible for integrating relevant website content through constant collaboration with other departments."
   },
   {
     "_id": 2,
-    "title": "Partner Experience Team",
-    "description": "Missing Description"
+    "title": "PARTNER EXPERIENCE TEAM",
+    "description": "The Partner Experience Department ensures that key stakeholders have positive experience in collaborating with Seneca Hackathon, while building strong and nurturing relationships. They develop challenge categories, working closely with our partner institutions to understand their objectives and translate them into clear and meaningful challenge sets for the participants."
   },
   {
     "_id": 3,
-    "title": "Student Experience Team",
-    "description": "The Student Success Department is responsible to work closely and directly with students to serve students and collect students’ input towards the organization so as to provide the best services and events to students."
+    "title": "STUDENT SUCCESS TEAM",
+    "description": "The Student Success Department is responsible for understanding the needs of participants, making sure that they are given appropriate support throughout their hackathon journey. They serve as the student’s primary point of contact, relaying relevant information with regards to the event process, challenge categories and overall student support."
   },
   {
     "_id": 4,
-    "title": "Operations Team",
-    "description": "The Operation team is responsible for planning, organizing, and supervising operations, manufacturing and production processes, and service delivery to produce the desired outcome of a high-quality product or service that satisfies customer demands.The Operation team is responsible for planning, organizing, and supervising operations, manufacturing and production processes, and service delivery to produce the desired outcome of a high-quality product or service that satisfies customer demands"
+    "title": "OPERATIONS TEAM",
+    "description": "The Operation Department is responsible for the smooth execution and overall success of all hackathon events. They specifically handle event planning and coordination, logistics, participant engagement and on-site event management."
   },
   {
     "_id": 5,
-    "title": "Marketing Team",
-    "description": "Marketing Department is the face of Seneca Hackathon. It is the Marketing Department's job to reach out to prospects, customers, investors and/or the community, while creating an overarching image that represents your company in a positive light."
+    "title": "ISSUES MANAGEMENT TEAM",
+    "description": "The Issue Management Department is proactively involved in monitoring both internal and external factors that could potentially disrupt the smooth progress and quality of hackathon events. The team is committed to identifying and addressing issues promptly, providing support and offering practical solutions to consultants and teams, ultimately boosting the overall hackathon experience."
+  },
+  {
+    "_id": 6,
+    "title": "MARKETING TEAM",
+    "description": "The Marketing Department is the face of Seneca Hackathon. Their role is to drive awareness and engagement across all our digital platforms. They are in-charge of creating captivating content that showcases the hackathon experience, encourage participation, and amplify Seneca Hackathon’s presence on social media."
+  },
+  {
+    "_id": 7,
+    "title": "COMMUNICATION TEAM",
+    "description": "The Communications Department serves as the storyteller of Seneca Hackathon. They develop written content for a wide range of communication channels, including event announcements, blog posts, newsletters, among others. They translate the energy and emotions of the event into compelling narratives to convey the event’s impact and gain engagement."
+  },
+  {
+    "_id": 8,
+    "title": "FINANCE TEAM",
+    "description": "The Finance Department handles the operational budget of the Hackathon, with responsibilities ranging from budget planning and distribution to financial record-keeping and reporting. The team, in close coordination with other departments, meticulously assess expenses and allocate funds for various aspects of the hackathon event."
   }
 ]

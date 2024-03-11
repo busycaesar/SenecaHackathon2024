@@ -1,0 +1,188 @@
+[
+  {
+    "id": 0,
+    "title": "Seneca Applied Research",
+    "path": "svgs/sponsers/seneca-applied-research.png",
+    "width": "100%",
+    "link": "https://www.senecapolytechnic.ca/innovation/research.html"
+  },
+  {
+    "id": 1,
+    "title": "Seneca Polytechnic",
+    "path": "/svgs/sponsers/seneca-polytechnic.png",
+    "width": "50%",
+    "link": "https://www.senecapolytechnic.ca/home.html"
+  },
+  {
+    "id": 2,
+    "title": "Seneca Alumini",
+    "path": "/svgs/sponsers/seneca-alumini.png",
+    "width": "100%",
+    "link": "https://www.senecapolytechnic.ca/alumni.html"
+  },
+  {
+    "id": 3,
+    "title": "Seneca Student Federation",
+    "path": "/svgs/sponsers/SSF.png",
+    "width": "130%",
+    "link": "https://www.ssfinc.ca/"
+  },
+  {
+    "id": 4,
+    "title": "SpacesShared",
+    "path": "/svgs/sponsers/spaceshared.png",
+    "width": "150%",
+    "link": "https://www.spacesshared.ca/home"
+  },
+  {
+    "id": 5,
+    "title": "esri Canada",
+    "path": "/svgs/sponsers/esri.png",
+    "width": "150%",
+    "link": "https://www.esri.ca/en-ca/home"
+  },
+  {
+    "id": 6,
+    "title": "Think north",
+    "path": "/svgs/sponsers/2.png",
+    "width": "70%",
+    "link": "https://thinkingnorth.com/"
+  },
+  {
+    "id": 7,
+    "title": "Ciocan-en-logo",
+    "path": "/svgs/sponsers/ciocan-logo.png",
+    "width": "90%",
+    "link": "https://www.ciocan.ca"
+  },
+  {
+    "id": 8,
+    "title": "raceatlas",
+    "path": "/svgs/sponsers/1.png",
+    "width": "110%",
+    "link": "https://raceatlas.com/"
+  },
+  {
+    "id": 9,
+    "title": "3oC",
+    "path": "/svgs/sponsers/3oc.jpg",
+    "width": "100%",
+    "link": "https://www.3oc.world/"
+  },
+  {
+    "id": 10,
+    "title": "Ride ALike",
+    "path": "/svgs/sponsers/ridealike.png",
+    "width": "100%",
+    "link": "https://www.ridealike.com/"
+  },
+  {
+    "id": 11,
+    "title": "CPOS",
+    "path": "/svgs/sponsers/CPOS.svg",
+    "width": "100%",
+    "link": "https://cpos.com/"
+  },
+  {
+    "id": 12,
+    "title": "Skill Squirrel",
+    "path": "/svgs/sponsers/Skill-Squirrel.png",
+    "width": "100%",
+    "link": "https://www.skillsquirrel.com/"
+  },
+  {
+    "id": 13,
+    "title": "Oppos",
+    "path": "/svgs/sponsers/oppo.png",
+    "width": "100%",
+    "link": "https://getoppos.com/"
+  },
+
+  {
+    "id": 14,
+    "title": "SkeonTech",
+    "path": "https://skeon.tech/images/logo-825b473b.svg",
+    "width": "150%",
+    "link": "https://skeon.tech"
+  },
+  {
+    "id": 15,
+    "title": "ProsperityGS",
+    "path": "/svgs/sponsers/ProsperityGS.png",
+    "width": "150%",
+    "link": "#"
+  },
+  {
+    "id": 16,
+    "title": "Aladdin AlRadhi",
+    "path": "/svgs/sponsers/aladin.png",
+    "width": "150%",
+    "link": "https://www.linkedin.com/in/alaaaldinalradhi/?originalSubdomain=ca"
+  },
+  {
+    "id": 17,
+    "title": "Rameh Law",
+    "path": "/svgs/sponsers/rameh.jpeg",
+    "width": "150%",
+    "link": "https://ramehlaw.com/"
+  },
+  {
+    "id": 18,
+    "title": "Cyber Ai",
+    "path": "/svgs/sponsers/cyberai.png",
+    "width": "150%",
+    "link": "https://cyberai.pro/"
+  },
+  {
+    "id": 19,
+    "title": "Camh",
+    "path": "/svgs/sponsers/camh.png",
+    "width": "150%",
+    "link": "https://www.camh.ca/"
+  },
+  {
+    "id": 20,
+    "title": "City of Brampton",
+    "path": "/svgs/sponsers/citybrampton.jpeg",
+    "width": "150%",
+    "link": "https://www.brampton.ca/"
+  },
+  {
+    "id": 20,
+    "title": "Renoshare",
+    "path": "https://renoshare.co/wp-content/uploads/2023/07/cropped-8.png",
+    "width": "150%",
+    "link": "https://renoshare.co/"
+  },
+
+  {
+    "id": 21,
+    "title": "Trinetra",
+    "path": "https://trinetra.ca/wp-content/uploads/2022/04/Trinetra-Logo-White-1024x318.png",
+    "width": "150%",
+    "link": "https://trinetra.ca/"
+  },
+
+  {
+    "id": 22,
+    "title": "We Watch",
+    "path": "https://i0.wp.com/we-watch.ca/wp-content/uploads/2023/09/we-watch-logo.png?resize=1024%2C297&ssl=1",
+    "width": "150%",
+    "link": "https://we-watch.ca/"
+  },
+  {
+    "id": 23,
+    "title": "Blockchain (Healthcare)",
+    "path": "/svgs/sponsers/blockchain.jpeg",
+    "width": "150%",
+    "link": "https://blockchainhealthcaretoday.com/index.php/journal"
+  },
+  {
+    "id": 24,
+    "title": "Inheritchain",
+    "path": "/svgs/sponsers/ic.png",
+    "width": "150%",
+    "link": "https://inheritchain.com/"
+  }
+  
+]

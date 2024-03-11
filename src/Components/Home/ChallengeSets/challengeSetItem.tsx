@@ -7,17 +7,16 @@ export default function ChallengeSetItem({
   challengeSetItem: WordDescription;
 }) {
   return (
-    <div id="challenge-set-item">
+    <div>
       <img
-        src={ChallengeSetSVG}
+        src={challengeSetItem.image}
         alt="icon"
-        width={50}
         style={{ marginBottom: "1em" }}
+        className="w-1/3"
       />
       <p style={{ color: "red" }}>
         <strong>{challengeSetItem.title}</strong>
       </p>
-      <p>{challengeSetItem.description}</p>
     </div>
   );
 }

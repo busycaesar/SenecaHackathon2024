@@ -1,12 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .page-content {
   margin: 2em 5em;
-  padding-bottom: 3em;
+  padding-bottom: 2em;
+}
+.page-content-1 {
+  margin: 1em 0.2em;
+  padding-bottom: 2em;
 }
 
 .red-background {
   padding: 0.5em 1em;
   width: fit-content;
-  background-color: red;
+  background-color: #D92D27;
+  color: white;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
 }
 
 .curved-border {

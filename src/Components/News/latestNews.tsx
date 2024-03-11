@@ -7,32 +7,30 @@ import { dateFormat } from "./utils";
 export default function LatestNews({ news }: { news: News[] }) {
   const [activeLatestNews, setActiveLatestNews] = useState(news[0]);
   return (
-    <Row style={{ marginBottom: "1.5em" }}>
-      <Col lg={7}>
-        <NewsOnPhoto news={activeLatestNews} />
-      </Col>
-      <Col lg={5}>
-        {news.map((newsItem) => (
-          <>
+    <>
+      <Row>
+        <Col md={8}>
+          <NewsOnPhoto news={activeLatestNews} />
+        </Col>
+        <Col md={4}>
+          {news.slice(0, 4).map((newsItem, index) => (
             <div
-              className={`news-list summarize ${
-                newsItem === activeLatestNews && "activeLatestNews"
+              key={index}
+              className={`news-list summarize hover:cursor-pointer ${
+                newsItem === activeLatestNews ? "activeLatestNews" : ""
               }`}
-              onClick={() => {
-                setActiveLatestNews(newsItem);
-              }}
+              onClick={() => setActiveLatestNews(newsItem)}
             >
-              <p>
-                <strong>{newsItem.title}</strong>
-              </p>
-              <p>
+              <span>
+                <b>{newsItem.title}</b>
+              </span>
+              <p className="text-sm">
                 {dateFormat(newsItem.creationDate)} by {newsItem.author}
               </p>
             </div>
-            <hr />
-          </>
-        ))}
-      </Col>
-    </Row>
+          ))}
+        </Col>
+      </Row>
+    </>
   );
 }
