@@ -36,21 +36,21 @@ export default function HeaderBanner() {
               <div className="md:max-w-lg md:mx-auto ">
                 <div className="button hover:none">
                   <a
-                    href={`https://forms.office.com/r/r2c5YSGYTn`}
+                    // href={`https://forms.office.com/r/r2c5YSGYTn`}
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <button className="font-bold">Submit Your Project</button>
+                    <button className="font-bold">Submission Closed</button>
                   </a>
                 </div>
                 <p className="m-4 md:text-md text-base text-white  font-medium">
                   Thank you for your interest in participating in Housing
-                  Hackathon 2024. Please Submit your project before the deadline March 11, 2024. 11:59 PM. 
+                  Hackathon 2024. The submission has now been closed. 
                 </p>
 
-                <Timer/>
+                {/* <Timer/> */}
                 <h1 className="  text-3xl text-yellow-300 font-black tracking-tight blink_me">
-                <span>Submission Deadline Countdown! </span>
+                <span>Submission closed! <br></br>Please wait for the qualifier annoucement. </span>
               </h1>
                 {/* <p className="m-4 md:text-md text-base text-white  font-medium">
                   Thank you for your interest in participating in Housing
