@@ -20,6 +20,7 @@ import SubChallengeSet from "./Pages/subChallengeset/subChallengeSets";
 import CategorySubChallengeSet from "./Pages/subChallengeset/subsubChallengeSet";
 import { ToastContainer } from "react-toastify";
 import ImageGallery from "./Components/PhotoGallery/ImageGallery";
+import QualifiedTeams from "./Pages/QualifiedTeams";
 //import ChallengeSet from "./Components/ChallengeSet/challengeSet";
 
 function App() {
@@ -59,6 +60,7 @@ function App() {
             <Route path="/faq" element={<Faq />} />
             <Route path="/roadmap" element={<Roadmap />} />
             <Route path="/gallery" element={<ImageGallery />} />
+            <Route path="/qualified-teams" element={<QualifiedTeams />} />
           </Routes>
         </div>
       </Router>

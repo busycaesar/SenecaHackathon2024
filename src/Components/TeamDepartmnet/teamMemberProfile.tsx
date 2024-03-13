@@ -15,7 +15,7 @@ export default function TeamMemberProfile({ member }: { member: Member }) {
                 <div className="rounded-lg shadow-lg h-full md:w-[300px] block bg-my-red">
                   <div className="flex justify-center">
                     <div className="flex justify-center" style={{"margin": "-75px"}}>
-                      <img src={member.image} className="rounded-full w-full h-3/4 md:h-auto border-solid border-3 border-white  md:w-[300px] mx-auto shadow-lg" alt="" />
+                      <img src={member.image} className="rounded-full w-full h-auto border-solid border-3 border-white  md:w-[300px] mx-auto shadow-lg" alt="" />
                       
                     </div>
                   </div>
