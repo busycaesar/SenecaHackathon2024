@@ -369,15 +369,6 @@
     "linkedinLink": "http://linkedin.com/in/arfat-ahmed-ansari"
   },
   {
-    "_id": 41,
-    "image":"/svgs/teams/Deeksha_Kataria.jpeg",
-    "firstName": "Deeksha",
-    "lastName": "Kataria",
-    "designation": "Officer",
-    "department": 2,
-    "linkedinLink": "https://www.linkedin.com/in/deeksha-kataria-726719171?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
-  },
-  {
     "_id": 42,
     "image":"/svgs/teams/Hannaneh_Habibpour.jpg",
     "firstName": "Hannah",
@@ -412,15 +403,6 @@
     "designation": "Officer",
     "department": 2,
     "linkedinLink": "http://linkedin.com/in/shama-ravani-472b011a9"
-  },
-  {
-    "_id": 46,
-    "image":"/svgs/teams/Tanvi_Patel.jpg",
-    "firstName": "Tanvi",
-    "lastName": "Patel",
-    "designation": "Officer",
-    "department": 2,
-    "linkedinLink": "https://www.linkedin.com/in/tanvihpatel/"
   },
   {
     "_id": 47,
