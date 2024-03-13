@@ -1,0 +1,42 @@
+[
+    {
+        "id": 0,
+        "challenge_set":0,
+        "team_name": "Alpha",
+        "team_member_1": "1",
+        "team_member_2": "2",
+        "team_member_3": "3",
+        "team_member_4": "4",
+        "team_member_5": "5"
+      },
+      {
+        "id": 0,
+        "challenge_set":1,
+        "team_name": "Alpha",
+        "team_member_1": "1",
+        "team_member_2": "2",
+        "team_member_3": "3",
+        "team_member_4": "4",
+        "team_member_5": "5"
+      },
+      {
+        "id": 0,
+        "challenge_set":2,
+        "team_name": "Alpha",
+        "team_member_1": "1",
+        "team_member_2": "2",
+        "team_member_3": "3",
+        "team_member_4": "4",
+        "team_member_5": "5"
+      },
+      {
+        "id": 0,
+        "challenge_set":3,
+        "team_name": "Alpha",
+        "team_member_1": "1",
+        "team_member_2": "2",
+        "team_member_3": "3",
+        "team_member_4": "4",
+        "team_member_5": "5"
+      }
+]

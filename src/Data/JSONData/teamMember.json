@@ -319,7 +319,7 @@
     "image":"/svgs/teams/Benyamin_Rahimi.jpeg",
     "firstName": "Benyamin",
     "lastName": "Rahimi",
-    "designation": "Senior Social Media Specialist",
+    "designation": "Senior Marketing Specialist",
     "department": 0,
     "linkedinLink": "https://www.linkedin.com/in/benyamin-rahimi"
   },
@@ -586,15 +586,6 @@
   },
   {
     "_id": 65,
-    "image":"/svgs/teams/Khushi_Tanwer.jpeg",
-    "firstName": "Khushi",
-    "lastName": "Tanwer",
-    "designation": "Media Production Specialist",
-    "department": 6,
-    "linkedinLink": "https://www.linkedin.com/in/khushi-tanwer-/"
-  },
-  {
-    "_id": 66,
     "image":"/svgs/teams/Stephanie_Po1.jpeg",
     "firstName": "Stephanie Daniela Pozo",
     "lastName": "Del Corral",
@@ -603,7 +594,7 @@
     "linkedinLink": "https://www.linkedin.com/in/stephanie-pozo-5522b71a4/"
   },
   {
-    "_id": 67,
+    "_id": 66,
     "image":"/svgs/teams/Shivani_Nallamati.jpg",
     "firstName": "Shivani",
     "lastName": "Nallamati",
@@ -612,7 +603,7 @@
     "linkedinLink": "https://www.linkedin.com/in/shivani-nallamati-801237215/"
   },
   {
-    "_id": 68,
+    "_id": 67,
     "image":"/svgs/teams/Dong_Ho_Lam.jpeg",
     "firstName": "Dong Ho",
     "lastName": "Lam",
@@ -621,7 +612,7 @@
     "linkedinLink": "https://www.linkedin.com/in/dongholam"
   },
   {
-    "_id": 69,
+    "_id": 68,
     "image":"/svgs/teams/Vinh_Ng.jpeg",
     "firstName": "Tran Vu Thuy Vinh",
     "lastName": "Nguyen",
@@ -630,7 +621,7 @@
     "linkedinLink": "https://www.linkedin.com/in/vinh-nguyen-008885194/"
   },
   {
-    "_id": 70,
+    "_id": 69,
     "image":"/svgs/teams/Nicole_Abasto_Fernan.jpg",
     "firstName": "Nicole Abasto",
     "lastName": "Fernandez",
@@ -639,7 +630,7 @@
     "linkedinLink": "https://www.linkedin.com/in/nicoleaf19/"
   },  
   {
-    "_id": 71,
+    "_id": 70,
     "image":"/svgs/teams/Ray_Asuma.jpeg",
     "firstName": "Ray",
     "lastName": "Asuma",
@@ -648,7 +639,7 @@
     "linkedinLink": "https://www.linkedin.com/in/rayasuma?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
   },
   {
-    "_id": 72,
+    "_id": 71,
     "image":"/svgs/teams/Gursirat_Singh.jpg",
     "firstName": "Gursirat",
     "lastName": "Singh",
