@@ -19,7 +19,7 @@ export default function WorkingItem({ work }: { work: WordDescription }) {
           <p>{work.description}</p>
         </Col>
       </Row> */}
-      <div className="flex flex-col md:flex-row items-center mb-4 justify-center ">
+      <div className="flex flex-col md:flex-row p-4 border-2 border-my-red border-solid rounded bg-white items-center hover:scale-110 transition duration-300 ease-in-out mb-4 justify-center ">
         <div className="md:w-1/4 pb-3 m-2">
           <img
             src={work.image}

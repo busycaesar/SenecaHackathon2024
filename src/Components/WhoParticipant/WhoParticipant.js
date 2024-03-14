@@ -4,9 +4,9 @@ import Institute from "./insitute";
 
 export default function WhoCanParticipate() {
   return (
-      <section class="page-content py-2 bg-coolGray-50">
-  <div class="container mx-auto ">
-    <div class="max-w-xl lg:max-w-none mx-auto">
+      <section class="page-content bg-coolGray-50">
+  <div class="container-fluid mx-auto ">
+    <div class="lg:max-w-none mx-auto">
       <div class="flex flex-wrap -mx-4 items-center">
         <div class="w-full lg:w-5/12 lg:mb-0">
             <div className="">
@@ -16,28 +16,10 @@ export default function WhoCanParticipate() {
           <p className="pb-3 md:text-xl font-gotham  marker:text-my-red list-disc space-y-3 md:text-justify">
             All interested students are invited to join, provided that they belong to any of the following groups below:
           </p>
-          <ul role="list" class="pb-2 md:text-xl font-gotham marker:text-my-red list-disc pl-5 md:px-10 space-y-3  md:text-justify">
+          <ul role="list" class="pb-2 md:text-xl font-gotham marker:text-my-red list-disc pl-5 md:px-10 space-y-3  ">
             <li> Seneca Polytechnic students and/or graduates. </li>
-            <li> Students from the partner institutions form their own team without Seneca students or alumni in the team
-              <div className="p-1 font-gotham md:text-lg">
-                <ul>
-                  <li>
-                    York University
-                  </li>
-                  <li>
-                    University of Toronto - Faculty of Information
-                  </li>
-                  <li>
-                    Universidad del Rosario (Colombia)
-                  </li>
-                  <li>
-                    Panyapiwat Institute of Management (Thailand)
-                  </li>
-                  <li>
-                    World Citi Colleges (Philippines)
-                  </li>
-                </ul>
-              </div>
+            <li> Students from the partner institutions form their own team without Seneca students or alumni in the team.
+              
             </li>
             <li> Full-time students enrolled in other post-secondary institutions grouped with a Seneca Polytechnic student or graduate.</li>
           </ul>
@@ -46,8 +28,8 @@ export default function WhoCanParticipate() {
         </div>
         <div class="w-full lg:w-7/12">
     <div class="max-w-3xl lg:ml-auto">
-        <div class="flex flex-wrap -mx-4 -mb-4 p-20">
-            <div className="text-black flex flex-col  justify-start">
+        <div class="flex flex-wrap md:pl-20 md:ml-20 py-2 md:pr-5 px-2">
+            <div className="text-black flex flex-col  justify-start ">
                 <Row className="flex flex-wrap bg-my-red rounded-lg justify-center">
                     {Institute.map((partner) => (
                         <Col key={partner.id} className="p-4" lg={4} md={6} sm={12}>

@@ -8,29 +8,22 @@ import "./about.css";
 export default function WhoAreWe() {
   const whoareweImages = [WhoAreWe1, WhoAreWe2, WhoAreWe3, WhoAreWe4];
   return (
-    <div id="who-are-we-section" className="mt-10 page-content">
+    <div id="who-are-we-section" className="mt-10 font-gotham page-content">
       <Row>
         <Col md={6} style={{ marginBottom: "1em" }}>
           <h2 style={{ marginTop: "1em" }} className="pb-2">
             <strong>Who We Are</strong>
           </h2>
 
-          <p className="pb-3 md:text-xl font-gotham marker:text-my-red mr-10  ">
-            The hackathon is a student-focused innovation competition that
-            provides a unique experiential learning experience. It encourages
-            and develops creative thinking, entrepreneurship, and
-            problem-solving skills by bringing together students from diverse
-            backgrounds to work together on addressing real-world challenges.{" "}
+          <p className="pb-1 md:text-xl  marker:text-my-red mr-10  ">
+          Seneca Hackathon is an event led by student and alumni volunteers with shared commitment and passion for continuous learning and growth. Alongside its partners and sponsors, they create an inclusive platform where fellow students are encouraged to think outside the box and showcase their ideas. </p>
             <br></br>
-            <br></br>
-            The teams receive support from subject-specific mentors and
-            technical specialists and then showcase their solutions in a fun and
-            lively environment to be adjudicated by a panel of experts
-            consisting of investors, partners, school representatives, and
-            domain specialists. The winning teams will have the opportunity to
-            receive prizes and be considered for applied research project
-            investment opportunities.
-          </p>
+            <h2 className=" text-xl font-bold"> The Organizing Team</h2>
+            <p className="pb-1 md:text-xl font-gotham marker:text-my-red mr-10  ">
+            The team is comprised of dedicated volunteers – skilled professionals and enthusiastic students, who take the lead in steering and integrating Seneca Hackathon’s mission and vision, ensuring seamless event execution and its overall success.</p>
+            <h2 className=" text-xl font-bold"> The Participants</h2>
+            <p className="pb-1 md:text-xl font-gotham marker:text-my-red mr-10  ">
+            The participants are students and graduates of Seneca and its partner institutions with diverse interests and backgrounds, united and driven by shared passion for innovation. </p>
           <div className="button pt-4 bg-transparent">
             <a href={`/about`} rel="noreferrer">
               <button className="font-bold ">Learn More</button>

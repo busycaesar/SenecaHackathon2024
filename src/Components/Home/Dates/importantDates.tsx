@@ -1,6 +1,7 @@
 import DateBox from "./dateBox";
 import React from "react";
 import "./importantDate.css";
+import Roadmap from "../../../Pages/Roadmap";
 
 export default function ImportantDates(props: { dates: any }) {
   // Sorting the data received according to the date.
@@ -12,7 +13,7 @@ export default function ImportantDates(props: { dates: any }) {
     <section className="py-20 lg:py-40 bg-gradient-to-r from-slate-900 to-slate-700">
       <div className="container mx-auto px-4 flex flex-col items-center justify-center">
         <h2 className="text-6xl sm:text-7xl xl:text-8xl font-bold text-white mb-10 text-center">
-          Important Dates (2024)
+          Important Dates
         </h2>
         <div className="flex md:flex-row flex-col justify-center items-center gap-4">
           {eventDates.map((date: any) => {
@@ -32,6 +33,7 @@ export default function ImportantDates(props: { dates: any }) {
             );
           })}
         </div>
+        
         <div className="button pt-4 text-center md:mx-auto hover:scale-125 transition-all duration-150 ease-in-out hover:cursor-pointer">
           <a href={`/roadmap`} rel="noreferrer">
             <button className="font-bold ">Check Our Roadmap</button>
