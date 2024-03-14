@@ -1,8 +1,7 @@
-import CategoryNews from "../Components/News/categoryNews";
 import LatestNews from "../Components/News/latestNews";
 import LatestVideo from "../Components/News/latestVideo";
-import VideoAndPodcast from "../Components/News/VideoAndPodcast";
 import { News } from "../Data/Schema/newsSchema";
+import CategoryNews from "../Components/News/categoryNews";
 import {
   findNewsByCategoryId,
   AllCategories,
@@ -20,37 +19,21 @@ export default function NewsPage() {
     <>
       {totalLatestNews >= newsToBeDisplayed ? (
         <>
-          <CategoryNews
-            categoryTitle="Latest News and Updates"
-            news={LatestNewsList.slice(
-              newsToBeDisplayed,
-              newsToBeDisplayed + 2
-            )}
-          />
+          <h2>
+            <strong>Latest News and Updates</strong>
+          </h2>
           <LatestNews news={LatestNewsList.slice(0, newsToBeDisplayed)} />
 
-          
           <hr />
 
-           <VideoAndPodcast
-            categoryTitle="Lastest Videos and Podcasts"
-            news={LatestNewsList.slice(
-              newsToBeDisplayed,
-              newsToBeDisplayed + 2
-            )}
-          />
-          <LatestVideo video={ytVideo}/>
+          <h2>
+            <strong>Latest Videos and Podcasts</strong>
+          </h2>
+          <LatestVideo video={ytVideo} />
         </>
       ) : (
         <LatestNews news={LatestNewsList} />
       )}
-      {NewsCategories &&
-        NewsCategories.slice(1).map((category) => {
-          const newsItems: News[] = findNewsByCategoryId(category._id);
-          return (
-            <CategoryNews categoryTitle={category.title} news={newsItems} />
-          );
-        })}
     </>
   );
 }
