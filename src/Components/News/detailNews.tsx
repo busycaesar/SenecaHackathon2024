@@ -18,7 +18,7 @@ export default function DetailNews({ newsItem }: { newsItem: News }) {
           <span style={{ fontSize: "xxx-large", fontWeight: "700" }}>
             {newsItem.body.charAt(0)}
           </span>
-          {newsItem.body.slice(1)}
+          <span dangerouslySetInnerHTML={{ __html: newsItem.body.slice(1) }} />
         </p>
       </Col>
     </Row>
