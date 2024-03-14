@@ -10,10 +10,12 @@ export default function LatestVideo({ video }: { video: Video[] }) {
 
   return (
     <Row>
-      <Col md={8}>
-        <VideoIframe video={activeVideo} />
+      <Col lg={8}>
+        <Slide direction="left" triggerOnce>
+          <VideoIframe video={activeVideo} />
+        </Slide>
       </Col>
-      <Col md={4}>
+      <Col lg={4}>
         {video.map((videoItem, index) => (
           <Slide direction="right" triggerOnce key={index}>
             <div
@@ -24,9 +26,9 @@ export default function LatestVideo({ video }: { video: Video[] }) {
               }`}
               onClick={() => setActiveVideo(videoItem)}
             >
-              <span>
+              <h4 className="text-sm lg:text-base m-0">
                 <b>{videoItem.title}</b>
-              </span>
+              </h4>
               <p className="text-sm">
                 {dateFormat(videoItem.publishDate.toUTCString())}
               </p>

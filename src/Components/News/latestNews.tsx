@@ -10,10 +10,12 @@ export default function LatestNews({ news }: { news: News[] }) {
   return (
     <>
       <Row>
-        <Col md={8}>
-          <NewsOnPhoto news={activeLatestNews} />
+        <Col lg={8}>
+          <Slide direction="left" triggerOnce>
+            <NewsOnPhoto news={activeLatestNews} />
+          </Slide>
         </Col>
-        <Col md={4}>
+        <Col lg={4}>
           {news.slice(0, 4).map((newsItem, index) => (
             <Slide direction="right" triggerOnce key={index}>
               <div
@@ -24,9 +26,9 @@ export default function LatestNews({ news }: { news: News[] }) {
                 }`}
                 onClick={() => setActiveLatestNews(newsItem)}
               >
-                <span>
+                <h4 className="text-sm lg:text-base m-0">
                   <b>{newsItem.title}</b>
-                </span>
+                </h4>
                 <p className="text-sm">
                   {dateFormat(newsItem.creationDate)} by {newsItem.author}
                 </p>

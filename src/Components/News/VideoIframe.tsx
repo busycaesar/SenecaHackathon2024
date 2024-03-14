@@ -21,7 +21,7 @@ export default function VideoIframe({ video }: { video: Video }) {
           <p className="text-wrap text-center text-base md:text-lg xl:text-xl m-0">
             {video.title}
           </p>
-          <p className="text-base md:text-lg xl:text-xl m-0">
+          <p className="text-sm md:text-base xl:text-lg m-0">
             {dateFormat(video.publishDate.toISOString())}
           </p>
         </div>
