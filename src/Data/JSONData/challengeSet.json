@@ -1,24 +1,24 @@
 [
   {
-    "_id": 0,
+    "_id": 1,
     "title": "Student Housing",
     "description": "This category invites you to create housing solutions that specifically cater to the needs of students. This includes maximizing dorm room spaces, creating communal living areas for learning and collaboration, or any initiative that can enhance the overall student living experience.",
     "image": "/svgs/challengeSet/Student Housing.svg"
   },
   {
-    "_id": 1,
+    "_id": 2,
     "title": "Affordable Housing Solutions",
     "description": "This category allows you to work on solutions aimed at promoting accessible and affordable housing for everyone. This includes redefining rental management systems, streamlining homeownership processes, and creating sustainable housing models.",
     "image": "/svgs/challengeSet/Affordable Housing Solutions.svg"
   },
   {
-    "_id": 2,
+    "_id": 3,
     "title": "Community Well-being",
     "description": "This category focuses on housing challenges concerning social health, and community engagement. It touches areas of healthcare, mental health support, recreational spaces or any aspect that can enhance the quality of life of a community. This includes designing health-integrated living spaces, creating digital inclusion hubs, and more.",
     "image": "/svgs/challengeSet/Community Well-being.svg"
   },
   {
-    "_id": 3,
+    "_id": 4,
     "title": "Housing Tech",
     "description": "This category allows you to explore the innovative use of fintech, IoT devices, data analytics, and more to revolutionize the way we secure, manage, and experience our homes. This includes methods to optimize the use of energy and reduce cost, home design applications, improvements to property management process, etc.",
     "image": "/svgs/challengeSet/Housing Tech.svg"
