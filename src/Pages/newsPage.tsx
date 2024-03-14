@@ -22,14 +22,14 @@ export default function NewsPage() {
           <h2>
             <strong>Latest News and Updates</strong>
           </h2>
-          <LatestNews news={LatestNewsList.slice(0, newsToBeDisplayed)} />
+          <LatestNews news={LatestNewsList.reverse().slice(0, newsToBeDisplayed)} />
 
           <hr />
 
           <h2>
             <strong>Latest Videos and Podcasts</strong>
           </h2>
-          <LatestVideo video={ytVideo} />
+          <LatestVideo video={ytVideo.reverse()} />
         </>
       ) : (
         <LatestNews news={LatestNewsList} />
