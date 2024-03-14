@@ -217,14 +217,14 @@ function ResponsiveAppBar(props: {
                 onClick={handleCloseChallengeSetsMenu}
               >
                 <span
-                  className="hover:text-my-red"
+                  className="hover-text-myred"
                   style={{ marginLeft: "20px" }}
                 >
                   <MuiLink
                     component={Link}
-                    to={`/challenge-sets/${set.id}/${convertToUrlFormat(
-                      challenge.categoryName
-                    )}`}
+                    to={{
+                      pathname: `/challenge-sets/${challengeSet.id}/${challenge.categoryName}`,
+                    }}
                     style={{
                       textDecoration: "none",
                       color: "inherit",
