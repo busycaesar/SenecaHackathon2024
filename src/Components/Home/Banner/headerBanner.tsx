@@ -31,23 +31,28 @@ export default function HeaderBanner() {
                 <span>Housing Hackathon</span>
               </h1>
               <p className=" mb-11 text-base md:text-lg text-white ">
-                Elevate your skills, connect with industry experts, and
-                transform your ideas into reality. <br></br> Join the hackathon
-                for a chance to win amazing prizes and contribute to shaping the
-                future of the housing industry.
+              Bring your ideas to life at the 5th Annual Seneca Hackathon. Gain practical experience, connect with industry experts, and get a chance to win amazing prizes.
               </p>
               <div className="md:max-w-lg md:mx-auto ">
                 <div className="button hover:none">
                   <a
-                    href={`https://www.senecahackathon.com/`}
+                    // href={`https://forms.office.com/r/r2c5YSGYTn`}
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <button className="font-bold">Registration Closed</button>
+                    <button className="font-bold">Submission Closed</button>
                   </a>
                 </div>
-
                 <p className="m-4 md:text-md text-base text-white  font-medium">
+                  Thank you for your interest in participating in Housing
+                  Hackathon 2024. The submission has now been closed. 
+                </p>
+
+                {/* <Timer/> */}
+                <h1 className="  text-3xl text-yellow-300 font-black tracking-tight blink_me">
+                <span>Submission closed! <br></br>Please wait for the qualifier annoucement. </span>
+              </h1>
+                {/* <p className="m-4 md:text-md text-base text-white  font-medium">
                   Thank you for your interest in participating in Housing
                   Hackathon 2024. The registration is now closed.
                 </p>
@@ -68,7 +73,7 @@ export default function HeaderBanner() {
                     </span>
                     &nbsp; using the email you registered with.
                   </p>
-                </p>
+                </p> */}
                 <div className="md:pb-40"></div>
               </div>
             </div>
