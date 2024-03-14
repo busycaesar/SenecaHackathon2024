@@ -10,7 +10,7 @@ Pagination.propTypes = {
 
 function Pagination(props) {
   const pageNumbers = [];
-  const [activePage, setActivePage] = useState(1);
+  const [activePage, setActivePage] = useState(0);
   for (let i = 0; i < props.numbers; i++) {
     pageNumbers.push(i);
   }
@@ -21,14 +21,14 @@ function Pagination(props) {
   };
 
   const getPreviousPage = () => {
-    if (activePage > 1) {
+    if (activePage > 0) {
       setActivePage(activePage - 1);
       props.getPreviousPage(activePage);
     }
   };
 
   const getNextPage = () => {
-    if (activePage < props.numbers) {
+    if (activePage < props.numbers - 1) {
       setActivePage(activePage + 1);
       props.getNextPage(activePage);
     }

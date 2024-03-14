@@ -8,16 +8,22 @@ import Pagination from "./Pagination";
 
 export default function LatestVideo({ video }: { video: Video[] }) {
   const [activeVideo, setActiveVideo] = useState(video[0]);
+  const [startingVideo, setStartingVideo] = useState(0);
+  const maxPage = Math.ceil(video.length / 4);
 
   const getNextPage = () => {
-    // Add logic to get the next page of videos
+    if (startingVideo < video.length - 4) {
+      setStartingVideo(startingVideo + 4);
+    }
   };
   const getPreviousPage = () => {
-    // Add logic to get the previous page of videos
+    if (startingVideo > 0) {
+      setStartingVideo(startingVideo - 4);
+    }
   };
 
   const getSelectedPage = (pageNumber: number) => {
-    // Add logic to get the selected page of videos
+    setStartingVideo(pageNumber * 4);
   };
 
   return (
@@ -28,33 +34,37 @@ export default function LatestVideo({ video }: { video: Video[] }) {
         </Slide>
       </Col>
       <Col lg={4}>
-        {video.map((videoItem, index) => (
-          <Slide direction="right" triggerOnce key={index}>
-            <div
-              className={`news-list summarize hover:cursor-pointer ${
-                videoItem === activeVideo
-                  ? "bg-my-red text-white"
-                  : "bg-gray-200"
-              }`}
-              onClick={() => setActiveVideo(videoItem)}
-            >
-              <h4 className="text-sm lg:text-base m-0">
-                <b>{videoItem.title}</b>
-              </h4>
-              <p className="text-sm">
-                {dateFormat(videoItem.publishDate.toUTCString())}
-              </p>
-            </div>
-          </Slide>
-        ))}
-        <Fade triggerOnce>
-          <Pagination
-            numbers={8}
-            getPreviousPage={getPreviousPage}
-            getNextPage={getNextPage}
-            getSelectedPage={getSelectedPage}
-          />
-        </Fade>
+        {video
+          .slice(startingVideo, startingVideo + 4)
+          .map((videoItem, index) => (
+            <Slide direction="right" triggerOnce key={index}>
+              <div
+                className={`news-list summarize hover:cursor-pointer ${
+                  videoItem === activeVideo
+                    ? "bg-my-red text-white"
+                    : "bg-gray-200"
+                }`}
+                onClick={() => setActiveVideo(videoItem)}
+              >
+                <h4 className="text-sm lg:text-base m-0">
+                  <b>{videoItem.title}</b>
+                </h4>
+                <p className="text-sm">
+                  {dateFormat(videoItem.publishDate.toUTCString())}
+                </p>
+              </div>
+            </Slide>
+          ))}
+        {video.length > 4 && (
+          <Fade triggerOnce>
+            <Pagination
+              numbers={maxPage}
+              getPreviousPage={getPreviousPage}
+              getNextPage={getNextPage}
+              getSelectedPage={getSelectedPage}
+            />
+          </Fade>
+        )}
       </Col>
     </Row>
   );
