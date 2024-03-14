@@ -1,7 +1,5 @@
 import { News, Category } from "../Schema/newsSchema";
-import { Video } from "../Schema/videoSchema";
 import { NewsData, NewsCategoryData } from "../JSONData";
-
 
 export const findNewsById = (newsId: Number): News | undefined =>
   NewsData.find((news: News) => news._id === newsId);
@@ -25,5 +23,5 @@ export const AllCategories = (): Category[] | undefined => NewsCategoryData;
 
 //export const findLatestVideos = (): Video[] => {
 
- // return;
+// return;
 //};
