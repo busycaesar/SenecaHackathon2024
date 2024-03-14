@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import VideoIframe from "./VideoIframe";
 import { Video } from "../../Data/Schema/videoSchema"; // Adjust the path as necessary
+import { Slide } from "react-awesome-reveal";
 
 export default function LatestVideo({ video }: { video: Video[] }) {
   const [activeVideo, setActiveVideo] = useState(video[0]);
@@ -11,19 +12,20 @@ export default function LatestVideo({ video }: { video: Video[] }) {
         <VideoIframe video={activeVideo} />
       </div>
       <div className="col-span-1">
-        {video.slice(0, 4).map((videoItem, index) => (
-          <div
-            key={index}
-            className={`news-list summarize ${
-              videoItem === activeVideo ? "activeLatestNews" : ""
-            }`}
-            onClick={() => setActiveVideo(videoItem)}
-          >
-            <span>
-              <b>{videoItem.title}</b>
-            </span>
-            <p className="text-sm">{videoItem.publishDate.toUTCString()}</p>
-          </div>
+        {video.map((videoItem, index) => (
+          <Slide direction="right" triggerOnce key={index}>
+            <div
+              className={`news-list summarize hover:cursor-pointer ${
+                videoItem === activeVideo ? "bg-my-red text-white" : "bg-gray-200"
+              }`}
+              onClick={() => setActiveVideo(videoItem)}
+            >
+              <span>
+                <b>{videoItem.title}</b>
+              </span>
+              <p className="text-sm">{videoItem.publishDate.toUTCString()}</p>
+            </div>
+          </Slide>
         ))}
       </div>
     </div>

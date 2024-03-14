@@ -28,11 +28,12 @@
   margin: 0;
 }
 
-.activeLatestNews,
+/* .activeLatestNews,
 .red-background {
-  background-color: #D92D27;
+  background-color: #d92d27;
   color: white;
-}
+
+} */
 
 .summarize p {
   overflow: hidden;
@@ -44,6 +45,9 @@
 
 .news-list {
   padding: 0.5em 1em;
+  margin: 0.7em 0;
+  border-radius: 1rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 @media (max-width: 1300px) {

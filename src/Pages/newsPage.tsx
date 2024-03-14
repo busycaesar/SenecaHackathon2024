@@ -29,7 +29,7 @@ export default function NewsPage() {
           />
           <LatestNews news={LatestNewsList.slice(0, newsToBeDisplayed)} />
 
-          {/*
+          
           <hr />
 
            <VideoAndPodcast
@@ -39,7 +39,7 @@ export default function NewsPage() {
               newsToBeDisplayed + 2
             )}
           />
-          <LatestVideo video={ytVideo}/> */}
+          <LatestVideo video={ytVideo}/>
         </>
       ) : (
         <LatestNews news={LatestNewsList} />
