@@ -114,6 +114,7 @@ function ResponsiveAppBar(props: {
                       <ArrowRightIcon />
                     )}
                   </Box>
+
                   <Button
                     key={item}
                     sx={{ my: 2, color: "black", display: "block" }}
@@ -217,13 +218,13 @@ function ResponsiveAppBar(props: {
                 onClick={handleCloseChallengeSetsMenu}
               >
                 <span
-                  className="hover-text-myred"
+                  className="hover:text-my-red"
                   style={{ marginLeft: "20px" }}
                 >
                   <MuiLink
                     component={Link}
                     to={{
-                      pathname: `/challenge-sets/${challengeSet.id}/${challenge.categoryName}`,
+                      pathname: `/challenge-sets/${set.id}/${challenge.categoryName}`,
                     }}
                     style={{
                       textDecoration: "none",
