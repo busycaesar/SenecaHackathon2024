@@ -10,6 +10,8 @@ import Container from "@mui/material/Container";
 import MenuItem from "@mui/material/MenuItem";
 import { Hidden } from "@mui/material";
 import Button from "@mui/material/Button";
+import ArrowRightIcon from "@mui/icons-material/ArrowRight";
+import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import { Link } from "react-router-dom";
 import HackathonLogo from "../../svgs/hack-logo.svg";
 import ListItemText from "@mui/material/ListItemText";
@@ -100,13 +102,26 @@ function ResponsiveAppBar(props: {
           <Hidden mdDown>
             {props.mainNavItems.map((item) =>
               item === "Challenge Sets" ? (
-                <Button
-                  key={item}
-                  sx={{ my: 2, color: "black", display: "block" }}
-                  onClick={handleChallengeSetsMenuOpen}
-                >
-                  {item}
-                </Button>
+                <>
+                  <Box
+                    sx={{
+                      marginBottom: "0.2em",
+                    }}
+                  >
+                    {anchorElChallengeSets ? (
+                      <ArrowDropDownIcon />
+                    ) : (
+                      <ArrowRightIcon />
+                    )}
+                  </Box>
+                  <Button
+                    key={item}
+                    sx={{ my: 2, color: "black", display: "block" }}
+                    onMouseEnter={handleChallengeSetsMenuOpen}
+                  >
+                    {item}
+                  </Button>
+                </>
               ) : (
                 <Link
                   to={`/${convertToUrlFormat(item)}`}
@@ -192,7 +207,7 @@ function ResponsiveAppBar(props: {
         keepMounted
         open={Boolean(anchorElChallengeSets)}
         onClose={handleCloseChallengeSetsMenu}
-        
+        onMouseLeave={handleCloseChallengeSetsMenu}
       >
         {data[0].challengeSets.map((set) => (
           <Collapsible key={set.id} header={set.name}>
@@ -201,20 +216,24 @@ function ResponsiveAppBar(props: {
                 key={challenge.categoryName}
                 onClick={handleCloseChallengeSetsMenu}
               >
-                <MuiLink
-                  component={Link}
-                  to={`/challenge-sets/${set.id}/${convertToUrlFormat(
-                    challenge.categoryName
-                  )}`}
-                  style={{
-                    textDecoration: "none",
-                    color: "inherit",
-                    marginLeft: "20px",
-                    fontSize: "0.8rem",    
-                  }}
+                <span
+                  className="hover:text-my-red"
+                  style={{ marginLeft: "20px" }}
                 >
-                  {challenge.categoryName}
-                </MuiLink>
+                  <MuiLink
+                    component={Link}
+                    to={`/challenge-sets/${set.id}/${convertToUrlFormat(
+                      challenge.categoryName
+                    )}`}
+                    style={{
+                      textDecoration: "none",
+                      color: "inherit",
+                      fontSize: "0.8rem",
+                    }}
+                  >
+                    {challenge.categoryName}
+                  </MuiLink>
+                </span>
               </MenuItem>
             ))}
           </Collapsible>
