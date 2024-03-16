@@ -1,8 +1,9 @@
 [
   {
-    "id": 0,
+    "id": 1,
+    "image": "/svgs/challengeSet/Student Housing.svg",
     "challenge_set": 1,
-    "team_name": "Alpha",
+    "team_name": "Ctrl + Pop",
     "team_member_1": "1",
     "team_member_2": "2",
     "team_member_3": "3",
@@ -10,9 +11,9 @@
     "team_member_5": "5"
   },
   {
-    "id": 0,
+    "id": 2,
     "challenge_set": 1,
-    "team_name": "Alpha",
+    "team_name": "Enigma",
     "team_member_1": "1",
     "team_member_2": "2",
     "team_member_3": "3",
@@ -20,9 +21,9 @@
     "team_member_5": "5"
   },
   {
-    "id": 0,
+    "id": 3,
     "challenge_set": 1,
-    "team_name": "Alpha",
+    "team_name": "Homeback Heroes",
     "team_member_1": "1",
     "team_member_2": "2",
     "team_member_3": "3",
@@ -30,9 +31,9 @@
     "team_member_5": "5"
   },
   {
-    "id": 0,
+    "id": 4,
     "challenge_set": 1,
-    "team_name": "Alpha",
+    "team_name": "Muchachos",
     "team_member_1": "1",
     "team_member_2": "2",
     "team_member_3": "3",
@@ -40,9 +41,9 @@
     "team_member_5": "5"
   },
   {
-    "id": 0,
+    "id": 5,
     "challenge_set": 1,
-    "team_name": "Alpha",
+    "team_name": "QuntiCode",
     "team_member_1": "1",
     "team_member_2": "2",
     "team_member_3": "3",
@@ -50,9 +51,9 @@
     "team_member_5": "5"
   },
   {
-    "id": 0,
+    "id": 6,
     "challenge_set": 1,
-    "team_name": "Alpha",
+    "team_name": "Raccoon R-D",
     "team_member_1": "1",
     "team_member_2": "2",
     "team_member_3": "3",
@@ -60,9 +61,30 @@
     "team_member_5": "5"
   },
   {
-    "id": 0,
+    "id": 7,
+    "challenge_set": 1,
+    "team_name": "Smiling Byte",
+    "team_member_1": "1",
+    "team_member_2": "2",
+    "team_member_3": "3",
+    "team_member_4": "4",
+    "team_member_5": "5"
+  },
+  {
+    "id": 8,
+    "challenge_set": 1,
+    "team_name": "Team BAM",
+    "team_member_1": "1",
+    "team_member_2": "2",
+    "team_member_3": "3",
+    "team_member_4": "4",
+    "team_member_5": "5"
+  },
+  {
+    "id": 1,
+    "image":"/svgs/challengeSet/Affordable Housing Solutions.svg",
     "challenge_set": 2,
-    "team_name": "Alpha",
+    "team_name": "AstroN",
     "team_member_1": "1",
     "team_member_2": "2",
     "team_member_3": "3",
@@ -70,9 +92,9 @@
     "team_member_5": "5"
   },
   {
-    "id": 0,
+    "id": 2,
     "challenge_set": 2,
-    "team_name": "Alpha",
+    "team_name": "Bit Builders",
     "team_member_1": "1",
     "team_member_2": "2",
     "team_member_3": "3",
@@ -80,9 +102,9 @@
     "team_member_5": "5"
   },
   {
-    "id": 0,
+    "id": 3,
     "challenge_set": 2,
-    "team_name": "Alpha",
+    "team_name": "Data Mavericks",
     "team_member_1": "1",
     "team_member_2": "2",
     "team_member_3": "3",
@@ -90,9 +112,9 @@
     "team_member_5": "5"
   },
   {
-    "id": 0,
+    "id": 4,
     "challenge_set": 2,
-    "team_name": "Alpha",
+    "team_name": "Nexus",
     "team_member_1": "1",
     "team_member_2": "2",
     "team_member_3": "3",
@@ -100,9 +122,9 @@
     "team_member_5": "5"
   },
   {
-    "id": 0,
+    "id": 5,
     "challenge_set": 2,
-    "team_name": "Alpha",
+    "team_name": "Rent Rebels",
     "team_member_1": "1",
     "team_member_2": "2",
     "team_member_3": "3",
@@ -110,9 +132,9 @@
     "team_member_5": "5"
   },
   {
-    "id": 0,
+    "id": 6,
     "challenge_set": 2,
-    "team_name": "Alpha",
+    "team_name": "roof4all",
     "team_member_1": "1",
     "team_member_2": "2",
     "team_member_3": "3",
@@ -120,9 +142,49 @@
     "team_member_5": "5"
   },
   {
-    "id": 0,
+    "id": 7,
+    "challenge_set": 2,
+    "team_name": "Seneca Sci-Tech Guild: Matrix 0",
+    "team_member_1": "1",
+    "team_member_2": "2",
+    "team_member_3": "3",
+    "team_member_4": "4",
+    "team_member_5": "5"
+  },
+  {
+    "id": 8,
+    "challenge_set": 2,
+    "team_name": "Tech Titans",
+    "team_member_1": "1",
+    "team_member_2": "2",
+    "team_member_3": "3",
+    "team_member_4": "4",
+    "team_member_5": "5"
+  },
+  {
+    "id": 9,
+    "challenge_set": 2,
+    "team_name": "The Nomads",
+    "team_member_1": "1",
+    "team_member_2": "2",
+    "team_member_3": "3",
+    "team_member_4": "4",
+    "team_member_5": "5"
+  },
+  {
+    "id": 10,
+    "challenge_set": 2,
+    "team_name": "Vipers",
+    "team_member_1": "1",
+    "team_member_2": "2",
+    "team_member_3": "3",
+    "team_member_4": "4",
+    "team_member_5": "5"
+  },
+  {
+    "id": 1,
     "challenge_set": 3,
-    "team_name": "Alpha",
+    "team_name": "Ananta",
     "team_member_1": "1",
     "team_member_2": "2",
     "team_member_3": "3",
@@ -130,9 +192,10 @@
     "team_member_5": "5"
   },
   {
-    "id": 0,
+    "id": 2,
+    "image":"/svgs/challengeSet/Community Well-being.svg",
     "challenge_set": 3,
-    "team_name": "Alpha",
+    "team_name": "Byte Road",
     "team_member_1": "1",
     "team_member_2": "2",
     "team_member_3": "3",
@@ -140,9 +203,9 @@
     "team_member_5": "5"
   },
   {
-    "id": 0,
+    "id": 3,
     "challenge_set": 3,
-    "team_name": "Alpha",
+    "team_name": "Group 1",
     "team_member_1": "1",
     "team_member_2": "2",
     "team_member_3": "3",
@@ -150,9 +213,9 @@
     "team_member_5": "5"
   },
   {
-    "id": 0,
+    "id": 4,
     "challenge_set": 3,
-    "team_name": "Alpha",
+    "team_name": "Hack The Homie",
     "team_member_1": "1",
     "team_member_2": "2",
     "team_member_3": "3",
@@ -160,9 +223,9 @@
     "team_member_5": "5"
   },
   {
-    "id": 0,
+    "id": 5,
     "challenge_set": 3,
-    "team_name": "Alpha",
+    "team_name": "Maple Croissant",
     "team_member_1": "1",
     "team_member_2": "2",
     "team_member_3": "3",
@@ -170,9 +233,9 @@
     "team_member_5": "5"
   },
   {
-    "id": 0,
+    "id": 6,
     "challenge_set": 3,
-    "team_name": "Alpha",
+    "team_name": "Neighborhood Cool Cats",
     "team_member_1": "1",
     "team_member_2": "2",
     "team_member_3": "3",
@@ -180,9 +243,9 @@
     "team_member_5": "5"
   },
   {
-    "id": 0,
-    "challenge_set": 4,
-    "team_name": "Alpha",
+    "id": 7,
+    "challenge_set": 3,
+    "team_name": "no(de)velopers",
     "team_member_1": "1",
     "team_member_2": "2",
     "team_member_3": "3",
@@ -190,9 +253,9 @@
     "team_member_5": "5"
   },
   {
-    "id": 0,
-    "challenge_set": 4,
-    "team_name": "Alpha",
+    "id": 8,
+    "challenge_set": 3,
+    "team_name": "QQ",
     "team_member_1": "1",
     "team_member_2": "2",
     "team_member_3": "3",
@@ -200,9 +263,9 @@
     "team_member_5": "5"
   },
   {
-    "id": 0,
-    "challenge_set": 4,
-    "team_name": "Alpha",
+    "id": 9,
+    "challenge_set": 3,
+    "team_name": "The Jaguars",
     "team_member_1": "1",
     "team_member_2": "2",
     "team_member_3": "3",
@@ -210,9 +273,10 @@
     "team_member_5": "5"
   },
   {
-    "id": 0,
+    "id": 1,
+    "image":"/svgs/challengeSet/Housing Tech.svg",
     "challenge_set": 4,
-    "team_name": "Alpha",
+    "team_name": "Cipher",
     "team_member_1": "1",
     "team_member_2": "2",
     "team_member_3": "3",
@@ -220,9 +284,9 @@
     "team_member_5": "5"
   },
   {
-    "id": 0,
+    "id": 2,
     "challenge_set": 4,
-    "team_name": "Alpha",
+    "team_name": "Cyber Ronins",
     "team_member_1": "1",
     "team_member_2": "2",
     "team_member_3": "3",
@@ -230,9 +294,139 @@
     "team_member_5": "5"
   },
   {
-    "id": 0,
+    "id": 3,
     "challenge_set": 4,
-    "team_name": "Alpha",
+    "team_name": "DragonHackers",
+    "team_member_1": "1",
+    "team_member_2": "2",
+    "team_member_3": "3",
+    "team_member_4": "4",
+    "team_member_5": "5"
+  },
+  {
+    "id": 4,
+    "challenge_set": 4,
+    "team_name": "home-ies",
+    "team_member_1": "1",
+    "team_member_2": "2",
+    "team_member_3": "3",
+    "team_member_4": "4",
+    "team_member_5": "5"
+  },
+  {
+    "id": 5,
+    "challenge_set": 4,
+    "team_name": "H-Tech",
+    "team_member_1": "1",
+    "team_member_2": "2",
+    "team_member_3": "3",
+    "team_member_4": "4",
+    "team_member_5": "5"
+  },
+  {
+    "id": 6,
+    "challenge_set": 4,
+    "team_name": "Lazyy Tech",
+    "team_member_1": "1",
+    "team_member_2": "2",
+    "team_member_3": "3",
+    "team_member_4": "4",
+    "team_member_5": "5"
+  },
+  {
+    "id": 7,
+    "challenge_set": 4,
+    "team_name": "Homies",
+    "team_member_1": "1",
+    "team_member_2": "2",
+    "team_member_3": "3",
+    "team_member_4": "4",
+    "team_member_5": "5"
+  },
+  {
+    "id": 8,
+    "challenge_set": 4,
+    "team_name": "Miraurbana",
+    "team_member_1": "1",
+    "team_member_2": "2",
+    "team_member_3": "3",
+    "team_member_4": "4",
+    "team_member_5": "5"
+  },
+  {
+    "id": 9,
+    "challenge_set": 4,
+    "team_name": "Rocketcaz",
+    "team_member_1": "1",
+    "team_member_2": "2",
+    "team_member_3": "3",
+    "team_member_4": "4",
+    "team_member_5": "5"
+  },
+  {
+    "id": 10,
+    "challenge_set": 4,
+    "team_name": "Roof Busters",
+    "team_member_1": "1",
+    "team_member_2": "2",
+    "team_member_3": "3",
+    "team_member_4": "4",
+    "team_member_5": "5"
+  },
+  {
+    "id": 11,
+    "challenge_set": 4,
+    "team_name": "Ryans GF wanted",
+    "team_member_1": "1",
+    "team_member_2": "2",
+    "team_member_3": "3",
+    "team_member_4": "4",
+    "team_member_5": "5"
+  },
+  {
+    "id": 12,
+    "challenge_set": 4,
+    "team_name": "Signify",
+    "team_member_1": "1",
+    "team_member_2": "2",
+    "team_member_3": "3",
+    "team_member_4": "4",
+    "team_member_5": "5"
+  },
+  {
+    "id": 13,
+    "challenge_set": 4,
+    "team_name": "TechHive Innovators",
+    "team_member_1": "1",
+    "team_member_2": "2",
+    "team_member_3": "3",
+    "team_member_4": "4",
+    "team_member_5": "5"
+  },
+  {
+    "id": 14,
+    "challenge_set": 4,
+    "team_name": "The Arsenal",
+    "team_member_1": "1",
+    "team_member_2": "2",
+    "team_member_3": "3",
+    "team_member_4": "4",
+    "team_member_5": "5"
+  },
+  {
+    "id": 15,
+    "challenge_set": 4,
+    "team_name": "The Codefathers",
+    "team_member_1": "1",
+    "team_member_2": "2",
+    "team_member_3": "3",
+    "team_member_4":"4",
+    "team_member_5": "5"
+  },
+  {
+    "id": 16,
+    "challenge_set": 4,
+    "team_name": "Velocity",
     "team_member_1": "1",
     "team_member_2": "2",
     "team_member_3": "3",

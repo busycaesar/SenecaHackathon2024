@@ -34,24 +34,25 @@ export default function HeaderBanner() {
               Bring your ideas to life at the 5th Annual Seneca Hackathon. Gain practical experience, connect with industry experts, and get a chance to win amazing prizes.
               </p>
               <div className="md:max-w-lg md:mx-auto ">
-                <div className="button hover:none">
+                <div className="button rounded-3xl  hover:none">
                   <a
-                    // href={`https://forms.office.com/r/r2c5YSGYTn`}
+                    href="/qualified-teams"
                     target="_blank"
                     rel="noreferrer"
+                    className="my-6"
                   >
-                    <button className="font-bold">Submission Closed</button>
+                    <button className="font-bold h-20 rounded-3xl opacity-80 hover:opacity-100"><span className="text-2xl blink_me">Click here to check our 2024 Finalists</span> </button>
                   </a>
                 </div>
                 <p className="m-4 md:text-md text-base text-white  font-medium">
                   Thank you for your interest in participating in Housing
-                  Hackathon 2024. The submission has now been closed. 
+                  Hackathon 2024. This year finalists has been announced.
                 </p>
 
                 {/* <Timer/> */}
-                <h1 className="  text-3xl text-yellow-300 font-black tracking-tight blink_me">
+                {/* <h1 className="  text-3xl text-yellow-300 font-black tracking-tight blink_me">
                 <span>Submission closed! <br></br>Please wait for the qualifier annoucement. </span>
-              </h1>
+              </h1> */}
                 {/* <p className="m-4 md:text-md text-base text-white  font-medium">
                   Thank you for your interest in participating in Housing
                   Hackathon 2024. The registration is now closed.

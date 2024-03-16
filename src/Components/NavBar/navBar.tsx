@@ -10,13 +10,19 @@ import Container from "@mui/material/Container";
 import MenuItem from "@mui/material/MenuItem";
 import { Hidden } from "@mui/material";
 import Button from "@mui/material/Button";
+import ArrowRightIcon from "@mui/icons-material/ArrowRight";
+import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import { Link } from "react-router-dom";
 import HackathonLogo from "../../svgs/hack-logo.svg";
+import ListItemText from "@mui/material/ListItemText";
 import Line from "../../svgs/line.svg";
+import { Link as MuiLink } from "@mui/material";
 import SenecaLogo from "../../svgs/seneca-polytechnic.png";
 import SocialMediaIcons from "../SocialMedia/socialMedia";
 import "./navBar.css";
 import { Row, Col } from "react-bootstrap";
+import data from "../../Data/Challengesets/challengeSets.json";
+import Collapsible from "./useDropdown";
 
 function ResponsiveAppBar(props: {
   mainNavItems: string[];
@@ -25,6 +31,9 @@ function ResponsiveAppBar(props: {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(
     null
   );
+
+  const [anchorElChallengeSets, setAnchorElChallengeSets] =
+    React.useState<null | HTMLElement>(null);
 
   const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
     setAnchorElNav(event.currentTarget);
@@ -37,6 +46,18 @@ function ResponsiveAppBar(props: {
   const convertToUrlFormat = (text: string): string => {
     return text.toLowerCase().replace(/\s+/g, "-");
   };
+
+  const handleChallengeSetsMenuOpen = (
+    event: React.MouseEvent<HTMLElement>
+  ) => {
+    event.stopPropagation();
+    setAnchorElChallengeSets(event.currentTarget);
+  };
+
+  const handleCloseChallengeSetsMenu = () => {
+    setAnchorElChallengeSets(null);
+  };
+
   return (
     <AppBar
       position="static"
@@ -64,29 +85,56 @@ function ResponsiveAppBar(props: {
             </a>
             <img className="mx-3 h-[70px]" src={Line} alt="Line" />
             <div className="flex flex-col">
-            <span className=" mb-0 text-xs pt-2">hosted by</span>
+              <span className=" mb-0 text-xs pt-2">hosted by</span>
               <a
                 href="https://www.senecapolytechnic.ca/home.html"
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src={SenecaLogo} alt="Seneca's logo" className=" h-[40px] md:h-[40px]"/>
+                <img
+                  src={SenecaLogo}
+                  alt="Seneca's logo"
+                  className=" h-[40px] md:h-[40px]"
+                />
               </a>
             </div>
           </Box>
           <Hidden mdDown>
-            {props.mainNavItems.map((item) => (
-              <Link
-                key={item}
-                className="nav-link"
-                style={{ display: "flex" }}
-                to={convertToUrlFormat(item)}
-              >
-                <Button className="" key={item} sx={{ color: "black" }}>
-                  {item}
-                </Button>
-              </Link>
-            ))}
+            {props.mainNavItems.map((item) =>
+              item === "Challenge Sets" ? (
+                <>
+                  <Box
+                    sx={{
+                      marginBottom: "0.2em",
+                    }}
+                  >
+                    {anchorElChallengeSets ? (
+                      <ArrowDropDownIcon />
+                    ) : (
+                      <ArrowRightIcon />
+                    )}
+                  </Box>
+
+                  <Button
+                    key={item}
+                    sx={{ my: 2, color: "black", display: "block" }}
+                    onMouseEnter={handleChallengeSetsMenuOpen}
+                  >
+                    {item}
+                  </Button>
+                </>
+              ) : (
+                <Link
+                  to={`/${convertToUrlFormat(item)}`}
+                  key={item}
+                  style={{ textDecoration: "none" }}
+                >
+                  <Button sx={{ my: 2, color: "black", display: "block" }}>
+                    {item}
+                  </Button>
+                </Link>
+              )
+            )}
           </Hidden>
           <Hidden mdUp>
             <IconButton
@@ -152,6 +200,44 @@ function ResponsiveAppBar(props: {
               <hr style={{ margin: "0" }} />
             )}
           </>
+        ))}
+      </Menu>
+      <Menu
+        id="challenge-set-menu"
+        anchorEl={anchorElChallengeSets}
+        keepMounted
+        open={Boolean(anchorElChallengeSets)}
+        onClose={handleCloseChallengeSetsMenu}
+        onMouseLeave={handleCloseChallengeSetsMenu}
+      >
+        {data[0].challengeSets.map((set) => (
+          <Collapsible key={set.id} header={set.name}>
+            {set.challenges.map((challenge) => (
+              <MenuItem
+                key={challenge.categoryName}
+                onClick={handleCloseChallengeSetsMenu}
+              >
+                <span
+                  className="hover:text-my-red"
+                  style={{ marginLeft: "20px" }}
+                >
+                  <MuiLink
+                    component={Link}
+                    to={{
+                      pathname: `/challenge-sets/${set.id}/${challenge.categoryName}`,
+                    }}
+                    style={{
+                      textDecoration: "none",
+                      color: "inherit",
+                      fontSize: "0.8rem",
+                    }}
+                  >
+                    {challenge.categoryName}
+                  </MuiLink>
+                </span>
+              </MenuItem>
+            ))}
+          </Collapsible>
         ))}
       </Menu>
     </AppBar>
