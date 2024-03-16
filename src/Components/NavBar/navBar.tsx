@@ -107,6 +107,10 @@ function ResponsiveAppBar(props: {
                     sx={{
                       marginBottom: "0.2em",
                     }}
+                    onMouseEnter={(e) => {
+                      e.stopPropagation();
+                      handleChallengeSetsMenuOpen(e);
+                    }}
                   >
                     {anchorElChallengeSets ? (
                       <ArrowDropDownIcon />
@@ -114,14 +118,18 @@ function ResponsiveAppBar(props: {
                       <ArrowRightIcon />
                     )}
                   </Box>
-
-                  <Button
+                  <Link
+                    to={`/${convertToUrlFormat(item)}`}
                     key={item}
-                    sx={{ my: 2, color: "black", display: "block" }}
-                    onMouseEnter={handleChallengeSetsMenuOpen}
+                    className="no-underline"
                   >
-                    {item}
-                  </Button>
+                    <Button
+                      key={item}
+                      sx={{ my: 2, color: "black", display: "block" }}
+                    >
+                      {item}
+                    </Button>
+                  </Link>
                 </>
               ) : (
                 <Link
@@ -131,6 +139,7 @@ function ResponsiveAppBar(props: {
                 >
                   <Button sx={{ my: 2, color: "black", display: "block" }}>
                     {item}
+
                   </Button>
                 </Link>
               )

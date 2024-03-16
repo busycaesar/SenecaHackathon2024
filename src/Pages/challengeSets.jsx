@@ -12,7 +12,7 @@ export default function ChallengeSets() {
           set.challengeSets.map((challengeSet, index) => (
             <JackInTheBox key={index} triggerOnce>
               <div
-                className="flex flex-wrap -mx-4 mb-8 border-solid border-gray-500 bg-white border-4 shadow-md p-3 rounded-2xl"
+                className="flex flex-wrap -mx-4 mb-8 border-solid  bg-white shadow-xl p-3 rounded-2xl"
               >
                 <div className="w-full lg:w-2/3 px-4 lg:pr-20 lg:pt-4 order-1 lg:order-0">
                   <Link
