@@ -1,5 +1,5 @@
 export { default as AwardData } from "./award.json";
-export { default as ChallengeSetData } from "./challengeSet.json";
+export { default as CSData } from "./challengeSet.json";
 export { default as FAQData } from "./faq.json";
 export { default as ImportantDateData } from "./importantDate.json";
 export { default as NewsCategoryData } from "./newsCategory.json";
@@ -11,3 +11,4 @@ export { default as WorkingData } from "./working.json";
 export { default as SponsersData } from "./sponsers.json";
 export { default as PartnersData } from "./partners.json";
 export { default as QualifiedTeamsData } from "./qualifiedteam.json";
+export { default as CSWinners } from "./winningTeamChallengeSet.json";
