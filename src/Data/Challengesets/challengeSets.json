@@ -1,521 +1,525 @@
 [
   {
-    "id": 1,
-    "name": "Student Housing",
-    "img": "/svgs/challengeSet/Student Housing.svg",
-    "detail": "This category invites you to create housing solutions that specifically cater to the needs of students. This includes maximizing dorm room spaces, creating communal living areas for learning and collaboration, or any initiative that can enhance the overall student living experience.",
-    "challenges": [
+    "challengeSets": [
       {
-        "categoryName": "Scam and fraud awareness, and tools",
-        "categoryTitle": "Scam and fraud awareness, and tools",
-        "categoryDescription": "Navigating the housing market, especially for international and domestic students, presents a myriad of challenges, including the risk of falling victim to scams and fraudulent practices. Realtors and landlords, on the other hand, face difficulties in efficiently verifying renters' identities while ensuring a secure rental process. The challenge at hand is to identify and address these obstacles through innovative solutions that prioritize the protection of students from housing fraud, empower them with knowledge for informed decisions, and streamline identity verification processes for real estate professionals. Participants are encouraged to collaborate in developing comprehensive strategies that encompass cybersecurity measures, awareness campaigns, community support networks, and resources for tenants' rights. By focusing on the challenges faced by both renters and landlords, the goal is to foster the creation of solutions that promote safety, transparency, and efficiency in the housing market.",
-        "categoryGuidedBy": "Cyber AI",
-        "problemStatementDescription": "As you delve into solving the Affordable Housing Solutions challenge, these ideas offer potential directions for your projects. While these suggestions serve as starting points, feel free to explore additional innovative approaches. Your solutions should aim to tackle the complexities of affordable housing using technology, policy,community engagement, and sustainability to make a tangible impact.",
-        "problemStatement": [
+        "id": 1,
+        "name": "Student Housing",
+        "img": "/svgs/challengeSet/Student Housing.svg",
+        "detail": "This category invites you to create housing solutions that specifically cater to the needs of students. This includes maximizing dorm room spaces, creating communal living areas for learning and collaboration, or any initiative that can enhance the overall student living experience.",
+        "challenges": [
           {
-            "title": "Enhancing Off-Campus Housing Security for International Students",
-            "description": "International students seeking affordable off-campus housing often face challenges related to identity verification and cybersecurity risks, while realtors and landlords require streamlined processes to prevent fraud. Participants are called upon to develop solutions integrating robust identity verification mechanisms and cybersecurity protocols to address these challenges effectively. Furthermore, solutions should account for risks associated with property ownership for international students without Permanent Residency (PR) and devise strategies to mitigate fraudulent practices."
+            "categoryName": "Scam and fraud awareness, and tools",
+            "categoryTitle": "Scam and fraud awareness, and tools",
+            "categoryDescription": "Navigating the housing market, especially for international and domestic students, presents a myriad of challenges, including the risk of falling victim to scams and fraudulent practices. Realtors and landlords, on the other hand, face difficulties in efficiently verifying renters' identities while ensuring a secure rental process. The challenge at hand is to identify and address these obstacles through innovative solutions that prioritize the protection of students from housing fraud, empower them with knowledge for informed decisions, and streamline identity verification processes for real estate professionals. Participants are encouraged to collaborate in developing comprehensive strategies that encompass cybersecurity measures, awareness campaigns, community support networks, and resources for tenants' rights. By focusing on the challenges faced by both renters and landlords, the goal is to foster the creation of solutions that promote safety, transparency, and efficiency in the housing market.",
+            "categoryGuidedBy": "Cyber AI",
+            "problemStatementDescription": "As you delve into solving the Affordable Housing Solutions challenge, these ideas offer potential directions for your projects. While these suggestions serve as starting points, feel free to explore additional innovative approaches. Your solutions should aim to tackle the complexities of affordable housing using technology, policy,community engagement, and sustainability to make a tangible impact.",
+            "problemStatement": [
+              {
+                "title": "Enhancing Off-Campus Housing Security for International Students",
+                "description": "International students seeking affordable off-campus housing often face challenges related to identity verification and cybersecurity risks, while realtors and landlords require streamlined processes to prevent fraud. Participants are called upon to develop solutions integrating robust identity verification mechanisms and cybersecurity protocols to address these challenges effectively. Furthermore, solutions should account for risks associated with property ownership for international students without Permanent Residency (PR) and devise strategies to mitigate fraudulent practices."
+              },
+              {
+                "title": "Developing a Mobile App for Safer Student Travel in Toronto",
+                "description": "With crime rates on the rise in Toronto, there's a pressing need for a mobile app promoting safer travel options for students and enhancing community engagement. The challenge entails designing and developing an infrastructure for such an app that prioritizes safety, accessibility, and sustainability. By facilitating safer travel arrangements, enabling location tracking, and providing emergency assistance features, the solution aims to contribute significantly to improving community safety."
+              },
+              {
+                "title": "Streamlining Rental Agreements and Promoting Sustainable Practices",
+                "description": "Navigating rental agreements can be complex for students, especially concerning utility usage and lease terms. Participants are tasked with developing solutions that establish clear guidelines on acceptable utility usage and lease terms while ensuring affordability and sustainability. Additionally, solutions should incorporate revenue models that demonstrate the sustainability of the system, potentially leveraging incentives for landlords to adopt green technologies and promote eco-friendly practices."
+              }
+            ],
+            "possibleSolutionDescription": "The solutions provided here serve as recommendations, offering guidance and inspiration. Participants are encouraged to explore and select any solution that effectively addresses the challenges at hand. They also have the flexibility to combine elements from multiple solutions, crafting a more comprehensive and tailored approach to meet their specific needs.",
+            "possibleSolution": [
+              {
+                "title": "Identity Verification Process",
+                "description": "Develop a comprehensive platform that utilizes advanced biometric authentication methods and blockchain technology to establish a secure and reliable identity verification system. This system will allow realtors and landlords to efficiently verify the identities of potential renters, reducing the risk of fraudulent activities in the rental process. By incorporating multifaceted verification methods and ensuring the integrity of user data through blockchain technology, the solution aims to instill trust and confidence among all stakeholders involved in the housing market."
+              },
+              {
+                "title": "Secure Rental Process",
+                "description": "Design and implement a user-friendly mobile application dedicated to enhancing the safety and security of students navigating urban environments, particularly in areas experiencing increasing crime rates. The app will offer a range of features such as real-time location tracking, safe travel options, emergency assistance, and access to community support networks. By providing students with a convenient and accessible platform for staying connected and informed about their surroundings, the solution aims to promote safer living experiences and empower students to make informed decisions regarding their safety."
+              },
+              {
+                "title": "Green Technology Integration and Cost Implications",
+                "description": "Promote the adoption of sustainable practices in the rental market by incentivizing landlords to integrate green technology solutions into their properties. This may include the installation of energy-efficient appliances, implementation of smart metering systems for utilities, and utilization of eco-friendly building materials. To offset initial investment costs, the solution will offer landlords incentives such as tax benefits or discounts on certification fees. By encouraging the adoption of green technology, the solution aims to create more environmentally friendly housing options while also reducing long-term rental costs for tenants."
+              },
+              {
+                "title": "Safety, Lease Terms, and Cybersecurity",
+                "description": "Develop a comprehensive platform that addresses various aspects of rental agreements, including utility usage, lease terms, and cybersecurity measures. The platform will provide landlords with tools for setting clear guidelines on utility usage and establishing transparent lease terms that comply with regulatory requirements. Additionally, robust cybersecurity measures such as encryption for sensitive data and secure payment gateways will be implemented to safeguard against scams and frauds in rental transactions. Furthermore, the platform will offer resources and guidance for tenants to understand their legal rights and protections, empowering them to navigate the rental process with confidence and security."
+              }
+            ]
           },
           {
-            "title": "Developing a Mobile App for Safer Student Travel in Toronto",
-            "description": "With crime rates on the rise in Toronto, there's a pressing need for a mobile app promoting safer travel options for students and enhancing community engagement. The challenge entails designing and developing an infrastructure for such an app that prioritizes safety, accessibility, and sustainability. By facilitating safer travel arrangements, enabling location tracking, and providing emergency assistance features, the solution aims to contribute significantly to improving community safety."
+            "categoryName": "Unlocking Student Accessibility",
+            "categoryTitle": "Unlocking Student Accessibility: Leveraging Public Data for Density and Commute",
+            "categoryDescription": "The shortage of student housing in Canada, particularly in high-demand regions like the Greater Toronto Area (GTA), presents a multifaceted challenge. International and local students encounter significant hurdles in securing affordable, safe, and convenient accommodation, including issues such as unaffordability, overcrowding, exploitative practices, and substandard living conditions. Addressing these challenges requires innovative approaches that leverage data analytics and AI technologies to gain insights into the root causes of student housing issues and identify potential solutions.",
+            "categoryGuidedBy": "ProsperityGS",
+            "problemStatementDescription": "The challenge aims to utilize data analytics and AI solutions to analyze public datasets encompassing housing market data, demographic data, affordability data, zoning data, transportation data, and environmental data. Participants will delve into the root causes of the student housing shortage and propose actionable solutions to improve accessibility for students in high-demand areas like the GTA.",
+            "problemStatement": [],
+            "possibleSolutionDescription": "The solutions provided here serve as recommendations, offering guidance and inspiration. Participants are encouraged to explore and select any solution that effectively addresses the challenges at hand. They also have the flexibility to combine elements from multiple solutions, crafting a more comprehensive and tailored approach to meet their specific needs.",
+            "possibleSolution": [
+              {
+                "title": "Density Analysis and Predictive Modeling",
+                "description": "Participants will conduct in-depth analysis of population density trends and housing shortages in key areas of the GTA. Utilizing advanced statistical techniques and predictive modeling, they will identify regions with high student concentrations and forecast future housing demand. This analysis will inform strategic recommendations for increasing housing supply and distribution to meet the needs of students."
+              },
+              {
+                "title": "Commute Optimization",
+                "description": "Leveraging transportation data, participants will develop innovative solutions to optimize student commutes to educational institutions. Generative AI algorithms will be employed to suggest the best routes and modes of transportation based on real-time traffic data, public transit utilization patterns, and distance to schools. These solutions will aim to reduce commute times and improve accessibility to educational facilities."
+              },
+              {
+                "title": "Chatbot Integration",
+                "description": "Participants will integrate chatbot technology with AI capabilities to provide personalized housing solutions to students. These chatbots will utilize natural language processing (NLP) and generative AI to understand student preferences and suggest suitable housing options based on commute times, affordability, and other relevant factors. Additionally, chatbots will provide real-time updates on housing availability in specific areas, enhancing the overall housing search experience for students."
+              }
+            ]
           },
           {
-            "title": "Streamlining Rental Agreements and Promoting Sustainable Practices",
-            "description": "Navigating rental agreements can be complex for students, especially concerning utility usage and lease terms. Participants are tasked with developing solutions that establish clear guidelines on acceptable utility usage and lease terms while ensuring affordability and sustainability. Additionally, solutions should incorporate revenue models that demonstrate the sustainability of the system, potentially leveraging incentives for landlords to adopt green technologies and promote eco-friendly practices."
-          }
-        ],
-        "possibleSolutionDescription": "The solutions provided here serve as recommendations, offering guidance and inspiration. Participants are encouraged to explore and select any solution that effectively addresses the challenges at hand. They also have the flexibility to combine elements from multiple solutions, crafting a more comprehensive and tailored approach to meet their specific needs.",
-        "possibleSolution": [
-          {
-            "title": "Identity Verification Process",
-            "description": "Develop a comprehensive platform that utilizes advanced biometric authentication methods and blockchain technology to establish a secure and reliable identity verification system. This system will allow realtors and landlords to efficiently verify the identities of potential renters, reducing the risk of fraudulent activities in the rental process. By incorporating multifaceted verification methods and ensuring the integrity of user data through blockchain technology, the solution aims to instill trust and confidence among all stakeholders involved in the housing market."
-          },
-          {
-            "title": "Secure Rental Process",
-            "description": "Design and implement a user-friendly mobile application dedicated to enhancing the safety and security of students navigating urban environments, particularly in areas experiencing increasing crime rates. The app will offer a range of features such as real-time location tracking, safe travel options, emergency assistance, and access to community support networks. By providing students with a convenient and accessible platform for staying connected and informed about their surroundings, the solution aims to promote safer living experiences and empower students to make informed decisions regarding their safety."
-          },
-          {
-            "title": "Green Technology Integration and Cost Implications",
-            "description": "Promote the adoption of sustainable practices in the rental market by incentivizing landlords to integrate green technology solutions into their properties. This may include the installation of energy-efficient appliances, implementation of smart metering systems for utilities, and utilization of eco-friendly building materials. To offset initial investment costs, the solution will offer landlords incentives such as tax benefits or discounts on certification fees. By encouraging the adoption of green technology, the solution aims to create more environmentally friendly housing options while also reducing long-term rental costs for tenants."
-          },
-          {
-            "title": "Safety, Lease Terms, and Cybersecurity",
-            "description": "Develop a comprehensive platform that addresses various aspects of rental agreements, including utility usage, lease terms, and cybersecurity measures. The platform will provide landlords with tools for setting clear guidelines on utility usage and establishing transparent lease terms that comply with regulatory requirements. Additionally, robust cybersecurity measures such as encryption for sensitive data and secure payment gateways will be implemented to safeguard against scams and frauds in rental transactions. Furthermore, the platform will offer resources and guidance for tenants to understand their legal rights and protections, empowering them to navigate the rental process with confidence and security."
+            "categoryName": "Revolutionizing Homesharing Solution by building a Community",
+            "categoryTitle": "Revolutionizing Homesharing Solution by building a Community",
+            "categoryDescription": "In today's fast-paced world, many older adults wish to age gracefully in their own homes, surrounded by familiar faces and memories. However, soaring housing costs and limited availability often force them to consider alternative living arrangements. At the same time, students face their own set of challenges when it comes to accessing safe and affordable housing near their campuses. SpacesShared aims to address these pressing issues by facilitating homesharing arrangements that benefit both older adults and students. The challenge lies in bridging the gap between these two demographics and leveraging technology to create meaningful connections. With the help of local partners and innovative matching algorithms, SpacesShared seeks to foster trust and safety within the community while providing affordable housing options for students and supplemental income for older adults. Through targeted advertising campaigns, incentives for early adopters, and the development of a user-friendly platform, SpacesShared aims to revolutionize the homesharing experience. By embracing advanced technologies such as AI, machine learning, and voice recognition, SpacesShared hopes to enhance the platform's functionality and accessibility for users of all ages. Additionally, strict security measures and comprehensive support services will ensure the privacy and well-being of participants throughout their homesharing journey. Together, let's build a brighter future where older adults can age in place and students can thrive in their academic pursuits, all while fostering a sense of community and connection.",
+            "guidedBy": "SpacesShared",
+            "problemStatementDescription": "The challenge aims to utilize data analytics and AI solutions to analyze public datasets encompassing housing market data, demographic data, affordability data, zoning data, transportation data, and environmental data. Participants will delve into the root causes of the student housing shortage and propose actionable solutions to improve accessibility for students in high-demand areas like the GTA.",
+            "problemStatement": [
+              {
+                "title": "Community Engagement and Matching Algorithm Development",
+                "description": "Address the need for engaging local partners and organizing information sessions to raise awareness about the homesharing program. Develop a sophisticated matching algorithm that gathers comprehensive data from hosts and students to ensure optimal compatibility and successful homesharing experiences."
+              },
+              {
+                "title": "Trust, Safety, and Pricing",
+                "description": "Establish robust trust and safety measures, including stringent verification processes and feedback systems to build confidence within the community. Analyze market trends to determine affordable pricing that benefits both students and hosts while ensuring fair compensation."
+              },
+              {
+                "title": "Awareness, Incentives, and Platform Development",
+                "description": "Promote the homesharing program effectively through targeted advertising campaigns and incentives for early adopters. Develop a user-friendly platform with intuitive features and comprehensive services to cater to users of all ages and technical abilities."
+              },
+              {
+                "title": "Tech Innovation and Prototyping",
+                "description": "Leverage advanced technologies such as AI, machine learning, and voice recognition to enhance the homesharing platform. Develop AI-driven algorithms for matching and market analysis as well as integrate voice recognition technology to simplify user interactions."
+              },
+              {
+                "title": "Security, Privacy, and Support",
+                "description": "Ensure strict adherence to data protection standards and implement secure payment processing systems to safeguard user information and transactions. Provide comprehensive support services and educational resources to assist users throughout their homesharing journey."
+              }
+            ],
+            "possibleSolutionDescription": "The solutions provided here serve as recommendations, offering guidance and inspiration. Participants are encouraged to explore and select any solution that effectively addresses the challenges at hand. They also have the flexibility to combine elements from multiple solutions, crafting a more comprehensive and tailored approach to meet their specific needs.",
+            "possibleSolution": [
+              {
+                "title": "Community Engagement and Matching Algorithm Development",
+                "description": "Collaborate with local community centers, universities, and senior citizen associations to host information sessions and raise awareness about the homesharing program. Develop a sophisticated matching algorithm that collects data from hosts and students through comprehensive questionnaires, considering factors like lifestyle habits, preferences, and geographical preferences. Conduct workshops and info sessions to educate the community about the benefits of homesharing, address common concerns, and showcase successful matches."
+              },
+              {
+                "title": "Awareness, Incentives, and Platform Development",
+                "description": "Launch targeted advertising campaigns on social media and local media outlets to promote the homesharing program and highlight its benefits. Offer incentives for early adopters such as reduced service fees or recognition in community forums to encourage participation. Develop a user-friendly platform with intuitive design, large text, clear instructions, and voice recognition technology to enhance accessibility for users of all ages and technical abilities."
+              },
+              {
+                "title": "Tech Innovation and Prototyping",
+                "description": "Utilize AI and machine learning algorithms to analyze user data and improve the matching process based on feedback and user behavior. Integrate voice recognition technology into the platform to simplify user registration and data entry, making it more accessible for older adults. Develop a minimum viable product (MVP) with core functionalities such as the matching algorithm, pricing calculator, and user registration and conduct extensive user testing to gather feedback and make iterative improvements."
+              },
+              {
+                "title": "Security, Privacy, and Support",
+                "description": "Ensure compliance with data protection standards and regulations such as GDPR and implement secure encryption methods to protect user data. Implement secure payment processing systems, such as SSL encryption and tokenization, to safeguard financial transactions. Provide comprehensive support services, including technical support, conflict resolution, and legal advice, to assist users throughout their homesharing experience. "
+              }
+            ]
           }
         ]
       },
       {
-        "categoryName": "Unlocking Student Accessibility",
-        "categoryTitle": "Unlocking Student Accessibility: Leveraging Public Data for Density and Commute",
-        "categoryDescription": "The shortage of student housing in Canada, particularly in high-demand regions like the Greater Toronto Area (GTA), presents a multifaceted challenge. International and local students encounter significant hurdles in securing affordable, safe, and convenient accommodation, including issues such as unaffordability, overcrowding, exploitative practices, and substandard living conditions. Addressing these challenges requires innovative approaches that leverage data analytics and AI technologies to gain insights into the root causes of student housing issues and identify potential solutions.",
-        "categoryGuidedBy": "ProsperityGS",
-        "problemStatementDescription": "The challenge aims to utilize data analytics and AI solutions to analyze public datasets encompassing housing market data, demographic data, affordability data, zoning data, transportation data, and environmental data. Participants will delve into the root causes of the student housing shortage and propose actionable solutions to improve accessibility for students in high-demand areas like the GTA.",
-        "problemStatement": [],
-        "possibleSolutionDescription": "The solutions provided here serve as recommendations, offering guidance and inspiration. Participants are encouraged to explore and select any solution that effectively addresses the challenges at hand. They also have the flexibility to combine elements from multiple solutions, crafting a more comprehensive and tailored approach to meet their specific needs.",
-        "possibleSolution": [
+        "id": 2,
+        "name": "Affordable Housing",
+        "img": "/svgs/challengeSet/Affordable Housing Solutions.svg",
+        "detail": "This category allows you to work on solutions aimed at promoting accessible and affordable housing for everyone. This includes redefining rental management systems, streamlining homeownership processes, and creating sustainable housing models.",
+        "challenges": [
           {
-            "title": "Density Analysis and Predictive Modeling",
-            "description": "Participants will conduct in-depth analysis of population density trends and housing shortages in key areas of the GTA. Utilizing advanced statistical techniques and predictive modeling, they will identify regions with high student concentrations and forecast future housing demand. This analysis will inform strategic recommendations for increasing housing supply and distribution to meet the needs of students."
+            "categoryName": "Transforming Canadian housing with data science",
+            "categoryTitle": "Transforming Canadian housing with data science",
+            "categoryDescription": "Navigating the housing market, especially for international and domestic students, presents a myriad of challenges, including the risk of falling victim to scams and fraudulent practices. Realtors and landlords, on the other hand, face difficulties in efficiently verifying renters' identities while ensuring a secure rental process. The challenge at hand is to identify and address these obstacles through innovative solutions that prioritize the protection of students from housing fraud, empower them with knowledge for informed decisions, and streamline identity verification processes for real estate professionals. Participants are encouraged to collaborate in developing comprehensive strategies that encompass cybersecurity measures, awareness campaigns, community support networks, and resources for tenants' rights. By focusing on the challenges faced by both renters and landlords, the goal is to foster the creation of solutions that promote safety, transparency, and efficiency in the housing market.",
+            "categoryGuidedBy": "City of Brampton",
+            "problemStatementDescription": "Leverage Geographic Information System (GIS) techniques and data science methodologies to analyze location- specific data and market trends, enabling the identification of optimal housing development locations based on  factors like transportation, amenities, and employment opportunities. This analysis should inform targeted interventions for improving affordability and sustainability in housing initiatives, addressing challenges such as  inflated land costs, limited government funding, and regulatory constraints. Additionally, consider socio- economic factors like income inequality and population growth to ensure the development of diverse and  inclusive communities.",
+            "problemStatement": [],
+            "possibleSolution": [
+              {
+                "title": "Location Analysis",
+                "description": "Develop software that identifies underutilized land suitable for affordable housing construction in urban areas, considering factors like accessibility to transportation and essential services, to optimize housing development locations."
+              },
+              {
+                "title": "Market Trend Analysis",
+                "description": "Propose tax incentives and incentives for private realtors, developers, and investors to encourage participation in affordable housing projects, leveraging data-driven market analyses to inform policy interventions."
+              },
+              {
+                "title": "Policy and Regulatory Compliance",
+                "description": "Design frameworks that streamline regulatory processes such as zoning laws and building codes, ensuring compliance with quality and safety standards while facilitating the construction of affordable housing units."
+              },
+              {
+                "title": "Optimization of GIS Tools",
+                "description": "Enhance GIS tools through investments in research and development, leveraging technologies like cloudcomputing and AI for efficient data analysis and collaboration among stakeholders, with a focus on user-friendly design and comprehensive training to maximize accessibility and usability."
+              }
+            ]
           },
           {
-            "title": "Commute Optimization",
-            "description": "Leveraging transportation data, participants will develop innovative solutions to optimize student commutes to educational institutions. Generative AI algorithms will be employed to suggest the best routes and modes of transportation based on real-time traffic data, public transit utilization patterns, and distance to schools. These solutions will aim to reduce commute times and improve accessibility to educational facilities."
+            "categoryName": "Cybersecurity Compliance",
+            "categoryTitle": "Cybersecurity Compliance",
+            "categoryDescription": "As affordable housing initiatives continue to embrace digital systems and smart technologies for improved efficiency and connectivity, the imperative to address cybersecurity concerns becomes increasingly critical. The challenge at hand is to confront these cybersecurity risks head-on and devise innovative solutions to fortify the digital infrastructure of affordable housing projects. Participants are called upon to discern potential vulnerabilities within the digital systems utilized in affordable housing, such as smart locks, energy management systems, and resident data management platforms. Furthermore, participants must propose robust cybersecurity measures to shield against threats like unauthorized access, data breaches, ransomware attacks, and breaches of privacy. Feasible solution areas encompass Security Assessment and Vulnerability Management, Secure Access Control Systems, Data Protection and Privacy Preservation, Cybersecurity Awareness and Training, as well as Incident Response and Recovery Planning.",
+            "categoryGuidedBy": "Oppos",
+            "problemStatementDescription": "Affordable housing initiatives encounter significant challenges in upholding cybersecurity regulations due to insufficient resources and technological infrastructure. Residential developers and organizations grapple with establishing processes, tools, and funds for robust cybersecurity measures, rendering them susceptible to threats like data breaches, phishing, identity theft, and ransomware attacks. The involvement of various stakeholders and service providers in affordable housing projects further complicates compliance initiatives due to disparities in security protocols and risk management practices. The absence of standardized cybersecurity frameworks, updated with current regulatory requirements, coupled with the rapid pace of digitalization, introduces new vulnerabilities, necessitating proactive measures to safeguard sensitive information while ensuring accessibility and affordability for home builders and residents.",
+            "problemStatement": [
+              {
+                "title": "Challenge Statement #1",
+                "description": "Affordable housing initiatives encounter significant challenges in upholding cybersecurity regulations due to insufficient resources and technological infrastructure. Residential developers and organizations grapple with establishing processes, tools, and funds for robust cybersecurity measures, rendering them susceptible to threats like data breaches, phishing, identity theft, and ransomware attacks. The involvement of various stakeholders and service providers in affordable housing projects further complicates compliance initiatives due to disparities in security protocols and risk management practices. The absence of standardized cybersecurity frameworks, updated with current regulatory requirements, coupled with the rapid pace of digitalization, introduces new vulnerabilities, necessitating proactive measures to safeguard sensitive information while ensuring accessibility and affordability for home builders and residents."
+              },
+              {
+                "title": "Challenge Statement #2",
+                "description": "Threat actors exploit advanced AI tools such as ChatGPT for crafting sophisticated phishing emails and conducting social engineering attacks. They leverage deepfake technology to deceive victims, mimicking trusted individuals to perpetrate fraud and compromise security. Large Language Models (LLMs) are also harnessed for disinformation campaigns and spear-phishing attacks targeting individuals and organizations, including those within housing communities lacking robust cybersecurity defenses."
+              }
+            ],
+            "possibleSolution": [
+              {
+                "title": "AI Integration for Threats and Compliance Risks Detection",
+                "description": "By integrating AI, participants can develop software capable of detecting phishing attempts, identity theft, and predicting cybersecurity threats and compliance risks."
+              },
+              {
+                "title": "Proactive Security Assessments and Contingencies",
+                "description": "Participants can create applications for conducting regular security assessments of housing digital infrastructure, databases, and networks. These assessments should identify vulnerabilities and implement mitigation and contingency plans promptly to protect sensitive resident data."
+              },
+              {
+                "title": "Cybersecurity Standards and Regulatory Changes Monitoring",
+                "description": "Solutions can be designed to monitor digital information security standards and regulatory changes. This software would assess how these changes affect current security protocols and infrastructure in affordable housing, providing real-time recommendations and agile implementations to comply with the latest regulations."
+              },
+              {
+                "title": "Compliance Process Automation and Consolidated Audits",
+                "description": "Designing solutions for automating compliance processes and consolidating audits can enhance efficiency, reduce duplication, and establish consistent compliance across housing developers and residential management organizations, thus bolstering protection against emerging threats and cyberattacks."
+              },
+              {
+                "title": "Safeguard from AI-driven Social Engineering Attacks and LLMs-leveraged Frauds",
+                "description": "Participants can devise AI-based security measures, authentication enhancements, and user training programs to safeguard against these cyber threats. Additionally, building LLM-powered co-pilots can facilitate natural language-based inquiries for fraud and cybercrime prevention in residential communities."
+              }
+            ]
           },
           {
-            "title": "Chatbot Integration",
-            "description": "Participants will integrate chatbot technology with AI capabilities to provide personalized housing solutions to students. These chatbots will utilize natural language processing (NLP) and generative AI to understand student preferences and suggest suitable housing options based on commute times, affordability, and other relevant factors. Additionally, chatbots will provide real-time updates on housing availability in specific areas, enhancing the overall housing search experience for students."
+            "categoryName": "Streamlining Construction Process through Innovative Technology",
+            "categoryTitle": "Streamlining Construction Process through Innovative Technology",
+            "categoryDescription": "Renovation projects, whether in residential or commercial properties, often encounter numerous challenges that can hinder efficiency and drive-up costs. From navigating complex permit processes to sourcing sustainable materials and coordinating with contractors, there are various pain points that stakeholders face. Additionally, ensuring compliance with regulatory standards while adhering to sustainability goals adds another layer of complexity to renovation endeavors. In this context, the challenge is to identify and address the key obstacles encountered throughout the renovation process, with a focus on streamlining operations, reducing costs, and enhancing sustainability practices. By understanding these challenges, participants can develop innovative technological solutions to revolutionize the renovation industry and facilitate smoother, more cost-effective, and sustainable renovation projects. Through this challenge, participants are encouraged to delve into the intricacies of renovation processes, identifying pain points and bottlenecks that impede progress. By gaining insights into these challenges, participants can then devise cutting-edge solutions that leverage digital tools and platforms to streamline project management, improve communication among stakeholders, and ensure compliance with regulatory and sustainability requirements. The goal is to foster the development of solutions that not only address immediate challenges but also pave the way for a more efficient, transparent, and sustainable renovation industry.",
+            "categoryGuidedBy": "Renoshare",
+            "problemStatementDescription": "Participants are invited to develop cutting-edge technological solutions aimed at simplifying and accelerating the construction process. These solutions should leverage digital tools and platforms to facilitate better project management, enhance coordination among various parties involved (homeowners, contractors, regulatory bodies) and ensure that renovations are carried out efficiently, cost-effectively, and sustainably.",
+            "problemStatement": [],
+            "possibleSolution": [
+              {
+                "title": "Smart Project Management Tools",
+                "description": "Advanced project management software tailored for renovation projects, incorporating features like automated scheduling, real-time progress tracking, and budget management. These tools should facilitate seamless communication between all stakeholders and offer insights into potential delays or cost overruns."
+              },
+              {
+                "title": "Digital Compliance and Documentation Assistant",
+                "description": "An AI-driven tool that assists in ensuring all renovation work meets local building codes and sustainability standards. It automatically updates users on regulatory changes and provides a secure platform for storing and managing all project documentation."
+              },
+              {
+                "title": "Sustainable Material Sourcing App",
+                "description": "A mobile application that connects renovators with suppliers of eco-friendly and sustainable building materials. The app should offer information on the environmental impact of different materials and help users make informed decisions that align with sustainability goals while supporting ethical and environmentally responsible practices."
+              },
+              {
+                "title": "Automated Material Supplier Quotes",
+                "description": "A system that automates the process of obtaining quotes from material suppliers. This platform could assess project specifications and requirements to generate accurate and competitive quotes from multiple suppliers, saving time and effort for developers and contractors."
+              },
+              {
+                "title": "Copilot for Building Code Compliance",
+                "description": "A digital tool that assists architects, engineers, and developers in navigating complex building codes and regulations during the planning and design phase. This tool could provide real-time guidance on code requirements, flag potential compliance issues, and offer solutions to ensure adherence to local building standards."
+              },
+              {
+                "title": "Construction Financing Solutions",
+                "description": "Explore innovative options for financing new construction projects, including support for land acquisition, construction costs, and infrastructure development. Consider flexible payment terms like 'buy now, pay later' arrangements to boost cash flow and contractor capacity."
+              },
+              {
+                "title": "Revenue Model Consideration",
+                "description": "To ensure economic viability, the proposed solutions should consider various revenue models such as subscription fees for access to digital platforms, transaction fees for contractor matchings, and premium features for advanced project management tools."
+              }
+            ]
           }
         ]
       },
       {
-        "categoryName": "Revolutionizing Homesharing Solution by building a Community",
-        "categoryTitle": "Revolutionizing Homesharing Solution by building a Community",
-        "categoryDescription": "In today's fast-paced world, many older adults wish to age gracefully in their own homes, surrounded by familiar faces and memories. However, soaring housing costs and limited availability often force them to consider alternative living arrangements. At the same time, students face their own set of challenges when it comes to accessing safe and affordable housing near their campuses. SpacesShared aims to address these pressing issues by facilitating homesharing arrangements that benefit both older adults and students. The challenge lies in bridging the gap between these two demographics and leveraging technology to create meaningful connections. With the help of local partners and innovative matching algorithms, SpacesShared seeks to foster trust and safety within the community while providing affordable housing options for students and supplemental income for older adults. Through targeted advertising campaigns, incentives for early adopters, and the development of a user-friendly platform, SpacesShared aims to revolutionize the homesharing experience. By embracing advanced technologies such as AI, machine learning, and voice recognition, SpacesShared hopes to enhance the platform's functionality and accessibility for users of all ages. Additionally, strict security measures and comprehensive support services will ensure the privacy and well-being of participants throughout their homesharing journey. Together, let's build a brighter future where older adults can age in place and students can thrive in their academic pursuits, all while fostering a sense of community and connection.",
-        "guidedBy": "SpacesShared",
-        "problemStatementDescription": "The challenge aims to utilize data analytics and AI solutions to analyze public datasets encompassing housing market data, demographic data, affordability data, zoning data, transportation data, and environmental data. Participants will delve into the root causes of the student housing shortage and propose actionable solutions to improve accessibility for students in high-demand areas like the GTA.",
-        "problemStatement": [
+        "id": 3,
+        "name": "Community Well-being",
+        "img": "/svgs/challengeSet/Community Well-being.svg",
+        "detail": "This category focuses on housing challenges concerning social health, and community engagement. It touches areas of healthcare, mental health support, recreational spaces or any aspect that can enhance the quality of life of a community. This includes designing health-integrated living spaces, creating digital inclusion hubs, and more.",
+        "challenges": [
           {
-            "title": "Community Engagement and Matching Algorithm Development",
-            "description": "Address the need for engaging local partners and organizing information sessions to raise awareness about the homesharing program. Develop a sophisticated matching algorithm that gathers comprehensive data from hosts and students to ensure optimal compatibility and successful homesharing experiences."
+            "categoryName": "Newcomers Trust System",
+            "categoryTitle": "Newcomers Trust System",
+            "categoryDescription": "Residents in Canada are dealing with a housing crisis, and there's an opportunity, especially in student housing, by using technology, creativity, and by involving the community to find new solutions. The main goal should be to make housing affordable, sustainable, safe, and fostering a strong sense of community to enhance the overall living experience. Living with roommates is common for students, offering a chance to build lasting connections and friendships. This includes examining how they establish trust in choosing roommates, trusting others to pay for work, and seeking advice. The social network formed in a new environment plays a significant role in influencing happiness, health, and overall quality of life.",
+            "categoryGuidedBy": "3 OF CUPS",
+            "problemStatementDescription": "“The Impact of Roommate Dynamics on Student Well-being and Social Networks”",
+            "problemStatement": [
+              {
+                "title": "Stakeholder Analysis",
+                "description": "Conduct a detailed analysis of various stakeholders in housing, including developers, contractors, government bodies, renters, landlords, financial institutions, lenders, not-for-profit organizations, housing assistance programs, and efforts for neighborhood integration. Understanding the diverse needs and preferences of community members will allow for targeted interventions to address specific issues and opportunities."
+              },
+              {
+                "title": "Reshaping Student Housing",
+                "description": "Embrace the opportunity to reshape student housing by harnessing technology, ingenuity, and community involvement to craft inventive solutions that confront the complex hurdles faced by students. Endeavors should center on affordability, sustainability, safety, and fostering community cohesion, enriching the holistic student living experience."
+              },
+              {
+                "title": "Roommate Dynamics and Social Networks",
+                "description": "Recognize the significance of students living with multiple roommates and the potential for enriching experiences and lifelong bonds. Explore how roommate dynamics and social networks influence students' happiness, health, and overall quality of life in a new environment, whether at a new school or in an entirely new country."
+              }
+            ],
+            "possibleSolution": [
+              {
+                "title": "Innovative Technological Solutions",
+                "description": "Participants can leverage technologies such as AI, VR, mobile apps, and wearables to enhance the accommodation search process, improve affordability, foster community ties, and provide data-driven insights. These solutions aim to create a safer, more efficient, and inclusive environment for students."
+              },
+              {
+                "title": "Roommate Cooperation and Trust Systems",
+                "description": "Develop systems to facilitate trust-building and cooperation among roommates. This could involve creating support network systems where roommates can connect with others facing similar challenges. Implement gamification elements to make the experience enjoyable and promote bonding among roommates through fun tasks and challenges."
+              },
+              {
+                "title": "Communication Applications",
+                "description": "Design communication applications that facilitate transparent and open communication between roommates. Ensure anonymity for feedback and communication to encourage honest dialogue. Ultimately, these applications aim to facilitate cooperation and trust between roommates, enhancing the overall living experience."
+              }
+            ]
           },
           {
-            "title": "Trust, Safety, and Pricing",
-            "description": "Establish robust trust and safety measures, including stringent verification processes and feedback systems to build confidence within the community. Analyze market trends to determine affordable pricing that benefits both students and hosts while ensuring fair compensation."
+            "categoryName": "Empowering community well-being through mobile solutions",
+            "categoryTitle": "Empowering community well-being through mobile solutions",
+            "categoryDescription": "Homelessness and housing insecurity are complex issues exacerbated by mental health disorders and substance use challenges. This challenge calls for the conceptualization and development of mobile applications that offer critical support and resources tailored to individuals facing homelessness or housing insecurity due to mental health issues or substance addictions. Create apps that provide evidence-based mental health interventions, coping strategies, and addiction recovery support tailored to the unique needs of homeless and housing insecure individuals. This challenge also calls for the creation of mobile applications aimed at empowering at-risk individuals to take proactive measures to address their mental health and substance use challenges before they escalate to homelessness. Participants are tasked with designing user-friendly apps that provide education, support, and resources to help individuals manage their conditions effectively and maintain stable housing.",
+            "categoryGuidedBy": "CAMH",
+            "problemStatementDescription": "Homelessness and housing insecurity are multifaceted issues often intertwined with mental health disorders, substance use, and gambling challenges. To address these complexities, we invite participants to conceptualize and develop mobile applications that provide critical support and resources tailored to individuals facing homelessness or housing insecurity due to mental health issues or substance addictions.",
+            "problemStatement": [],
+            "possibleSolution": [
+              {
+                "title": "Self-Assessment App",
+                "description": "Participants should explore the creation of mobile applications aimed at empowering at-risk individuals to proactively manage their mental health and substance use challenges before they escalate to homelessness. These applications should provide user-friendly interfaces that offer education, support, and resources to help individuals effectively manage their conditions and maintain stable housing."
+              },
+              {
+                "title": "Crisis Response App",
+                "description": "Creating a comprehensive crisis response feature, the app will provide immediate access to hotlines, emergency shelters, and mental health professionals. By fostering community collaboration, we'll establish partnerships with local organizations and government agencies to ensure the app aligns with existing resources and addresses homelessness and housing insecurity effectively."
+              },
+              {
+                "title": "Community Resource Mapping App",
+                "description": "Create a mobile application that maps out community resources available for individuals facing homelessness or housing insecurity, including shelters, food banks, healthcare facilities, and support services by different organizations. This app can utilize geolocation technology to connect users with nearby resources and provide detailed information and directions."
+              }
+            ]
           },
           {
-            "title": "Awareness, Incentives, and Platform Development",
-            "description": "Promote the homesharing program effectively through targeted advertising campaigns and incentives for early adopters. Develop a user-friendly platform with intuitive features and comprehensive services to cater to users of all ages and technical abilities."
+            "categoryName": "Digitalized apprenticeship programs for construction trades",
+            "categoryTitle": "Digitalized apprenticeship programs for construction trades",
+            "categoryDescription": "The challenge is centered on transforming trades training, specifically to provide more manpower for the housing initiative and earning opportunities to people looking for jobs. Trades can include carpentry, construction, and plumbing to align closely with the contemporary demands of the housing sector. Traditional construction education often overlooks modern housing essentials, lacking exposure to eco-friendly materials, sustainable practices, and safety considerations specific to housing projects. Aspiring tradespeople require updated skills relevant to evolving housing needs.",
+            "categoryGuidedBy": "Skill Squirrel",
+            "problemStatementDescription": "As you delve into solving the Affordable Housing Solutions challenge, these ideas offer potential directions for your projects. While these suggestions serve as starting points, feel free to explore additional innovative approaches. Your solutions should aim to tackle the complexities of affordable housing using technology, policy, community engagement, and sustainability to make a tangible impact.",
+            "problemStatement": [
+              {
+                "title": "Knowledge Transfer",
+                "description": "Mitigating the lack of proper knowledge transfer within the industry. Developing strategies to capture and transfer the expertise of experienced workers to the next generation. Ensuring that instructors are adequately trained to facilitate both traditional and digital components of the program. Address potential resistance or lack of familiarity among instructors with new digital tools."
+              },
+              {
+                "title": "Industry Relevance",
+                "description": "Ensuring that the digital apprenticeship programs align with current industry standards and practices. Regularly updating content to reflect changes and advancements in the relevant trades. Addressing the shortage of young workers in the construction industry through targeted program design."
+              },
+              {
+                "title": "User Engagement",
+                "description": "Maintaining participant engagement throughout the program, especially in digital modules that may lack the hands-on aspect. Addressing potential boredom or disinterest in repetitive digital content."
+              },
+              {
+                "title": "Inadequate Understanding of Affordable Housing Design",
+                "description": "The challenge lies in continuously updating educational content to adapt rapid technological advancements in the construction industry, specifically focusing on designing and building affordable housing for diverse socio-economic groups."
+              }
+            ],
+            "possibleSolution": [
+              {
+                "title": "Remote Mentorship by Housing Experts",
+                "description": "Facilitate remote mentorship programs where experienced housing professionals use digital tools to transfer knowledge. Enhance this with training modules that focus on bridging the gap between traditional methods and digital technologies. To overcome instructors' resistance to digital tools, provide specialized training sessions."
+              },
+              {
+                "title": "Dynamic Program with Industry Input",
+                "description": "Regularly update the apprenticeship program's content by collaborating with industry experts. This ensures alignment with current industry standards and practices. Additionally, integrate targeted modules aimed at young workers, focusing on the evolving trends and innovations in the construction industry, making the program more appealing and relevant to this demographic."
+              },
+              {
+                "title": "Immersive AR/VR Simulations",
+                "description": "Create immersive AR/VR simulations in construction industry scenarios that involves replicating authentic construction scenarios, providing a virtual space for individuals to engage in various tasks like carpentry, construction work, electrical installations, and plumbing. This approach helps in maintaining engagement, especially for participants who might find traditional digital content less stimulating. Introduce gamification elements in these simulations to make learning more interactive and enjoyable."
+              },
+              {
+                "title": "Specialized Affordable Housing Design Modules",
+                "description": "Create dedicated modules within the digital apprenticeship program that focus specifically on affordable housing design, including the latest technological advancements in construction. These modules should cover innovative, cost-effective construction methods and materials, sustainable designs, and regulatory compliance."
+              },
+              {
+                "title": "AI-Powered Virtual Mentoring and Chatbots",
+                "description": "Implement AI-powered chatbots within the platform to offer immediate assistance, guiding participants through digital modules and swiftly addressing queries. Simultaneously create a virtual mentoring system leveraging AI technology to deliver personalized guidance and feedback. This system evaluates participants' performance and learning styles, providing tailored support accordingly. Additionally, develop an AI-driven learning pathway that customizes learning routes based on individual preferences and aptitudes. Introduce multilingual features like captions and translation services to ensure content accessibility for a diverse participant base, fostering inclusivity and accommodating varied linguistic backgrounds. These combined AI-driven solutions promise personalized support, guidance, and inclusive learning experiences for all participants."
+              }
+            ]
           },
           {
-            "title": "Tech Innovation and Prototyping",
-            "description": "Leverage advanced technologies such as AI, machine learning, and voice recognition to enhance the homesharing platform. Develop AI-driven algorithms for matching and market analysis as well as integrate voice recognition technology to simplify user interactions."
-          },
-          {
-            "title": "Security, Privacy, and Support",
-            "description": "Ensure strict adherence to data protection standards and implement secure payment processing systems to safeguard user information and transactions. Provide comprehensive support services and educational resources to assist users throughout their homesharing journey."
-          }
-        ],
-        "possibleSolutionDescription": "The solutions provided here serve as recommendations, offering guidance and inspiration. Participants are encouraged to explore and select any solution that effectively addresses the challenges at hand. They also have the flexibility to combine elements from multiple solutions, crafting a more comprehensive and tailored approach to meet their specific needs.",
-        "possibleSolution": [
-          {
-            "title": "Community Engagement and Matching Algorithm Development",
-            "description": "Collaborate with local community centers, universities, and senior citizen associations to host information sessions and raise awareness about the homesharing program. Develop a sophisticated matching algorithm that collects data from hosts and students through comprehensive questionnaires, considering factors like lifestyle habits, preferences, and geographical preferences. Conduct workshops and info sessions to educate the community about the benefits of homesharing, address common concerns, and showcase successful matches."
-          },
-          {
-            "title": "Awareness, Incentives, and Platform Development",
-            "description": "Launch targeted advertising campaigns on social media and local media outlets to promote the homesharing program and highlight its benefits. Offer incentives for early adopters such as reduced service fees or recognition in community forums to encourage participation. Develop a user-friendly platform with intuitive design, large text, clear instructions, and voice recognition technology to enhance accessibility for users of all ages and technical abilities."
-          },
-          {
-            "title": "Tech Innovation and Prototyping",
-            "description": "Utilize AI and machine learning algorithms to analyze user data and improve the matching process based on feedback and user behavior. Integrate voice recognition technology into the platform to simplify user registration and data entry, making it more accessible for older adults. Develop a minimum viable product (MVP) with core functionalities such as the matching algorithm, pricing calculator, and user registration and conduct extensive user testing to gather feedback and make iterative improvements."
-          },
-          {
-            "title": "Security, Privacy, and Support",
-            "description": "Ensure compliance with data protection standards and regulations such as GDPR and implement secure encryption methods to protect user data. Implement secure payment processing systems, such as SSL encryption and tokenization, to safeguard financial transactions. Provide comprehensive support services, including technical support, conflict resolution, and legal advice, to assist users throughout their homesharing experience. "
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "name": "Affordable Housing",
-    "img": "/svgs/challengeSet/Affordable Housing Solutions.svg",
-    "detail": "This category allows you to work on solutions aimed at promoting accessible and affordable housing for everyone. This includes redefining rental management systems, streamlining homeownership processes, and creating sustainable housing models.",
-    "challenges": [
-      {
-        "categoryName": "Transforming Canadian housing with data science",
-        "categoryTitle": "Transforming Canadian housing with data science",
-        "categoryDescription": "Navigating the housing market, especially for international and domestic students, presents a myriad of challenges, including the risk of falling victim to scams and fraudulent practices. Realtors and landlords, on the other hand, face difficulties in efficiently verifying renters' identities while ensuring a secure rental process. The challenge at hand is to identify and address these obstacles through innovative solutions that prioritize the protection of students from housing fraud, empower them with knowledge for informed decisions, and streamline identity verification processes for real estate professionals. Participants are encouraged to collaborate in developing comprehensive strategies that encompass cybersecurity measures, awareness campaigns, community support networks, and resources for tenants' rights. By focusing on the challenges faced by both renters and landlords, the goal is to foster the creation of solutions that promote safety, transparency, and efficiency in the housing market.",
-        "categoryGuidedBy": "City of Brampton",
-        "problemStatementDescription": "Leverage Geographic Information System (GIS) techniques and data science methodologies to analyze location- specific data and market trends, enabling the identification of optimal housing development locations based on  factors like transportation, amenities, and employment opportunities. This analysis should inform targeted interventions for improving affordability and sustainability in housing initiatives, addressing challenges such as  inflated land costs, limited government funding, and regulatory constraints. Additionally, consider socio- economic factors like income inequality and population growth to ensure the development of diverse and  inclusive communities.",
-        "problemStatement": [],
-        "possibleSolution": [
-          {
-            "title": "Location Analysis",
-            "description": "Develop software that identifies underutilized land suitable for affordable housing construction in urban areas, considering factors like accessibility to transportation and essential services, to optimize housing development locations."
-          },
-          {
-            "title": "Market Trend Analysis",
-            "description": "Propose tax incentives and incentives for private realtors, developers, and investors to encourage participation in affordable housing projects, leveraging data-driven market analyses to inform policy interventions."
-          },
-          {
-            "title": "Policy and Regulatory Compliance",
-            "description": "Design frameworks that streamline regulatory processes such as zoning laws and building codes, ensuring compliance with quality and safety standards while facilitating the construction of affordable housing units."
-          },
-          {
-            "title": "Optimization of GIS Tools",
-            "description": "Enhance GIS tools through investments in research and development, leveraging technologies like cloudcomputing and AI for efficient data analysis and collaboration among stakeholders, with a focus on user-friendly design and comprehensive training to maximize accessibility and usability."
-          }
-        ]
-      },
-      {
-        "categoryName": "Cybersecurity Compliance",
-        "categoryTitle": "Cybersecurity Compliance",
-        "categoryDescription": "As affordable housing initiatives continue to embrace digital systems and smart technologies for improved efficiency and connectivity, the imperative to address cybersecurity concerns becomes increasingly critical. The challenge at hand is to confront these cybersecurity risks head-on and devise innovative solutions to fortify the digital infrastructure of affordable housing projects. Participants are called upon to discern potential vulnerabilities within the digital systems utilized in affordable housing, such as smart locks, energy management systems, and resident data management platforms. Furthermore, participants must propose robust cybersecurity measures to shield against threats like unauthorized access, data breaches, ransomware attacks, and breaches of privacy. Feasible solution areas encompass Security Assessment and Vulnerability Management, Secure Access Control Systems, Data Protection and Privacy Preservation, Cybersecurity Awareness and Training, as well as Incident Response and Recovery Planning.",
-        "categoryGuidedBy": "Oppos",
-        "problemStatementDescription": "Affordable housing initiatives encounter significant challenges in upholding cybersecurity regulations due to insufficient resources and technological infrastructure. Residential developers and organizations grapple with establishing processes, tools, and funds for robust cybersecurity measures, rendering them susceptible to threats like data breaches, phishing, identity theft, and ransomware attacks. The involvement of various stakeholders and service providers in affordable housing projects further complicates compliance initiatives due to disparities in security protocols and risk management practices. The absence of standardized cybersecurity frameworks, updated with current regulatory requirements, coupled with the rapid pace of digitalization, introduces new vulnerabilities, necessitating proactive measures to safeguard sensitive information while ensuring accessibility and affordability for home builders and residents.",
-        "problemStatement": [
-          {
-            "title": "Challenge Statement #1",
-            "description": "Affordable housing initiatives encounter significant challenges in upholding cybersecurity regulations due to insufficient resources and technological infrastructure. Residential developers and organizations grapple with establishing processes, tools, and funds for robust cybersecurity measures, rendering them susceptible to threats like data breaches, phishing, identity theft, and ransomware attacks. The involvement of various stakeholders and service providers in affordable housing projects further complicates compliance initiatives due to disparities in security protocols and risk management practices. The absence of standardized cybersecurity frameworks, updated with current regulatory requirements, coupled with the rapid pace of digitalization, introduces new vulnerabilities, necessitating proactive measures to safeguard sensitive information while ensuring accessibility and affordability for home builders and residents."
-          },
-          {
-            "title": "Challenge Statement #2",
-            "description": "Threat actors exploit advanced AI tools such as ChatGPT for crafting sophisticated phishing emails and conducting social engineering attacks. They leverage deepfake technology to deceive victims, mimicking trusted individuals to perpetrate fraud and compromise security. Large Language Models (LLMs) are also harnessed for disinformation campaigns and spear-phishing attacks targeting individuals and organizations, including those within housing communities lacking robust cybersecurity defenses."
-          }
-        ],
-        "possibleSolution": [
-          {
-            "title": "AI Integration for Threats and Compliance Risks Detection",
-            "description": "By integrating AI, participants can develop software capable of detecting phishing attempts, identity theft, and predicting cybersecurity threats and compliance risks."
-          },
-          {
-            "title": "Proactive Security Assessments and Contingencies",
-            "description": "Participants can create applications for conducting regular security assessments of housing digital infrastructure, databases, and networks. These assessments should identify vulnerabilities and implement mitigation and contingency plans promptly to protect sensitive resident data."
-          },
-          {
-            "title": "Cybersecurity Standards and Regulatory Changes Monitoring",
-            "description": "Solutions can be designed to monitor digital information security standards and regulatory changes. This software would assess how these changes affect current security protocols and infrastructure in affordable housing, providing real-time recommendations and agile implementations to comply with the latest regulations."
-          },
-          {
-            "title": "Compliance Process Automation and Consolidated Audits",
-            "description": "Designing solutions for automating compliance processes and consolidating audits can enhance efficiency, reduce duplication, and establish consistent compliance across housing developers and residential management organizations, thus bolstering protection against emerging threats and cyberattacks."
-          },
-          {
-            "title": "Safeguard from AI-driven Social Engineering Attacks and LLMs-leveraged Frauds",
-            "description": "Participants can devise AI-based security measures, authentication enhancements, and user training programs to safeguard against these cyber threats. Additionally, building LLM-powered co-pilots can facilitate natural language-based inquiries for fraud and cybercrime prevention in residential communities."
-          }
-        ]
-      },
-      {
-        "categoryName": "Streamlining Construction Process through Innovative Technology",
-        "categoryTitle": "Streamlining Construction Process through Innovative Technology",
-        "categoryDescription": "Renovation projects, whether in residential or commercial properties, often encounter numerous challenges that can hinder efficiency and drive-up costs. From navigating complex permit processes to sourcing sustainable materials and coordinating with contractors, there are various pain points that stakeholders face. Additionally, ensuring compliance with regulatory standards while adhering to sustainability goals adds another layer of complexity to renovation endeavors. In this context, the challenge is to identify and address the key obstacles encountered throughout the renovation process, with a focus on streamlining operations, reducing costs, and enhancing sustainability practices. By understanding these challenges, participants can develop innovative technological solutions to revolutionize the renovation industry and facilitate smoother, more cost-effective, and sustainable renovation projects. Through this challenge, participants are encouraged to delve into the intricacies of renovation processes, identifying pain points and bottlenecks that impede progress. By gaining insights into these challenges, participants can then devise cutting-edge solutions that leverage digital tools and platforms to streamline project management, improve communication among stakeholders, and ensure compliance with regulatory and sustainability requirements. The goal is to foster the development of solutions that not only address immediate challenges but also pave the way for a more efficient, transparent, and sustainable renovation industry.",
-        "categoryGuidedBy": "Renoshare",
-        "problemStatementDescription": "Participants are invited to develop cutting-edge technological solutions aimed at simplifying and accelerating the construction process. These solutions should leverage digital tools and platforms to facilitate better project management, enhance coordination among various parties involved (homeowners, contractors, regulatory bodies) and ensure that renovations are carried out efficiently, cost-effectively, and sustainably.",
-        "problemStatement": [],
-        "possibleSolution": [
-          {
-            "title": "Smart Project Management Tools",
-            "description": "Advanced project management software tailored for renovation projects, incorporating features like automated scheduling, real-time progress tracking, and budget management. These tools should facilitate seamless communication between all stakeholders and offer insights into potential delays or cost overruns."
-          },
-          {
-            "title": "Digital Compliance and Documentation Assistant",
-            "description": "An AI-driven tool that assists in ensuring all renovation work meets local building codes and sustainability standards. It automatically updates users on regulatory changes and provides a secure platform for storing and managing all project documentation."
-          },
-          {
-            "title": "Sustainable Material Sourcing App",
-            "description": "A mobile application that connects renovators with suppliers of eco-friendly and sustainable building materials. The app should offer information on the environmental impact of different materials and help users make informed decisions that align with sustainability goals while supporting ethical and environmentally responsible practices."
-          },
-          {
-            "title": "Automated Material Supplier Quotes",
-            "description": "A system that automates the process of obtaining quotes from material suppliers. This platform could assess project specifications and requirements to generate accurate and competitive quotes from multiple suppliers, saving time and effort for developers and contractors."
-          },
-          {
-            "title": "Copilot for Building Code Compliance",
-            "description": "A digital tool that assists architects, engineers, and developers in navigating complex building codes and regulations during the planning and design phase. This tool could provide real-time guidance on code requirements, flag potential compliance issues, and offer solutions to ensure adherence to local building standards."
-          },
-          {
-            "title": "Construction Financing Solutions",
-            "description": "Explore innovative options for financing new construction projects, including support for land acquisition, construction costs, and infrastructure development. Consider flexible payment terms like 'buy now, pay later' arrangements to boost cash flow and contractor capacity."
-          },
-          {
-            "title": "Revenue Model Consideration",
-            "description": "To ensure economic viability, the proposed solutions should consider various revenue models such as subscription fees for access to digital platforms, transaction fees for contractor matchings, and premium features for advanced project management tools."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "name": "Community Well-being",
-    "img": "/svgs/challengeSet/Community Well-being.svg",
-    "detail": "This category focuses on housing challenges concerning social health, and community engagement. It touches areas of healthcare, mental health support, recreational spaces or any aspect that can enhance the quality of life of a community. This includes designing health-integrated living spaces, creating digital inclusion hubs, and more.",
-    "challenges": [
-      {
-        "categoryName": "Newcomers Trust System",
-        "categoryTitle": "Newcomers Trust System",
-        "categoryDescription": "Residents in Canada are dealing with a housing crisis, and there's an opportunity, especially in student housing, by using technology, creativity, and by involving the community to find new solutions. The main goal should be to make housing affordable, sustainable, safe, and fostering a strong sense of community to enhance the overall living experience. Living with roommates is common for students, offering a chance to build lasting connections and friendships. This includes examining how they establish trust in choosing roommates, trusting others to pay for work, and seeking advice. The social network formed in a new environment plays a significant role in influencing happiness, health, and overall quality of life.",
-        "categoryGuidedBy": "3 OF CUPS",
-        "problemStatementDescription": "“The Impact of Roommate Dynamics on Student Well-being and Social Networks”",
-        "problemStatement": [
-          {
-            "title": "Stakeholder Analysis",
-            "description": "Conduct a detailed analysis of various stakeholders in housing, including developers, contractors, government bodies, renters, landlords, financial institutions, lenders, not-for-profit organizations, housing assistance programs, and efforts for neighborhood integration. Understanding the diverse needs and preferences of community members will allow for targeted interventions to address specific issues and opportunities."
-          },
-          {
-            "title": "Reshaping Student Housing",
-            "description": "Embrace the opportunity to reshape student housing by harnessing technology, ingenuity, and community involvement to craft inventive solutions that confront the complex hurdles faced by students. Endeavors should center on affordability, sustainability, safety, and fostering community cohesion, enriching the holistic student living experience."
-          },
-          {
-            "title": "Roommate Dynamics and Social Networks",
-            "description": "Recognize the significance of students living with multiple roommates and the potential for enriching experiences and lifelong bonds. Explore how roommate dynamics and social networks influence students' happiness, health, and overall quality of life in a new environment, whether at a new school or in an entirely new country."
-          }
-        ],
-        "possibleSolution": [
-          {
-            "title": "Innovative Technological Solutions",
-            "description": "Participants can leverage technologies such as AI, VR, mobile apps, and wearables to enhance the accommodation search process, improve affordability, foster community ties, and provide data-driven insights. These solutions aim to create a safer, more efficient, and inclusive environment for students."
-          },
-          {
-            "title": "Roommate Cooperation and Trust Systems",
-            "description": "Develop systems to facilitate trust-building and cooperation among roommates. This could involve creating support network systems where roommates can connect with others facing similar challenges. Implement gamification elements to make the experience enjoyable and promote bonding among roommates through fun tasks and challenges."
-          },
-          {
-            "title": "Communication Applications",
-            "description": "Design communication applications that facilitate transparent and open communication between roommates. Ensure anonymity for feedback and communication to encourage honest dialogue. Ultimately, these applications aim to facilitate cooperation and trust between roommates, enhancing the overall living experience."
+            "categoryName": "Safeguarding Housing Safety and Security",
+            "categoryTitle": "Safeguarding Housing Safety and Security",
+            "categoryDescription": "This challenge revolves around enhancing community safety through the development of a neighborhood watch application called We-Watch. The aim is to provide users with a platform to anonymously report and respond to incidents and accidents, thereby fostering a sense of collective responsibility and civic duty. The application integrates with various public data streams such as police feeds, traffic reports, and weather updates to provide real-time incident mapping and crowdsourced safety ratings. The goal is to empower communities to collaborate effectively in emergency response coordination while respecting user privacy and promoting a culture of community engagement.",
+            "categoryGuidedBy": "We-Watch",
+            "problemStatementDescription": "As you delve into solving the Community well-being challenges, these ideas offer potential directions for your projects. While these suggestions serve as starting points, feel free to explore additional innovative approaches. Your solutions should aim to tackle the complexities of affordable housing using technology, policy, community engagement, and sustainability to make a tangible impact.",
+            "problemStatement": [
+              {
+                "title": "Stickiness and Auto-population",
+                "description": "We-Watch relies on network effects where the value of the application increases with the number of users. To jumpstart user adoption and momentum, the challenge is to integrate data from other public sources related to crime and public safety. By connecting to an API from these sources, participants must collect and display relevant incidents that would interest the public and local businesses. The objective is to enrich the We-Watch platform with existing incident data, enhancing its utility and attractiveness to users."
+              },
+              {
+                "title": "Privacy and Censorship",
+                "description": "Maintaining user privacy and ensuring responsible content moderation are paramount when partnering with public sector entities. We-Watch allows users to share media such as pictures and videos of incidents, which are then shared with neighborhood group members and individuals within the incident radius. However, this media may contain sensitive material that requires moderation. The challenge is to devise efficient AI-based moderation solutions to censor media containing faces, graphic scenes, and abusive descriptions. The aim is to streamline the moderation process while mitigating potential abuse of the service, ultimately enhancing user experience and platform safety."
+              }
+            ],
+            "possibleSolution": [
+              {
+                "title": "AI-powered Content Moderation",
+                "description": "Develop advanced AI algorithms capable of effectively moderating user-generated content on the We-Watch platform. These algorithms should be trained to automatically detect and censor images, videos, and descriptions containing sensitive material such as faces, graphic scenes, and abusive language. By leveraging machine learning techniques, the system can continuously improve its moderation capabilities over time, ensuring the platform remains a safe and secure environment for all users."
+              },
+              {
+                "title": "Integration with Public Data Sources",
+                "description": "Explore partnerships with public sector entities and leverage open-source databases, such as the Toronto Police GIS - Calls for Service, to populate the We-Watch platform with incident data. By integrating data from reliable public sources, the platform can provide users with a comprehensive view of safety and security incidents in their community, enhancing its value and relevance."
+              },
+              {
+                "title": "User-friendly Incident Reporting",
+                "description": "Enhance the incident reporting feature of the We-Watch app to make it more user-friendly and accessible. Implement intuitive interfaces and streamlined workflows to encourage active participation from users in reporting incidents. Additionally, provide real-time feedback and notifications to users to keep them informed about the status of their reports and the actions taken by the community."
+              },
+              {
+                "title": "Collaborative Incident Resolution",
+                "description": "Facilitate post-incident collaboration among community stakeholders by implementing features such as group chats and collaboration tools within the We-Watch platform. These tools enable users to coordinate responses, share information, and support each other in resolving safety and security incidents effectively. By fostering a sense of community and collective responsibility, the platform can empower users to take proactive measures to enhance safety in their neighborhoods."
+              },
+              {
+                "title": "Continuous Improvement and Feedback Mechanisms",
+                "description": "Establish mechanisms for gathering feedback from users to continuously improve the We-Watch platform. Conduct regular surveys, focus groups, and user testing sessions to solicit input on the platform's usability, features, and performance. Use this feedback to iteratively refine and enhance the platform, ensuring that it meets the evolving needs and expectations of its users."
+              }
+            ]
           }
         ]
       },
       {
-        "categoryName": "Empowering community well-being through mobile solutions",
-        "categoryTitle": "Empowering community well-being through mobile solutions",
-        "categoryDescription": "Homelessness and housing insecurity are complex issues exacerbated by mental health disorders and substance use challenges. This challenge calls for the conceptualization and development of mobile applications that offer critical support and resources tailored to individuals facing homelessness or housing insecurity due to mental health issues or substance addictions. Create apps that provide evidence-based mental health interventions, coping strategies, and addiction recovery support tailored to the unique needs of homeless and housing insecure individuals. This challenge also calls for the creation of mobile applications aimed at empowering at-risk individuals to take proactive measures to address their mental health and substance use challenges before they escalate to homelessness. Participants are tasked with designing user-friendly apps that provide education, support, and resources to help individuals manage their conditions effectively and maintain stable housing.",
-        "categoryGuidedBy": "CAMH",
-        "problemStatementDescription": "Homelessness and housing insecurity are multifaceted issues often intertwined with mental health disorders, substance use, and gambling challenges. To address these complexities, we invite participants to conceptualize and develop mobile applications that provide critical support and resources tailored to individuals facing homelessness or housing insecurity due to mental health issues or substance addictions.",
-        "problemStatement": [],
-        "possibleSolution": [
+        "id": 4,
+        "name": "Housing Tech",
+        "img": "/svgs/challengeSet/Housing Tech.svg",
+        "detail": "This category allows you to explore the innovative use of fintech, IoT devices, data analytics, and more to revolutionize the way we secure, manage, and experience our homes. This includes methods to optimize the use of energy and reduce cost, home design applications, improvements to property management process, etc.",
+        "challenges": [
           {
-            "title": "Self-Assessment App",
-            "description": "Participants should explore the creation of mobile applications aimed at empowering at-risk individuals to proactively manage their mental health and substance use challenges before they escalate to homelessness. These applications should provide user-friendly interfaces that offer education, support, and resources to help individuals effectively manage their conditions and maintain stable housing."
+            "categoryName": "Tech-Driven Housing Innovations",
+            "categoryTitle": "Tech-Driven Housing Innovations",
+            "categoryDescription": "Enter the realm where technology and housing converge. This challenge invites participants to explore the innovative use of construction tech, IoT devices, data analytics, and more to address critical issues in the housing sector. From revolutionizing construction methods to optimizing energy efficiency and enhancing safety, participants will harness the power of technology to shape the future of housing.",
+            "categoryGuidedBy": "Mark Buchner",
+            "problemStatementDescription": "As you delve into solving the Housing Technology challenge, these ideas offer potential directions for your projects. While these suggestions serve as starting points, feel free to explore additional innovative approaches. Your solutions should aim to tackle the complexities of affordable housing using technology, policy, community engagement, and sustainability to make a tangible impact.",
+            "problemStatement": [
+              {
+                "title": "Smart Construction Solutions",
+                "description": "Revolutionize traditional construction methods by integrating advanced technologies like 3D printing, prefabrication, and modular construction. Participants are tasked with developing cost-effective and sustainable solutions that streamline the construction process while minimizing environmental impact."
+              },
+              {
+                "title": "IoT-enabled Home Automation",
+                "description": "Explore the potential of IoT devices to create smart homes that enhance convenience, security, and energy efficiency. Participants will develop innovative solutions that leverage IoT sensors and actuators to automate tasks such as lighting, temperature control, and security monitoring, ultimately improving the quality of life for homeowners."
+              },
+              {
+                "title": "Data-driven Housing Analytics",
+                "description": "Harness the power of data analytics to gain insights into housing trends, market dynamics, and consumer behavior. Participants will develop analytical tools and algorithms that leverage data from various sources to inform decision-making processes, optimize resource allocation, and identify opportunities for improvement in the housing sector."
+              },
+              {
+                "title": "Sustainable Housing Solutions",
+                "description": "Address the growing need for sustainable housing solutions by developing innovative technologies and practices that reduce energy consumption, minimize waste, and promote environmental stewardship. Participants will explore renewable energy sources, green building materials, and eco-friendly design principles to create homes that are both environmentally sustainable and economically viable."
+              }
+            ],
+            "possibleSolution": [
+              {
+                "title": "Smart Construction Monitoring System",
+                "description": "Develop a real-time monitoring system that uses IoT sensors and AI algorithms to track construction progress, detect potential issues, and optimize resource utilization. This solution aims to improve project efficiency, reduce costs, and ensure timely completion of construction projects."
+              },
+              {
+                "title": "Home Energy Management Platform",
+                "description": "Create a centralized platform that allows homeowners to monitor and control energy usage in real-time, leveraging IoT devices such as smart thermostats, energy meters, and appliances. This solution empowers homeowners to optimize energy consumption, reduce utility bills, and minimize environmental impact."
+              },
+              {
+                "title": "Predictive Housing Market Analysis Tool",
+                "description": "Design a predictive analytics tool that analyzes housing market data, demographic trends, and economic indicators to forecast future demand and supply dynamics. This tool will help stakeholders make informed decisions regarding property investments, development projects, and housing policy interventions."
+              },
+              {
+                "title": "Augmented Reality Home Design App",
+                "description": "Develop an AR-based app that allows users to visualize and customize their dream homes in virtual reality, facilitating the design and planning process. This solution enables architects, developers, and homeowners to explore different design options, layouts, and finishes before construction begins, enhancing collaboration and creativity."
+              },
+              {
+                "title": "Blockchain-powered Property Management Platform",
+                "description": "Create a decentralized platform that utilizes blockchain technology to streamline property transactions, record-keeping, and ownership verification. This solution enhances transparency, security, and efficiency in property management processes, reducing fraud and disputes while promoting trust and accountability in the housing market."
+              },
+              {
+                "title": "Sustainable Housing Education Platform",
+                "description": "Participants can develop a mobile app or web platform that educates homeowners and builders about sustainable housing practices. The app could feature interactive guides, video tutorials, and resource directories highlighting renewable energy options, green building materials, and eco-friendly design techniques. Additionally, the platform could include calculators to estimate energy savings, carbon footprint reductions, and return on investment for implementing sustainable features in housing projects. By empowering users with knowledge and resources, the solution aims to promote widespread adoption of sustainable housing practices, contributing to a more environmentally conscious and economically viable housing sector."
+              }
+            ]
           },
           {
-            "title": "Crisis Response App",
-            "description": "Creating a comprehensive crisis response feature, the app will provide immediate access to hotlines, emergency shelters, and mental health professionals. By fostering community collaboration, we'll establish partnerships with local organizations and government agencies to ensure the app aligns with existing resources and addresses homelessness and housing insecurity effectively."
+            "categoryName": "Lease Policy analysis and enforcement",
+            "categoryTitle": "Lease Policy analysis and enforcement",
+            "categoryDescription": "Landlords and tenants often face challenges related to lease and rental agreements, including manual paperwork, delays in contract execution, disputes over terms, and difficulties in monitoring compliance. Traditional methods of managing contracts are often time-consuming, prone to errors, and lack transparency. Additionally, enforcing contractual obligations and ensuring compliance can be challenging for both parties, leading to conflicts and legal issues. The difficulty lies in streamlining and automating these processes effectively while ensuring security, transparency, and enforceability in lease agreements.",
+            "categoryGuidedBy": "Inheritchain & Rameh Law",
+            "problemStatementDescription": "As you delve into solving the Housing Technology challenge, these ideas offer potential directions for your projects. While these suggestions serve as starting points, feel free to explore additional innovative approaches. Your solutions should aim to tackle the complexities of affordable housing using technology, policy, community engagement, and sustainability to make a tangible impact.",
+            "problemStatement": [
+              {
+                "title": "Lease Data Extraction and Analysis",
+                "description": "Develop a solution to efficiently extract key data points and terms from lease and rental agreements, including rental rates, lease durations, renewal clauses, and tenant obligations. The challenge lies in parsing and analyzing unstructured text data from a variety of lease documents accurately and quickly."
+              },
+              {
+                "title": "Blockchain-based Lease Management",
+                "description": "Design a framework for integrating smart contract technology into lease and rental agreements, automating contract execution, enforcement, and compliance monitoring. The challenge involves creating a secure and tamper-proof system for recording lease transactions, payments, and contractual obligations using blockchain technology."
+              },
+              {
+                "title": "Predictive Risk Management for Lease Agreements",
+                "description": "Develop a solution to assess and mitigate risks associated with lease agreements, such as tenant default, property damage, or lease violations. The challenge involves utilizing historical data and machine learning algorithms to identify risk factors and develop proactive risk management strategies."
+              },
+              {
+                "title": "AI-Driven Data Insights for Government and Court",
+                "description": "Challenge Statement: Develop a solution that leverages AI-driven data insights to improve decision-making processes within government agencies and courts. The challenge involves harnessing advanced analytics and machine learning techniques to analyze large volumes of government and court data, extract meaningful insights, and enhance operational efficiency and transparency."
+              }
+            ],
+            "possibleSolution": [
+              {
+                "title": "AI-powered Content Moderation",
+                "description": "Develop advanced AI algorithms capable of effectively moderating user-generated content on the We-Watch platform. These algorithms should be trained to automatically detect and censor images, videos, and descriptions containing sensitive material such as faces, graphic scenes, and abusive language. By leveraging machine learning techniques, the system can continuously improve its moderation capabilities over time, ensuring the platform remains a safe and secure environment for all users."
+              },
+              {
+                "title": "Integration with Public Data Sources",
+                "description": "Explore partnerships with public sector entities and leverage open-source databases, such as the Toronto Police GIS - Calls for Service, to populate the We-Watch platform with incident data. By integrating data from reliable public sources, the platform can provide users with a comprehensive view of safety and security incidents in their community, enhancing its value and relevance."
+              },
+              {
+                "title": "User-friendly Incident Reporting",
+                "description": "Enhance the incident reporting feature of the We-Watch app to make it more user-friendly and accessible. Implement intuitive interfaces and streamlined workflows to encourage active participation from users in reporting incidents. Additionally, provide real-time feedback and notifications to users to keep them informed about the status of their reports and the actions taken by the community."
+              },
+              {
+                "title": "Collaborative Incident Resolution",
+                "description": "Facilitate post-incident collaboration among community stakeholders by implementing features such as group chats and collaboration tools within the We-Watch platform. These tools enable users to coordinate responses, share information, and support each other in resolving safety and security incidents effectively. By fostering a sense of community and collective responsibility, the platform can empower users to take proactive measures to enhance safety in their neighborhoods."
+              },
+              {
+                "title": "Continuous Improvement and Feedback Mechanisms",
+                "description": "Establish mechanisms for gathering feedback from users to continuously improve the We-Watch platform. Conduct regular surveys, focus groups, and user testing sessions to solicit input on the platform's usability, features, and performance. Use this feedback to iteratively refine and enhance the platform, ensuring that it meets the evolving needs and expectations of its users."
+              }
+            ]
           },
           {
-            "title": "Community Resource Mapping App",
-            "description": "Create a mobile application that maps out community resources available for individuals facing homelessness or housing insecurity, including shelters, food banks, healthcare facilities, and support services by different organizations. This app can utilize geolocation technology to connect users with nearby resources and provide detailed information and directions."
-          }
-        ]
-      },
-      {
-        "categoryName": "Digitalized apprenticeship programs for construction trades",
-        "categoryTitle": "Digitalized apprenticeship programs for construction trades",
-        "categoryDescription": "The challenge is centered on transforming trades training, specifically to provide more manpower for the housing initiative and earning opportunities to people looking for jobs. Trades can include carpentry, construction, and plumbing to align closely with the contemporary demands of the housing sector. Traditional construction education often overlooks modern housing essentials, lacking exposure to eco-friendly materials, sustainable practices, and safety considerations specific to housing projects. Aspiring tradespeople require updated skills relevant to evolving housing needs.",
-        "categoryGuidedBy": "Skill Squirrel",
-        "problemStatementDescription": "As you delve into solving the Affordable Housing Solutions challenge, these ideas offer potential directions for your projects. While these suggestions serve as starting points, feel free to explore additional innovative approaches. Your solutions should aim to tackle the complexities of affordable housing using technology, policy, community engagement, and sustainability to make a tangible impact.",
-        "problemStatement": [
-          {
-            "title": "Knowledge Transfer",
-            "description": "Mitigating the lack of proper knowledge transfer within the industry. Developing strategies to capture and transfer the expertise of experienced workers to the next generation. Ensuring that instructors are adequately trained to facilitate both traditional and digital components of the program. Address potential resistance or lack of familiarity among instructors with new digital tools."
-          },
-          {
-            "title": "Industry Relevance",
-            "description": "Ensuring that the digital apprenticeship programs align with current industry standards and practices. Regularly updating content to reflect changes and advancements in the relevant trades. Addressing the shortage of young workers in the construction industry through targeted program design."
-          },
-          {
-            "title": "User Engagement",
-            "description": "Maintaining participant engagement throughout the program, especially in digital modules that may lack the hands-on aspect. Addressing potential boredom or disinterest in repetitive digital content."
-          },
-          {
-            "title": "Inadequate Understanding of Affordable Housing Design",
-            "description": "The challenge lies in continuously updating educational content to adapt rapid technological advancements in the construction industry, specifically focusing on designing and building affordable housing for diverse socio-economic groups."
-          }
-        ],
-        "possibleSolution": [
-          {
-            "title": "Remote Mentorship by Housing Experts",
-            "description": "Facilitate remote mentorship programs where experienced housing professionals use digital tools to transfer knowledge. Enhance this with training modules that focus on bridging the gap between traditional methods and digital technologies. To overcome instructors' resistance to digital tools, provide specialized training sessions."
-          },
-          {
-            "title": "Dynamic Program with Industry Input",
-            "description": "Regularly update the apprenticeship program's content by collaborating with industry experts. This ensures alignment with current industry standards and practices. Additionally, integrate targeted modules aimed at young workers, focusing on the evolving trends and innovations in the construction industry, making the program more appealing and relevant to this demographic."
-          },
-          {
-            "title": "Immersive AR/VR Simulations",
-            "description": "Create immersive AR/VR simulations in construction industry scenarios that involves replicating authentic construction scenarios, providing a virtual space for individuals to engage in various tasks like carpentry, construction work, electrical installations, and plumbing. This approach helps in maintaining engagement, especially for participants who might find traditional digital content less stimulating. Introduce gamification elements in these simulations to make learning more interactive and enjoyable."
-          },
-          {
-            "title": "Specialized Affordable Housing Design Modules",
-            "description": "Create dedicated modules within the digital apprenticeship program that focus specifically on affordable housing design, including the latest technological advancements in construction. These modules should cover innovative, cost-effective construction methods and materials, sustainable designs, and regulatory compliance."
-          },
-          {
-            "title": "AI-Powered Virtual Mentoring and Chatbots",
-            "description": "Implement AI-powered chatbots within the platform to offer immediate assistance, guiding participants through digital modules and swiftly addressing queries. Simultaneously create a virtual mentoring system leveraging AI technology to deliver personalized guidance and feedback. This system evaluates participants' performance and learning styles, providing tailored support accordingly. Additionally, develop an AI-driven learning pathway that customizes learning routes based on individual preferences and aptitudes. Introduce multilingual features like captions and translation services to ensure content accessibility for a diverse participant base, fostering inclusivity and accommodating varied linguistic backgrounds. These combined AI-driven solutions promise personalized support, guidance, and inclusive learning experiences for all participants."
-          }
-        ]
-      },
-      {
-        "categoryName": "Safeguarding Housing Safety and Security",
-        "categoryTitle": "Safeguarding Housing Safety and Security",
-        "categoryDescription": "This challenge revolves around enhancing community safety through the development of a neighborhood watch application called We-Watch. The aim is to provide users with a platform to anonymously report and respond to incidents and accidents, thereby fostering a sense of collective responsibility and civic duty. The application integrates with various public data streams such as police feeds, traffic reports, and weather updates to provide real-time incident mapping and crowdsourced safety ratings. The goal is to empower communities to collaborate effectively in emergency response coordination while respecting user privacy and promoting a culture of community engagement.",
-        "categoryGuidedBy": "We-Watch",
-        "problemStatementDescription": "As you delve into solving the Community well-being challenges, these ideas offer potential directions for your projects. While these suggestions serve as starting points, feel free to explore additional innovative approaches. Your solutions should aim to tackle the complexities of affordable housing using technology, policy, community engagement, and sustainability to make a tangible impact.",
-        "problemStatement": [
-          {
-            "title": "Stickiness and Auto-population",
-            "description": "We-Watch relies on network effects where the value of the application increases with the number of users. To jumpstart user adoption and momentum, the challenge is to integrate data from other public sources related to crime and public safety. By connecting to an API from these sources, participants must collect and display relevant incidents that would interest the public and local businesses. The objective is to enrich the We-Watch platform with existing incident data, enhancing its utility and attractiveness to users."
-          },
-          {
-            "title": "Privacy and Censorship",
-            "description": "Maintaining user privacy and ensuring responsible content moderation are paramount when partnering with public sector entities. We-Watch allows users to share media such as pictures and videos of incidents, which are then shared with neighborhood group members and individuals within the incident radius. However, this media may contain sensitive material that requires moderation. The challenge is to devise efficient AI-based moderation solutions to censor media containing faces, graphic scenes, and abusive descriptions. The aim is to streamline the moderation process while mitigating potential abuse of the service, ultimately enhancing user experience and platform safety."
-          }
-        ],
-        "possibleSolution": [
-          {
-            "title": "AI-powered Content Moderation",
-            "description": "Develop advanced AI algorithms capable of effectively moderating user-generated content on the We-Watch platform. These algorithms should be trained to automatically detect and censor images, videos, and descriptions containing sensitive material such as faces, graphic scenes, and abusive language. By leveraging machine learning techniques, the system can continuously improve its moderation capabilities over time, ensuring the platform remains a safe and secure environment for all users."
-          },
-          {
-            "title": "Integration with Public Data Sources",
-            "description": "Explore partnerships with public sector entities and leverage open-source databases, such as the Toronto Police GIS - Calls for Service, to populate the We-Watch platform with incident data. By integrating data from reliable public sources, the platform can provide users with a comprehensive view of safety and security incidents in their community, enhancing its value and relevance."
-          },
-          {
-            "title": "User-friendly Incident Reporting",
-            "description": "Enhance the incident reporting feature of the We-Watch app to make it more user-friendly and accessible. Implement intuitive interfaces and streamlined workflows to encourage active participation from users in reporting incidents. Additionally, provide real-time feedback and notifications to users to keep them informed about the status of their reports and the actions taken by the community."
-          },
-          {
-            "title": "Collaborative Incident Resolution",
-            "description": "Facilitate post-incident collaboration among community stakeholders by implementing features such as group chats and collaboration tools within the We-Watch platform. These tools enable users to coordinate responses, share information, and support each other in resolving safety and security incidents effectively. By fostering a sense of community and collective responsibility, the platform can empower users to take proactive measures to enhance safety in their neighborhoods."
-          },
-          {
-            "title": "Continuous Improvement and Feedback Mechanisms",
-            "description": "Establish mechanisms for gathering feedback from users to continuously improve the We-Watch platform. Conduct regular surveys, focus groups, and user testing sessions to solicit input on the platform's usability, features, and performance. Use this feedback to iteratively refine and enhance the platform, ensuring that it meets the evolving needs and expectations of its users."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "name": "Housing Tech",
-    "img": "/svgs/challengeSet/Housing Tech.svg",
-    "detail": "This category allows you to explore the innovative use of fintech, IoT devices, data analytics, and more to revolutionize the way we secure, manage, and experience our homes. This includes methods to optimize the use of energy and reduce cost, home design applications, improvements to property management process, etc.",
-    "challenges": [
-      {
-        "categoryName": "Tech-Driven Housing Innovations",
-        "categoryTitle": "Tech-Driven Housing Innovations",
-        "categoryDescription": "Enter the realm where technology and housing converge. This challenge invites participants to explore the innovative use of construction tech, IoT devices, data analytics, and more to address critical issues in the housing sector. From revolutionizing construction methods to optimizing energy efficiency and enhancing safety, participants will harness the power of technology to shape the future of housing.",
-        "categoryGuidedBy": "Mark Buchner",
-        "problemStatementDescription": "As you delve into solving the Housing Technology challenge, these ideas offer potential directions for your projects. While these suggestions serve as starting points, feel free to explore additional innovative approaches. Your solutions should aim to tackle the complexities of affordable housing using technology, policy, community engagement, and sustainability to make a tangible impact.",
-        "problemStatement": [
-          {
-            "title": "Smart Construction Solutions",
-            "description": "Revolutionize traditional construction methods by integrating advanced technologies like 3D printing, prefabrication, and modular construction. Participants are tasked with developing cost-effective and sustainable solutions that streamline the construction process while minimizing environmental impact."
-          },
-          {
-            "title": "IoT-enabled Home Automation",
-            "description": "Explore the potential of IoT devices to create smart homes that enhance convenience, security, and energy efficiency. Participants will develop innovative solutions that leverage IoT sensors and actuators to automate tasks such as lighting, temperature control, and security monitoring, ultimately improving the quality of life for homeowners."
-          },
-          {
-            "title": "Data-driven Housing Analytics",
-            "description": "Harness the power of data analytics to gain insights into housing trends, market dynamics, and consumer behavior. Participants will develop analytical tools and algorithms that leverage data from various sources to inform decision-making processes, optimize resource allocation, and identify opportunities for improvement in the housing sector."
-          },
-          {
-            "title": "Sustainable Housing Solutions",
-            "description": "Address the growing need for sustainable housing solutions by developing innovative technologies and practices that reduce energy consumption, minimize waste, and promote environmental stewardship. Participants will explore renewable energy sources, green building materials, and eco-friendly design principles to create homes that are both environmentally sustainable and economically viable."
-          }
-        ],
-        "possibleSolution": [
-          {
-            "title": "Smart Construction Monitoring System",
-            "description": "Develop a real-time monitoring system that uses IoT sensors and AI algorithms to track construction progress, detect potential issues, and optimize resource utilization. This solution aims to improve project efficiency, reduce costs, and ensure timely completion of construction projects."
-          },
-          {
-            "title": "Home Energy Management Platform",
-            "description": "Create a centralized platform that allows homeowners to monitor and control energy usage in real-time, leveraging IoT devices such as smart thermostats, energy meters, and appliances. This solution empowers homeowners to optimize energy consumption, reduce utility bills, and minimize environmental impact."
-          },
-          {
-            "title": "Predictive Housing Market Analysis Tool",
-            "description": "Design a predictive analytics tool that analyzes housing market data, demographic trends, and economic indicators to forecast future demand and supply dynamics. This tool will help stakeholders make informed decisions regarding property investments, development projects, and housing policy interventions."
-          },
-          {
-            "title": "Augmented Reality Home Design App",
-            "description": "Develop an AR-based app that allows users to visualize and customize their dream homes in virtual reality, facilitating the design and planning process. This solution enables architects, developers, and homeowners to explore different design options, layouts, and finishes before construction begins, enhancing collaboration and creativity."
-          },
-          {
-            "title": "Blockchain-powered Property Management Platform",
-            "description": "Create a decentralized platform that utilizes blockchain technology to streamline property transactions, record-keeping, and ownership verification. This solution enhances transparency, security, and efficiency in property management processes, reducing fraud and disputes while promoting trust and accountability in the housing market."
-          },
-          {
-            "title": "Sustainable Housing Education Platform",
-            "description": "Participants can develop a mobile app or web platform that educates homeowners and builders about sustainable housing practices. The app could feature interactive guides, video tutorials, and resource directories highlighting renewable energy options, green building materials, and eco-friendly design techniques. Additionally, the platform could include calculators to estimate energy savings, carbon footprint reductions, and return on investment for implementing sustainable features in housing projects. By empowering users with knowledge and resources, the solution aims to promote widespread adoption of sustainable housing practices, contributing to a more environmentally conscious and economically viable housing sector."
-          }
-        ]
-      },
-      {
-        "categoryName": "Lease Policy analysis and enforcement",
-        "categoryTitle": "Lease Policy analysis and enforcement",
-        "categoryDescription": "Landlords and tenants often face challenges related to lease and rental agreements, including manual paperwork, delays in contract execution, disputes over terms, and difficulties in monitoring compliance. Traditional methods of managing contracts are often time-consuming, prone to errors, and lack transparency. Additionally, enforcing contractual obligations and ensuring compliance can be challenging for both parties, leading to conflicts and legal issues. The difficulty lies in streamlining and automating these processes effectively while ensuring security, transparency, and enforceability in lease agreements.",
-        "categoryGuidedBy": "Inheritchain & Rameh Law",
-        "problemStatementDescription": "As you delve into solving the Housing Technology challenge, these ideas offer potential directions for your projects. While these suggestions serve as starting points, feel free to explore additional innovative approaches. Your solutions should aim to tackle the complexities of affordable housing using technology, policy, community engagement, and sustainability to make a tangible impact.",
-        "problemStatement": [
-          {
-            "title": "Lease Data Extraction and Analysis",
-            "description": "Develop a solution to efficiently extract key data points and terms from lease and rental agreements, including rental rates, lease durations, renewal clauses, and tenant obligations. The challenge lies in parsing and analyzing unstructured text data from a variety of lease documents accurately and quickly."
-          },
-          {
-            "title": "Blockchain-based Lease Management",
-            "description": "Design a framework for integrating smart contract technology into lease and rental agreements, automating contract execution, enforcement, and compliance monitoring. The challenge involves creating a secure and tamper-proof system for recording lease transactions, payments, and contractual obligations using blockchain technology."
-          },
-          {
-            "title": "Predictive Risk Management for Lease Agreements",
-            "description": "Develop a solution to assess and mitigate risks associated with lease agreements, such as tenant default, property damage, or lease violations. The challenge involves utilizing historical data and machine learning algorithms to identify risk factors and develop proactive risk management strategies."
-          },
-          {
-            "title": "AI-Driven Data Insights for Government and Court",
-            "description": "Challenge Statement: Develop a solution that leverages AI-driven data insights to improve decision-making processes within government agencies and courts. The challenge involves harnessing advanced analytics and machine learning techniques to analyze large volumes of government and court data, extract meaningful insights, and enhance operational efficiency and transparency."
-          }
-        ],
-        "possibleSolution": [
-          {
-            "title": "AI-powered Content Moderation",
-            "description": "Develop advanced AI algorithms capable of effectively moderating user-generated content on the We-Watch platform. These algorithms should be trained to automatically detect and censor images, videos, and descriptions containing sensitive material such as faces, graphic scenes, and abusive language. By leveraging machine learning techniques, the system can continuously improve its moderation capabilities over time, ensuring the platform remains a safe and secure environment for all users."
-          },
-          {
-            "title": "Integration with Public Data Sources",
-            "description": "Explore partnerships with public sector entities and leverage open-source databases, such as the Toronto Police GIS - Calls for Service, to populate the We-Watch platform with incident data. By integrating data from reliable public sources, the platform can provide users with a comprehensive view of safety and security incidents in their community, enhancing its value and relevance."
-          },
-          {
-            "title": "User-friendly Incident Reporting",
-            "description": "Enhance the incident reporting feature of the We-Watch app to make it more user-friendly and accessible. Implement intuitive interfaces and streamlined workflows to encourage active participation from users in reporting incidents. Additionally, provide real-time feedback and notifications to users to keep them informed about the status of their reports and the actions taken by the community."
-          },
-          {
-            "title": "Collaborative Incident Resolution",
-            "description": "Facilitate post-incident collaboration among community stakeholders by implementing features such as group chats and collaboration tools within the We-Watch platform. These tools enable users to coordinate responses, share information, and support each other in resolving safety and security incidents effectively. By fostering a sense of community and collective responsibility, the platform can empower users to take proactive measures to enhance safety in their neighborhoods."
-          },
-          {
-            "title": "Continuous Improvement and Feedback Mechanisms",
-            "description": "Establish mechanisms for gathering feedback from users to continuously improve the We-Watch platform. Conduct regular surveys, focus groups, and user testing sessions to solicit input on the platform's usability, features, and performance. Use this feedback to iteratively refine and enhance the platform, ensuring that it meets the evolving needs and expectations of its users."
-          }
-        ]
-      },
-      {
-        "categoryName": "Augmented Reality Virtual Reality Applications for Housing",
-        "categoryTitle": "Augmented Reality Virtual Reality Applications for Housing",
-        "categoryDescription": "In a world where access to hands-on training and mental health resources is limited, communities grapple with the challenges of skill development and emotional well-being. Imagine a young aspiring carpenter unable to afford costly workshops or a student struggling with stress and anxiety without adequate support. Amidst these hardships, there lies an untapped potential within augmented and virtual reality technologies. These innovative tools hold the promise of transforming how individuals learn construction skills and cope with mental health issues. Yet, the community lacks accessible platforms that offer immersive experiences tailored to their needs. As housing demands surge and renovation projects abound, there's a pressing need for VR/AR applications that provide realistic training in construction skills and offer therapeutic interventions for mental health resilience. Let's harness the power of technology to bridge these gaps and empower our communities to thrive in both skill and spirit.",
-        "categoryGuidedBy": "Trinetra",
-        "problemStatementDescription": "As you delve into solving the Housing Tech challenges, these ideas offer potential directions for your projects. While these suggestions serve as starting points, feel free to explore additional innovative approaches. Your solutions should aim to tackle the complexities of affordable housing using technology, policy, community engagement, and sustainability to make a tangible impact.",
-        "problemStatement": [
-          {
-            "title": "Revolutionizing Student Housing Preferences",
-            "description": "Students embarking on their educational journey often encounter significant hurdles in securing affordable and suitable housing that aligns with their needs and preferences. The challenge is to develop innovative technological solutions that facilitate a seamless housing selection process for students, integrating smart matchmaking systems, virtual space planning tools, and community engagement initiatives to enhance the overall student living experience."
-          }
-        ],
-        "possibleSolution": [
-          {
-            "title": "Smart Matching Platform",
-            "description": "Develop an AI-powered platform that utilizes advanced algorithms to match students with compatible roommates and accommodations. Incorporate machine learning techniques to analyze lifestyle preferences, study habits, and budget constraints to generate personalized housing recommendations. Implement a user-friendly interface that simplifies the search process and enhances the overall user experience."
-          },
-          {
-            "title": "Virtual Space Planning Tool",
-            "description": "Create a VR-based space planning feature that allows students to visualize and customize their living spaces before making housing decisions. Enable users to virtually tour potential accommodations, interact with virtual furniture, and explore communal areas to better assess suitability. Integrate intuitive design tools that enable students to personalize and optimize their living environments based on their preferences and needs."
-          },
-          {
-            "title": "Community Engagement App",
-            "description": "Develop a mobile application that fosters community integration and collaboration among students, local homeowners, and educational institutions. Provide features such as event listings, interest-based groups, and forums for students to connect, socialize, and organize activities within their communities. Utilize push notifications and social media integration to encourage active participation and engagement among users."
-          },
-          {
-            "title": "Data-Driven Housing Demand Forecasting System",
-            "description": "Implement predictive analytics models to forecast student housing demand and supply trends accurately. Utilize historical data, demographic information, and enrollment projections to anticipate future housing needs and optimize resource allocation. Enable institutions and housing providers to make informed decisions regarding accommodation offerings and infrastructure planning based on data-driven insights."
-          },
-          {
-            "title": "Legal Rights Education Platform",
-            "description": "Develop an online educational platform to empower students with knowledge about their lease rights and responsibilities. Provide interactive tutorials, informative articles, and legal resources to educate students on tenancy laws, rental agreements, and dispute resolution processes. Offer access to legal experts and support services for personalized assistance and guidance in navigating housing-related issues and challenges."
+            "categoryName": "Augmented Reality Virtual Reality Applications for Housing",
+            "categoryTitle": "Augmented Reality Virtual Reality Applications for Housing",
+            "categoryDescription": "In a world where access to hands-on training and mental health resources is limited, communities grapple with the challenges of skill development and emotional well-being. Imagine a young aspiring carpenter unable to afford costly workshops or a student struggling with stress and anxiety without adequate support. Amidst these hardships, there lies an untapped potential within augmented and virtual reality technologies. These innovative tools hold the promise of transforming how individuals learn construction skills and cope with mental health issues. Yet, the community lacks accessible platforms that offer immersive experiences tailored to their needs. As housing demands surge and renovation projects abound, there's a pressing need for VR/AR applications that provide realistic training in construction skills and offer therapeutic interventions for mental health resilience. Let's harness the power of technology to bridge these gaps and empower our communities to thrive in both skill and spirit.",
+            "categoryGuidedBy": "Trinetra",
+            "problemStatementDescription": "As you delve into solving the Housing Tech challenges, these ideas offer potential directions for your projects. While these suggestions serve as starting points, feel free to explore additional innovative approaches. Your solutions should aim to tackle the complexities of affordable housing using technology, policy, community engagement, and sustainability to make a tangible impact.",
+            "problemStatement": [
+              {
+                "title": "Revolutionizing Student Housing Preferences",
+                "description": "Students embarking on their educational journey often encounter significant hurdles in securing affordable and suitable housing that aligns with their needs and preferences. The challenge is to develop innovative technological solutions that facilitate a seamless housing selection process for students, integrating smart matchmaking systems, virtual space planning tools, and community engagement initiatives to enhance the overall student living experience."
+              }
+            ],
+            "possibleSolution": [
+              {
+                "title": "Smart Matching Platform",
+                "description": "Develop an AI-powered platform that utilizes advanced algorithms to match students with compatible roommates and accommodations. Incorporate machine learning techniques to analyze lifestyle preferences, study habits, and budget constraints to generate personalized housing recommendations. Implement a user-friendly interface that simplifies the search process and enhances the overall user experience."
+              },
+              {
+                "title": "Virtual Space Planning Tool",
+                "description": "Create a VR-based space planning feature that allows students to visualize and customize their living spaces before making housing decisions. Enable users to virtually tour potential accommodations, interact with virtual furniture, and explore communal areas to better assess suitability. Integrate intuitive design tools that enable students to personalize and optimize their living environments based on their preferences and needs."
+              },
+              {
+                "title": "Community Engagement App",
+                "description": "Develop a mobile application that fosters community integration and collaboration among students, local homeowners, and educational institutions. Provide features such as event listings, interest-based groups, and forums for students to connect, socialize, and organize activities within their communities. Utilize push notifications and social media integration to encourage active participation and engagement among users."
+              },
+              {
+                "title": "Data-Driven Housing Demand Forecasting System",
+                "description": "Implement predictive analytics models to forecast student housing demand and supply trends accurately. Utilize historical data, demographic information, and enrollment projections to anticipate future housing needs and optimize resource allocation. Enable institutions and housing providers to make informed decisions regarding accommodation offerings and infrastructure planning based on data-driven insights."
+              },
+              {
+                "title": "Legal Rights Education Platform",
+                "description": "Develop an online educational platform to empower students with knowledge about their lease rights and responsibilities. Provide interactive tutorials, informative articles, and legal resources to educate students on tenancy laws, rental agreements, and dispute resolution processes. Offer access to legal experts and support services for personalized assistance and guidance in navigating housing-related issues and challenges."
+              }
+            ]
           }
         ]
       }

@@ -19,7 +19,7 @@ import {
   WorkingData,
   ImportantDateData,
   AwardData,
-  ChallengeSetData,
+  CSData,
   TestimonialData,
   SponsersData,
   PartnersData,
@@ -153,7 +153,7 @@ export default function Home() {
       </div>
       <hr />
       <div className="animateSection">
-        <ChallengeSetsSection challengeSet={ChallengeSetData} />
+        <ChallengeSetsSection challengeSet={CSData} />
       </div>
       <hr />
       <div className="animateSection rounded-xl mt-3">

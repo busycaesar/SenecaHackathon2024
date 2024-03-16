@@ -49,78 +49,78 @@ function CategorySubChallengeSet() {
 
       {(category.problemStatement.length > 0 ||
         category.problemStatementDescription) && (
-        <Fade triggerOnce direction="up">
-          <div className="border-solid border-my-red rounded-2xl shadow-2xl p-4 mt-3 animateSection">
-            <h2 className="mb-0 text-lg font-semibold text-my-red">
-              Problem Statement
-            </h2>
-            <p>{category.problemStatementDescription}</p>
-            <div>
-              {category.problemStatement.length > 1 &&
-                category.problemStatement.map((statement, index) => (
-                  <Zoom triggerOnce key={index + statement}>
-                    <div className="bg-my-red px-3 sm:px-4 py-4 my-2 sm:mx-3 text-gray-200 rounded-lg border-solid border-gray-700 border-4 shadow-md">
-                      <h3 className="mb-2 text-base sm:text-xl font-bold tracking-tight">
-                        {statement.title}
-                      </h3>
-                      <hr className="my-2" />
+          <Fade triggerOnce direction="up">
+            <div className="border-solid border-my-red rounded-2xl shadow-2xl p-4 mt-3 animateSection">
+              <h2 className="mb-0 text-lg font-semibold text-my-red">
+                Problem Statement
+              </h2>
+              <p>{category.problemStatementDescription}</p>
+              <div>
+                {category.problemStatement.length > 1 &&
+                  category.problemStatement.map((statement, index) => (
+                    <Zoom triggerOnce key={index + statement}>
+                      <div className="bg-my-red px-3 sm:px-4 py-4 my-2 sm:mx-3 text-gray-200 rounded-lg border-solid shadow-md">
+                        <h3 className="mb-2 text-base sm:text-xl font-bold tracking-tight">
+                          {statement.title}
+                        </h3>
+                        <hr className="my-2" />
+                        <p className="text-sm sm:text-base ">
+                          {statement.description}
+                        </p>
+                      </div>
+                    </Zoom>
+                  ))}
+
+                {category.problemStatement.length === 1 && (
+                  <Zoom triggerOnce>
+                    <div className="bg-my-red px-4 py-4 my-2 sm:mx-3 text-gray-200 rounded-lg border-solid shadow-md">
                       <p className="text-sm sm:text-base ">
-                        {statement.description}
+                        {category.problemStatement[0].description}
                       </p>
                     </div>
                   </Zoom>
-                ))}
-
-              {category.problemStatement.length === 1 && (
-                <Zoom triggerOnce>
-                  <div className="bg-my-red px-4 py-4 my-2 sm:mx-3 text-gray-200 rounded-lg border-solid border-gray-700 border-4 shadow-md">
-                    <p className="text-sm sm:text-base ">
-                      {category.problemStatement[0].description}
-                    </p>
-                  </div>
-                </Zoom>
-              )}
+                )}
+              </div>
             </div>
-          </div>
-        </Fade>
-      )}
+          </Fade>
+        )}
       {(category.possibleSolutionDescription ||
         category.possibleSolution.length > 0) && (
-        <Fade triggerOnce direction="up">
-          <div className="border-solid border-my-red rounded-2xl shadow-2xl p-4 bg-gray-300 mt-3 animateSection">
-            <h2 className="mb-0 text-lg font-semibold text-my-red">
-              Possible Solutions
-            </h2>
-            <p>{category.possibleSolutionDescription}</p>
-            <div>
-              {category.possibleSolution.length > 1 &&
-                category.possibleSolution.map((statement, index) => (
-                  <Zoom triggerOnce key={index + statement}>
+          <Fade triggerOnce direction="up">
+            <div className="border-solid border-my-red rounded-2xl shadow-2xl p-4 bg-gradient-to-r from-gray-50 to-slate-200 mt-3 animateSection">
+              <h2 className="mb-0 text-lg font-semibold text-my-red">
+                Possible Solutions
+              </h2>
+              <p>{category.possibleSolutionDescription}</p>
+              <div>
+                {category.possibleSolution.length > 1 &&
+                  category.possibleSolution.map((statement, index) => (
+                    <Zoom triggerOnce key={index + statement}>
+                      <div className="bg-my-red px-4 py-4 my-2 sm:mx-3 text-gray-200 rounded-lg border-solid shadow-md">
+                        <h3 className="mb-2 text-base sm:text-xl font-bold tracking-tight">
+                          {statement.title}
+                        </h3>
+                        <hr className="my-2" />
+                        <p className="text-sm sm:text-base ">
+                          {statement.description}
+                        </p>
+                      </div>
+                    </Zoom>
+                  ))}
+
+                {category.possibleSolution.length === 1 && (
+                  <Zoom triggerOnce>
                     <div className="bg-my-red px-4 py-4 my-2 sm:mx-3 text-gray-200 rounded-lg border-solid border-gray-700 border-4 shadow-md">
-                      <h3 className="mb-2 text-base sm:text-xl font-bold tracking-tight">
-                        {statement.title}
-                      </h3>
-                      <hr className="my-2" />
                       <p className="text-sm sm:text-base ">
-                        {statement.description}
+                        {category.possibleSolution[0].description}
                       </p>
                     </div>
                   </Zoom>
-                ))}
-
-              {category.possibleSolution.length === 1 && (
-                <Zoom triggerOnce>
-                  <div className="bg-my-red px-4 py-4 my-2 sm:mx-3 text-gray-200 rounded-lg border-solid border-gray-700 border-4 shadow-md">
-                    <p className="text-sm sm:text-base ">
-                      {category.possibleSolution[0].description}
-                    </p>
-                  </div>
-                </Zoom>
-              )}
+                )}
+              </div>
             </div>
-          </div>
-        </Fade>
-      )}
+          </Fade>
+        )}
     </section>
   );
 }

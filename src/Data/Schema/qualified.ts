@@ -1,5 +1,6 @@
 export interface QualifiedTeams {
     id: number;
+    image: string;
     challenge_set:number;
     team_name: string;
     team_member_1: string;

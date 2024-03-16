@@ -24,7 +24,7 @@ function SubChallengeSet() {
               triggerOnce
               key={index}
             >
-              <div className="mb-6 border-solid bg-white border-gray-500 border-4 shadow-md p-6 rounded-2xl">
+              <div className="mb-6 border-solid bg-white shadow-md p-6 rounded-2xl">
                 <Link
                   className="no-underline"
                   to={{
