@@ -11,7 +11,7 @@ import PartnersBanner from "../Components/Home/Banner/PartnerInsitituions";
 import { Sponsers } from "../Data/Schema/sponsers";
 import { Partners } from "../Data/Schema/partners";
 import WhoAreWe from "../Components/Home/whoAreWe";
-import Awards from "../Components/Home/Awards/awards";
+import FirstPrizeWinner from "../Components/FirstPrizeWinner/FirstPrizeWinner";
 import ImportantDates from "../Components/Home/Dates/importantDates";
 import WhoCanParticipate from "../Components/WhoParticipant/WhoParticipant";
 import Prize from "../Components/Prize/Prize";
@@ -118,6 +118,13 @@ export default function Home() {
         )}
         {toggleVideo && <VideoComponents />}
       </div>
+
+      {/* test */}
+      <hr />
+      <div className="animateSection">
+        <FirstPrizeWinner />
+      </div>
+      {/* test */}
 
       <hr />
 
