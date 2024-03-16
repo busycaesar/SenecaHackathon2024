@@ -1,11 +1,10 @@
-import { ChallengeSetData } from "../Data/JSONData";
+import { CSData } from "../Data/JSONData";
 import { findQualifiedTeamById } from "../Data/Query/qualifiedTeamQuery";
 
 export default function QualifiedTeams() {
   console.log(
     findQualifiedTeamById(1).map((temp) => console.log(temp.team_name))
   );
-
 
   // Create the href string by concatenating the fixed part and the variable
   return (
@@ -26,7 +25,7 @@ export default function QualifiedTeams() {
           ))}
         </div> */}
 
-        {ChallengeSetData?.map((challengeSet) => (
+        {CSData?.map((challengeSet) => (
           <div class="position-relative font-gotham py-20 bg-light-light">
             <div class="position-absolute top-0 start-0 h-100 w-100"></div>
             <div class="position-relative container">
@@ -38,12 +37,12 @@ export default function QualifiedTeams() {
                   id={challengeSet.challenge_set}
                 ></img>
                 <div className="block bg-my-red px-5 py-2 max-w-max mx-auto rounded-3xl">
-                <h2
-                  class="font-heading m-4 font-bold text-white text-3xl md:text-5xl"
-                  id="student-housing"
-                >
-                  {challengeSet.title}
-                </h2>
+                  <h2
+                    class="font-heading m-4 font-bold text-white text-3xl md:text-5xl"
+                    id="student-housing"
+                  >
+                    {challengeSet.title}
+                  </h2>
                 </div>
                 <p class="mt-6 font-bold text-2xl text-black text-secondary">
                   Congratulations to the following Teams for qualifying for the
@@ -63,18 +62,14 @@ export default function QualifiedTeams() {
                         </div>
 
                         <h3 class="my-8 text-center text-my-red font-heading fs-9">
-                         {team.team_name}
+                          {team.team_name}
                         </h3>
                       </div>
-                      
                     </div>
                   ))}
                   <div className="flex h-4 rounded-full bg-my-red my-4"></div>
-
                 </div>
-                
               </div>
-              
             </div>
           </div>
         ))}
