@@ -171,15 +171,6 @@
     "linkedinLink": "https://www.linkedin.com/in/giriraj-vyas-04260511a/"
   },
   {
-    "_id": 19,
-    "image":"/svgs/teams/Tarun_Narula.jpg",
-    "firstName": "Tarun",
-    "lastName": "Narula",
-    "designation": "Media Production Manager",
-    "department": 0,
-    "linkedinLink": "https://www.linkedin.com/in/narulat"
-  },
-  {
     "_id": 20,
     "image":"/svgs/teams/YeeLamCheng.jpg",
     "firstName": "Yee Lam",
@@ -280,7 +271,7 @@
   },
   {
     "_id": 31,
-    "image":"https://media.licdn.com/dms/image/D5603AQGm2NKCnE567Q/profile-displayphoto-shrink_400_400/0/1700071486190?e=1714608000&v=beta&t=RRDMsalh9STZMwA1gDX828o5VkYtzqtiXMCqDbl_fiQ",
+    "image":"/svgs/teams/Sky.JPG",
     "firstName": "Sky",
     "lastName": "Yoon",
     "designation": "Senior Business Analyst - Project Planning",
@@ -574,6 +565,15 @@
     "designation": "Media Production Specialist",
     "department": 6,
     "linkedinLink": "https://www.linkedin.com/in/stephanie-pozo-5522b71a4/"
+  },
+  {
+    "_id": 42,
+    "image":"/svgs/teams/Khushi_Tanwer.jpeg",
+    "firstName": "Khusi",
+    "lastName": "Tanwer",
+    "designation": "Officer",
+    "department": 6,
+    "linkedinLink": "www.linkedin.com/in/khushi-tanwer-/"
   },
   {
     "_id": 66,

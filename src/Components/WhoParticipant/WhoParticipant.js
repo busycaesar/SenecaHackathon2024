@@ -6,13 +6,14 @@ export default function WhoCanParticipate() {
   return (
       <section class="page-content bg-coolGray-50">
   <div class="container-fluid mx-auto ">
+  <h2 style={{ marginTop: "1em" }} className="pb-2 text-left md:text-center font-gotham md:text-5xl">
+            <strong>Who Can Participate</strong>
+          </h2>
     <div class="lg:max-w-none mx-auto">
       <div class="flex flex-wrap -mx-4 items-center">
         <div class="w-full lg:w-5/12 lg:mb-0">
-            <div className="">
-          <h2 style={{ marginTop: "1em" }} className="pb-2">
-            <strong>Who Can Participate</strong>
-          </h2>
+         
+         
           <p className="pb-3 md:text-xl font-gotham  marker:text-my-red list-disc space-y-3 md:text-justify">
             All interested students are invited to join, provided that they belong to any of the following groups below:
           </p>
@@ -24,7 +25,6 @@ export default function WhoCanParticipate() {
             <li> Full-time students enrolled in other post-secondary institutions grouped with a Seneca Polytechnic student or graduate.</li>
           </ul>
 
-        </div>
         </div>
         <div class="w-full lg:w-7/12">
     <div class="max-w-3xl lg:ml-auto">

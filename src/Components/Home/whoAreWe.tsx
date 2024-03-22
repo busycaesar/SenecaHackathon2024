@@ -9,11 +9,12 @@ export default function WhoAreWe() {
   const whoareweImages = [WhoAreWe1, WhoAreWe2, WhoAreWe3, WhoAreWe4];
   return (
     <div id="who-are-we-section" className="mt-10 font-gotham page-content">
-      <Row>
-        <Col md={6} style={{ marginBottom: "1em" }}>
-          <h2 style={{ marginTop: "1em" }} className="pb-2">
+      <h2 style={{ marginTop: "1em" }} className="pb-2 md:text-center font-gotham md:text-5xl">
             <strong>Who We Are</strong>
           </h2>
+      <Row>
+        <Col md={6} style={{ marginBottom: "1em" }}>
+          
 
           <p className="pb-1 md:text-xl  marker:text-my-red mr-10  ">
           Seneca Hackathon is an event led by student and alumni volunteers with shared commitment and passion for continuous learning and growth. Alongside its partners and sponsors, they create an inclusive platform where fellow students are encouraged to think outside the box and showcase their ideas. </p>

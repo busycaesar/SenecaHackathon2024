@@ -30,7 +30,7 @@ export default function Testimonials({
 
   return (
     <div className="page-content">
-      <h2>
+      <h2 className="md:text-center md:text-5xl font-gotham">
         <strong>Testimonials</strong>
       </h2>
 

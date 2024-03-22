@@ -9,10 +9,11 @@ export default function SponsersBanner(props: { sponsers: Sponsers[] }) {
   return (
     <>
       <div className="page-content1">
-        <div className="text-left py-10 px-5 lg:px-0 ">
-          <h1 style={{ marginTop: "1em" }}>
+      <h1 style={{ marginTop: "1em" }} className="md:text-center md:text-5xl px-5 font-gotham">
             <strong>Our Sponsors</strong>
           </h1>
+        <div className="text-left py-10 px-5 lg:px-0 ">
+         
           <div className="flex flex-wrap justify-center ">
             <Row>
               {props.sponsers.map((sponser) => (

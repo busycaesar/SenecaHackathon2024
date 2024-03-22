@@ -8,8 +8,6 @@ import ChallengeSetsSection from "../Components/Home/ChallengeSets/challengeSets
 import WorkingSection from "../Components/Home/Working/workingSection";
 import SponsersBanner from "../Components/Home/Banner/sponsersBanner";
 import PartnersBanner from "../Components/Home/Banner/PartnerInsitituions";
-import { Sponsers } from "../Data/Schema/sponsers";
-import { Partners } from "../Data/Schema/partners";
 import WhoAreWe from "../Components/Home/whoAreWe";
 import FirstPrizeWinner from "../Components/FirstPrizeWinner/FirstPrizeWinner";
 import ImportantDates from "../Components/Home/Dates/importantDates";
@@ -120,19 +118,10 @@ export default function Home() {
       </div>
 
       {/* test */}
-      <hr />
+    
       <div className="animateSection">
         <FirstPrizeWinner />
       </div>
-      {/* test */}
-
-      <hr />
-
-      {/* <div className="animateSection rounded-xl mt-3">
-        <QandA />
-      </div> */}
-
-      {/* <hr /> */}
 
       <div
         className={`animateSection rounded-xl mt-18 ${
@@ -141,42 +130,30 @@ export default function Home() {
       >
         <WhoAreWe />
       </div>
-      <hr />
       <div className="animateSection">
         <WhoCanParticipate />
       </div>
-      <hr />
       <div className="animateSection">
         <WorkingSection works={WorkingData} />
       </div>
-      <hr />
       <div className="animateSection">
         <Prize />
       </div>
-      <hr />
-
       <div className="animateSection">
         <ImportantDates dates={ImportantDateData} />
       </div>
-      <hr />
       <div className="animateSection">
         <ChallengeSetsSection challengeSet={CSData} />
       </div>
-      <hr />
       <div className="animateSection rounded-xl mt-3">
         <PartnersBanner partners={PartnersData} />
       </div>
-
-      <hr />
       <div className="animateSection rounded-xl mt-3">
         <SponsersBanner sponsers={SponsersData} />
       </div>
-      <hr />
-
       <div className="animateSection">
         <Testimonial testimonials={TestimonialData} />
       </div>
-      <hr />
       <div className="animateSection">
         <SocialMediaSection />
       </div>

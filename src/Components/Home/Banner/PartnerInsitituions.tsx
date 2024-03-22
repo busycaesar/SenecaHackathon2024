@@ -11,10 +11,11 @@ export default function PartnersBanner(props: { partners: Partner[] }) {
   return (
     <>
       <div className="page-content1">
-        <div className="text-left py-10 px-5 lg:px-0 ">
-          <h1 style={{ marginTop: "1em" }}>
+      <h1 style={{ marginTop: "1em" }} className="md:text-center px-2 md:text-5xl font-gotham">
             <strong>Our Partner Institutions</strong>
           </h1>
+        <div className="text-left py-10 px-5 lg:px-0 ">
+         
           <Row className="flex flex-wrap justify-center ">
             {props.partners.map((partner) => (
               <Col key={partner.id} className="p-4" lg={4}>

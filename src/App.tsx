@@ -26,7 +26,7 @@ import ChallengeSetWinners from "./Pages/csWinner";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-white">
       <ToastContainer />
       <Router>
         <NavBar

@@ -1,4 +1,5 @@
 import hFirst from "../../svgs/Prize/hFisrt.png";
+import winner from "../../svgs/Prize/winners.png";
 import { useEffect, useMemo, useState, useCallback } from "react";
 import Particles from "react-particles";
 import { loadSlim } from "tsparticles-slim";
@@ -130,8 +131,8 @@ function FirstPrizeWinner() {
     <div className="mt-10 font-gotham page-content">
       <AttentionSeeker effect="tada">
         {" "}
-        <h2 className="m-4 text-3xl font-gotham sm:text-5xl lg:text-7xl uppercase text-center">
-          <strong>First Prize Winner</strong>
+        <h2 className="m-4 text-3xl font-gotham text-my-red sm:text-5xl lg:text-7xl uppercase text-center">
+          <strong>The Winners</strong>
         </h2>
       </AttentionSeeker>
 
@@ -141,54 +142,44 @@ function FirstPrizeWinner() {
       >
         <div className="w-full overflow-hidden rounded-xl ">
           <img
-            src="https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&height=900&width=1600&fit=bounds"
+            src={winner}
             alt="First Prize Winner"
-            className="w-full"
+            className="w-full md:w-cover"
           />
         </div>
         <div className="flex justify-center items-center flex-col text-white mt-2">
           <h3 className="text-3xl lg:text-5xl uppercase font-bold tracking-wide">
-            Team name
+            ENIGMA
           </h3>
-          <div className="flex md:flex-row flex-wrap  justify-around items-center w-full">
+          <div className="flex md:flex-row flex-wrap md:pb-10  justify-around items-center w-full">
             <AttentionSeeker effect="bounce" triggerOnce>
               <div className="flex flex-col justify-center items-center m-3">
-                <p className="text-lg sm:text-2xl font-bold m-0">John Doe</p>
-                <p className="text-gray-200 sm:text-base text-sm">
-                  Full-stack dev
-                </p>
+                <p className="text-lg sm:text-2xl font-bold m-0">Andri Sych</p>
+               
               </div>
             </AttentionSeeker>
             <AttentionSeeker effect="bounce" triggerOnce delay={20}>
               <div className="flex flex-col justify-center items-center m-3">
-                <p className="text-lg sm:text-2xl font-bold m-0">John Doe</p>
-                <p className="text-gray-200 sm:text-base text-sm">
-                  Full-stack dev
-                </p>
+                <p className="text-lg sm:text-2xl font-bold m-0">Majd Al Mnayer</p>
+               
               </div>
             </AttentionSeeker>
             <AttentionSeeker effect="bounce" triggerOnce delay={40}>
               <div className="flex flex-col justify-center items-center m-3">
-                <p className="text-lg sm:text-2xl font-bold m-0">John Doe</p>
-                <p className="text-gray-200 sm:text-base text-sm">
-                  Full-stack dev
-                </p>
+                <p className="text-lg sm:text-2xl font-bold m-0">Abdullah Al Mamun Fahim</p>
+               
               </div>
             </AttentionSeeker>
             <AttentionSeeker effect="bounce" triggerOnce delay={60}>
               <div className="flex flex-col justify-center items-center m-3">
-                <p className="text-lg sm:text-2xl font-bold m-0">John Doe</p>
-                <p className="text-gray-200 sm:text-base text-sm">
-                  Full-stack dev
-                </p>
+                <p className="text-lg sm:text-2xl font-bold m-0">Cleo Buenaventura</p>
+               
               </div>
             </AttentionSeeker>
             <AttentionSeeker effect="bounce" triggerOnce delay={80}>
               <div className="flex flex-col justify-center items-center m-3">
-                <p className="text-lg sm:text-2xl font-bold m-0">John Doe</p>
-                <p className="text-gray-200 sm:text-base text-sm">
-                  Full-stack dev
-                </p>
+                <p className="text-lg sm:text-2xl font-bold m-0">Fevin Patel</p>
+               
               </div>
             </AttentionSeeker>
           </div>
@@ -203,7 +194,7 @@ function FirstPrizeWinner() {
           <img src={hFirst} alt="First Prize Winner" className="w-full" />
         </div>
       </div>
-      <div id="description" className="mt-5">
+      {/* <div id="description" className="mt-5">
         <h3 className="pt-2 text-center font-bold tracking-wide uppercase ">
           Meet the team
         </h3>
@@ -233,7 +224,17 @@ function FirstPrizeWinner() {
           rem ratione, provident quisquam at voluptas recusandae obcaecati ipsam
           sit.
         </p>
-      </div>
+      </div> */}
+      {/* <div className="button rounded-3xl pt-10 md:pt-20 mx-auto text-center hover:none">
+                  <a
+                    href="/qualified-teams"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="my-6"
+                  >
+                    <button className="font-bold h-20 rounded-3xl opacity-80 hover:opacity-100"><span className="text-2xl blink_me">See All Winners</span> </button>
+                  </a>
+                </div> */}
     </div>
   );
 }

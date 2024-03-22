@@ -9,8 +9,8 @@ export default function WorkingSection({
 }) {
   return (
     <div className="page-content">
-      <h2>
-        <strong>Why Participate</strong>
+      <h2 className="text-center md:text-5xl font-gotham">
+        <strong >Why Participate</strong>
       </h2>
       <Row>
         {works.map((work, index) => (
