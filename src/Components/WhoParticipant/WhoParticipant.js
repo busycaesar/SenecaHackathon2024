@@ -4,17 +4,15 @@ import Institute from "./insitute";
 
 export default function WhoCanParticipate() {
   return (
-      <section class="page-content bg-coolGray-50">
+      <section class="page-content">
   <div class="container-fluid mx-auto ">
-  <h2 style={{ marginTop: "1em" }} className="pb-2 text-left md:text-center font-gotham md:text-5xl">
+  <h2 style={{ marginTop: "1em" }} className="text-left md:text-center font-gotham md:text-5xl">
             <strong>Who Can Participate</strong>
           </h2>
     <div class="lg:max-w-none mx-auto">
-      <div class="flex flex-wrap -mx-4 items-center">
+      <div class="flex flex-wrap -mx-4 ">
         <div class="w-full lg:w-5/12 lg:mb-0">
-         
-         
-          <p className="pb-3 md:text-xl font-gotham  marker:text-my-red list-disc space-y-3 md:text-justify">
+          <p className="pb-3 md:text-xl font-gotham md:pt-10 marker:text-my-red list-disc md:text-justify">
             All interested students are invited to join, provided that they belong to any of the following groups below:
           </p>
           <ul role="list" class="pb-2 md:text-xl font-gotham marker:text-my-red list-disc pl-5 md:px-10 space-y-3  ">
@@ -26,7 +24,7 @@ export default function WhoCanParticipate() {
           </ul>
 
         </div>
-        <div class="w-full lg:w-7/12">
+        <div class="w-full md:w-7/12">
     <div class="max-w-3xl lg:ml-auto">
         <div class="flex flex-wrap md:pl-20 md:ml-20 py-2 md:pr-5 px-2">
             <div className="text-black flex flex-col  justify-start ">
